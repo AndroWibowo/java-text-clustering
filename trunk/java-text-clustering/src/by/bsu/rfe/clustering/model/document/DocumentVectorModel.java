@@ -4,8 +4,8 @@ import by.bsu.rfe.clustering.math.DoubleSparceVector;
 
 public interface DocumentVectorModel {
 
-  public DoubleSparceVector getVector();
+	public DoubleSparceVector getVector();
 
-  public String getDocumentId();
+	public String getDocumentId();
 
 }
