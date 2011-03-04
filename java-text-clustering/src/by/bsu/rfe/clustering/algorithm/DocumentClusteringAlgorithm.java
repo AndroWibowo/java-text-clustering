@@ -7,6 +7,6 @@ import by.bsu.rfe.clustering.model.document.DocumentCollection;
 
 public interface DocumentClusteringAlgorithm {
 
-  public List<Cluster> cluster(DocumentCollection documentCollection);
+	public List<Cluster> cluster(DocumentCollection documentCollection);
 
 }
