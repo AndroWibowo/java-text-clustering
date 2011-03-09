@@ -1,7 +1,9 @@
 package by.bsu.rfe.clustering.math;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.NoSuchElementException;
 
 import com.google.common.base.Preconditions;
 
@@ -24,9 +26,26 @@ public class DoubleSparceVector implements DoubleVector {
 		return (value == null) ? 0 : value;
 	}
 
+	@Override
+	public Iterable<Integer> indices() {
+
+		return new Iterable<Integer>() {
+			@Override
+			public Iterator<Integer> iterator() {
+				return new IndicesIterator(_size);
+			}
+		};
+	}
+
 	public void set(int index, double value) {
 		rangeCheck(index);
-		_data.put(index, value);
+		
+		if (value != 0) {
+			_data.put(index, value);
+		}
+		else {
+			_data.remove(index);
+		}
 	}
 
 	public int size() {
@@ -37,4 +56,33 @@ public class DoubleSparceVector implements DoubleVector {
 		Preconditions.checkElementIndex(index, size());
 	}
 
+	private static class IndicesIterator implements Iterator<Integer> {
+
+		private int _size;
+		private int _currentIndex;
+
+		private IndicesIterator(int size) {
+			_size = size;
+			_currentIndex = 0;
+		}
+
+		@Override
+		public boolean hasNext() {
+			return _currentIndex < _size;
+		}
+
+		@Override
+		public Integer next() {
+			if (!hasNext()) {
+				throw new NoSuchElementException("No more elements are available");
+			}
+
+			return _currentIndex++;
+		}
+
+		@Override
+		public void remove() {
+			throw new UnsupportedOperationException("remove() is not supported");
+		}
+	}
 }

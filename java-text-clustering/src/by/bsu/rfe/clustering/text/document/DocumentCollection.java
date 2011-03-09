@@ -11,31 +11,6 @@ import com.google.common.base.Preconditions;
 
 public class DocumentCollection implements Iterable<Document> {
 
-	private class DocumentIterator implements Iterator<Document> {
-
-		private Iterator<Document> _delegate;
-
-		private DocumentIterator() {
-			_delegate = _documents.iterator();
-		}
-
-		@Override
-		public boolean hasNext() {
-			return _delegate.hasNext();
-		}
-
-		@Override
-		public Document next() {
-			return _delegate.next();
-		}
-
-		@Override
-		public void remove() {
-			throw new UnsupportedOperationException("Operation is not supported");
-		}
-
-	}
-
 	private List<Document> _documents;
 
 	private Set<String> _terms;
@@ -67,6 +42,31 @@ public class DocumentCollection implements Iterable<Document> {
 
 	public int size() {
 		return _documents.size();
+	}
+
+	private class DocumentIterator implements Iterator<Document> {
+
+		private Iterator<Document> _delegate;
+
+		private DocumentIterator() {
+			_delegate = _documents.iterator();
+		}
+
+		@Override
+		public boolean hasNext() {
+			return _delegate.hasNext();
+		}
+
+		@Override
+		public Document next() {
+			return _delegate.next();
+		}
+
+		@Override
+		public void remove() {
+			throw new UnsupportedOperationException("Operation is not supported");
+		}
+
 	}
 
 }
