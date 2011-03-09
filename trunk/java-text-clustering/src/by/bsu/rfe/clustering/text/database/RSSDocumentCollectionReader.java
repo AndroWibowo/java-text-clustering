@@ -1,8 +1,6 @@
 package by.bsu.rfe.clustering.text.database;
 
-import java.io.File;
 import java.net.URL;
-import java.util.TreeSet;
 import java.util.regex.Matcher;
 
 import by.bsu.rfe.clustering.nlp.WordList;
@@ -16,24 +14,6 @@ import com.sun.syndication.io.SyndFeedInput;
 import com.sun.syndication.io.XmlReader;
 
 public class RSSDocumentCollectionReader extends AbstractDocumentCollectionReader {
-
-	// TODO remove the method
-	public static void main(String[] args) throws Exception {
-		URL feedSource = new URL("http://feeds.bbci.co.uk/news/world/europe/rss.xml");
-
-		WordList stopWords = WordList.load(new File("dictionary\\stopwords.txt"));
-		DocumentCollectionReader reader = new RSSDocumentCollectionReader(feedSource, stopWords);
-		DocumentCollection documents = reader.readDocuments();
-
-		for (String term : new TreeSet<String>(documents.getAllTerms())) {
-			int count = 0;
-
-			for (Document document : documents) {
-				count += document.getTermCount(term);
-			}
-			System.out.printf("Term %s count is %d%n", term, count);
-		}
-	}
 
 	private URL _feedSource;
 
