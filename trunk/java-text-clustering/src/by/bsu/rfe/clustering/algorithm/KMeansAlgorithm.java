@@ -16,80 +16,79 @@ import com.google.common.base.Preconditions;
 
 public class KMeansAlgorithm implements ClusteringAlgorithm<Cluster> {
 
-	private VectorDistanse _vectorDistanse;
+    private VectorDistanse _vectorDistanse;
 
-	public KMeansAlgorithm(VectorDistanse vectorDistanse) {
-		setVectorDistanse(vectorDistanse);
-	}
+    public KMeansAlgorithm(VectorDistanse vectorDistanse) {
+        setVectorDistanse(vectorDistanse);
+    }
 
-	@Override
-	public List<Cluster> cluster(DataSet dataSet) {
-		Preconditions.checkNotNull(dataSet, "DataSet is null");
+    @Override
+    public List<Cluster> cluster(DataSet dataSet) {
+        Preconditions.checkNotNull(dataSet, "DataSet is null");
 
-		if (dataSet.isEmpty()) {
-			return new LinkedList<Cluster>();
-		}
+        if (dataSet.isEmpty()) {
+            return new LinkedList<Cluster>();
+        }
 
-		final int numberOfBins = computeNumberOfBins(dataSet);
-		final List<Centroid> bins = new ArrayList<Centroid>(numberOfBins);
+        final int numberOfBins = computeNumberOfBins(dataSet);
+        final List<Centroid> bins = new ArrayList<Centroid>(numberOfBins);
 
-		prepareCentroids(dataSet, bins);
+        prepareCentroids(dataSet, bins);
 
-		final List<Cluster> clusters = new ArrayList<Cluster>(numberOfBins);
+        final List<Cluster> clusters = new ArrayList<Cluster>(numberOfBins);
 
-		return clusters;
-	}
+        return clusters;
+    }
 
-	public void setVectorDistanse(VectorDistanse vectorDistanse) {
-		Preconditions.checkNotNull(vectorDistanse, "Vector distance is null");
-		_vectorDistanse = vectorDistanse;
-	}
+    public void setVectorDistanse(VectorDistanse vectorDistanse) {
+        _vectorDistanse = Preconditions.checkNotNull(vectorDistanse, "Vector distance is null");
+    }
 
-	private int computeNumberOfBins(DataSet dataSet) {
-		// TODO Auto-generated method stub
-		return 4;
-	}
+    private int computeNumberOfBins(DataSet dataSet) {
+        // TODO Auto-generated method stub
+        return 4;
+    }
 
-	// distribute data vectors among bins
-	private void prepareCentroids(DataSet dataSet, List<Centroid> bins) {
-		final int totalElems = dataSet.getElements().size();
+    // distribute data vectors among bins
+    private void prepareCentroids(DataSet dataSet, List<Centroid> bins) {
+        final int totalElems = dataSet.getElements().size();
 
-		Random random = new Random();
+        Random random = new Random();
 
-		for (int elemIndex = 0; elemIndex < totalElems; elemIndex++) {
-			int binIndex = random.nextInt(bins.size());
+        for (int elemIndex = 0; elemIndex < totalElems; elemIndex++) {
+            int binIndex = random.nextInt(bins.size());
 
-			Centroid bin = bins.get(binIndex);
-			bin.addDataElement(dataSet.getElements().get(elemIndex));
-		}
-	}
+            Centroid bin = bins.get(binIndex);
+            bin.addDataElement(dataSet.getElements().get(elemIndex));
+        }
+    }
 
-	private static class Centroid {
+    private static class Centroid {
 
-		private List<DataElement> _elements = new ArrayList<DataElement>();
+        private List<DataElement> _elements = new ArrayList<DataElement>();
 
-		private void addDataElement(DataElement elem) {
-			_elements.add(elem);
-		}
+        private void addDataElement(DataElement elem) {
+            _elements.add(elem);
+        }
 
-		private DoubleVector computeMeanVector() {
-			final int size = _elements.get(0).getVectorModel().size();
+        private DoubleVector computeMeanVector() {
+            final int size = _elements.get(0).getVectorModel().size();
 
-			DoubleSparceVector resultVector = new DoubleSparceVector(size);
+            DoubleSparceVector resultVector = new DoubleSparceVector(size);
 
-			for (int vectorIndex : resultVector.indices()) {
-				double nextValue = 0;
+            for (int vectorIndex : resultVector.indices()) {
+                double nextValue = 0;
 
-				for (int elemIndex = 0; elemIndex < _elements.size(); elemIndex++) {
-					nextValue += _elements.get(elemIndex).getVectorModel().get(vectorIndex);
-				}
+                for (int elemIndex = 0; elemIndex < _elements.size(); elemIndex++) {
+                    nextValue += _elements.get(elemIndex).getVectorModel().get(vectorIndex);
+                }
 
-				nextValue /= _elements.size();
-				resultVector.set(vectorIndex, nextValue);
-			}
+                nextValue /= _elements.size();
+                resultVector.set(vectorIndex, nextValue);
+            }
 
-			return resultVector;
-		}
-	}
+            return resultVector;
+        }
+    }
 
 }

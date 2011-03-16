@@ -7,6 +7,6 @@ import by.bsu.rfe.clustering.algorithm.data.DataSet;
 
 public interface ClusteringAlgorithm<C extends Cluster> {
 
-	public List<C> cluster(DataSet dataSet);
+    public List<C> cluster(DataSet dataSet);
 
 }
