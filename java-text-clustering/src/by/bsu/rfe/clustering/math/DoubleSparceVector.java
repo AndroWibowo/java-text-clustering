@@ -9,80 +9,79 @@ import com.google.common.base.Preconditions;
 
 public class DoubleSparceVector implements DoubleVector {
 
-	private final Map<Integer, Double> _data;
-	private int _size = 0;
+    private final Map<Integer, Double> _data;
+    private int _size = 0;
 
-	public DoubleSparceVector(int size) {
-		Preconditions.checkArgument(size >= 0, "Negative size: " + size);
+    public DoubleSparceVector(int size) {
+        Preconditions.checkArgument(size >= 0, "Negative size: " + size);
 
-		_data = new HashMap<Integer, Double>();
-		_size = size;
-	}
+        _data = new HashMap<Integer, Double>();
+        _size = size;
+    }
 
-	public double get(int index) {
-		rangeCheck(index);
+    public double get(int index) {
+        rangeCheck(index);
 
-		Double value = _data.get(index);
-		return (value == null) ? 0 : value;
-	}
+        Double value = _data.get(index);
+        return (value == null) ? 0 : value;
+    }
 
-	@Override
-	public Iterable<Integer> indices() {
+    @Override
+    public Iterable<Integer> indices() {
 
-		return new Iterable<Integer>() {
-			@Override
-			public Iterator<Integer> iterator() {
-				return new IndicesIterator(_size);
-			}
-		};
-	}
+        return new Iterable<Integer>() {
+            @Override
+            public Iterator<Integer> iterator() {
+                return new IndicesIterator(_size);
+            }
+        };
+    }
 
-	public void set(int index, double value) {
-		rangeCheck(index);
-		
-		if (value != 0) {
-			_data.put(index, value);
-		}
-		else {
-			_data.remove(index);
-		}
-	}
+    public void set(int index, double value) {
+        rangeCheck(index);
 
-	public int size() {
-		return _size;
-	}
+        if (value != 0) {
+            _data.put(index, value);
+        } else {
+            _data.remove(index);
+        }
+    }
 
-	private void rangeCheck(int index) {
-		Preconditions.checkElementIndex(index, size());
-	}
+    public int size() {
+        return _size;
+    }
 
-	private static class IndicesIterator implements Iterator<Integer> {
+    private void rangeCheck(int index) {
+        Preconditions.checkElementIndex(index, size());
+    }
 
-		private int _size;
-		private int _currentIndex;
+    private static class IndicesIterator implements Iterator<Integer> {
 
-		private IndicesIterator(int size) {
-			_size = size;
-			_currentIndex = 0;
-		}
+        private int _size;
+        private int _currentIndex;
 
-		@Override
-		public boolean hasNext() {
-			return _currentIndex < _size;
-		}
+        private IndicesIterator(int size) {
+            _size = size;
+            _currentIndex = 0;
+        }
 
-		@Override
-		public Integer next() {
-			if (!hasNext()) {
-				throw new NoSuchElementException("No more elements are available");
-			}
+        @Override
+        public boolean hasNext() {
+            return _currentIndex < _size;
+        }
 
-			return _currentIndex++;
-		}
+        @Override
+        public Integer next() {
+            if (!hasNext()) {
+                throw new NoSuchElementException("No more elements are available");
+            }
 
-		@Override
-		public void remove() {
-			throw new UnsupportedOperationException("remove() is not supported");
-		}
-	}
+            return _currentIndex++;
+        }
+
+        @Override
+        public void remove() {
+            throw new UnsupportedOperationException("remove() is not supported");
+        }
+    }
 }

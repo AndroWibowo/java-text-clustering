@@ -9,30 +9,30 @@ import com.google.common.base.Preconditions;
 
 public class Document {
 
-	private Map<String, Integer> _terms;
+    private Map<String, Integer> _terms;
 
-	public Document() {
-		_terms = new HashMap<String, Integer>();
-	}
+    public Document() {
+        _terms = new HashMap<String, Integer>();
+    }
 
-	public void addTerm(String term) {
-		Preconditions.checkNotNull(term, "Term is null");
+    public void addTerm(String term) {
+        Preconditions.checkNotNull(term, "Term is null");
 
-		final String normalizedTerm = term.toLowerCase().trim();
+        final String normalizedTerm = term.toLowerCase().trim();
 
-		Integer count = _terms.get(normalizedTerm);
-		Integer incCount = (count == null) ? 1 : count + 1;
+        Integer count = _terms.get(normalizedTerm);
+        Integer incCount = (count == null) ? 1 : count + 1;
 
-		_terms.put(normalizedTerm, incCount);
-	}
+        _terms.put(normalizedTerm, incCount);
+    }
 
-	public Set<String> getAllTerms() {
-		return Collections.unmodifiableSet(_terms.keySet());
-	}
+    public Set<String> getAllTerms() {
+        return Collections.unmodifiableSet(_terms.keySet());
+    }
 
-	public int getTermCount(String term) {
-		Integer count = _terms.get(term);
-		return (count == null) ? 0 : count;
-	}
+    public int getTermCount(String term) {
+        Integer count = _terms.get(term);
+        return (count == null) ? 0 : count;
+    }
 
 }
