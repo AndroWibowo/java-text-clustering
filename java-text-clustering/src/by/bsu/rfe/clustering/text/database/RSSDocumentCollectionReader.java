@@ -1,6 +1,8 @@
 package by.bsu.rfe.clustering.text.database;
 
 import java.net.URL;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.regex.Matcher;
 
 import by.bsu.rfe.clustering.nlp.WordList;
@@ -15,15 +17,14 @@ import com.sun.syndication.io.XmlReader;
 
 public class RSSDocumentCollectionReader extends AbstractDocumentCollectionReader {
 
-    private URL _feedSource;
+    private List<URL> _feedSourceList = new LinkedList<URL>();
 
-    public RSSDocumentCollectionReader(URL feedSource) {
-        this(feedSource, null);
+    public RSSDocumentCollectionReader() {
+        this(null);
     }
 
-    public RSSDocumentCollectionReader(URL feedSource, WordList stopWords) {
+    public RSSDocumentCollectionReader(WordList stopWords) {
         super(stopWords);
-        setFeedSource(feedSource);
     }
 
     @Override
@@ -33,24 +34,27 @@ public class RSSDocumentCollectionReader extends AbstractDocumentCollectionReade
         SyndFeedInput input = new SyndFeedInput();
         SyndFeed feed = null;
 
-        try {
-            feed = input.build(new XmlReader(_feedSource));
+        for (URL feedSource : _feedSourceList) {
+            try {
+                feed = input.build(new XmlReader(feedSource));
 
-            for (Object entryObj : feed.getEntries()) {
-                SyndEntry entry = (SyndEntry) entryObj;
-                Document document = createDocument(entry);
-                result.addDocument(document);
+                for (Object entryObj : feed.getEntries()) {
+                    SyndEntry entry = (SyndEntry) entryObj;
+                    Document document = createDocument(entry);
+                    result.addDocument(document);
+                }
+            } catch (Exception e) {
+                throw new DocumentReadException(e);
             }
-        } catch (Exception e) {
-            throw new DocumentReadException(e);
         }
 
         return result;
     }
 
-    public void setFeedSource(URL feedSource) {
-        Preconditions.checkNotNull(feedSource, "URL is null");
-        _feedSource = feedSource;
+    public RSSDocumentCollectionReader addSource(URL feedSource) {
+        _feedSourceList.add(Preconditions.checkNotNull(feedSource, "URL is null"));
+
+        return this;
     }
 
     private Document createDocument(SyndEntry entry) {

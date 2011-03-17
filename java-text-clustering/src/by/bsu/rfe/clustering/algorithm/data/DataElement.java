@@ -13,7 +13,7 @@ public class DataElement {
         _vector = vector;
     }
 
-    public DoubleVector getVectorModel() {
+    public DoubleVector asVector() {
         return _vector;
     }
 

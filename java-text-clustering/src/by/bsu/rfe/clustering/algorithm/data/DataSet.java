@@ -7,20 +7,20 @@ import java.util.List;
 
 import com.google.common.base.Preconditions;
 
-public class DataSet implements Iterable<DataElement> {
+public class DataSet<E extends DataElement> implements Iterable<E> {
 
-    private final List<DataElement> _elements;
+    private final List<E> _elements;
 
     public DataSet() {
-        _elements = new ArrayList<DataElement>();
+        _elements = new ArrayList<E>();
     }
 
-    public void addElement(DataElement element) {
+    public void addElement(E element) {
         Preconditions.checkNotNull(element, "Data Element is null");
         _elements.add(element);
     }
 
-    public List<DataElement> getElements() {
+    public List<E> getElements() {
         return Collections.unmodifiableList(_elements);
     }
 
@@ -29,7 +29,7 @@ public class DataSet implements Iterable<DataElement> {
     }
 
     @Override
-    public Iterator<DataElement> iterator() {
+    public Iterator<E> iterator() {
         return new ElementIterator();
     }
 
@@ -37,9 +37,9 @@ public class DataSet implements Iterable<DataElement> {
         return _elements.size();
     }
 
-    private class ElementIterator implements Iterator<DataElement> {
+    private class ElementIterator implements Iterator<E> {
 
-        private final Iterator<DataElement> _delegate;
+        private final Iterator<E> _delegate;
 
         private ElementIterator() {
             _delegate = _elements.iterator();
@@ -51,7 +51,7 @@ public class DataSet implements Iterable<DataElement> {
         }
 
         @Override
-        public DataElement next() {
+        public E next() {
             return _delegate.next();
         }
 

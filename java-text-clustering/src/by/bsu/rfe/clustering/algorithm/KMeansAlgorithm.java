@@ -18,7 +18,7 @@ import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Multimap;
 
-public class KMeansAlgorithm implements ClusteringAlgorithm<Cluster> {
+public class KMeansAlgorithm<E extends DataElement> implements ClusteringAlgorithm<E, Cluster<E>> {
 
     private Integer _numberOfClusters = null;
 
@@ -34,11 +34,11 @@ public class KMeansAlgorithm implements ClusteringAlgorithm<Cluster> {
     }
 
     @Override
-    public List<Cluster> cluster(DataSet dataSet) {
+    public List<Cluster<E>> cluster(DataSet<E> dataSet) {
         Preconditions.checkNotNull(dataSet, "DataSet is null");
 
         if (dataSet.isEmpty()) {
-            return new LinkedList<Cluster>();
+            return new LinkedList<Cluster<E>>();
         }
 
         final int numberOfBins = (_numberOfClusters != null) ? _numberOfClusters : computeNumberOfBins(dataSet);
@@ -46,12 +46,12 @@ public class KMeansAlgorithm implements ClusteringAlgorithm<Cluster> {
 
         prepareCentroids(dataSet, bins);
 
-        final Map<DataElement, Bin> elementBinMap = Maps.newIdentityHashMap();
+        final Map<E, Bin> elementBinMap = Maps.newIdentityHashMap();
         final Map<Bin, DoubleVector> meanVectors = Maps.newIdentityHashMap();
-        final Multimap<Bin, DataElement> tempElementStorage = HashMultimap.create();
+        final Multimap<Bin, E> tempElementStorage = HashMultimap.create();
 
         for (Bin bin : bins) {
-            for (DataElement elem : bin.elements()) {
+            for (E elem : bin.elements()) {
                 elementBinMap.put(elem, bin);
             }
         }
@@ -64,13 +64,13 @@ public class KMeansAlgorithm implements ClusteringAlgorithm<Cluster> {
                 meanVectors.put(bin, bin.computeMeanVector());
             }
 
-            for (DataElement elem : dataSet) {
+            for (E elem : dataSet) {
                 double minDistance = Double.MAX_VALUE;
                 Bin assignTo = null;
 
                 for (Bin bin : bins) {
                     DoubleVector meanVector = meanVectors.get(bin);
-                    DoubleVector elemVector = elem.getVectorModel();
+                    DoubleVector elemVector = elem.asVector();
 
                     double diffDistance = _vectorDistanse.compute(meanVector, elemVector);
 
@@ -99,7 +99,17 @@ public class KMeansAlgorithm implements ClusteringAlgorithm<Cluster> {
             tempElementStorage.clear();
         }
 
-        final List<Cluster> clusters = new ArrayList<Cluster>(numberOfBins);
+        final List<Cluster<E>> clusters = new ArrayList<Cluster<E>>(numberOfBins);
+
+        int clusterOrdinal = 0;
+        for (Bin bin : bins) {
+            Cluster<E> cluster = new Cluster<E>();
+            cluster.addDataElements(bin.elements());
+            cluster.setLabel(String.valueOf(clusterOrdinal));
+            clusterOrdinal++;
+
+            clusters.add(cluster);
+        }
 
         return clusters;
     }
@@ -116,7 +126,7 @@ public class KMeansAlgorithm implements ClusteringAlgorithm<Cluster> {
         _numberOfClusters = numberOfClusters;
     }
 
-    private int computeNumberOfBins(DataSet dataSet) {
+    private int computeNumberOfBins(DataSet<E> dataSet) {
         // TODO Auto-generated method stub
         return 4;
     }
@@ -127,13 +137,14 @@ public class KMeansAlgorithm implements ClusteringAlgorithm<Cluster> {
 
         while (nextOrdinal < numberOfBins) {
             centroidList.add(new Bin());
+            nextOrdinal++;
         }
 
         return centroidList;
     }
 
     // distribute data vectors among bins
-    private void prepareCentroids(DataSet dataSet, List<Bin> bins) {
+    private void prepareCentroids(DataSet<E> dataSet, List<Bin> bins) {
         final int totalElems = dataSet.getElements().size();
 
         Random random = new Random();
@@ -146,19 +157,19 @@ public class KMeansAlgorithm implements ClusteringAlgorithm<Cluster> {
         }
     }
 
-    private static class Bin {
+    private class Bin {
 
-        private final List<DataElement> _elements = new ArrayList<DataElement>();
+        private final List<E> _elements = new ArrayList<E>();
 
         private Bin() {
         }
 
-        private List<DataElement> elements() {
+        private List<E> elements() {
             return _elements;
         }
 
         private DoubleVector computeMeanVector() {
-            final int size = _elements.get(0).getVectorModel().size();
+            final int size = _elements.get(0).asVector().size();
 
             DoubleSparceVector resultVector = new DoubleSparceVector(size);
 
@@ -166,7 +177,7 @@ public class KMeansAlgorithm implements ClusteringAlgorithm<Cluster> {
                 double nextValue = 0;
 
                 for (int elemIndex = 0; elemIndex < _elements.size(); elemIndex++) {
-                    nextValue += _elements.get(elemIndex).getVectorModel().get(vectorIndex);
+                    nextValue += _elements.get(elemIndex).asVector().get(vectorIndex);
                 }
 
                 nextValue /= _elements.size();
