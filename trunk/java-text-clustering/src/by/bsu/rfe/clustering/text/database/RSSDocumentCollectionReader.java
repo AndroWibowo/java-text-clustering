@@ -71,6 +71,8 @@ public class RSSDocumentCollectionReader extends AbstractDocumentCollectionReade
                 document.addTerm(word);
             }
         }
+        
+        document.setOriginalText(entryText);
 
         return document;
     }

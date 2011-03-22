@@ -3,6 +3,7 @@ package test.by.bsu.rfe.clustering.app.cli;
 import java.io.File;
 import java.net.URL;
 import java.util.List;
+import java.util.TreeSet;
 
 import com.google.common.base.Joiner;
 
@@ -13,6 +14,7 @@ import by.bsu.rfe.clustering.algorithm.data.DataSet;
 import by.bsu.rfe.clustering.math.EuclideanDistance;
 import by.bsu.rfe.clustering.math.VectorDistanse;
 import by.bsu.rfe.clustering.nlp.WordList;
+import by.bsu.rfe.clustering.text.algorithm.TextKMeansAlgorithm;
 import by.bsu.rfe.clustering.text.database.DocumentCollectionReader;
 import by.bsu.rfe.clustering.text.database.RSSDocumentCollectionReader;
 import by.bsu.rfe.clustering.text.document.DocumentCollection;
@@ -27,15 +29,15 @@ public class CLI {
         WordList stopWordList = WordList.load(stopWords);
 
         DocumentCollectionReader reader = new RSSDocumentCollectionReader(stopWordList).addSource(
-                new URL("http://feeds.bbci.co.uk/news/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/world/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/uk/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/business/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/politics/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/health/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/education/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/science_and_environment/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/technology/rss.xml")).addSource(
+                //new URL("http://feeds.bbci.co.uk/news/rss.xml")).addSource(
+               // new URL("http://feeds.bbci.co.uk/news/world/rss.xml")).addSource(
+                //new URL("http://feeds.bbci.co.uk/news/uk/rss.xml")).addSource(
+               // new URL("http://feeds.bbci.co.uk/news/business/rss.xml")).addSource(
+                //new URL("http://feeds.bbci.co.uk/news/politics/rss.xml")).addSource(
+                //new URL("http://feeds.bbci.co.uk/news/health/rss.xml")).addSource(
+                //new URL("http://feeds.bbci.co.uk/news/education/rss.xml")).addSource(
+                //new URL("http://feeds.bbci.co.uk/news/science_and_environment/rss.xml")).addSource(
+                //new URL("http://feeds.bbci.co.uk/news/technology/rss.xml")).addSource(
                 new URL("http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml"));
 
         DocumentCollection docCollection = reader.readDocuments();
@@ -44,9 +46,9 @@ public class CLI {
 
         VectorDistanse distanse = new EuclideanDistance();
 
-        final int numberOfClusters = 20;
+        final int numberOfClusters = 4;
 
-        ClusteringAlgorithm<DocumentDataElement, Cluster<DocumentDataElement>> clustering = new KMeansAlgorithm<DocumentDataElement>(
+        ClusteringAlgorithm<DocumentDataElement, Cluster<DocumentDataElement>> clustering = new TextKMeansAlgorithm(
                 distanse, numberOfClusters);
 
         List<Cluster<DocumentDataElement>> clusters = clustering.cluster(dataSet);
@@ -55,7 +57,8 @@ public class CLI {
             System.out.printf("%s:%n", cluster.getLabel());
 
             for (DocumentDataElement elem : cluster.getDataElements()) {
-                System.out.printf("\t\t\t%s%n", Joiner.on(",").join(elem.getDocument().getAllTerms()));
+                //System.out.printf("\t\t\t%s%n", Joiner.on(",").join(new TreeSet<String>(elem.getDocument().getAllTerms())));
+                System.out.printf("\t%s%n", elem.getDocument().getOriginalText());
             }
         }
     }

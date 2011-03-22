@@ -10,6 +10,8 @@ import com.google.common.base.Preconditions;
 public class Document {
 
     private Map<String, Integer> _terms;
+    
+    private String _originalText;
 
     public Document() {
         _terms = new HashMap<String, Integer>();
@@ -33,6 +35,14 @@ public class Document {
     public int getTermCount(String term) {
         Integer count = _terms.get(term);
         return (count == null) ? 0 : count;
+    }
+
+    public String getOriginalText() {
+        return _originalText;
+    }
+
+    public void setOriginalText(String originalText) {
+        _originalText = originalText;
     }
 
 }
