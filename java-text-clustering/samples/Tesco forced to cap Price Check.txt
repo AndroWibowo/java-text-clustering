@@ -1,0 +1,231 @@
+    	
+    		  
+    25 March 2011
+Last updated at 12:44 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Tesco caps Price Check offer after paying refunds', 
+    storyId:'12860027', 
+    sectionId:'99104', 
+    url:'http://www.bbc.co.uk/news/business-12860027', 
+    edition:'International'
+}); 
+-->
+
+
+
+Tesco caps Price Check offer after paying refunds
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Tesco said that fewer than one in 5,000 customers had claimed more than £20
+  
+
+	Continue reading the main story			     
+	       	          
+
+		
+		
+						
+		
+		
+	
+						Consumer Rights
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Q&amp;A: Card surcharges
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Holiday protection and you
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Battling cons inside the scam lab
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Can toys stand the test of time?
+	
+		
+	  	  
+  
+
+
+		
+	
+
+	       	     
+	
+                      Supermarket giant Tesco has been forced to put a cap on its offer to refund double the difference on products that can be bought for less at Asda.
+        After some customers found better deals at Asda and claimed money back through its Price Check offer, Tesco introduced a £20 maximum refund.
+        Tesco said refunds were paid to customers who used prices on promotions at Asda to compare with its own prices. 
+        This was not the point, it said. Asda said Tesco should stand by its claim.
+  'Ingenuity'
+	      Tesco said that fewer than one in 5,000 customers had claimed more than £20. The group told the BBC that 99.9% of customers would not be affected by the cap.
+        &quot;The vast majority of our customers who use Price Check find that Tesco is cheaper than Asda,&quot; a spokesperson said.
+        &quot;A very small number of people have used Price Check just to seek out products which a competitor has on promotion and to make some money out of our guarantee. 
+  
+
+
+
+	
+ 
+
+
+    
+        		
+        
+            
+                                
+                                Please turn on JavaScript. Media requires JavaScript to play.
+            
+        
+        
+            
+                    
+                
+                    
+				            
+            
+            
+            
+            
+			
+		            
+                    
+                    
+            
+        
+        
+        
+        
+/*<![CDATA[*/
+	bbc.fmtj.av.emp.load( function() {
+		var userAgent = navigator.userAgent.toLowerCase();
+		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
+			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
+			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
+			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
+			userAgent.search("android") == -1)
+		{
+			bbc.fmtj.av.emp.loadProxyPlayer("emp-12861981-24314");
+		}else{
+			bbc.fmtj.av.emp.loadEmp("emp-12861981-24314");
+		}
+	});
+/*]]>*/
+
+
+
+            
+    	
+            
+
+
+      &quot;We commend their ingenuity, but this isn&#039;t why we set up the guarantee.&quot;
+        A spokesperson for Asda told the BBC: &quot;Customers aren&#039;t daft, so if you&#039;re going to make a big bold price claim, you&#039;d better be able to back it up or they&#039;ll quickly find you out.&quot;
+             
+	
+	

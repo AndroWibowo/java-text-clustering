@@ -1,0 +1,210 @@
+    	
+    		  
+    25 March 2011
+Last updated at 15:59 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - BP\'s deal with Russia\'s Rosneft \'could still go ahead\'', 
+    storyId:'12865749', 
+    sectionId:'99104', 
+    url:'http://www.bbc.co.uk/news/business-12865749', 
+    edition:'International'
+}); 
+-->
+
+
+
+BP&#039;s deal with Russia&#039;s Rosneft &#039;could still go ahead&#039;
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Russia lays claim to potentially extensive oil deposits within the Arctic sea bed
+  
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	          
+
+		
+		
+						
+		
+		
+	
+						Russia Business Report
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Siberian oil frontier
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Social media capitalise on Russia&#039;s history of censorship
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Russia banks on foreign carmakers&#039; interest
+	
+		
+	  	  	
+	   
+
+
+
+
+		
+
+
+	
+
+
+
+
+
+	Russia Business Report in Tyumen Watch
+	
+		
+	  	  
+  
+
+
+		
+	
+
+	       	     
+	
+                      The chairman of Russian energy giant Rosneft has said he wants to push ahead with its alliance with BP.
+        Igor Sechin said he was &quot;satisfied&quot; with BP as a partner, despite a court ruling on Thursday throwing the alliance into question.
+        &quot;The court didn&#039;t block the deal. It extended the injunction until 7 April. We must await the verdict,&quot; he said.
+        Shareholders in BP&#039;s existing Russian joint venture, TNK-BP, object to the tie-up with Rosneft.
+        The shareholders, collectively known as Alfa-Access-Renova (AAR), say the proposed deal with Rosneft to exploit oil and gas reserves in the Arctic violates an existing agreement between BP and TNK-BP.
+        On Thursday, a Swedish arbitration panel in London upheld AAR&#039;s complaint.
+        The ruling immediately raised questions about the judgement of BP chief executive Robert Dudley, who used to run TNK-BP and knows the AAR shareholders well.
+        &quot;Given [Mr Dudley&#039;s] past relationship in Russia, how difficult it has been, he should have been a bit more appreciative of how tricky it can be operating in Russia,&quot; said Arbuthnot Securities analyst Dougie Youngson.
+        Rosneft wants a partner with the technology and expertise necessary for drilling in the Arctic. It held talks with Royal Dutch Shell and Exxon-Mobil before clinching a deal with BP.
+        BP&#039;s shares fell on Friday morning, though by the afternoon they were trading up, as investors took comfort from Mr Sechin&#039;s comments.
+        However, analysts warned that the Rosneft alliance was still in the balance and that BP could be forced to pay compensation to AAR in order to get their approval for the deal.
+        BP said it was disappointed at Thursday&#039;s ruling and hoped it could still go ahead with a share swap agreed with Rosneft as part of the deal.
+        &quot;BP looks forward to finding a way to resolve its differences with its Russian partners to allow these important Arctic developments to proceed in future,&quot; said the UK oil firm in a statement on the arbitration panel&#039;s decision.
+        However, the UK firm faces an effective deadline for breaking the deadlock of 14 April, according to the BBC&#039;s business editor, Robert Peston.
+        That is the date by which BP&#039;s agreement with Rosneft must be consummated, or else it will expire.
+  'Strategic alliance'
+	
+	Continue reading the main story		
+	&ldquo;Start Quote
+The ruling of the tribunal... is comprehensive and clear, raising questions about why BP's new chief executive, Bob Dudley, ever thought the deal could happen&rdquo;
+End Quote
+
+
+		
+		Robert Peston
+	Business editor, BBC News
+	
+
+	
+	
+	
+		
+			Read Robert&#039;s blog
+		
+	      The oil giant signed the controversial new deal with its Russian state-owned counterpart in January, in order to exploit potentially huge deposits of oil and gas in Russia&#039;s Arctic shelf.
+        As part of the deal, the pair had agreed that Rosneft would take 5% of BP&#039;s shares in exchange for approximately 9.5% of Rosneft&#039;s shares.
+        It is this share exchange that is said to have particularly upset TNK-BP&#039;s Russian shareholders.
+        The AAR consortium won a High Court injunction in London last month that put the BP-Rosneft deal on hold until the dispute could be resolved by arbitration.
+        It was hoped that the joint venture might be given a role in the Arctic exploration deal, but TNK-BP&#039;s shareholders failed to agree on this.
+        The arbitration panel has now ruled that the temporary injunction &quot;should continue&quot;.
+        &quot;Wilfully ignoring the provisions of the shareholder agreement was a serious misjudgement by BP that has severely damaged the relationship between the TNK-BP shareholders,&quot; said Stan Polovets, chief executive of AAR.
+        &quot;It has also harmed BP&#039;s reputation in Russia,&quot; he added. &quot;We expect Bob Dudley to make every effort to rectify the situation and rebuild the trust that has been lost between BP, AAR and the management of TNK-BP.&quot;
+             
+	
+	

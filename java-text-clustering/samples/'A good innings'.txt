@@ -1,0 +1,166 @@
+    	
+    		  
+    24 March 2011
+Last updated at 06:59 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Ian Paisley\'s final day at Stormont as MLA', 
+    storyId:'12832095', 
+    sectionId:'99109', 
+    url:'http://www.bbc.co.uk/news/uk-northern-ireland-12832095', 
+    edition:'International'
+}); 
+-->
+
+
+
+Ian Paisley&#039;s final day at Stormont as MLA
+    
+     
+         
+ 
+        		
+					            	            	    		 			
+												
+											By Mark Simpson
+				BBC Ireland Correspondent
+			
+		        
+        
+
+
+
+	
+ 
+
+
+    
+        		
+        
+            
+                                
+                                Please turn on JavaScript. Media requires JavaScript to play.
+            
+        
+        
+            
+                    
+                
+                    
+					
+				            
+            
+            
+            
+            
+			
+		            
+                
+            
+        
+                    
+            
+        
+        
+        
+        
+/*<![CDATA[*/
+	bbc.fmtj.av.emp.load( function() {
+		var userAgent = navigator.userAgent.toLowerCase();
+		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
+			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
+			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
+			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
+			userAgent.search("android") == -1)
+		{
+			bbc.fmtj.av.emp.loadProxyPlayer("emp-12855806-78474");
+		}else{
+			bbc.fmtj.av.emp.loadEmp("emp-12855806-78474");
+		}
+	});
+/*]]>*/
+
+
+
+            
+             
+          
+		
+			
+				$render("advert","advert-companion","12855806");
+			
+			$render("advert-post-script-load");
+		
+         
+         
+    	
+        		
+		Ian Paisley spoke to Mark Simpson outside Stormont about his colourful career
+		
+        
+
+
+                      The final act of Ian Paisley&#039;s 40-year career at Stormont was to autograph a cricket bat, pose for a photograph and announce: &quot;I&#039;ve had a good innings.&quot;
+        He also predicted that after perpetual political instability at Stormont during the past four decades, the Assembly is now &quot;here to stay&quot;.
+        The former First Minister of Northern Ireland has stepped down from elected politics at the grand old age of 84. Now known as Lord Bannside, he will concentrate on his work in the House of Lords. He is also writing a book.
+        His last speech at Stormont was uncharacteristically short, and his departure was unusually low-key. He simply slipped out of a side door of Parliament Buildings.
+        For a man in his ninth decade who had recently had a pacemaker fitted, he still looked spritely on his feet. His voice lacked the boom it once had, and the belligerent tone which used to be his trademark is long gone, but he still eats, sleeps and breathes politics. 
+        At the west door of Stormont, he stopped for a few minutes to sign some autographs, and then to answer some questions from the BBC.
+  How did you feel leaving the Stormont chamber for the last time?
+      &quot;If you had told me 40 years ago that I would have attained what I have attained, I would have laughed at you. I&#039;ve had a good innings and I&#039;ve made good friends, and I&#039;ve reconciled a lot of enemies too. I&#039;m absolutely happy.&quot;
+  How significant is it that the outgoing Assembly is the first in Northern Ireland for 40 years to run for a full term? 
+      &quot;It means it&#039;s here to stay. It&#039;s got in now. And it will deliver the goods if they keep working for the people. This has become a popular Assembly now, where the representatives are nearer to the people. And I believe that there are good days ahead.&quot;
+  
+Sinn Fein's Martin McGuinness refers to you as a good friend, is it mutual?
+      &quot;Well, it&#039;s according to what you mean by friendship. I&#039;m not an IRA man in disguise - everybody knows that, I made that clear in all of my speeches. I must say about the man, I told him the first day I met him, I said to him &#039;we can fight, we can pull these curtains off the windows, we can break the windows, but what good is it going to do your people?&#039; So I said &#039;where we can have agreement, we can have agreement&#039;.
+        &quot;I was not going to become a republican, he wasn&#039;t going to become an Orangeman, but on the basis of democracy we can both work for the good of our own people and the country.&quot;
+  
+What do you say to your critics who say that sharing power with Sinn Fein is a long way from your 'Never! Never! Never!' speech?
+      &quot;Well, it&#039;s not. The issue was the police. The issue was a faithfulness to the powers-that-be, elected by the people. I got all that I needed for a good base, now we have got to build on that base. But if I had told you that (Sinn Fein president) Gerry Adams would be having the chief of police to talk about protection for Roman Catholics on the Falls Road, you would laughed at me. But it has happened. Miracles do happen.&quot;
+  
+Are you going to miss elected politics?
+      &quot;No, because I have a terrible lot of things to do. And everybody is after my skin. I am working harder now than ever I worked. I&#039;m working in my own time. I&#039;m in the House of Lords which is a nice thing. I can have my say on things that I need to have my say about, and also have the ears of the ministers. So I&#039;m doing all right.&quot;
+  
+How would you like to be remembered?
+      &quot;I&#039;d like to be remembered as a person who saw what was needed and made a contribution.&quot;
+  
+
+           
+	
+	

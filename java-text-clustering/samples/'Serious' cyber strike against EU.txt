@@ -1,0 +1,87 @@
+    	
+    		  
+    23 March 2011
+Last updated at 17:41 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - \'Serious\' cyber attack on EU bodies before summit', 
+    storyId:'12840941', 
+    sectionId:'99123', 
+    url:'http://www.bbc.co.uk/news/world-europe-12840941', 
+    edition:'International'
+}); 
+-->
+
+
+
+&#039;Serious&#039; cyber attack on EU bodies before summit
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    It was not immediately clear how widespread the attack was
+  
+	
+		Continue reading the main story		Related Stories
+		
+						Cyber attack targeted Paris G20
+								
+	
+                      The EU has reported a &quot;serious&quot; cyber attack on the Commission and External Action Service on the eve of a summit in Brussels, a spokesman told the BBC.
+        Crucial decisions on the future structure of the EU, economic strategy and the ongoing war in Libya are to be discussed at the two-day talks.
+        Details were not given but other sources compared the attack to a recent assault on France&#039;s finance ministry.
+        &quot;We&#039;re often hit by cyber attacks but this is a big one,&quot; one source said.
+        The European Commission has been assessing the scale of the current threat and, in order to prevent the &quot;disclosure of unauthorised information&quot;, has shut down external access to e-mail and the institutions&#039; intranet. 
+        Staff have been asked to change their passwords.
+  'Serious cyber attack'
+	      &quot;The Commission and External Advisory Service are subject to a serious cyber attack,&quot; Antony Gravili, the spokesman for the inter-institutional relations and administration commissioner, told the BBC News website.
+        &quot;We are already taking urgent measures to tackle this.  An inquiry&#039;s been launched. This isn&#039;t unusual as the commission is frequently targeted.&quot; 
+        Mr Gravili added that he had no information the attack had been linked to the EU summit.  
+        France&#039;s finance ministry came under a cyber attack in December that targeted files on the G20 summit held in Paris last month.
+        Confirming the attack, Budget Minister Francois Baroin said an investigation had been launched.
+        Paris Match magazine said a sustained cyber attack had sought documents related to the G20 and international economic affairs.
+        More than 150 of the French ministry&#039;s 170,000 computers were affected.
+             
+	
+	

@@ -1,0 +1,262 @@
+    	
+    		  
+    21 March 2011
+Last updated at 09:39 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Tablet time: Tablet computers take on the workplace', 
+    storyId:'12776487', 
+    sectionId:'99104', 
+    url:'http://www.bbc.co.uk/news/business-12776487', 
+    edition:'International'
+}); 
+-->
+
+
+
+Tablet time: Tablet computers take on the workplace
+    
+     
+         
+ 
+        		
+					            	    		 			
+														By Fiona Graham
+				Technology of business reporter, BBC News
+			
+		        
+        
+
+
+
+	
+ 
+
+
+    
+        		
+        
+            
+                                
+                                Please turn on JavaScript. Media requires JavaScript to play.
+            
+        
+        
+            
+                    
+                
+                    
+					
+							
+		            
+            
+            
+            
+            
+			
+		            
+                
+            
+        
+                    
+            
+        
+        
+        
+        
+/*<![CDATA[*/
+	bbc.fmtj.av.emp.load( function() {
+		var userAgent = navigator.userAgent.toLowerCase();
+		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
+			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
+			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
+			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
+			userAgent.search("android") == -1)
+		{
+			bbc.fmtj.av.emp.loadProxyPlayer("emp-12788084-139700");
+		}else{
+			bbc.fmtj.av.emp.loadEmp("emp-12788084-139700");
+		}
+	});
+/*]]>*/
+
+
+
+            
+             
+          
+		
+			
+				$render("advert","advert-companion","12788084");
+			
+			$render("advert-post-script-load");
+		
+         
+         
+    	
+        		
+		WATCH: Cashing up - Could tablet computers call time on the traditional cash register?
+		
+        
+
+
+                      &quot;&#039;Really cool,&#039; I think is the word for it.&quot;
+        Raido Purge is one of the owners of Taibula, a colourful toy shop tucked away in a shopping mall in Tallinn, the Estonian capital.
+  
+	Continue reading the main story		
+	
+  
+
+  
+
+	
+	
+	
+		
+			Special Report: The Technology of Business
+			Getting your business cloud-ready
+			Filesharing with Cory Doctorow
+			Inside the mind of the consumer
+			The virtual office becomes reality
+			Inside Microsoft&#039;s innovation centre
+			Digital death of a business card?
+		
+	      He is holding a Samsung Galaxy Tab tablet computer. The shop has started using the device running an app called Point of Sale as a replacement for the traditional cash register.
+        &quot;Clients are really impressed when we walk up to them and basically show them right here and right now, this is your product, would you like some additional information, would you like to see a Youtube video about this product?&quot; he says.
+        &quot;They give us their order right then and there. I just print [the receipt], take the cheque, it&#039;s very comfortable.&quot;
+        The app not only processes payments, it also tracks stock, can generate reports on sales and profit margins, collects customer data and links to them through social networking sites such as Facebook and Twitter.
+        Across town, a branch of the Estonian clothing chain Bastion is also using the app. 
+        Shop assistants here are able to check what they have in stock not only at their own store, but at any of their other branches.
+  
+  
+
+    Shop owner Raido Purge says the tablet lets him take work with him
+  
+      Data is held in the cloud, and is accessed either via wifi or 3G, but the app can also be used offline.
+  Shop smarter
+	      The software has been developed by Estonian company Erply, Seedcamp winners in 2009. 
+        Founder Kris Hiiemaa says the app is being downloaded around a 1,000 times a day. 
+        It is free for one user, with a sliding subscription scale kicking in from the second download. 
+  
+  
+
+    Kris Hiiemaa says a third of users end up paying
+  
+      About a third of users end up becoming paying customers, Mr Hiiemaa says.
+        &quot;Small businesses can easily adopt tablets because of the very low price point,&quot; he says.
+        &quot;A tablet starts from $500, compared to conventional cash registers that are PC-based starting from $2000, so it&#039;s definitely much cheaper.&quot;
+        The app is used across Europe, and has just launched in the US, to coincide with the iPad 2 release.
+  'Increasing adoption'
+	      Although tablets started as consumer devices, their potential for business has not gone unnoticed.
+        Michelle Mason is a data recovery specialist with technology services company Kroll Ontrack. 
+        She says that this year the expectation is that 25% of tablets shipped will be sold to enterprise. 
+        Given that, according to market intelligence experts IDC, some 18 million tablets where sold in 2010 (83% of which were iPads, followed by the Samsung&#039;s Galaxy Tab), this is a substantial figure.
+        &quot;They&#039;ve seen increasing adoption into businesses because of the strengths of using them. They give high mobility and other strengths that come with cloud computing.&quot;
+        Healthcare, retail and manufacturing are the sectors where tablet use in the workplace is most common, according to Ms Mason. 
+        She says this is not being driven by IT departments.
+        &quot;Businesses are using tablets because they can&#039;t stop their staff using them,&quot; she says.
+  
+  
+
+    Erply&#039;s Point of Sale app is available for iPad and Android tablets.
+  
+'Emotional connection'
+	      Premier Farnell is a FTSE 250-listed distributor of electronic components. 
+        The company&#039;s board meets five times a year. 
+        For each meeting the company secretarial department has to prepare boardbooks - the weighty files that hold the documents to be reviewed before and during the meetings.
+        Three sets of packs for 10 members are needed, so not only do several trees give their lives to make this possible, but a huge amount of time is spent putting them together. 
+        Dorcas Murray, deputy company secretary, says she worked out it that it was taking the equivalent of a month out of each year.
+        In 2007, the company decided enough was enough and began using a PC-based software called Diligent Boardbooks. 
+        Fast forward three years and the software has made the leap to the tablet, and is now in use in the boardroom.
+        &quot;I think the thing that the tablet offers that the laptop doesn&#039;t is a greater degree of mobility,&quot; Ms Murray says. 
+        &quot;You can use the tablet more easily, they&#039;re all wifi enabled, so wherever you are you can always gain access to the systems. 
+  
+  
+
+    Boardbooks can run to hundreds of pages, so the app focuses on ease of browsing
+  
+      &quot;There&#039;s something about the physical nature of the tablet that makes it more like reading a book, that people find easier to deal with than looking at a PC screen. There&#039;s sort of an emotional connection with a book that tablet offers that a laptop doesn&#039;t.&quot;
+        Staff simply drag and drop attachments into the virtual book, which is stored in the cloud, allowing executives to see documents as and when they arrive, and download copies that they can then annotate and use offline.
+        Diligent&#039;s Simon Small says that the iPad seemed like an obvious fit.
+        &quot;When the tablet came out we&#039;d been watching the market very closely, and it suited us as the software is designed as a virtual book, and it really lent itself to the iPad format.
+        He too feels that the push is coming from staff.
+        &quot;Boardrooms are forcing corporates to adopt wifi networks that they&#039;d previously shut down for security reasons. The corporate market&#039;s typically been a Blackberry stronghold - and now you&#039;ve got the board using Apple.&quot;
+  
+  
+
+    Putting Diligent&#039;s Boardbook software into an iPad app seemed like an &#039;obvious fit&#039;
+  
+Seeking security
+	      The new crop of consumer tablets are not the only ones being used in business. Property services company Countrywide have been using traditional tablet PCs since 2004. 
+        Giving their surveyors technology that allows then to complete and upload their conclusions on site has speeded up the home buying process, according to chief information officer Ivan Brooks.
+        &quot;No one wants to hold up a property chain in these times,&quot; he says. &quot;They can be quite fragile.&quot;
+        Staff can also access a range of data, including recent sales on software that the company developed in-house. And the company is trialing iPads in their Hamptons offices.
+        &quot;It&#039;s a useful device for engaging with customers. It&#039;s the equivalent of a glossy magazine, but much more flexible.&quot;
+  
+	Continue reading the main story	&ldquo;Start Quote
+Educate staff to not save data locally, to save it to the cloud&rdquo;
+End Quote
+	Michelle Mason
+	Kroll Ontrack
+
+		      However bright and shiny tablets might seem to staff, IT departments need to consider carefully how to treat the devices, according to Tracey Stretton, legal consultant at Kroll Ontrack. 
+        She says that companies need to be aware of data protection and privacy laws within Europe, and more generally security wherever you are in the world.
+        &quot;It&#039;s not all about the device and the computer infrastructure in the cloud,&quot; she says. 
+        &quot;Its about the data.
+        &quot;They need to think about what data&#039;s being created, where it is and who&#039;s controlling it. If you&#039;re going to be cavalier about it, there&#039;s not only fines but you could be sued as well. 
+        &quot;The harm to your company if you lose all your companies records is immeasurable.&quot;
+        She suggests some basic precautions. Always use password protection, make sure you use whole disk encryption, avoid public hot spots, and use enterprise versions of services such as Dropbox that have protection built in.
+        &quot;It&#039;s all very well to have policies, but are they being acted on?&quot;, she asks.
+  
+  
+
+    The tablet scans the barcode and gives information on available sizes and colours
+  
+      Kroll Ontrack&#039;s Ms Mason agrees.
+        &quot;I think the point is that staff want to use tablets because of the benefits that come with them, so companies need to adopt a &#039;can&#039;t beat them, join them&#039; strategy,&quot; she says.
+        &quot;So the best thing companies can do is prepare as best they can. 
+        &quot;Ensure that the tablets have physical security, which means encryption on the devices, educate staff to not save data locally, to save it to the cloud, and also to make sure that because these devices can be used in a very public setting, that they&#039;re conscious of who&#039;s around them.&quot;
+        Erply&#039;s Mr Hiiemaa is confident that the future of the cash register at least is tablet shaped.
+        The company is now working on a version of the app targeted at restaurants and the hospitality industry.
+        &quot;Erply&#039;s main mission is to bring the small companies back to the table so they can fight against the big corporations. They can have similar multi-store systems, and they can expand their operations with very low cost,&quot; he says.
+        &quot;The idea is to make it so simple to use anybody can start store operations in minutes. We are even seeing our cash register software used by children to play store at home.
+        &quot;So this is very cool. I really love it.&quot;
+             
+	
+	

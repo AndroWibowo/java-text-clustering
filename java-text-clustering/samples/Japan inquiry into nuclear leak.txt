@@ -1,0 +1,269 @@
+    	
+    		  
+    25 March 2011
+Last updated at 11:15 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Japan investigation into nuclear plant radiation leak', 
+    storyId:'12859684', 
+    sectionId:'99122', 
+    url:'http://www.bbc.co.uk/news/world-asia-pacific-12859684', 
+    edition:'International'
+}); 
+-->
+
+
+
+Japan investigation into nuclear plant radiation leak
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Two nuclear plant workers remain in hospital 
+  
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	          
+
+		
+		
+						
+		
+		
+	
+						Japan quake
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Japan quake: Aid worker&#039;s diary
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Unity in ravaged regions
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Analysis: A fortnight in Fukushima
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Will Fukushima be Tepco&#039;s doom?
+	
+		
+	  	  
+  
+
+
+		
+	
+
+	       	     
+	
+                      An investigation is under way in Japan to establish the source of a radiation leak at the quake-hit nuclear plant, which left two workers in hospital.
+        The plant&#039;s operator says dangerously high radiation levels recorded in water at one reactor raise the possibility its core has been damaged. 
+        Prime Minister Naoto Kan said the situation was &quot;very unpredictable&quot;.
+        It is two weeks since the earthquake and tsunami hit Japan&#039;s north-east. The official death toll has passed 10,000.
+        More than 17,440 people are missing. 
+        Hundreds of thousands of people have been made homeless; an estimated 250,000 people are living in emergency shelters. Food, water and fuel are in short supply.
+        The Japanese government has put the rebuilding cost at $309bn (£191.8bn).
+  Safety measures
+	      In a televised address, Prime Minister Kan said: &quot;The current situation is still very unpredictable. We&#039;re working to stop the situation from worsening. We need to continue to be extremely vigilant.&quot; 
+        He also thanked the workers, firefighters and Self-Defence Forces for &quot;risking their lives&quot; to try to cool the reactors at the Fukushima Daiichi plant.
+        Japan&#039;s chief cabinet secretary Yukio Edano has said a rigorous inquiry is under way to establish the cause of a leak at the plant, after tests showed water in reactor 3 had radiation levels 10,000 times higher than normal. 
+        Japan&#039;s Nuclear Safety Agency has reiterated its position that it believes the reactor may have been damaged but it is going no further than that, says the BBC&#039;s Mark Worthington in Tokyo.  
+  
+	Continue reading the main story		
+	
+  
+
+  
+
+	
+	
+	
+		
+			Q&amp;A: Health effects of radiation
+			How much risk is there?
+			Japanese food ban widens in Asia
+		
+	      The agency has denied any suggestion that the reactor core may have cracked, Kyodo news agency reports.
+        The two affected workers, who remain in hospital, had reportedly not been wearing the correct protective boots and had ignored a radiation alarm at the plant. 
+        A revision of safety measures has been ordered.
+        The government has asked people still living within 20-30km (12-18 miles) of the nuclear facility to leave voluntarily. Until now, residents in the zone had been advised to stay indoors.
+        &quot;It is desirable that they voluntarily evacuate. I cannot rule out the possibility that the government will issue an evacuation order for this area if the radiation level goes up further,&quot; Mr Edano told a news conference.
+        Hundreds of thousands of residents were evacuated from within a 20km radius of the plant in the days after its vital cooling systems were knocked out by the tsunami.
+        Work is continuing at the stricken plant to restart the cooling equipment at the six reactors to avoid a meltdown.
+        In another development, two Japanese tourists who arrived in China on a flight from Tokyo are being treated in hospital for high radiation levels. 
+        It remains unclear how the two may have become contaminated as neither traveller is reported to have been within 240km of the Fukushima plant, says our correspondent. 
+        Meanwhile, Chinese news agency, Xinhua, has reported that abnormal radiation levels have been detected on a ship arriving from Japan to Xiamen port in Fujian province.
+  Food fears
+	      Japan has banned shipments of foodstuffs grown in several prefectures around the damaged nuclear plant.
+        People in Fukushima prefecture have been told not to eat 11 types of green leafy vegetables because of contamination worries. 
+        Prime Minister Kan apologised to the affected farmers and business owners, saying he recognised the &quot;great damage&quot; to their livelihoods&quot;.
+        Importers of Japanese products are finding low levels of radiation in some food stuffs, however the amounts found do not pose a health hazard.
+        Singapore&#039;s Agri-Food and Veterinary Authority said it had found small levels of contamination in Japanese mustard, parsley and two other plants imported from the prefectures of Tochigi, Ibaraki, Chiba and Ehime.
+        China, Singapore, Hong Kong, and other Asian importers have already placed bans on some imports of vegetables, seafood and milk products. 
+        Australia, the European Union, the United States and Russia have followed suit.
+        The Fukushima plant is 250km north-east of the capital, Tokyo. 
+        Radioactive iodine was detected in Tokyo&#039;s water supply earlier this week. Levels have since fallen, but remain high in other areas of northern Japan.
+  
+  
+
+  
+
+                        Are you in Japan? Are you taking part in the recovery efforts? Send us your comments and experiences using the form below.
+  
+
+	
+
+Send your pictures and videos to yourpics@bbc.co.uk  or text them to 61124 (UK) or +44 7725 100 100 (International). If you have a large file you can upload here.
+Read the terms and conditions
+
+		
+  
+    
+    
+    
+    
+      
+        (Required)  Name
+        
+        
+      
+      
+        (Required)  Your E-mail address
+        
+        
+      
+      
+        (Required)  Town &amp; Country
+        
+        
+      
+      
+        (Required)  Your telephone number
+        
+        
+      
+    
+    
+      
+        (Required)  Comments
+        
+        
+      
+    
+    
+      In most cases a selection of your comments will be published, displaying your name as you provide it and location unless you state otherwise. But your contact details will never be published. When sending us pictures, video or eyewitness accounts at no time should you endanger yourself or others, take any unnecessary risks or infringe any laws.
+      Terms and conditions
+      Send
+      Clear
+    
+  
+           
+	
+	

@@ -1,0 +1,311 @@
+    	
+    		  
+    25 March 2011
+Last updated at 17:24 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Libya crisis: Ajdabiya stalemate after bombing', 
+    storyId:'12864460', 
+    sectionId:'99121', 
+    url:'http://www.bbc.co.uk/news/world-africa-12864460', 
+    edition:'International'
+}); 
+-->
+
+
+
+Libyan foes stalemate in key town
+    
+     
+         
+ 
+
+
+	
+        
+    	    
+		
+			Latest
+		
+	    
+		
+			Live
+		
+	    
+		
+			Analysis
+		
+	    
+		
+			Misrata voices
+		
+	    
+		
+			Crisis map
+		
+	    
+		
+			Coalition firepower
+		
+	    
+		
+			In pictures
+		
+	    
+
+$render("hypertabs","hypertab");
+
+
+
+
+        		
+		        
+        
+
+
+
+	
+ 
+
+
+    
+        		
+        
+            
+                                
+                                Please turn on JavaScript. Media requires JavaScript to play.
+            
+        
+        
+            
+                    
+                
+                    
+					
+							
+		            
+            
+            
+            
+            
+			
+		            
+                
+            
+        
+                    
+            
+        
+        
+        
+        
+/*<![CDATA[*/
+	bbc.fmtj.av.emp.load( function() {
+		var userAgent = navigator.userAgent.toLowerCase();
+		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
+			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
+			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
+			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
+			userAgent.search("android") == -1)
+		{
+			bbc.fmtj.av.emp.loadProxyPlayer("emp-12769609-39524");
+		}else{
+			bbc.fmtj.av.emp.loadEmp("emp-12769609-39524");
+		}
+	});
+/*]]>*/
+
+
+
+            
+             
+          
+		
+			
+				$render("advert","advert-companion","12769609");
+			
+			$render("advert-post-script-load");
+		
+         
+         
+    	
+        		
+		The BBC&#039;s Allan Little says the drive east by Gaddafi forces is gaining pace
+		
+        
+
+
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	          
+
+		
+		
+						
+		
+		
+	
+						Libya Crisis
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+		
+
+
+	
+
+
+
+
+
+	Libya and Mid-East crisis Live
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Nato control on Libya &#039;days away&#039;
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Turkey&#039;s difficulties
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Sarkozy seizes moment
+	
+		
+	  	  
+  
+
+
+		
+	
+
+	       	     
+	
+                      Libyan rebels have reached a standoff with pro-Gaddafi forces around the town of Ajdabiya, witnesses say.
+        French and British jets bombed targets near the eastern town overnight, including government forces&#039; artillery.
+        Rebels had tried to attack pro-Gaddafi forces after the air strikes, but said they had to call off the assault.
+        The town has been besieged for days. Fleeing residents said the streets were deserted, and that government troops were opening fire at random.
+        Western forces began bombing targets last weekend in a bid to enforce a UN resolution that banned the Libyan military from launching air attacks on civilians.
+        Nato is expected to take over the lead of the operation from the Americans in the coming days.
+        Officials say the raids have weakened pro-Gaddafi forces considerably, but fighting has continued in Misrata in the west and Ajdabiya in the east.
+        The Reuters news agency said a major rebel offensive on Ajdabiya had been aborted on Friday.
+        Rebel fighter Muammar told the agency: &quot;We have men further up front and I am waiting for orders from them.&quot;
+  
+	Continue reading the main story		At the scene
+		
+	
+		
+		John Simpson
+	BBC News, Tripoli
+	
+
+	
+	      The coalition know that killing civilians would be disastrous in this war. They&#039;re plainly making big efforts to avoid it. Libyan television often shows pictures purporting to portray civilian victims, but they&#039;re impossible to verify.
+        Today international journalists in Tripoli were bussed to the suburb of Tajoura, which was genuinely targeted by the coalition last night. 
+        Nearby we were shown a farmhouse that had supposedly been hit. But the holes in the wall that we were told were shrapnel could only have been the result of someone firing an automatic rifle at it.
+        And although the farmer, a strong gaddafi supporter, said his 18-year-old daughter had been injured, the gardener said it was a four-year-old boy. It all looked like a rather inadequate set-up, done for effect.
+  
+	
+	      The men, driving pick-up trucks armed with rocket launchers, said they had been spurred on by the bombing raids.
+        The AFP news agency reported that Gaddafi loyalists in armoured vehicles had repelled attacks by rebels at the gates of the town.
+        Air strikes were reported in other cities overnight including the Tripoli suburb of Tajoura, known to house several military bases.
+        France and Britain initially led calls to impose the no-fly zone over Libya, and have taken a key role in enforcing it.
+        But the leadership of the operation and the bulk of the logistics have been borne by the US.
+        President Barack Obama has been insistent that the US should not continue to lead the intervention.
+        And on Friday both UK and Italian officials said Nato would take command in the coming days.
+        Analysts say the US will continue to play a major role.
+        And the move by Nato has come only after days of tortuous negotiation, with France arguing strongly that there should be a broader coalition of nations leading the operation.
+             
+	
+	

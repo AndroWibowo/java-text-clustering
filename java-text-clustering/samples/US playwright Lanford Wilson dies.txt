@@ -1,0 +1,77 @@
+    	
+    		  
+    25 March 2011
+Last updated at 10:44 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - US playwright Lanford Wilson dies aged 73', 
+    storyId:'12858715', 
+    sectionId:'99277', 
+    url:'http://www.bbc.co.uk/news/entertainment-arts-12858715', 
+    edition:'International'
+}); 
+-->
+
+
+
+US playwright Lanford Wilson dies aged 73
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Wilson was a prominent member of the Off-Broadway theatre scene
+  
+                      Pulitzer prize-winning playwright Lanford Wilson, best known for such plays as Talley&#039;s Folly and Burn This, has died aged 73.
+        The writer passed away at a New Jersey hospital on Wednesday after a long illness, his agent said.
+        Wilson wrote 17 full-length plays and more than 30 one-acts.
+        He was awarded the Pulitzer in 1980 for Talley&#039;s Folly, part of a trilogy of plays about several generations of a Missouri family.
+        He died on the eve of a new staging of his 1973 work The Hot L Baltimore at Chicago&#039;s Steppenwolf theatre.
+        Tina Landau, the play&#039;s director, said Wilson&#039;s &quot;tremendous spirit is with us in the theatre&quot; and that Thursday&#039;s performance would be in his honour.
+        The writer was a prominent member of the Off-Broadway theatre scene and was one of four founders of The Circle Repertory Company in New York.
+        Marshall W Mason. a friend and collaborator, posted a notice on Facebook saying Wilson&#039;s death was &quot;a peaceful, painless end&quot;.
+        &quot;Words cannot express the loss we all will feel,&quot; he added. &quot;But we must be grateful for the bountiful beauty he bestowed upon us.&quot;
+        Lanford&#039;s Burn This was staged in London in 1990 with John Malkovich and Juliet Stevenson.
+             
+	
+	

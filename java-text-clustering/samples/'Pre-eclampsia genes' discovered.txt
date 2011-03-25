@@ -1,0 +1,94 @@
+    	
+        		  
+    23 March 2011
+Last updated at 01:32 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - \'Genes for pre-eclampsia\' discovered', 
+    storyId:'12816571', 
+    sectionId:'99108', 
+    url:'http://www.bbc.co.uk/news/health-12816571', 
+    edition:'International'
+}); 
+-->
+
+
+
+&#039;Genes for pre-eclampsia&#039; discovered
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Delivering the baby early may be the only treatment option in some instances
+  
+	
+		Continue reading the main story		Related Stories
+		
+						Hope for early pre-eclampsia test
+								
+	
+                      Scientists say they have identified genetic errors that appear to increase a pregnant woman&#039;s chance of getting the potentially life-threatening condition called pre-eclampsia.
+        Around four in every 100 women develops this problem of high blood pressure and leaky kidneys during pregnancy. 
+        Now researchers have found faulty DNA may be to blame in some cases, PLoS Medicine journal reports. 
+        The discovery could lead to new ways to spot and treat those at risk, they say.
+        The US researchers from the Washington University School of Medicine in St. Louis analysed DNA from over 300 pregnant women.
+        Sixty of these were otherwise healthy women who were hospitalised because they developed severe pre-eclampsia. 
+  
+	Continue reading the main story	&ldquo;Start Quote
+It may allow us to study new treatments to prevent or delay the onset of pre-eclampsia and to know which women need closer surveillance&rdquo;
+End Quote
+	Professor Basky Thilaganathan
+	RCOG spokesman
+
+		      The remaining 250 were women who were being monitored for other health complications. Forty of these also went on to develop pre-eclampsia.
+        DNA analysis revealed a few genetic errors shared by five of the 60 otherwise healthy women and seven of the 40 &quot;higher-risk pregnancy&quot; women who developed pre-eclampsia. 
+        The genes on which the errors were identified (MCP factor I and factor H) play a role in regulating immune response and the researchers believe this could explain their possible link to pre-eclampsia.
+        Scientists have suspected that problems with the immune system provoke many cases of pre-eclampsia because women with lupus and certain other autoimmune diseases - like 250 of the women in the study - have an increased risk of the disorder.
+        The researchers now plan to study more pregnant women and other genes to further their understanding.
+        Professor Basky Thilaganathan, spokesman for the Royal College of Obstetricians and Gynaecologists, said: &quot;This work shows an association. 
+        &quot;At best genes like these might identify 10-15% of pre-eclampsia, so it&#039;s relative importance may not be sensational. But it may allow us to study new treatments to prevent or delay the onset of pre-eclampsia and to know which women need closer surveillance.&quot;
+        He said that currently the only real way to halt the condition was to deliver the baby. This can be relatively risk free if the pregnancy is nearing its natural end anyway, but can be risky if the baby is premature.
+             
+	
+	

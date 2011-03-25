@@ -1,0 +1,96 @@
+    	
+    		  
+    25 March 2011
+Last updated at 14:20 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Loretto Grammar wins Ruane court challenge', 
+    storyId:'12861336', 
+    sectionId:'99109', 
+    url:'http://www.bbc.co.uk/news/uk-northern-ireland-12861336', 
+    edition:'International'
+}); 
+-->
+
+
+
+Loretto Grammar wins Ruane court challenge
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Catriona Ruane&#039;s conduct relating to Loreto Grammar amounted to a &#039;breach of trust&#039;
+  
+	
+		Continue reading the main story		Related Stories
+		
+						Ruane in school court challenge
+											School in court to secure £15m
+								
+	
+                      A decision by the Education Minister not to fund a £15m new school for Loreto Grammar in Omagh was &quot;an abuse of power&quot;, the High Court has ruled.
+        Mr Justice McCloskey held that an unjustifiable breach of trust had occurred in the case involving the school&#039;s bid for a new building on its existing site.
+        A new premises was promised by a previous education minister in 2004.  
+        However, this decision was reversed by Catriona Ruane. 
+        The minister said the school would instead be re-built as part of a multi-school complex at Omagh&#039;s former Lisanelly Army camp. 
+        Justice McCloskey delivered his assessment on Friday as Loreto Grammar won its judicial review over the alleged reneging by Ms Ruane and her department officials on a commitment for funding.
+        He said: &quot;In my view, the unfairness to the governors and those whom they represent is profound and palpable.&quot;
+        The case centred on £14.6m of investment the school believed it was promised in 2004 through a public private partnership (PPP) for a new build.
+        It was announced by the then direct-rule minister Barry Gardiner as part of a major expansion plan for schools across Northern Ireland.
+        Since then, however, proposals have been advanced for a shared education campus on the site of the old Lisanelly military barracks.
+  'Frustrated'
+	      Last summer, Loreto was included in eight schools rejected for new building plans for non-compliance with policy.
+        Lawyers for the department argued in court that no final decision had been taken on the proposed construction.
+        But Justice McCloskey concluded that the conduct, delay and inactivity of the minister and department officials frustrated the legitimate expectation of the governors that a new Loreto Grammar School, financed by public funding, would be built on the existing site by 2010 at the latest.
+        &quot;An unjustifiable breach of trust has occurred,&quot; the judge said.
+        He further found that no proper consideration was given to the governors&#039; expectations when the relevant ministerial decisions were made.
+        The judge said: &quot;I consider that the careful, thoughtful and conscientious consideration which was required of the minister and departmental officials concerned was manifestly absent and has not been demonstrated.&quot;
+        He also indicated his intention to quash a decision that Loreto&#039;s proposed building project was non-compliant with the Sustainable Schools Policy criteria.
+        Outside the court Grainne O&#039;Hanlon, principal of Loreto Grammar, said the school&#039;s trustees and board of governors were relieved that the case was over.
+        &quot;This has been carried out in an exhaustive, comprehensive and fair manner to their satisfaction,&quot; she added.
+        A Department of Education spokesperson said: &quot;The minister is aware of the judgement delivered on this matter. She will be studying it closely with her officials.&quot; 
+        A further hearing to decide costs and how to finalise the terms of his ruling will take place next month.
+             
+	
+	

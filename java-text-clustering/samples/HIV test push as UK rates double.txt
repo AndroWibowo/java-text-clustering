@@ -1,0 +1,121 @@
+    	
+        		  
+    23 March 2011
+Last updated at 01:24 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Doubling of UK HIV rate prompts routine testing call', 
+    storyId:'12817564', 
+    sectionId:'99108', 
+    url:'http://www.bbc.co.uk/news/health-12817564', 
+    edition:'International'
+}); 
+-->
+
+
+
+Doubling of UK HIV rate prompts routine testing call
+    
+     
+         
+ 
+        		
+					            	    		 			
+														By Michelle Roberts
+				Health reporter, BBC News
+			
+		        
+        
+  
+
+    HIV can be spread via blood and bodily secretions
+  
+	
+		Continue reading the main story		Related Stories
+		
+						Staff &quot;reluctant to test&quot; for HIV
+											Fowler calls for more HIV awareness
+								
+	
+                      A doubling of new HIV infections in the UK in the past decade is leading experts to tell GPs to offer testing to all adult male patients in some areas.
+        Health Protection Agency data shows new UK-acquired cases rose from just under 2,000 in 2001 to nearly 3,800 in 2010.
+        Many of these new cases are among men who have sex with men and it is this group that campaigners hope to target. 
+        The National Institute for Health and Clinical Excellence has launched new guidelines for doctors in England.
+  Routine testing
+	      NICE says GPs should now offer and recommend HIV testing to all men who register with a practice in an area with a large community of men who have sex with men or an area that has a high prevalence of HIV - meaning more than two diagnosed cases per 1,000 people. 
+        Hospital doctors should follow similar advice for any men admitted to their hospital. 
+  
+	Continue reading the main story	&ldquo;Start Quote
+These expanded HIV testing policies should be prioritised for implementation as soon as possible&rdquo;
+End Quote
+	Dr Valerie Delpech 
+	Head of HIV surveillance at the HPA
+
+		      Increased testing should help stop the spread of HIV by identifying men at risk, NICE believes.
+        Men who have sex with men remain the group most at risk of becoming infected with HIV.
+        New diagnoses in this group alone have increased by 70% in the past 10 years.
+        There are more than 30,000 men who have sex with men living with HIV in the UK and experts estimate nearly a third of these are currently undiagnosed and unaware that they are infected. 
+        Another high-risk group that would benefit from increased HIV testing, according to NICE, is the black African community living in England. 
+        In 2009, more than 2,000 black Africans were diagnosed with an HIV infection, one-third of all new diagnoses in the UK.
+  
+	Continue reading the main story		Some of the Primary Care Trusts in England where HIV prevalence greatly exceeds two per 1,000
+		
+	
+	
+	
+     Brighton And Hove City PCT
+     Camden PCT
+     City And Hackney Teaching PCT
+     Hammersmith And Fulham PCT
+     Islington PCT
+     Lambeth PCT
+     Newham PCT
+     Manchester Teaching PCT
+     Southwark PCT
+  
+	
+	      Professor Mike Kelly from NICE said: &quot;HIV is still a serious problem in this country, with a large proportion of people unaware they are infected. 
+        &quot;This new guidance from NICE makes a number of practical recommendations which aim to increase HIV testing by encouraging healthcare professionals to offer it routinely to people in areas where there are a high number of people living with HIV.&quot;
+        This would include parts of large cities like London and Manchester, as well as areas like Brighton and Hove.
+        Dr Valerie Delpech, head of HIV surveillance at the HPA, said: &quot;These expanded HIV testing policies should be prioritised for implementation as soon as possible.
+        &quot;The impact of late diagnosis is clearly demonstrated when you look at deaths among people with HIV - three out of five of HIV-positive individuals that die are diagnosed too late to gain the most health benefits from their treatment, like increased life expectancy.&quot;
+        HIV charities said the guidelines were a &quot;vital step forward&quot;. 
+             
+	
+	

@@ -1,0 +1,91 @@
+    	
+    		  
+    24 March 2011
+Last updated at 10:02 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Castleford Tigers on verge of £50m ground deal', 
+    storyId:'12842865', 
+    sectionId:'99249', 
+    url:'http://www.bbc.co.uk/news/uk-england-leeds-12842865', 
+    edition:'International'
+}); 
+-->
+
+
+
+Castleford Tigers on verge of £50m ground deal
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    The new stadium is expected to be in use by 2013
+  
+	
+		Continue reading the main story		Related Stories
+		
+						Land confirmed for rugby stadium
+											Tigers stadium on track - Wright
+								
+	
+                      A West Yorkshire rugby league club has announced it is leaving its ground in a £50m deal that will see the land become a supermarket.
+        Castleford Tigers rugby league club is preparing to move to a 20-acre plot at Glasshoughton and has agreed a deal to sell its current Wheldon Road home.
+        Officials said while land prices were not at their highest, this was a good deal for the club.
+        Now the cash will be used to fund a move to a new stadium by 2013.
+        In a statement the club said it had entered a deal with Opus Land (North) Ltd and a financial partner, Palmer Capital.
+  'Promote town'
+	      All three were working to obtain approval for the scheme in a deal &quot;expected to be worth in the region of £50m&quot;.  
+        The club said talks had been held with Wakefield Council and major retailers to agree proposals that would &quot;both trigger the regeneration of Wheldon Road and help promote the town centre of Castleford&quot;.
+        The proposed redevelopment of the Castleford Tigers current site, the PROBIZ Coliseum for retail use replaces the previously anticipated sale of the land to Ben Bailey Homes.
+        Now the club has announced that completion of the new stadium is anticipated to be in time for the 2013 season although a detailed planning application for the new stadium is being considered by the council.
+  'Dominant force'
+	      Richard Wright, Castleford Tigers Chief executive said: &quot;We are in a very fortunate position to own the land at our current facility. 
+        &quot;The PROBIZ Coliseum is the club&#039;s largest single financial asset and our business plan has always been to identify the sale and future usage that would provide the greatest financial return to fund the new stadium development.&quot;
+        Castleford Tigers is finalising its 2012 Super League licence application aiming to secure its future in the top flight of rugby league.
+        Mr Wright added: &quot;I fully appreciate the fans will be disappointed that our move to Glasshoughton will be delayed. 
+        &quot;However we anticipate our current facilities at the PROBIZ Stadium will be reviewed favourably, and will be complemented by our advanced plans to move to a new stadium within the next (Super League) licensing period.
+        &quot;We are diligently putting the final touches to our licence application that we strongly believe will ensure Castleford Tigers remains a dominant force in Super League for many years to come.&quot;
+             
+	
+	

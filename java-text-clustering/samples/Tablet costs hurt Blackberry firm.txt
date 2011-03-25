@@ -1,0 +1,89 @@
+    	
+    		  
+    24 March 2011
+Last updated at 23:42 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Blackberry firm Research in Motion hurt by tablet cost', 
+    storyId:'12856657', 
+    sectionId:'99104', 
+    url:'http://www.bbc.co.uk/news/business-12856657', 
+    edition:'International'
+}); 
+-->
+
+
+
+Blackberry firm Research in Motion hurt by tablet cost
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    The company&#039;s co-chief executive claimed clients had interest for tens of thousands of new Playbooks
+  
+	
+		Continue reading the main story		Related Stories
+		
+						Staff push tablet computers at work
+											What is Blackberry doing next?
+								
+	
+                      Shares in Research in Motion (RIM) fell 12% in after-hours trading after the firm said profits this quarter will be much weaker than expected.
+        It blamed the cost of developing its new tablet-format Blackberry, as well as a migration of consumers towards cheaper handsets in its product range.
+        The share price fall came despite the Canadian firm reporting $934m (£579m) net profits for the last quarter, in line with expectations.
+        Profits were up 31% on a year earlier.
+  'Investments in the future'
+	      Revenues of $5.6bn - up 36% - were slightly short of expectations, according to the results released after the close of trading on the Nasdaq exchange.
+        The company has seen its share of its core US market steadily eroded by smartphone rivals.
+        Some 48% of its business now comes from outside the key markets of the US, Canada and the UK.
+        But growth in these new markets has gone hand-in-hand with a shift towards lower-margin entry-point products, the firm conceded.
+        RIM is banking on its new tablet computer - the Playbook - to regain the initiative.
+        It will be half the size of Apple&#039;s iPad and will be compatible with Google&#039;s Android operating system.
+        &quot;These are investments in the future,&quot; said co-chief executive Jim Balsillie, explaining the unexpected increase in money spent on research, development, sales and market.
+        &quot;I have many corporate clients that have approached us about, you know, each wanting tens of thousands, several tens of thousands of Playbooks.&quot;
+        As well as the new product launch, the company is also revamping its operating system.
+        The firm lowered its profit guidance for the current quarter, and also broadened its range due to uncertainty over the possible impact of Japanese supply chain problems.
+             
+	
+	

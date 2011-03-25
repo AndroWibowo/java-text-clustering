@@ -1,0 +1,92 @@
+    	
+    		  
+    25 March 2011
+Last updated at 07:17 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Thieves steal plane fuselage and ship\'s anchor from MoD', 
+    storyId:'12857903', 
+    sectionId:'99116', 
+    url:'http://www.bbc.co.uk/news/uk-12857903', 
+    edition:'International'
+}); 
+-->
+
+
+
+Thieves steal plane fuselage and ship&#039;s anchor from MoD
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Night vision goggles worth £49,000 were among the items stolen in the past 10 months
+  
+	
+		Continue reading the main story		Related Stories
+		
+						Fox: End &#039;fantasy&#039; MoD projects
+											MPs warn of MoD buying &#039;blunders&#039;
+											Inquiry after MoD laptop stolen
+								
+	
+                      A plane fuselage, a ship&#039;s anchor and a clarinet are among items which have been stolen from the Ministry of Defence since May.
+        Guns, a bridge and Army ration packs also went missing. In total, goods worth nearly £700,000 were taken in the UK.
+        The list was revealed in response to a question in Parliament.
+        The Labour MP who made the request, Luciana Berger, said the list was &quot;a national disgrace&quot;.
+        Ms Berger, MP for Liverpool Wavertree, asked for a breakdown of items worth £100 or more which had been stolen from the MoD since the government took office.
+        She said: &quot;People will be furious thieves can walk away with body armour, pistols, uniforms, helmets and night-vision goggles intended for our men and women serving in combat zones.
+        &quot;This is nothing short of a national disgrace. Defence ministers have some serious questions to answer.&quot;
+        The most valuable single item to be stolen was a helicopter rotor tuner worth £50,000, which was taken in November.
+  Crime reduction
+	      Cash was also stolen, along with items ranging from medals and ceremonial swords to a boat rudder.
+        The list does not include anything stolen from the MoD outside the UK. 
+        Junior defence minister Peter Luff said the Ministry of Defence police (MDP) had &quot;actively promoted&quot; a number of crime reduction initiatives.
+        &quot;The MDP also have 81 defence community police officers who are trained crime reduction officers working in MoD establishments across the country,&quot; he said.
+        &quot;These officers provide an effective deterrent to potential criminals, by raising the awareness of staff, service personnel, service families and contractors.&quot;
+        Ms Berger also asked other Whitehall departments what items had been lost or stolen.
+        The Ministry of Justice said 34 laptops and 42 BlackBerrys had gone missing but that they were all password encrypted.
+        And the Cabinet Office said three electronic items to the value of £325 had been recorded as lost or stolen.
+             
+	
+	

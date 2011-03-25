@@ -1,0 +1,440 @@
+    	
+    		  
+    23 March 2011
+Last updated at 23:36 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - How Elizabeth Taylor redefined celebrity ', 
+    storyId:'12829861', 
+    sectionId:'99189', 
+    url:'http://www.bbc.co.uk/news/magazine-12829861', 
+    edition:'International'
+}); 
+-->
+
+
+
+How Elizabeth Taylor redefined celebrity 
+    
+     
+         
+ 
+        		
+					            	    		 			
+														By Rajini Vaidyanathan
+				BBC News, Washington 
+			
+		        
+        
+  
+
+  
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	          
+
+		
+		
+						
+		
+		
+	
+						In today&#039;s Magazine
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Catcalling menace
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Easy reader
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	7 days quiz
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	What do military operation names mean?
+	
+		
+	  	  
+  
+
+
+		
+	
+
+	       	     
+	
+                      Elizabeth Taylor won two Oscars but many people remember her as much for her eight tumultuous marriages, ill health and addictions, all lived out in a way more public than any Hollywood star had done before.
+        Her life read like a script for many of today&#039;s Hollywood celebrities - she was a child star whose life was played out in the media, someone who was hounded by the paparazzi, had high profile relationships, and even battled drug addiction. 
+        Elizabeth Taylor, who has died aged 79, in many ways defined the notion of modern day celebrity, someone whose life off-screen, as well as on, captivated millions. 
+        &quot;She was one of the first to really make her personal life as important as her professional life in terms of her stardom,&quot; says William Mann, a biographer of Taylor.
+        One of the main reasons was that her personal life had a gripping narrative of its own. Marrying eight times, twice to the same man, Elizabeth Taylor first went down the aisle at the age of 18.  By the time she was 26 she was already a widow.
+  
+	Continue reading the main story	&ldquo;Start Quote
+Looking back at some of the magazines from the early 1960s, you could be mistaken for thinking from the reports that she was the Britney Spears of her day&rdquo;
+End Quote
+	Karen Sternheimer
+	University of Southern California
+
+		      &quot;People nowadays will do anything for maximum media exposure,&quot; says Mann, &quot;but she got maximum media exposure because she lived a life that was fascinating to millions.&quot;
+        But what made her &quot;fascinating&quot; life accessible to millions of readers and viewers was in part the break-up of the old Hollywood studio system in the 1950s.
+        The end of a system which had allowed the big film companies to effectively control stars&#039; pay and publicity, meant the studios could no longer hush up personal scandals for fear of damaging a star&#039;s reputation, says Mann.
+        &quot;Up until then, the studios owned the artists and had unspoken agreements with celebrity magazines so they would tread lightly on people,&quot; says Karen Steinheimer, a sociologist at the University of Southern California, and author of Celebrity Culture and the American Dream.
+        Steinheimer believes that the decline of the studios&#039; power, combined with Taylor&#039;s colourful personal life, created a new, more cutting, and less sycophantic style of mainstream media coverage of celebrities - moving towards today&#039;s tabloid press.
+        &quot;Some of the coverage of her first marriage, her first divorce and her affairs, was strikingly more critical than the coverage of most other celebrities at the time,&quot; says Steinheimer.
+        &quot;Looking back at some of the magazines from the early 1960s, you could be mistaken for thinking from the reports that she was the Britney Spears of her day in terms of the negativity and relentless hounding of her and her relationships.&quot;
+  'Gotcha' moment
+	      Taylor&#039;s romance with her Cleopatra co-star Richard Burton generated huge interest in the media, not only because their romance had transitioned from on-screen to off, but because they were both married to other people at the time.
+  
+  
+
+    Pictures of Taylor and Burton on a Mediterranean yacht in 1962 became a worldwide news event
+  
+      &quot;It was one of the first times you covered these kind of indiscretions on a large scale,&quot; says Dawnie Walton, deputy editor of Life magazine&#039;s website. 
+        Taylor&#039;s face was regularly on the front of celebrity magazines. Life featured her as a cover girl no fewer than 14 times, more than any other person in the publication&#039;s history.
+        Walton says the turning point for the way Life magazine covered celebrity relationships began with the Burton/Taylor affair, and the candid on-set interviews with the couple were a precursor to the modern day Hello and OK!-style spreads. 
+        Their affair, in the more conservative 1960s, was taboo to many, a landmark moment. In that sense, Steinheimer believes Taylor was the &quot;first victim of the paparazzi&quot;. 
+  
+	Continue reading the main story		Elizabeth Taylor&#039;s husbands
+		
+	
+	
+	
+     1950-51: Conrad &quot;Nicky&quot; Hilton. Hotel heir, Taylor divorced him because of his drinking 
+     1952-57: Michael Wilding. Actor 19 years her senior, the couple had two sons before divorcing
+     1957-58: Michael Todd. Film producer, his death in a plane crash left Taylor a widow. They had one daughter together
+     1959-64: Eddie Fisher. Singer and Todd&#039;s best friend, he divorced his wife to marry Taylor. But their marriage, in turn, ended in divorce
+     1964-74 and 1975-76: Richard Burton. An actor, he and Taylor had a turbulent relationship 
+     1976-82: John Warner. US Republican senator, their marriage ended in divorce 
+     1991-96: Larry Fortensky. A construction worker, the pair married at Michael Jackson&#039;s Neverland ranch. But they divorced five years later
+  
+	
+	      When Italian photographer Marcello Geppetti used a long telephoto lens to capture a picture of the pair frolicking on a yacht in the Mediterranean at the height of their affair, it became a worldwide news event. 
+        Nowadays pictures of celebrities lounging around in bikinis on holiday are second nature in the tabloid press, but back in 1962, the shots were seen as shocking.
+        Steinheimer describes them as &quot;one of the first &#039;gotcha&#039; celebrity moments&quot;.
+        &quot;The paparazzi wouldn&#039;t really exist today if it wasn&#039;t for them. The photographers got pictures of them going into clubs, they climbed up trees and looked down into her compound,&quot; says Mann. 
+        &quot;This might be standard behaviour for Hollywood today, but Elizabeth Taylor created that model,&quot; he adds.
+        Another model which many credit Taylor for is the role of the celebrity as a business entity.
+        She was the highest-paid actress of her time, negotiating a cool $1m for her role in Cleopatra, as well as a share of the profits for the film. This is now the model for many big stars.
+  
+	Continue reading the main story	&ldquo;Start Quote
+She was extraordinarily beautiful, and was considered a good actress. That's not true of a lot of celebrities that today's media are obsessed with&rdquo;
+End Quote
+	Barry Adelman
+	Executive producer, Golden Globes
+
+		      But her business acumen extended beyond Hollywood.
+        By creating her own jewellery line and a successful perfume range, she became a pioneer in marketing a celebrity merchandise brand. Stars including Jennifer Lopez, Paris Hilton and Britney Spears all now have personal branded lines.
+        But Taylor will also be remembered for harnessing her star power to help good causes. In the 1980s, after her friend Rock Hudson died, she became one of the first celebrities to speak out about Aids.
+        &quot;Hollywood took a lesson on that too, and every star now has their own personal cause and charity,&quot; says Mann.
+        While many of today&#039;s celebrities are famous for simply being famous, Taylor&#039;s essence was still the success of her screen work, argues Barry Adelman, executive producer of the Golden Globes awards show.
+        &quot;She had the respect of her peers along with everything she was going through,&quot; says Adelman who worked with Taylor on a number of occasions. 
+        &quot;She was extraordinarily beautiful, and was considered a good actress. That&#039;s not true of a lot of celebrities that today&#039;s media are obsessed with.&quot;
+  ? 
+ 
+
+ 
+
+ 
+ 
+
+div.dna-comments_module textarea#dna-commentbox-text
+{
+    max-width: 100% !important;
+    width: 100% !important;
+    float: none;
+}
+
+div.dna-comments_module .dna-textarea-container textarea#dna-commentbox-text
+{
+    padding: 0;
+    border: none;
+}
+
+div.dna-comments_module form#submit_new_comment input
+{
+    clear: none !important;
+    float: none !important;
+    width: auto !important;
+}
+
+div.dna-comments_module ul.tabs
+{
+    margin-bottom: 0 !important;
+    clear: both;
+    float: none;
+}
+
+div.dna-comments_module
+{
+    max-width: 448px;
+}
+
+div.dna-comments_module ul.tabs li
+{
+    background-image: none !important;
+}
+
+div.dna-comments_module ul.collections li p
+{
+    font-size: 13px !important;
+    margin-bottom: 6px !important;
+}
+
+div.dna-comments_module ul
+{
+    display: block !important;
+}
+
+div.dna-comments_module ul.collections
+{
+    margin-bottom: 0 !important;
+}
+
+div.dna-comments_module ul.collections li div.dna-comments-comment-footer a
+{
+    font-size: 11px !important;
+}
+
+div.dna-comments_module form#submit_new_comment
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    float: none !important;
+    display: block !important;
+    margin-top: -16px;
+    clear: both;
+}
+
+/** IE FIXES **/
+
+.ie div.dna-comments_module form#submit_new_comment input,
+.ie7 div.dna-comments_module form#submit_new_comment input
+{
+    padding: 4px;
+    font-size: 13px;
+    border: 1px solid #cccccc;
+}
+
+.ie div.dna-comments_module form#submit_new_comment .dna-comments-footer,
+.ie7 div.dna-comments_module form#submit_new_comment .dna-comments-footer
+{
+    font-size: 12px;
+}
+
+.ie div.dna-comments_module,
+.ie7 div.dna-comments_module
+{
+    position: relative;
+}
+
+.ie div.dna-comments_module ul.tabs,
+.ie7 div.dna-comments_module ul.tabs
+{
+    position:relative;
+}
+
+.ie div.dna-comments_module ul.tabs li,
+.ie7 div.dna-comments_module ul.tabs li
+{
+    position: relative;
+}
+
+/* Story fixes */
+div.dna-comments_module ul.comments_pagination_ul li
+{
+    background-image: none;
+    padding: 0;
+}
+
+div.dna-comments_module .dna-comments-comment-footer
+{
+    line-height: 22px;
+}
+
+div.dna-comments_module .dna-commentbox-add-comment-cta
+{
+    margin-bottom: 8px;
+}
+
+.dna-comments_module .dna-comment-list
+{
+    margin-bottom: 8px;
+}
+
+.dna-comments_module .dna-commentbox-logged-in
+{
+    margin-bottom: 0;
+}
+
+.dna-comments_module .dna-user-signin-panel p
+{
+    color: #A9A9A9;
+    font-size: 1em;
+}
+
+.dna-comments_module .comments_pagination_ul
+{
+    margin-bottom: 0;
+}
+
+div.dna-comments_module #comment_pagination_page_status
+{
+    height: 16px;
+}
+
+div.dna-comments_module textarea#dna-commentbox-text
+{
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    width: 431px !important;
+}
+
+div.dna-comments_module .dna-textarea-container textarea#dna-commentbox-text
+{
+    padding: 0;
+    border: none;
+    margin-bottom: 0;
+    width: 100% !important;
+}
+
+div.dna-comments_module hr
+{
+/*    display: none;*/
+}
+
+.ie7 div.dna-comments_module ul.comments_pagination_ul li.show_more img
+{
+    position: absolute;
+    left: 232px;
+}
+
+div.dna-comments_module ul.comments_pagination_ul li.hidden img
+{
+    top: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+                          (function() { var commentsModuleLoader = setInterval(function() { if (typeof(commentsModule) == 'function' && typeof(window.comments) == 'object' && window.comments.flags.glow_ready == true) { comments.initParams( { bbc_id_env : 'id.bbc.co.uk', ajax_load_url : '/modules/comments/index/getcomments/', ajax_preview_url : 'http://www.bbc.co.uk/modules/comments/index/preview/', items_per_page : 20, sort_order : 'Descending', filter : 'EditorPicks', current_page : 1, page_count : 1, site_name : 'newscommentsmodule', forum_id : '12829861', preset : 'opinion', parent_uri : 'http://www.bbc.co.uk/news/magazine-12829861', postFreq : 0, character_limit : 0, policy_uri : '', textarea_height : '16px' ,logged_in : false  }); clearInterval(commentsModuleLoader); } }, 100); })();     Comments     This entry is now closed for comments     &nbsp;   Editors' Picks  All Comments (27)              15. angela stone  24th March 2011 - 13:11     I shall be viewing 'Butterfield 8' tonight in tribute to this great actress. A Place in the Sun, Giant, and the brilliant 'Who's Afraid of Virginia Woolf' are unforgettable films.     Report this comment Link to this          13. runningdervish  24th March 2011 - 12:35     A talented actress?  Yes.  Gorgeous eyes?  Yes.  A pretty face? Yes.  Beautiful, inspirational, great?  Sorry, none of the above.  She was the prototype of how the infotainment industry uses our prurient interest in the lives of the rich and famous as a marketing tool.  Courtesans of past eras also became wealthy and influential. The only difference now is marketing.     Report this comment Link to this          11. bym51  24th March 2011 - 12:12     I always felt the  Elizabeth Taylor,  Richard Burton romance was in many  one of the greatest  love stories of our era.. I hope people remember  Elizabeth Taylor for her talent and her devotion her family  friends and   charity work rather than her romantic entanglements.     Report this comment Link to this         &nbsp;       &nbsp;      Add your comment      You are not currently signed in. Sign in or register.           
+
+           
+	
+	

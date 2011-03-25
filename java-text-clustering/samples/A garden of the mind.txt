@@ -1,0 +1,434 @@
+    	
+    		  
+    25 March 2011
+Last updated at 16:32 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - A garden of the mind', 
+    storyId:'12817415', 
+    sectionId:'99189', 
+    url:'http://www.bbc.co.uk/news/magazine-12817415', 
+    edition:'International'
+}); 
+-->
+
+
+
+A garden of the mind
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    A family holiday can be evoked by a rose
+  
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	          
+
+		
+		
+						
+		
+		
+	
+						In today&#039;s Magazine
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Catcalling menace
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Easy reader
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	7 days quiz
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	What do military operation names mean?
+	
+		
+	  	  
+  
+
+
+		
+	
+
+	       	     
+	
+                      With spring arriving, gardening shows are well and good, but amateur horticulturalists are pursuing a lofty ideal, creating a green space that stimulates emotions, writes botanist Phil Gates. 
+        I&#039;ve been gardening the same patch of ground, 60 paces long and 10 wide, for a quarter of a century. 
+        Over more than half of my adult life, I&#039;ve developed a sense of personal attachment to the garden that I could never have anticipated. 
+        Ground that was rough grass and bare soil when we arrived now evokes the same emotions as a family photo album. The weeping pear, that was small enough to fit in a car boot when I brought it home, dominates the garden and is a reminder of the passing of time and of the sorely-missed friend who gave it to us. 
+        I bought the lilac to celebrate the birth of our third child, the burnet rose with unusual magenta-flecked petals was a cutting taken on a memorable family holiday on the Northumberland coast, the sweet peas are seeds from the fragrant strain my grandmother nurtured on her allotment and the double-flowered daylilies came from the garden I grew up in. 
+        But the emotional side of gardening is more than a wander down the horticultural equivalent of memory lane. There&#039;s the excitement and anticipation that comes from watching buds form and open in spring. 
+        Right now I&#039;m waiting for a bird of paradise (Strelitzia) flower bud to open. Thirty years ago, before we had a garden, I grew one from seed to the point of flowering on the window ledge of our flat, then our heating system failed while we were away and it had turned to mush when we returned. 
+        Any day now I&#039;ll finally be able to watch one of these charismatic flower buds open.
+        As a garden matures, so does the sense of responsibility and accompanying anxiety for the wildlife that moves in. 
+  
+	Continue reading the main story		Find out more
+		
+	
+	
+	
+     Elegies From A Surburban Garden, presented by Phil Gates, starts on BBC Radio 4 on Monday 28 March at 1545 BST
+  
+	
+		
+			Catch up via iPlayer after broadcast 
+		
+	      The garden pond (dig one and amphibians will come) seethes with frogs in spring but two years ago a heron arrived and we watched the massacre in horror. Netting the pond is now an annual spring ritual. 
+        Exasperation and disappointment are emotions that all gardeners have to cope with. 
+        Impatient for early crops, I planted out our runner beans too soon last year and watched them collapse as the morning sun melted frost on their leaves.  
+  
+  
+
+    Spring is a time of excitement for gardeners
+  
+      I&#039;ve watched rows of seedlings disappear overnight, with silvery slime trails at dawn revealing the culprit. I&#039;ve cursed my clumsiness when I&#039;ve snapped off an orchid flower spike at the point of flowering and watched over-watered cacti rot.
+        But for all the failures, there are more than enough moments of elation to compensate - like fingers stained from picking raspberries and blackcurrants, or harvesting the first aromatic sun-warmed strawberry, a far cry from the supermarket chiller-cabinet equivalents. 
+        There&#039;s also the satisfaction - and, I guess, some slight redemption from the sense of guilt for being a polluting consumer  - when wildlife moves in and shares the garden. 
+        It was a thrill to discover that orange tip butterflies have a small breeding colony in our suburban garden. 
+  
+	Continue reading the main story		Emotional plants
+		
+	
+		Matthew Appleby
+	Deputy editor, Horticulture Week
+	
+
+	
+	      Herbs have lots of emotions associated with them.
+        Lavender induces sleep, beech promotes tolerance, clematis wistfulness, willow weeping, and vines assurance.
+        Violas are meant to have a flirty scent because their smell comes and goes. 
+        Mown grass, chopped leaves and the sawdust of different woods have smells that can bring back memories of contentedness. 
+        Cut grass reminds me of playing cricket.
+  
+	
+	      There&#039;s joy to be had in the sense of trust when a robin takes mealworms from between your fingers and a real sense of privilege when something exotic - like the flock of waxwings that plundered the rotting crab apples in our garden this winter - pays you a visit.
+        Perhaps the best emotion, though, is to be had during an early summer evening at dusk when the gardening tools have been put away, the garden fills with scent of honeysuckle and the songs of blackbirds echo off the surrounding houses. 
+        It&#039;s a simple feeling to have done something creative and worthwhile through hard physical work.
+        Today most of us could feed ourselves and satisfy our need for floral beauty with a Friday night trolley-dash around the supermarket shelves and a weekend trip to a florist or park, so why do so many of us toil over gardens? 
+  
+  
+
+    Growing flowers is more enriching than popping to the garage
+  
+      It would be foolish to claim that most of us can ever be self-sufficient in growing our own food, or that it&#039;s financially rewarding, but planting a few potatoes and raising some leeks and beans maintains an unbroken thread of experience that links us to the first hunter-gathers who settled to become farmers 10 millennia ago. 
+        This spring, when I dig and plant, and watch the seedlings germinate and flourish, I&#039;ll share the smell of freshly-dug earth and the emotions that they felt ten millennia ago. 
+        Later, when the leaves on the silver birch that I planted in garden hedge turn yellow and fall, as another gardening season ends, it will be time to reflect on the end of a cycle that most of us, if we&#039;re lucky, get to enjoy only around 70 times in a lifetime. 
+        Every annual cycle is different - and more precious than the last. Television gardening programmes have done a great job at demonstrating how trips to the garden centre can turn a small suburban plot into a haven of beauty. 
+        What they don&#039;t tell you is that once the gardening bug has bitten you may find yourself committed to an annual roller-coaster ride of emotions that can transport you from the heights of elation to the outer limits of exasperation and - along the way - deliver a reminder of what it is to be human.
+  ? 
+ 
+
+ 
+
+ 
+ 
+
+div.dna-comments_module textarea#dna-commentbox-text
+{
+    max-width: 100% !important;
+    width: 100% !important;
+    float: none;
+}
+
+div.dna-comments_module .dna-textarea-container textarea#dna-commentbox-text
+{
+    padding: 0;
+    border: none;
+}
+
+div.dna-comments_module form#submit_new_comment input
+{
+    clear: none !important;
+    float: none !important;
+    width: auto !important;
+}
+
+div.dna-comments_module ul.tabs
+{
+    margin-bottom: 0 !important;
+    clear: both;
+    float: none;
+}
+
+div.dna-comments_module
+{
+    max-width: 448px;
+}
+
+div.dna-comments_module ul.tabs li
+{
+    background-image: none !important;
+}
+
+div.dna-comments_module ul.collections li p
+{
+    font-size: 13px !important;
+    margin-bottom: 6px !important;
+}
+
+div.dna-comments_module ul
+{
+    display: block !important;
+}
+
+div.dna-comments_module ul.collections
+{
+    margin-bottom: 0 !important;
+}
+
+div.dna-comments_module ul.collections li div.dna-comments-comment-footer a
+{
+    font-size: 11px !important;
+}
+
+div.dna-comments_module form#submit_new_comment
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    float: none !important;
+    display: block !important;
+    margin-top: -16px;
+    clear: both;
+}
+
+/** IE FIXES **/
+
+.ie div.dna-comments_module form#submit_new_comment input,
+.ie7 div.dna-comments_module form#submit_new_comment input
+{
+    padding: 4px;
+    font-size: 13px;
+    border: 1px solid #cccccc;
+}
+
+.ie div.dna-comments_module form#submit_new_comment .dna-comments-footer,
+.ie7 div.dna-comments_module form#submit_new_comment .dna-comments-footer
+{
+    font-size: 12px;
+}
+
+.ie div.dna-comments_module,
+.ie7 div.dna-comments_module
+{
+    position: relative;
+}
+
+.ie div.dna-comments_module ul.tabs,
+.ie7 div.dna-comments_module ul.tabs
+{
+    position:relative;
+}
+
+.ie div.dna-comments_module ul.tabs li,
+.ie7 div.dna-comments_module ul.tabs li
+{
+    position: relative;
+}
+
+/* Story fixes */
+div.dna-comments_module ul.comments_pagination_ul li
+{
+    background-image: none;
+    padding: 0;
+}
+
+div.dna-comments_module .dna-comments-comment-footer
+{
+    line-height: 22px;
+}
+
+div.dna-comments_module .dna-commentbox-add-comment-cta
+{
+    margin-bottom: 8px;
+}
+
+.dna-comments_module .dna-comment-list
+{
+    margin-bottom: 8px;
+}
+
+.dna-comments_module .dna-commentbox-logged-in
+{
+    margin-bottom: 0;
+}
+
+.dna-comments_module .dna-user-signin-panel p
+{
+    color: #A9A9A9;
+    font-size: 1em;
+}
+
+.dna-comments_module .comments_pagination_ul
+{
+    margin-bottom: 0;
+}
+
+div.dna-comments_module #comment_pagination_page_status
+{
+    height: 16px;
+}
+
+div.dna-comments_module textarea#dna-commentbox-text
+{
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    width: 431px !important;
+}
+
+div.dna-comments_module .dna-textarea-container textarea#dna-commentbox-text
+{
+    padding: 0;
+    border: none;
+    margin-bottom: 0;
+    width: 100% !important;
+}
+
+div.dna-comments_module hr
+{
+/*    display: none;*/
+}
+
+.ie7 div.dna-comments_module ul.comments_pagination_ul li.show_more img
+{
+    position: absolute;
+    left: 232px;
+}
+
+div.dna-comments_module ul.comments_pagination_ul li.hidden img
+{
+    top: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+                          (function() { var commentsModuleLoader = setInterval(function() { if (typeof(commentsModule) == 'function' && typeof(window.comments) == 'object' && window.comments.flags.glow_ready == true) { comments.initParams( { bbc_id_env : 'id.bbc.co.uk', ajax_load_url : '/modules/comments/index/getcomments/', ajax_preview_url : 'http://www.bbc.co.uk/modules/comments/index/preview/', items_per_page : 20, sort_order : 'Descending', filter : 'none', current_page : 1, page_count : 0, site_name : 'newscommentsmodule', forum_id : '12817415', preset : 'opinion', parent_uri : 'http://www.bbc.co.uk/news/magazine-12817415', postFreq : 0, character_limit : 0, policy_uri : '', textarea_height : '16px' ,logged_in : false  }); clearInterval(commentsModuleLoader); } }, 100); })();     Comments        You are not currently signed in. Sign in or register.                                                              Be the first to comment.      
+
+           
+	
+	

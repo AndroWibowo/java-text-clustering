@@ -1,0 +1,244 @@
+    	
+    		  
+    25 March 2011
+Last updated at 15:44 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - HMV Group shares rise on possible Waterstone\'s sale ', 
+    storyId:'12863216', 
+    sectionId:'99104', 
+    url:'http://www.bbc.co.uk/news/business-12863216', 
+    edition:'International'
+}); 
+-->
+
+
+
+HMV Group shares rise on possible Waterstone&#039;s sale 
+    
+     
+         
+ 
+        		
+		        
+        Continue reading the main story
+
+ 
+		
+		
+	
+		
+
+
+	
+		
+			
+				 
+					HMV Group 
+				 
+				
+			
+
+			Last Updated at 25 Mar 2011, 16:35 GMT 
+		
+			 
+				*Chart shows local time
+			 
+		
+			
+
+			
+				
+					
+					
+					
+				 
+				
+					
+						price
+						change
+						%
+					
+				
+            	
+					
+						
+						17.50
+						p
+										
+							+
+							+0.75					
+						
+								
+							+
+							+4.48
+						
+					
+					
+					
+				
+			 
+		
+	
+	
+			
+
+
+	
+
+	
+
+
+
+
+
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	          
+
+		
+		
+						
+		
+		
+	
+						Music Retailing
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Standing out in a cloud
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Can HMV learn from global trends?
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	What makes a good record shop?
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Playbutton: Albums to wear
+	
+		
+	  	  
+  
+
+
+		
+	
+
+	       	     
+	
+                      Shares in HMV Group have climbed 6% after the troubled music and book retailer said it was exploring options to sell its Waterstone&#039;s bookstores.
+        Founder Tim Waterstone and Russian billionaire Alexander Mamut are reportedly looking at buying the chain.
+        The group has issued two profit warnings this year and said that it may breach its banking covenants as sales continue to disappoint.
+        However, it said no discussions about a sale were taking place.
+        &quot;In response to press speculation, the board confirms it is exploring strategic options in respect of Waterstone&#039;s and HMV Canada,&quot; a statement from the retailer said.
+        &quot;There can be no certainty that any transaction will be concluded.&quot;
+        Earlier this month, the group warned that full-year pre-tax profits would miss market expectations of £45m and that it may breach the terms of its bank loans.
+        However, it reiterated on Friday that its &quot;lending banks continue to be supportive, our banking facilities remain fully available and the group is continuing to maintain regular and constructive dialogue with its lenders&quot;.
+        HMV is closing 60 stores this year as a result of falling sales.
+        The company has struggled in the face of fierce competition from online retailers such as Amazon and iTunes.
+             
+	
+	

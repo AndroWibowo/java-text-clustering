@@ -1,0 +1,273 @@
+
+                        
+
+
+
+
+
+	
+	
+	
+	
+		
+			
+		
+			Please turn on JavaScript. Media requires JavaScript to play.  
+		
+		
+			
+		
+			
+			
+			
+		
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				
+				
+				
+			
+			
+				
+		
+		
+		
+		
+		
+/*<![CDATA[*/
+	bbc.fmtj.av.emp.load( function() {
+		var userAgent = navigator.userAgent.toLowerCase();
+		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
+			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
+			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
+			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
+			userAgent.search("android") == -1)
+		{
+			bbc.fmtj.av.emp.loadProxyPlayer("emp_8189737");
+		}else{
+			bbc.fmtj.av.emp.loadEmp("emp_8189737");
+		}
+	});
+/*]]>*/
+
+
+
+	
+	
+	
+	
+	
+	
+		Advertisement
+	
+	
+	
+	
+	Join BBC Northern Ireland political editor Mark Devenport at Stormont
+
+
+
+
+
+If at first you don't succeed...try, try, try again.Since 
+    
+         
+        
+        
+            
+            the 1998 Good Friday Agreement
+            
+        
+        
+    
+    
+
+
+
+the folks on the Stormont hill have made several attempts to keep devolution on the political tracks. Trains have always been used as an analogy for Northern Ireland's long drawn-out political process. In 1997, Tony Blair warned Sinn F&eacute;in that the &quot;settlement train&quot; was leaving and would not wait. Former DUP leader Ian Paisley, now Lord Bannside, told his party members in 2005 that the &quot;democracy train&quot; was leaving, with or without them. There have been delays, faulty signalling and many long halts leading to the restoration of devolution in May 2007. The Assembly was suspended in February 2000 over the IRA's failure to decommission its weapons, and the issue of arms led to further suspensions of devolution up until October 2002, when allegations of an IRA spy-ring at Stormont again led to direct rule being imposed for a further four years. D'Hondt's rulesNascent power-sharing has been criticised for being heavy on debate and light on law-making, even by some of those Assembly members sitting on the chamber's blue benches. The 
+    
+         
+        
+        
+            
+            Assembly
+            
+        
+        
+    
+    
+
+
+
+ can legislate on all matters transferred to it from Westminster, which includes everything except defence, foreign policy, and raising taxes. The executive, in effect the government of Northern Ireland, is made up of Assembly members using a mechanism created by a 19th Century Belgian lawyer, Victor 
+    
+         
+        
+        
+            
+            D'Hondt
+            
+        
+        
+    
+    
+
+
+
+ for sharing out ministries between parties. Like a box of Belgian chocolates, the largest parties get to choose the tastiest portfolios. The executive is headed by the 
+    
+         
+        
+        
+            
+            Office of the First Minister and Deputy First Minister,
+            
+        
+        
+    
+    
+
+
+
+ which, incumbents of the deputy first minister's post have been keen to point out, is a joint office, with both ministers receiving equal standing and equal powers. Both ministers have also been keen to be questioned less by the Assembly - every four weeks instead of fortnightly - but that move was derailed. The devolution process has been a bumpy ride - from Tony Blair's &quot;hand of history&quot;, to the refusal of DUP politicians to shake hands with their Sinn F&eacute;in partners in government. Former SDLP Deputy Leader Seamus Mallon once famously described the Good Friday Agreement's power-sharing deal as the 
+    
+         
+        
+        
+            
+            1973 Sunningdale Agreement 
+            
+        
+        
+    
+    
+
+
+
+ for slow learners. BBC Democracy Live will allow you to decide if the Assembly train is whizzing by, or the slow coaches are being delayed by the wrong type of political leaves on the line. 
+
+    
+        
+        
+
+	
+		
+
+	
+		
+			
+                            KEY FACTS
+                            
+			
+		
+	
+
+
+
+
+	
+
+
+
+
+
+	
+		
+
+	
+		
+			
+                            The Assembly is Northern Ireland's Parliamentary debating chamberThere are 108 Members of the Legislative Assembly, known as MLAsAssembly proceedings are chaired by a Speaker elected on a cross-community basisThe present Assembly was established under the 1998 Good Friday AgreementA gold-plated chandelier which originally hung in Windsor Castle hangs inside Stormont
+                            
+			
+                            
+                            
+			
+		
+	
+
+
+
+
+
+	
+		
+			
+                            The Assembly Chamber was badly damaged by a fire in 1995The building was blacked out during World War II to avoid German air strikesThe Great Hall was used for the funeral service of footballer George BestThe executive meets in Stormont Castle within the Stormont estateThe Assembly also has a Senate chamber which is mostly used by committees
+                            
+			
+		
+	
+
+
+
+
+	
+
+
+
+
+    
+
+
+
+
+
+                         
+Bookmark with: 
+
+ 
+Delicious 
+
+ 
+Digg 
+
+ 
+reddit 
+
+ 
+Facebook 
+
+ 
+StumbleUpon 
+
+
+What are these?
+
+
+
+<!--
+var bm = new BookMark({site:'',storyid:8838068,sectionid:96730,url:'/democracylive/hi/guides/newsid_8107000/8107911.stm',edition:'Domestic'});
+//-->
+
+                        
+                        
+    
+        
+            
+                
+                E-mail this to a friend
+            
+            
+	       	
+	 	Printable version
+            
+        
+		    
+    
+    
+
+
+
+                        	
+                    

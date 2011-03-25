@@ -1,0 +1,414 @@
+    	
+    		  
+    25 March 2011
+Last updated at 03:59 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - When taking pills can be better than talking', 
+    storyId:'12716742', 
+    sectionId:'99108', 
+    url:'http://www.bbc.co.uk/news/health-12716742', 
+    edition:'International'
+}); 
+-->
+
+
+
+When taking pills can be better than talking
+    
+     
+         
+ 
+        		
+					            	    		 			
+														By Professor Richard Gray
+				University of East Anglia
+			
+		        
+        
+  
+
+    Antidepressants &#039;can save lives&#039;
+  
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	          
+
+		
+		
+						
+		
+		
+	
+						Scrubbing Up
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Stigmatising Charlie Sheen
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	&#039;Too many hospitals&#039;
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Bring in 20mph limit &#039;urgently&#039;
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Genital warts action call
+	
+		
+	  	  
+  
+
+
+		
+	
+
+	       	     
+	
+                      Talking therapies are often cited as the best way of helping people with mental health problems.
+                        But Richard Gray, a professor of nursing research, says sometimes pills are the answer.
+        Sitting in a village hall with 50 other people listening to a Powerpoint presentation about coping with stress is probably not what you have in mind when you think about receiving a talking treatment. 
+        But this is the reality for many patients on the NHS&#039;s Improving Access to Psychological Therapies (IAPT) programme. 
+        Depression and anxiety may affect up to one in four of us at some point in our lives and is a major reason why people are on long term sick leave or are unemployed. 
+        Psychological treatments (such as CBT - cognitive behavioural therapy) and antidepressant medication are very effective in treating these illnesses. 
+        But when given a choice most choose a talking therapy over medication. 
+        Why people prefer psychological treatments is unclear but might be because of the negative media stories and stigma associated with taking pills for a mental illness. 
+  'Voting with their feet'
+	      Accessing talking treatments has, for many years, been restricted by the very limited number of qualified therapists that can provide the therapy. 
+        The IAPT programme, launched in 2007, sought to address this; making talking treatments available to the many, not just the few. 
+  
+	Continue reading the main story	&ldquo;Start Quote
+Is it time to question our seeming obsession with talking treatments? &rdquo;
+End Quote
+	Professor Richard Gray
+	
+
+		      The investment of £170m to make talking treatments widely available was aimed at enabling large numbers of economically inactive patients get back to work. 
+        But the end of first year, evaluation suggests that patients on IAPT received, on average, just  three sessions of treatment; well below the 16-20 sessions recommended by the National Institute for Health and Clinical Excellence (NICE) to be effective against depression and anxiety. 
+        Large numbers of patients are seemingly voting with their feet and walking away early. Does this reflect the quality of therapy or the way it is being offered (back to our of 50 patients in the village hall)? 
+        Improving access to talking treatments is a major campaigning issue for major mental health charities.
+        And it was striking that the majority of the media coverage surrounding the launch of the recent government mental health strategy also seemed to focus on the single issues of improving access to psychological treatments. 
+        Is it time to question our seeming obsession with talking treatments? 
+  'Troubling and dangerous'
+	      Although it feels like heresy to suggest this I want to stand up for the very important role medication can play in the treatment of mental illness. 
+        Antidepressants are very effective in treating moderate to severe depression, quickly alleviating distressing and disabling symptoms in about seven out of 10 patients. 
+        Yes, pills can have side effects but so does CBT. 
+        There are many patients that I have worked with who feel passionately that antidepressants have literally saved their lives. 
+        Unlike talking treatments, prescribing a medication guarantees patients will get the full &quot;dose&quot; of  treatment.  
+        When it comes to severe mental illnesses such as schizophrenia and bipolar disorder I think it is even more important to stand up for medication which, I believe, should be viewed as the foundation for effective treatment. 
+        I have been quite taken aback recently to hear a number of experienced psychiatric colleagues promoting psychological therapies as the preferred treatment choice for patients with these illnesses. 
+        This is a troubling and dangerous consequence of our talking treatment obsession. 
+        CBT can be helpful against schizophrenia and bipolar depression (but not mania), but requires patients to be taking medication first.  
+        Both psychological therapies and medication have a role to play in helping people move on with their lives and recover from mental illness. 
+        There are, I think, real challenges facing those implementing IAPT in guaranteeing that patients get the quality of talking treatments they require; surely not mass CBT in the village hall. 
+        Taking medication means that patients get a treatment that has been shown to be effective in treating their symptoms. 
+        Is it time to think about Improving Access to Pharmacological Therapies?          
+        Professor Gray has written a book on treating psychosis with CBT, and has given lectures on behalf of a number of pharmaceutical companies.
+  ? 
+ 
+
+ 
+
+ 
+ 
+
+div.dna-comments_module textarea#dna-commentbox-text
+{
+    max-width: 100% !important;
+    width: 100% !important;
+    float: none;
+}
+
+div.dna-comments_module .dna-textarea-container textarea#dna-commentbox-text
+{
+    padding: 0;
+    border: none;
+}
+
+div.dna-comments_module form#submit_new_comment input
+{
+    clear: none !important;
+    float: none !important;
+    width: auto !important;
+}
+
+div.dna-comments_module ul.tabs
+{
+    margin-bottom: 0 !important;
+    clear: both;
+    float: none;
+}
+
+div.dna-comments_module
+{
+    max-width: 448px;
+}
+
+div.dna-comments_module ul.tabs li
+{
+    background-image: none !important;
+}
+
+div.dna-comments_module ul.collections li p
+{
+    font-size: 13px !important;
+    margin-bottom: 6px !important;
+}
+
+div.dna-comments_module ul
+{
+    display: block !important;
+}
+
+div.dna-comments_module ul.collections
+{
+    margin-bottom: 0 !important;
+}
+
+div.dna-comments_module ul.collections li div.dna-comments-comment-footer a
+{
+    font-size: 11px !important;
+}
+
+div.dna-comments_module form#submit_new_comment
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    float: none !important;
+    display: block !important;
+    margin-top: -16px;
+    clear: both;
+}
+
+/** IE FIXES **/
+
+.ie div.dna-comments_module form#submit_new_comment input,
+.ie7 div.dna-comments_module form#submit_new_comment input
+{
+    padding: 4px;
+    font-size: 13px;
+    border: 1px solid #cccccc;
+}
+
+.ie div.dna-comments_module form#submit_new_comment .dna-comments-footer,
+.ie7 div.dna-comments_module form#submit_new_comment .dna-comments-footer
+{
+    font-size: 12px;
+}
+
+.ie div.dna-comments_module,
+.ie7 div.dna-comments_module
+{
+    position: relative;
+}
+
+.ie div.dna-comments_module ul.tabs,
+.ie7 div.dna-comments_module ul.tabs
+{
+    position:relative;
+}
+
+.ie div.dna-comments_module ul.tabs li,
+.ie7 div.dna-comments_module ul.tabs li
+{
+    position: relative;
+}
+
+/* Story fixes */
+div.dna-comments_module ul.comments_pagination_ul li
+{
+    background-image: none;
+    padding: 0;
+}
+
+div.dna-comments_module .dna-comments-comment-footer
+{
+    line-height: 22px;
+}
+
+div.dna-comments_module .dna-commentbox-add-comment-cta
+{
+    margin-bottom: 8px;
+}
+
+.dna-comments_module .dna-comment-list
+{
+    margin-bottom: 8px;
+}
+
+.dna-comments_module .dna-commentbox-logged-in
+{
+    margin-bottom: 0;
+}
+
+.dna-comments_module .dna-user-signin-panel p
+{
+    color: #A9A9A9;
+    font-size: 1em;
+}
+
+.dna-comments_module .comments_pagination_ul
+{
+    margin-bottom: 0;
+}
+
+div.dna-comments_module #comment_pagination_page_status
+{
+    height: 16px;
+}
+
+div.dna-comments_module textarea#dna-commentbox-text
+{
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    width: 431px !important;
+}
+
+div.dna-comments_module .dna-textarea-container textarea#dna-commentbox-text
+{
+    padding: 0;
+    border: none;
+    margin-bottom: 0;
+    width: 100% !important;
+}
+
+div.dna-comments_module hr
+{
+/*    display: none;*/
+}
+
+.ie7 div.dna-comments_module ul.comments_pagination_ul li.show_more img
+{
+    position: absolute;
+    left: 232px;
+}
+
+div.dna-comments_module ul.comments_pagination_ul li.hidden img
+{
+    top: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+                          (function() { var commentsModuleLoader = setInterval(function() { if (typeof(commentsModule) == 'function' && typeof(window.comments) == 'object' && window.comments.flags.glow_ready == true) { comments.initParams( { bbc_id_env : 'id.bbc.co.uk', ajax_load_url : '/modules/comments/index/getcomments/', ajax_preview_url : 'http://www.bbc.co.uk/modules/comments/index/preview/', items_per_page : 20, sort_order : 'Descending', filter : 'none', current_page : 1, page_count : 3, site_name : 'newscommentsmodule', forum_id : '12716742', preset : 'opinion', parent_uri : 'http://www.bbc.co.uk/news/health-12716742', postFreq : 0, character_limit : 0, policy_uri : '', textarea_height : '16px' ,logged_in : false  }); clearInterval(commentsModuleLoader); } }, 100); })();     Comments        You are not currently signed in. Sign in or register.                                                    All posts are pre-moderated  and must obey the house rules             &nbsp;   All Comments (45)              45. AJC  23 Minutes Ago     DozR, don't give up, you deserve help with this.  See each doctor in the GP practice, if none are helpful register at another practice!GPs are regularly accused of handing out SSRIs like smarties, I'm sure you'll stumble across one who'll suggest a trial on medication to see if it helps.  You could also check for other counselling services in your area or a supportive forum online.  Good luck.     Report this comment Link to this          44. DozR  1 Hour Ago     When I went to the doctor suffering from anxiety they sent me to one of their funded Councilors. A couple of sessions with a Councilor was never going to solve the problem. Now I feel that I have to just cope with it on my own as the doctors are so reluctant to give medication. It affects my life but I don't see any other way.     Report this comment Link to this          43. AJC  1 Hour Ago     I believe my depression stems from a genetic predisposition and psychological factors related to my upbringing.It took a very long time to find a combination of medications that are effective and I know that I NEED them.In my case, poor talking therapy has caused a considerable amount of distress and made me feel much worse.The pills work and good psychotherapy has the potential to help.     Report this comment Link to this          42. Sandra D  2 Hours Ago     I  believe that there are primarily two different categories of depression. Each type can & should be treated differently. After careful assessment and evaluation.Clinical depression, which is mainly caused by a brain chemical imbalance problem, should be treated medically with drugs to gradually correct the imbalance. While acute situational depression is best treated with careful counselling.     Report this comment Link to this          41. oink1  4 Hours Ago     There is arguably a more "troubling and dangerous" obsession in our quick-fix world with viewing human beings as a collection of unbalanced chemicals that we should "correct".  It is also worth nothing the author has "given lectures on behalf of a number of pharmaceutical companies".  It is arguably in the interest of these companies to promote drugs, rather than human beings.      Report this comment Link to this         &nbsp;        Comments 5 of 45    Show more    &nbsp;      Add your comment      You are not currently signed in. Sign in or register.           
+
+           
+	
+	

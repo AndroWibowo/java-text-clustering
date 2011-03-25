@@ -1,0 +1,144 @@
+
+                        
+
+
+
+
+
+	
+	
+	
+	
+		
+			
+		
+			Please turn on JavaScript. Media requires JavaScript to play.  
+		
+		
+			
+		
+			
+			
+			
+		
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				
+				
+				
+			
+			
+				
+		
+		
+		
+		
+		
+/*<![CDATA[*/
+	bbc.fmtj.av.emp.load( function() {
+		var userAgent = navigator.userAgent.toLowerCase();
+		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
+			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
+			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
+			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
+			userAgent.search("android") == -1)
+		{
+			bbc.fmtj.av.emp.loadProxyPlayer("emp_9435268");
+		}else{
+			bbc.fmtj.av.emp.loadEmp("emp_9435268");
+		}
+	});
+/*]]>*/
+
+
+
+	
+	
+	
+	
+	
+	
+		Advertisement
+	
+	
+	
+	
+	Scientists suggest 'cloud' to combat Qatar heat
+
+
+
+
+
+Scientists at Qatar University claim to have developed artificial clouds to provide shade for stadia and training grounds at the 2022 World Cup.The fierce summer heat in the Gulf has led to concerns about conditions for players and fans at the tournament. Temperatures in June and July can reach up to 50C. Qatar were announced as hosts in December, and Fifa president Sepp Blatter initially said he expected the 2022 competition to be moved to winter. But Blatter has since stated that he feels the tournament will go ahead as planned in the summer months. Qatar plan to air condition their World Cup stadia via solar power, and now scientists have designed the 'clouds', which can be produced at a cost of $500,000 (about &pound;310,000) each. Saud Abdul Ghani, head of the mechanical and industrial engineering department at the university, said the 'clouds' are made from a lightweight carbon structure, and carry a giant envelope of material containing helium gas. Four solar-powered engines move the structure via remote control. Qatari president of the Asian Football Confederation Mohammed Bin Hammam, who will stand against Blatter for the Fifa presidency in June, has said his country is &quot;well equipped to challenge the summer heat&quot;. But global players' football union FIFPro backed a switch to winter, saying the Gulf country &quot;does not provide suitable conditions for a festival of football such as the World Cup&quot;. Qatar beat Australia, Japan, South Korea and the United States to host the tournament in the vote held by Fifa's executive committee on 2 December 2010 in Zurich.
+
+
+                         
+Bookmark with: 
+
+ 
+Delicious 
+
+ 
+Digg 
+
+ 
+reddit 
+
+ 
+Facebook 
+
+ 
+StumbleUpon 
+
+
+What are these?
+
+
+
+<!--
+var bm = new BookMark({site:'Sport',storyid:9435035,sectionid:46459,url:'/sport2/hi/football/9435035.stm',edition:'International'});
+//-->
+
+                        
+                        
+    
+        
+            
+                
+                E-mail this to a friend
+            
+            
+	       	
+	 	Printable version
+            
+        
+		    
+
+	Print Sponsor
+	BBC.adverts.write("storyprintsponsorship");
+
+BBC.adverts.show("storyprintsponsorship");
+
+    
+    
+
+
+
+                        
+
+	bbc_adsense_slot = "adsense_middle";"by" == "us" ? bbc_adsense_country = "by" : bbc_adsense_country = "rest";
+	
+
+BBC.adverts.show("adsense_middle");
+	
+                    

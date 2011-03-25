@@ -1,0 +1,178 @@
+    	
+        		  
+    23 March 2011
+Last updated at 16:05 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Games industry wins tax relief', 
+    storyId:'12829815', 
+    sectionId:'99113', 
+    url:'http://www.bbc.co.uk/news/technology-12829815', 
+    edition:'International'
+}); 
+-->
+
+
+
+Games industry wins tax relief
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Games industry would have liked more out of the budget
+  
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	          
+
+		
+		
+						
+		
+		
+	
+						Budget 2011
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Key points at-a-glance
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	How will the Budget affect you?
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Budget calculator
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	&#039;Jobs to go&#039; due to oil tax hike
+	
+		
+	  	  
+  
+
+
+		
+	
+
+	       	     
+	
+                      TIGA, the trade association which represents the UK games industry has described plans to enhance R&amp;D tax credits as a &quot;decisive victory&quot; for its members.
+        The announcement in the budget should be worth around £7 million to the video games industry, a spokesman said.
+        It will mean studios can invest more in research and development, as well as hiring additional staff.
+        But it falls short of the specific tax relief that the industry wanted.
+        Dr Richard Wilson, TIGA chief executive said: &quot;The R&amp;D tax credits will deliver 60% to 70% more value to games studios than the current tax credit regime.&quot;
+        But he was unhappy that the government had not gone further.
+        &quot;Failure to deliver TIGA&#039;s Games Tax Relief is a dismal decision that displays a complete lack of imagination and one which will leave the UK video games industry swimming against the tide internationally,&quot; he said.
+        &quot;Our key competitors have tax breaks for games production. The UK does not,&quot; he said.
+        Canada, for example, saw its games industry grow by 33% between 2008 and 2010, while the UK sector declined by 9%.
+        Plans by Labour to introduce tax cuts for the games industry were scrapped by the incoming coalition government during its 2010 emergency budget.
+             
+	
+	

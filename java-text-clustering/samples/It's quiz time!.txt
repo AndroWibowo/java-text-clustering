@@ -1,0 +1,453 @@
+    	
+    		  
+    25 March 2011
+Last updated at 00:04 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Weekly world news quiz', 
+    storyId:'12846437', 
+    sectionId:'99115', 
+    url:'http://www.bbc.co.uk/news/world-12846437', 
+    edition:'International'
+}); 
+-->
+
+
+
+Weekly world news quiz
+    
+     
+         
+ 
+        		
+		        
+        Continue reading the main story
+
+	
+
+	/*div.story-body div#quiz_container{
+		width:448px;
+		border:1px solid;
+		padding-left:16px;
+	}*/
+
+	
+
+	
+
+
+
+
+
+
+	
+	Info
+	It's the World News 7 days 7 questions weekly quiz - a chance to find out how much global news from the past week you've read, heard and watched... and how much has stayed lodged in the old grey matter.
+	
+		
+			
+		
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	1.) Multiple Choice Question
+	The world's most famous polar bear, Knut, has died in Berlin. He once appeared on the front cover of US Vanity Fair with which celeb?
+	
+	
+	
+		Mike Tyson
+		
+			
+				
+			
+		
+		
+	
+		Leonardo DiCaprio
+		
+			
+				
+			
+		
+		
+	
+		Britney Spears
+		
+			
+				
+			
+		
+		
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+	
+	
+	2.) Multiple Choice Question
+	Government workers in a particular country are being issued with a manual on how to reduce the use of sexist language. Which country is it?
+	
+		
+			
+		
+	
+	
+	
+		Mexico
+		
+		
+	
+		Spain
+		
+		
+	
+		Italy
+		
+		
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+	
+	
+	3.) Multiple Choice Question
+	Which of the following landlocked countries is threatening to take its neighbour to the international courts to try to gain access to the sea?
+	
+		
+			
+		
+	
+	
+	
+		Ethiopia
+		
+		
+	
+		Bolivia
+		
+		
+	
+		Serbia
+		
+		
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+	
+	
+	4.) Multiple Choice Question
+	A sequel to Chitty Chitty Bang Bang - James Bond writer Ian Fleming's children's story about a flying car - is being written, but the old racing car is to be replaced with what?
+	
+		
+			
+		
+	
+	
+	
+		A VW Camper Van
+		
+		
+	
+		A Harley Davidson
+		
+		
+	
+		An Electric Car
+		
+		
+	
+	
+	
+	
+
+
+
+
+
+
+
+	
+	Info
+	The sequel will tell the story of a family who get more than they bargained for after they soup up their VW camper van with an old racing car engine.
+	
+		
+			
+		
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	5.) Multiple Choice Question
+	The US, the UK and Canada all have different codenames for their military operations in Libya. In France it is known as Operation Harmattan - an Arabic word. What does it refer to?
+	
+		
+			
+		
+	
+	
+	
+		A geographical region
+		
+		
+	
+		The colour green
+		
+		
+	
+		A dry wind
+		
+		
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+	
+	
+	6.) Multiple Choice Question
+	A Mayan sculpture that fetched 2.9m euros ($4.2m, £2.5m) at a Paris auction is a fake, Mexican officials have said. What in particular do they say is from the wrong period?
+	
+		
+			
+		
+	
+	
+	
+		The hat
+		
+		
+	
+		The shield
+		
+		
+	
+		The bootstraps
+		
+		
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+	
+	
+	7.) Multiple Choice Question
+	Elizabeth Taylor, who died this week, married actor Richard Burton for the first time just 11 days after she divorced Eddie Fisher. Where did the pair tie the knot?
+	
+		
+			
+		
+	
+	
+	
+		Mexico
+		
+		
+	
+		Canada
+		
+		
+	
+		The US
+		
+		
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+	Answers
+	
+	
+		It was Leonardo DiCaprio in May 2007. Knut was photographed separately and superimposed on a shot of DiCaprio in Iceland. Two months earlier he had had the entire cover of German Vanity Fair all to himself.
+	
+		It's Mexico. The manual advises Mexican government workers to avoid comments that enforce gender stereotypes, as well as the default use of the masculine form in the Spanish language. The phrases it warns against  include: "If you want to work, why did you have children?" and "You're prettier when you keep quiet".
+	
+		It's Boliva, which has said it will take Chile to international courts to try to recover access to the Pacific Ocean, which it lost in a war more than a century ago. The landlocked Andean nation maintains a small navy, and schoolchildren are taught that regaining access to the sea is a patriotic duty.
+	
+		It's a VW Camper Van. Novelist and screen writer Frank Cottrell Boyce was asked by the family of original creator Ian Fleming to pen a sequel.
+	
+		It's a dry wind. Both the UK and US military say the names they have chosen - ELLAMY and Odyssey Dawn - are meaningless. Canada has chosen a name that begins with "m" - MOBILE - because the operation is being conducted in part in the Mediterranean.
+	
+		It's the bootstraps. "The figure tries to recreate the Pre-Columbian features of the Maya region in southeastern Mexico, but the height, the posture and the flexed legs and the boot straps are not characteristic of this culture," a spokesman from Mexico's National Institute of Anthropology and History said.
+	
+		It was Canada. The pair married in Montreal but because Quebec had no civil marriage at the time, the ceremony was conducted by Rev Leonard Mason of what was then known as the Unitarian Church of the Messiah. Both Taylor and Burton had just obtained divorces in Mexico, because at the time the US did not have liberal divorce laws.
+	
+	
+	
+	
+	
+	Your Score
+	
+		0 - 2 : Lassie
+	
+		3 - 5 : Cleopatra
+	
+		6 - 7 : Giant
+	
+	
+
+
+
+
+
+
+
+
+	
+		
+		
+		(function() {
+			
+			var glow;
+			
+			gloader.load(
+			["glow","1","glow.embed"],{
+					async: false,
+					onLoad: function(fetchedGlow) {
+							glow = fetchedGlow;
+							glow.ready(init);
+					}
+			 });
+			
+			function init() {
+
+				   var params = {
+						width: "416",
+						height: "234",
+						params: {
+							flashVars: {
+								path:"http://www.bbc.co.uk/news/nol/shared/spl/hi/quiz/11/03/24/083914/",
+								docUri:"http://www.bbc.co.uk/news/world-12846437",
+								referer:'(none)',
+								timefmt:'56'
+
+							}
+						}
+					};
+
+				new glow.embed.Flash("http://www.bbc.co.uk/news/nol/shared/spl/hi/quiz/player/quizplayer2.swf?v=2342342342341234","#quiz_container", "8", params).embed();
+			}
+	})();
+	      The world news quiz is published every week, on a Friday.  
+        If you missed our world news quiz last week, you can catch up by clicking here: 
+        World weekly quiz 18 March
+        And if you want to give your long-term memory a vigorous workout, here is the quiz from the week before:
+        World weekly quiz 11 March
+             
+	
+	

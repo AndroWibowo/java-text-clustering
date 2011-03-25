@@ -1,0 +1,82 @@
+    	
+    		  
+    25 March 2011
+Last updated at 07:58 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Songbird Estates profit boosted by Lehman sale', 
+    storyId:'12858502', 
+    sectionId:'99104', 
+    url:'http://www.bbc.co.uk/news/business-12858502', 
+    edition:'International'
+}); 
+-->
+
+
+
+Songbird Estates profit boosted by Lehman sale
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Songbird lost out on rent payments after the collapse of Lehman Brothers bank
+  
+	
+		Continue reading the main story		Related Stories
+		
+						JP Morgan reveals new London HQ
+											Property firm hit by Lehman loss
+								
+	
+                      The property company that owns much of Canary Wharf has reported a sharp rise in annual profits, thanks in part to the sale of the old Lehman Brothers building to JP Morgan.
+        Songbird Estates posted pre-tax profits for 2010 of £463.8m, a rise of 39% on the £334.6m the company made in 2009.
+        The firm also said new tenants helped to boost retail rents.
+        The market value of its portfolio at 31 December stood at £4.6bn, a rise of almost 10% on a year earlier.
+        &quot;The group had a very positive 2010 and will be looking to continue development at Canary Wharf in 2011,&quot; said Songbird&#039;s chairman David Pritchard.
+        Songbird had to write off more than £50m in 2010 after Lehman Brothers&#039; administrators stopped paying rent on its Bank Street offices. 
+        Songbird controls more than half the buildings in Canary Wharf.
+        It is the majority stakeholder in Canary Wharf Group, which rents out 17 of the 35 retail and office buildings in the London financial district.
+             
+	
+	

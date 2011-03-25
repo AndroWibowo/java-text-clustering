@@ -1,0 +1,270 @@
+
+                        
+
+
+
+
+    
+        
+        
+            
+                
+                    
+                    
+                        By Victoria Gill
+                    
+                
+                
+                    
+                    
+                        Science and nature reporter, BBC News
+                    
+                
+            
+        
+        
+    
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+				Four native species of oil beetle are now left in the UK
+			
+			
+		
+		
+	
+
+	
+
+
+Conservationists are asking the public to take part in the first survey of the UK's threatened oil beetles.These large, lustrous insects thrive in wildflower-rich grasslands and heaths - areas of habitat that are being lost. In the last hundred years, half of the country's eight native species of oil beetle have disappeared. The charity Buglife is co-ordinating the survey to find out where the remaining four species are, and protect those areas. Oil beetles can grow up to 3cm long and get their name from a toxic, oily substance they release from their leg joints to deter predators.
+	
+
+	
+		    
+			    
+				
+				
+			            
+			            
+			                
+					
+			                    
+			                            
+			                    
+					
+			                
+			                     
+			                    
+	
+		
+			
+			Oil beetles used to be common across the UK, but they've declined drastically
+			
+	
+	
+
+
+
+
+
+			                
+			                     
+			                    
+	Andrew WhitehouseBuglife
+
+
+
+			                
+			                    
+			                        
+			                            
+			                        
+			                     
+			                    
+    
+         
+        
+        
+            
+            More on beetles from BBC Wildlife Finder
+            
+        
+        
+    
+    
+
+
+
+
+			                
+			            
+			        
+				
+				
+			    
+			
+	
+
+
+
+The females dig burrows to lay their eggs and their larvae rely on nearby vegetation to complete their strange and rather gruesome life cycle. When the larvae hatch, they crawl up onto vegetation and hop onto passing mining bees. &quot;The larva hitches a ride back to the bee's nest and eats the bee's eggs and its store of nectar and pollen,&quot; explained Andrew Whitehouse, Buglife's beetle expert. &quot;It's pretty nasty stuff, but that's the cycle of life. And it means they have this intimate link with wild bees, so they're a really good indicator of the health of our countryside.&quot; There are now four oil beetle species found in the UK: the black oil beetle (Meloe proscarabaeus), violet oil beetle (M. violaceus), rugged oil beetle (M. rugosus) and short-necked oil beetle (M. brevicollis). The short-necked oil beetle was thought to be extinct in this country until it was rediscovered in South Devon in 2007. Do look down
+
+
+
+
+
+	
+	
+	
+	
+		
+			
+		 
+			
+		
+			Please turn on JavaScript. Media requires JavaScript to play.  
+		
+		
+			
+		
+		 
+			
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				
+		
+		
+		
+		
+		
+/*<![CDATA[*/
+	bbc.fmtj.av.emp.load( function() {
+		var userAgent = navigator.userAgent.toLowerCase();
+		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
+			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
+			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
+			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
+			userAgent.search("android") == -1)
+		{
+			bbc.fmtj.av.emp.loadProxyPlayer("emp_9436028");
+		}else{
+			bbc.fmtj.av.emp.loadEmp("emp_9436028");
+		}
+	});
+/*]]>*/
+
+
+
+	
+	
+	
+	
+
+
+
+
+
+Because the females like to dig their burrows on bare ground, they can often be seen walking across footpaths. The National Trust is helping with the survey by erecting signs on its land encouraging people to look down to spot the insects (and avoid squashing them). People can take part in the survey by uploading photographs of beetles onto the 
+    
+         
+        
+        
+            
+            Buglife website.
+            
+        
+        
+    
+    
+
+
+
+&quot;Oil beetles used to be common across the UK, but they've declined drastically,&quot; said Mr Whitehouse. &quot;Recently, we've had fewer and fewer records of them, especially in the south-east of England, where we've lost so much flower-rich habitat and wild bees.&quot; &quot;They are one of our most fantastic invertebrates, with a crazy life cycle,&quot; said Mr Whitehouse. &quot;It would be a terrible shame if we weren't able to walk along and see them in the countryside.&quot;
+
+
+                         
+Bookmark with: 
+
+ 
+Delicious 
+
+ 
+Digg 
+
+ 
+reddit 
+
+ 
+Facebook 
+
+ 
+StumbleUpon 
+
+
+What are these?
+
+
+
+<!--
+var bm = new BookMark({site:'',storyid:9434963,sectionid:92638,url:'/earth/hi/earth_news/newsid_9434000/9434963.stm',edition:'Domestic'});
+//-->
+
+                        
+                        
+    
+        
+            
+                
+                E-mail this to a friend
+            
+            
+	       	
+	 	Printable version
+            
+        
+		    
+
+	Print Sponsor
+	BBC.adverts.write("storyprintsponsorship");
+
+BBC.adverts.show("storyprintsponsorship");
+
+    
+    
+
+
+
+                        
+
+	bbc_adsense_slot = "adsense_middle";"by" == "us" ? bbc_adsense_country = "by" : bbc_adsense_country = "rest";
+	
+
+BBC.adverts.show("adsense_middle");
+	
+                    

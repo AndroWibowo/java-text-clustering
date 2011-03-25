@@ -1,0 +1,111 @@
+    	
+    		  
+    24 March 2011
+Last updated at 06:44 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Welsh hospital food \'needs to improve\', says auditor', 
+    storyId:'12838431', 
+    sectionId:'99114', 
+    url:'http://www.bbc.co.uk/news/uk-wales-12838431', 
+    edition:'International'
+}); 
+-->
+
+
+
+Welsh hospital food &#039;needs to improve&#039;, says auditor
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    The daily cost of feeding a patient varies from £1.33 to £5.66, says the report
+  
+	
+		Continue reading the main story		Related Stories
+		
+						&#039;Sub-standard&#039; food hygiene worry
+											Salt in hospital meals &#039;too high&#039;
+											Local food boosts hospital funds
+														
+	
+                      Hospital catering is improving in Wales but more must be done to ensure patients get the right &quot;nutritional care&quot;, a finance watchdog says.
+        Many patients were satisfied with the food although not all received the help they needed at mealtimes, the auditor general said.
+        Large amounts were also being wasted and the daily cost of patient meals varied greatly.
+        Nursing chiefs said &quot;significant work&quot; had been done on improvements.
+        The report said many Welsh hospitals provided patients with an &quot;appropriate choice of good quality food&quot;. 
+        But there is still &quot;much room for improvement&quot;, with the auditor general finding that not all patients get the help they need at mealtimes.
+        What at-risk patients ate was not always recorded, and care plans were not always in place for those with nutritional problems, the report found.
+        Auditor General for Wales, Huw Vaughan Thomas, said more needs to be done.
+        &quot;NHS organisations must recognise the importance of patient nutrition and ensure that there is effective leadership at ward level so that best practice is implemented,&quot; he said.
+  
+	Continue reading the main story		Report recommendations
+		
+	
+	
+	
+     The need for the assembly government to develop and issue standard all-Wales nursing documentation to promote consistent nutritional screening and care planning
+     The need to develop a clear costing model for patient and non-patient catering services that supports meaningful comparisons of hospital catering costs across Wales 
+     Setting clear pricing policies for non-patient catering services
+     Establishing local and national targets for food wastage
+     The need for NHS bodies to audit compliance with all aspects of the assembly government&#039;s nutritional care &quot;pathway&quot;
+     SOURCE: Wales Audit Office
+  
+	
+	      The report found the daily cost of feeding a patient ranged from £1.33 to £5.66. 
+        There was also an &quot;unacceptably high&quot; amount of food wasted on many wards which, if tackled, &quot;could generate significant savings&quot;.
+        &quot;The cost of unserved meals on the wards we visited was approximately £1.5m,&quot; said the report.
+        &quot;If these wards reduced unserved meal wastage to the best performing wards in our sample, savings of over £758,000 could be achieved.&quot;
+        The report found that where there was strong leadership, nutritional care was &quot;invariably better&quot;.
+        Chair of the assembly public accounts committee, Darren Millar, said: &quot;Although hospital catering services in Wales have improved, a great deal still needs to be done to make sure patients get the nutritional care they need, that the amount of food waste on wards is reduced, and that better financial information on catering services is available,&quot; he said.
+        Chief nursing officer for Wales, Prof Jean White, said she was pleased the &quot;significant work&quot; done to improve hospital food was recognised.
+  Save money
+	      Patients were now assessed on arrival and a food record ensured dietary and nutritional requirements were given the same priority as medication. 
+        &quot;Through Welsh Health Supplies, all NHS organisations in Wales already collaborate when procuring goods and services and are on target to save £20.7m in this year,&quot; she said. 
+        &quot;Contracts ensure that food in hospitals is sustainable, safe, of good quality and procured efficiently.&quot; 
+        Prof White said they were also looking at linking with councils to buy-in supplies. 
+        Katherine Murphy, chief executive of the Patients Association, said the report provided &quot;yet more evidence that the health service in Wales is still struggling to provide basic care for every patient.&quot;
+             
+	
+	
