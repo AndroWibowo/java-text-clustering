@@ -10,7 +10,7 @@ import com.google.common.base.Preconditions;
 public class Document {
 
     private Map<String, Integer> _terms;
-    
+
     private String _originalText;
 
     public Document() {
@@ -23,9 +23,9 @@ public class Document {
         final String normalizedTerm = term.toLowerCase().trim();
 
         Integer count = _terms.get(normalizedTerm);
-        Integer incCount = (count == null) ? 1 : count + 1;
+        Integer newTermCount = (count == null) ? 1 : count + 1;
 
-        _terms.put(normalizedTerm, incCount);
+        _terms.put(normalizedTerm, newTermCount);
     }
 
     public Set<String> getAllTerms() {

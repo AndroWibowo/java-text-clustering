@@ -27,20 +27,6 @@ public class WordList {
         return result;
     }
 
-    // TODO remove the method
-    public static void main(String[] args) throws Exception {
-        File stopWords = new File("dictionary\\stopwords.txt");
-        System.out.println(stopWords.getCanonicalPath());
-        System.out.println(stopWords.getAbsolutePath());
-        WordList stopWordList = WordList.load(stopWords);
-
-        for (String stopWord : stopWordList._words) {
-            System.out.println(stopWord);
-        }
-
-        System.out.println("Total: " + stopWordList._words.size());
-    }
-
     private final Set<String> _words = new HashSet<String>();
 
     public boolean contains(String word) {
@@ -68,11 +54,25 @@ public class WordList {
                     }
                 }
             }
-        } finally {
+        }
+        finally {
             if (scanner != null) {
                 scanner.close();
             }
         }
     }
 
+    // TODO this is a test method, remove it later
+    public static void main(String[] args) throws Exception {
+        File stopWords = new File("dictionary\\stopwords.txt");
+        System.out.println(stopWords.getCanonicalPath());
+        System.out.println(stopWords.getAbsolutePath());
+        WordList stopWordList = WordList.load(stopWords);
+
+        for (String stopWord : stopWordList._words) {
+            System.out.println(stopWord);
+        }
+
+        System.out.println("Total: " + stopWordList._words.size());
+    }
 }
