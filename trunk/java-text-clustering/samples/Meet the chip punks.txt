@@ -1,0 +1,318 @@
+    	
+        		  
+    18 March 2011
+Last updated at 02:50 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Chiptune: Creating music using old video game technology', 
+    storyId:'12774683', 
+    sectionId:'99127', 
+    url:'http://www.bbc.co.uk/news/world-us-canada-12774683', 
+    edition:'International'
+}); 
+-->
+
+
+
+Chiptune: Creating music using old video game technology
+    
+     
+         
+ 
+        		
+					            	    		 			
+														By Matt Danzico
+				BBC News, New York
+			
+		        
+        
+
+
+
+	
+ 
+
+
+    
+        		
+        
+            
+                                
+                                Please turn on JavaScript. Media requires JavaScript to play.
+            
+        
+        
+            
+                    
+                
+                    
+					
+							
+		            
+            
+            
+            
+            
+			
+		            
+                
+            
+        
+                    
+            
+        
+        
+        
+        
+/*<![CDATA[*/
+	bbc.fmtj.av.emp.load( function() {
+		var userAgent = navigator.userAgent.toLowerCase();
+		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
+			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
+			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
+			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
+			userAgent.search("android") == -1)
+		{
+			bbc.fmtj.av.emp.loadProxyPlayer("emp-12780461-23327");
+		}else{
+			bbc.fmtj.av.emp.loadEmp("emp-12780461-23327");
+		}
+	});
+/*]]>*/
+
+
+
+            
+             
+          
+		
+			
+				$render("advert","advert-companion","12780461");
+			
+			$render("advert-post-script-load");
+		
+         
+         
+    	
+        		
+		Chip music band Starscream employs aged video game and computer equipment to create their unique sound
+		
+        
+
+
+                      Nintendo Game Boys and Commodore 64s are the types of aged devices one might find in a childhood closet or stuffy attic. But imaginative musicians in a gamer-centric subculture have been using this antique technology to develop a breed of music that is slowly peeking its head into mainstream culture.
+        Chiptune music, or chip music, is produced using video game consoles and old-fashioned home computer technology, primarily from the 1980s.
+        And tech-minded musicians use third-party software to tap the machines&#039; sound chips to produce original forms of output through the devices. 
+        Electronic beats and sometimes more traditional instruments are then blended with retro-sounding beeps and bleeps from the doddery hardware.
+  
+  
+
+    Digital art is frequently projected on to walls behind musicians during chip music shows
+  
+      When playing, chip music composers rhythmically strike buttons of the devices, like the Nintendo Entertainment System (NES), Nintendo Game Boy and Commodore 64 computer, to form musical patterns of notes.
+        Chiptune is not actually a genre, but rather simply a process for producing the music, which can range in sound from fast, upbeat punk to a slow, dispirited, ambient sound, says Damon Hardjowirogo, of the band Starscream.
+        &quot;It&#039;s a means of producing new compositions using a specific type of hardware,&quot; says Mr Hardjowirogo, who uses two Game Boys and a Commodore 64 when performing.
+  
+	Continue reading the main story	&ldquo;Start Quote
+Most electronic music is so produced. And it's not that I don't like electronic music, but it's cool to hear a really rough version of it, something a little edgier&rdquo;
+End Quote
+	Ary Warnaar
+	Guitarist, Anamanaguchi
+
+		      The old electronics have limited ranges of sound, and chip musicians say the raw sounds the machines produce when you push the limits of their internal chips is what&#039;s attractive about composing on them.
+        Mr Hardjowirogo and drummer George Stroud formed Starscream three years ago when they were in high school - where they wrote songs on their pocket-sized consoles between classes.
+        The band have toured England, Canada, Germany and Hungary and have hauled their musical gadgets and drum equipment to countless live shows since their formation.
+        &quot;The chip music scene is very much global. You have members in the strangest of places that you would not expect,&quot; says Mr Hardjowirogo, adding that the scene was primarily brought together by the website 8bitcollective, which boasts more than 25,000 members.
+  Live performances
+	      A trip to a live chip music performance today will often offer up sights of sweaty tech heads bouncing over consoles and computers, while snapshots of games like Donkey Kong or Mike Tyson&#039;s Punch Out flash on screens behind them.
+  
+
+
+
+	
+ 
+
+
+    
+        		
+        
+            
+                                
+                                Please turn on JavaScript. Media requires JavaScript to play.
+            
+        
+        
+            
+                    
+                
+                    
+							
+		            
+            
+            
+            
+            
+			
+		            
+                    
+                    
+            
+        
+        
+        
+        
+/*<![CDATA[*/
+	bbc.fmtj.av.emp.load( function() {
+		var userAgent = navigator.userAgent.toLowerCase();
+		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
+			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
+			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
+			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
+			userAgent.search("android") == -1)
+		{
+			bbc.fmtj.av.emp.loadProxyPlayer("emp-12781458-23328");
+		}else{
+			bbc.fmtj.av.emp.loadEmp("emp-12781458-23328");
+		}
+	});
+/*]]>*/
+
+
+
+            
+    	
+            
+
+
+      But chip music is more about the gritty sound of the antiquated sound cards than about the gaming aspects of the music, says Ary Warnaar, a guitarist for the band Anamanaguchi.
+        &quot;Most electronic music is so produced. And it&#039;s not that I don&#039;t like electronic music, but it&#039;s cool to hear a really rough version of it, something a little edgier,&quot; Mr Warnaar told the BBC, from the South by Southwest (SXSW) Music festival in Austin in the US state of Texas.
+        Anamanaguchi has experienced a surprising amount of growth during the band&#039;s four-year run, having played festivals to thousands of listeners and written the soundtrack to the video game Scott Pilgrim v the World, released after the movie of the same name.
+        But Mr Warnaar, who describes his band&#039;s stylings as electronic, pop-punk, dance party music, says he wasn&#039;t even allowed to play video games at home as a child.
+        He adds he and his bandmates, who blend guitars and drums with melodies they write for the NES, have always been interested in pushing the boundaries of music.
+  Chiptune beginnings
+	      The chip music movement traces its roots back some three decades, says Jeremiah Johnson, a longtime chip musician who goes by the name of Nullsleep.
+  
+
+
+
+	
+ 
+
+
+    
+        		
+        
+            
+                                
+                                Please turn on JavaScript. Media requires JavaScript to play.
+            
+        
+        
+            
+                    
+                
+                    
+					
+							
+		            
+            
+            
+            
+            
+			
+		            
+                
+            
+        
+                    
+            
+        
+        
+        
+        
+/*<![CDATA[*/
+	bbc.fmtj.av.emp.load( function() {
+		var userAgent = navigator.userAgent.toLowerCase();
+		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
+			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
+			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
+			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
+			userAgent.search("android") == -1)
+		{
+			bbc.fmtj.av.emp.loadProxyPlayer("emp-12781460-23329");
+		}else{
+			bbc.fmtj.av.emp.loadEmp("emp-12781460-23329");
+		}
+	});
+/*]]>*/
+
+
+
+            
+             
+          
+		
+			
+				$render("advert","advert-companion","12781460");
+			
+			$render("advert-post-script-load");
+		
+         
+         
+    	
+        		
+		Jeremiah Johnson speaks about the technicalities of creating chiptune music
+		
+        
+
+
+      &quot;Since the 1980s, people have been writing music with Commodore 64s and Ataris, and those early home computers. But no-one had really started taking it out into the clubs and started performing concerts,&quot; says Mr Johnson, who began performing in 1999.
+        &quot;The audiences very early on didn&#039;t understand what was going on and thought you were actually playing a video game.&quot;
+        Mr Johnson says chiptune music was originally derived from the Demoscene of the 1980s, a computer art subculture which saw musicians, graphic designers, and algorithmic programmers joining forces to produce real-time artistic presentations on computers.
+        &quot;The goal was really to do technically impressive things with these pieces of hardware. Sort of push them to their limits,&quot; Mr Johnson says, referring to the 1980s movement.
+        &quot;In many ways, chip music was born into that scene and splintered off into its own movement,&quot; he says.
+        Chiptune was alluring because of its use of simple, digital sounds to build up compositions, Mr Johnson says, speaking before his performance at SXSW.
+        He says in the early years of playing live, audience members would yell out the names of video games, requesting their soundtracks.
+        &quot;You had to berate the audience sometimes and teach them what it was all about. And over time people got to actually understand that the music was actually tapping into the sound chips within these pieces of hardware,&quot; he says.
+        And listeners may be learning.
+        Events like Blip Festival, an annual chiptune concert series in New York City, have been propelling the music from the console to the ears of scores of new listeners, Mr Stroud says.
+        &quot;I do want us in five years to be gaining more and more popularity, but I&#039;d just like to be able to keep making the music because I really like it and think other people would like it, too. And if we make money off of it, that&#039;s awesome.&quot;
+             
+	
+	

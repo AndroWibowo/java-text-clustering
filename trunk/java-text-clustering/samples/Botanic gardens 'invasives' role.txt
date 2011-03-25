@@ -1,0 +1,110 @@
+    	
+    		  
+    25 March 2011
+Last updated at 17:48 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Botanic gardens \'play role in invasive species spread\'', 
+    storyId:'12849021', 
+    sectionId:'99110', 
+    url:'http://www.bbc.co.uk/news/science-environment-12849021', 
+    edition:'International'
+}); 
+-->
+
+
+
+Botanic gardens &#039;play role in invasive species spread&#039;
+    
+     
+         
+ 
+        		
+					            	    		 			
+														By Mark Kinver
+				Science and environment reporter, BBC News 
+			
+		        
+        
+  
+
+    Professor Hulme said the paper was not to bash botanic gardens, but to raise awareness of the issue
+  
+	
+		Continue reading the main story		Related Stories
+		
+						&#039;Delayed legacy&#039; of alien species
+											Non-native species &#039;cost £1.7bn&#039;
+											The invader that is strangling an ecosystem
+											
+	
+                      Evidence suggests that botanic gardens play a part in the spread of invasive alien species, which have escaped from collections, a study has concluded.
+        The paper&#039;s author says garden managers need to focus on assessing the risk of potentially invasive plants escaping.
+        The findings will appear in the journal Trends in Ecology and Evolution.
+        A spokeswoman for botanic gardens said the majority of releases were historical, and that gardens were now aware of their responsibilities.
+        &quot;Over a number of years, I had been trying to find out why the main reasons why some plants become so well established in different parts of the world,&quot; said author Philip Hulme, professor of plant biosecurity at Lincoln University, New Zealand.
+        &quot;There was always anecdotal evidence that suggested that botanic gardens might have played a role,&quot; he told BBC News but added that there had been no authoritative or substantive assessment.
+        This prompted Professor Hulme to see how many examples of &quot;escapes&quot; there were of the 34 plant species on a list of some of the world&#039;s most invasive species.
+        &quot;To my surprise, I found that 19 out of the 34 had records of having escaped from at least one botanic garden,&quot; he explained. 
+        &quot;Most of those records were from the tropics, particularly tropical islands.
+        &quot;It gives us a signal that there was a potential role of these botanic gardens in, at least, introducing or the early cultivation of problematic species in many of these sites.&quot;
+        Changing times
+        Professor Hulme said his interest in looking at the role of botanic gardens in allowing invasive species to become established stemmed from personal experience in Tanzania. 
+  
+	Continue reading the main story	&ldquo;Start Quote
+I think we need to keep the issue in perspective&rdquo;
+End Quote
+	Dr Suzanne Sharrock
+	Botanic Gardens Conservation Interational
+
+		      While he was there, he saw that species that had formed part of the local botanic garden&#039;s collection had escaped and become established in the neighbouring forest.
+        &quot;This made me think that botanic gardens could have a role, and the paper just attempts to sketch out under what circumstances that might occur,&quot; he said.
+        &quot;Historically, perhaps the gardens were less worried about the environment.
+        &quot;Now, everyone acknowledges that they have stepped up their game  and they are very much involved in plant conservation globally, particularly  ex-situ conservation.&quot;
+        Responding to Professor Hulme&#039;s paper, Suzanne Sharrock - director of global programmes for Botanic Gardens Conservation International  - said many examples of invasives escaping were from a different age. 
+        &quot;The majority of examples... date back to a time when botanic gardens were encouraged, and indeed even set up specifically to introduce exotic plants,&quot; she explained. 
+        &quot;The situation is very different today and we believe that botanic are more aware than ever of their responsibilities in this respect. BGCI does encourage botanic gardens to carry out risk assessments of their collections and we are also presently working with the Council of Europe to develop a &#039;code of conduct&#039; for botanic gardens and invasive species.&quot;
+         Dr Sharrock told BBC News that the BGCI, set up by the International Union for Conservation of Nature (IUCN) and whose network covered 118 nations, now focused on helping botanic gardens become part of the solution.
+        &quot;For example using their collections as the basis for the development of early warning systems in the face of changing environmental conditions,&quot; she added. 
+        &quot;I think we need to keep the issue in perspective. If I understand correctly, [Professor] Hulme is suggesting that only 12% of the invasive damage could be ascribed to botanic gardens, 45% to other anthropogenic measures, and presumably 43% to factors unknown, and  furthermore, much of the data relates to  historical events rather than the present day.&quot;
+        Professor Hulme responded: &quot;My aim is not to bash botanic gardens, but to suggest that they should take the issue more seriously and to be a little more structured in their approach.
+        &quot;It is often mentioned that they want to address the problem of invasive plants in their collection, but they don&#039;t seem to have delivered yet.&quot;
+             
+	
+	

@@ -1,0 +1,381 @@
+    	
+    		  
+    24 March 2011
+Last updated at 16:48 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Budget 2011: Oil firms warn jobs will go after tax hike', 
+    storyId:'12844157', 
+    sectionId:'99207', 
+    url:'http://www.bbc.co.uk/news/business-12844157', 
+    edition:'International'
+}); 
+-->
+
+
+
+Budget 2011: Oil firms warn jobs will go after tax hike
+    
+     
+         
+ 
+        		
+		        
+        
+
+
+
+	
+ 
+
+
+    
+        		
+        
+            
+                                
+                                Please turn on JavaScript. Media requires JavaScript to play.
+            
+        
+        
+            
+                    
+                
+                    
+					
+							
+		            
+            
+            
+            
+            
+			
+		            
+                
+            
+        
+                    
+            
+        
+        
+        
+        
+/*<![CDATA[*/
+	bbc.fmtj.av.emp.load( function() {
+		var userAgent = navigator.userAgent.toLowerCase();
+		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
+			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
+			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
+			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
+			userAgent.search("android") == -1)
+		{
+			bbc.fmtj.av.emp.loadProxyPlayer("emp-12844874-54047");
+		}else{
+			bbc.fmtj.av.emp.loadEmp("emp-12844874-54047");
+		}
+	});
+/*]]>*/
+
+
+
+            
+             
+          
+		
+			
+				$render("advert","advert-companion","12844874");
+			
+			$render("advert-post-script-load");
+		
+         
+         
+    	
+        		
+		WATCH: Chancellor George Osborne &quot;It helps people with the cost of living&quot;
+		
+        
+
+
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	          
+
+		
+		
+						
+				
+		
+		
+	
+						Budget 2011
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Key points at-a-glance
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	How will the Budget affect you?
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Budget calculator
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Osborne&#039;s Budget &#039;to fuel growth&#039;
+	
+		
+	  	  
+  
+
+
+		
+						
+
+	       	     
+	
+                      Tens of thousands of jobs in the UK will go as a result of a windfall tax on North Sea oil producers announced in the Budget, the industry has warned.
+        Mike Tholen, economics director of Oil and Gas UK, said the change would also damage long-term energy security.
+        The £2bn tax will fund a fuel duty cut, after a surge in global oil prices.
+        Chancellor George Osborne said he would watch fuel prices &quot;like a hawk&quot; to make sure the oil tax was not passed on to drivers.
+        He said it was &quot;economically smart&quot; to redistribute the money from the oil companies - as they saw profits rise as a result of soaring oil prices - &quot;into the hands of families&quot;.
+        The surprise move was announced by Mr Osborne in his second Budget, on Wednesday.
+        He increased the supplementary charge on oil and gas production to raise an extra £2bn ($3.3bn) - but said if oil prices fell, the &quot;fuel duty escalator&quot; - which increased fuel tax above inflation - would be reintroduced and the new oil tax would fall.
+        He told the BBC that was the &quot;right thing to do to try to preserve investment and jobs in that industry if the oil price were to fall&quot;. 
+  'Chilling impact'
+	      But Oil and Gas UK, the trade association for the offshore industry, warned jobs and production would be lost - which would mean the UK would eventually have to import more oil.
+  
+	Continue reading the main story		BUDGET MEASURES
+		
+	
+	
+	
+     4p per litre fuel duty rise due in April postponed
+     Additional 1p cut from fuel duty
+     Fuel duty escalator scrapped
+     £2bn tax rise on oil firms to pay for fuel changes 
+     Air Passenger Duty rise delayed by one year
+     Previous government&#039;s alcohol and tobacco duty rises will go ahead
+     Further £600 increase in personal tax allowance from April 2012
+     Corporation tax cut by extra 1%
+     Financial help for 10,000 first-time buyers to get on property ladder
+     Forecast for how much UK economy will grow in 2011 downgraded
+     Direct tax rates to be linked to the Consumer Prices Index (CPI) rather than Retail Prices Index (RPI) from April 2012, raising £1bn a year
+     Plans to merge tax and National Insurance
+  
+	
+		
+			Budget: Key points at a glance
+			Analysis: A coalition winner?
+			As it happened: Budget 2011
+			Pump price &#039;raised before Budget&#039;
+		
+	      Mr Tholen told the BBC: &quot;What you see is the UK&#039;s reputation as a global player in oil and gas industry falter because of this. Many companies from abroad are looking at whether to invest in the UK, to help us get the new oil and gas reserves out of our waters. What we see is that image yet again shattered because of the tax change.&quot;
+        He said the chancellor had previously promised stability: &quot;Some five years since the last big tax hit on our industry, investment had begun to pick up. Our big concern is that investment will collapse again as a result of what he&#039;s done.&quot;
+        &quot;We will see jobs go and we will see technology lost, and we will undoubtedly see our nation less well off when it comes to energy security in the years ahead.
+        &quot;As an industry, at the minute we are responsible for employing nearly half a million people across the UK, and there will be tens of thousands of those who will not now have jobs in the future because of this.&quot;
+        Mark Hanafin, managing director of Centrica Energy, said the tax hike &quot;could have a chilling impact on future investment in the North Sea&quot;.
+        But a Treasury spokesman said: &quot;We do not expect this tax change to have a significant effect on production and investment - and therefore on jobs - in the coming years as profits are expected to remain high because of the oil price.
+        &quot;Even with this change, average post-tax profits per barrel are forecast to be higher in the next five years than the last five.&quot;
+        For Labour, shadow chancellor Ed Balls told BBC News the VAT rise in January had already put fuel prices up.
+  
+	Continue reading the main story		FULL BUDGET DOCUMENTS
+		
+	PDF download Budget 2011[1.1 MB]
+	
+	      Most computers will open PDF documents automatically, but you may need Adobe Reader
+  
+	
+		
+			Download the reader here
+			Documents hosted by HM Treasury
+		
+	      Cutting fuel duty was the &quot;right decision&quot; but might not lead to cheaper petrol for motorists because the oil companies could increase prices, he said.
+        &quot;Can George Osborne guarantee they won&#039;t just push that straight back up at the pumps? No, he cannot. What he should have done is cut VAT on petrol and he didn&#039;t.&quot;
+        Danny Alexander, the Chief Secretary to the Treasury, said the suggestion the oil tax would be passed on to motorists was &quot;complete nonsense&quot; because the North Sea oil companies were separate from those selling fuel at the pumps, who could choose to &quot;simply buy their fuel from elsewhere&quot;. 
+        And Malcolm Webb, chief executive of Oil and Gas UK, also said it would not &quot;affect the consumer at the pump at all&quot;.
+  
+
+
+
+	
+ 
+
+
+    
+        		
+        
+            
+                                
+                                Please turn on JavaScript. Media requires JavaScript to play.
+            
+        
+        
+            
+                    
+                
+                    
+					
+							
+		            
+            
+            
+            
+            
+			
+		            
+                
+            
+        
+                    
+            
+        
+        
+        
+        
+/*<![CDATA[*/
+	bbc.fmtj.av.emp.load( function() {
+		var userAgent = navigator.userAgent.toLowerCase();
+		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
+			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
+			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
+			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
+			userAgent.search("android") == -1)
+		{
+			bbc.fmtj.av.emp.loadProxyPlayer("emp-12846039-54048");
+		}else{
+			bbc.fmtj.av.emp.loadEmp("emp-12846039-54048");
+		}
+	});
+/*]]>*/
+
+
+
+            
+             
+          
+		
+			
+				$render("advert","advert-companion","12846039");
+			
+			$render("advert-post-script-load");
+		
+         
+         
+    	
+        		
+		WATCH: Shadow chancellor Ed Balls said George Osborne should have cut VAT on fuel 
+		
+        
+
+
+      Ratings agency Moody&#039;s has warned that Britain&#039;s AAA debt rating could be at risk if economic growth is more sluggish than predicted - and the government responds by slowing down its deficit reduction plan.
+        &quot;The government&#039;s ongoing commitment to large-scale deficit reduction is very important to the AAA rating and stable outlook,&quot; said Moody&#039;s in a statement.
+        &quot;Although the weaker economic growth prospects in 2011 and 2012 do not directly cast doubt on the UK&#039;s sovereign rating level, we believe that slower growth combined with weaker-than-expected fiscal consolidation could cause the UK&#039;s debt metrics to deteriorate to a point that would be inconsistent with a AAA rating.&quot; 
+        Preserving Britain&#039;s AAA debt rating is a top priority for the coalition government, as losing it would make it more expensive to borrow money.
+        Business Secretary Vince Cable acknowledged that there was room for manoeuvre on fiscal strategy, telling BBC Radio 4&#039;s Today programme: &quot;There is... flexibility built into the system. And also it&#039;s very important we have the monetary policy that is supporting growth.&quot;
+        But he added: &quot;We see no reason at present to depart from the pathway that we have chosen.
+        &quot;It&#039;s been vindicated not just in the judgement of the main international agencies that are responsible for economic management; it&#039;s reflected in the very low interest rates that we are still able to attract because we have a positive rating, and we mustn&#039;t lose that.&quot;
+             
+	
+	

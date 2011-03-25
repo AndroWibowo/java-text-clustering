@@ -1,0 +1,91 @@
+    	
+    		  
+    25 March 2011
+Last updated at 02:50 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Design and technology classes \'out of date\' - Ofsted', 
+    storyId:'12850211', 
+    sectionId:'99105', 
+    url:'http://www.bbc.co.uk/news/education-12850211', 
+    edition:'International'
+}); 
+-->
+
+
+
+Design and technology classes &#039;out of date&#039; - Ofsted
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Some countries emphasise the study of robotics in design and technology classes
+  
+                      Too many design and technology teachers in England are failing to keep pace with global technological advances, education inspectors have said.
+        An Ofsted report on the teaching of the subject said too little use was made of modern technology in a third of the schools it surveyed.
+        Schools in China and France emphasise the study of robotics, electronics and computer-aided design, it added.
+        The government said it was increasing the number of specialist teachers.
+        Inspectors visited 89 primaries, 89 secondaries and two special schools over three years between 2007 and 2010.
+  'Keep pace'
+	      The report said achievement in D&amp;T was good or outstanding in just over three fifths of the primary schools and just under half of the secondary schools visited. It was unsatisfactory in none of them. 
+        Where the subject was being taught well, the teaching was challenging, tasks were interesting and relevant and pupils benefited from the use of up-to-date ICT (information and communication technology) and other technologies. 
+        But in just over a quarter of the primary schools and about a half of the secondary schools visited, there were not enough opportunities for pupils to develop knowledge of electronics, systems and control, and computer-aided design and manufacture.
+        &quot;This is a key weakness at a time of rapid technological advance,&quot; said the report.
+        Ofsted chief inspector Christine Gilbert said pupils needed to learn about new materials and technologies and to investigate practically how and why products work. 
+        &quot;This is fundamental to the improvements that need to be made.&quot;
+  'More specialists'
+	      She added: &quot;Most pupils in the schools visited enjoyed designing and making products, solving real problems for people in their communities and further afield, and seeing their ideas taking shape. 
+        &quot;This was vitally important to them. Achievement and provision in D&amp;T was best where up-to-date technologies were used and explained accurately. 
+        &quot;But the variation between the best and weakest provision is unacceptably wide.&quot;
+        More specialist knowledge and subject specific training was required, the report said.
+  'Positive news'
+	      Schools Minister Nick Gibb said: &quot;We need to keep pace with employers&#039; demands for high quality, up-to-date technical education - so businesses can thrive at home and we can compete abroad. 
+        &quot;We are strengthening recruitment and training to attract the brightest and best into the profession and increase the number of specialist teachers. 
+        &quot;The Budget set out a big expansion of technical colleges - to provide high quality vocational education alongside academic classes, to thousands more pupils.&quot;
+        The Design and Technology Association said in a statement that the Ofsted report also contained very positive news about the performance of pupils and teachers in this essential and rapidly changing subject area. 
+        &quot;We believe that the success of D&amp;T teaching in both primary and secondary deserve to be celebrated.&quot;
+        But it added that it agreed with the report&#039;s findings that ongoing high-quality training was essential for the effective teaching of design and technology.
+             
+	
+	

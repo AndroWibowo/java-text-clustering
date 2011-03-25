@@ -1,0 +1,97 @@
+    	
+    		  
+    25 March 2011
+Last updated at 17:47 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Africa rhinos face \'worst poaching crisis for decades\'', 
+    storyId:'12859295', 
+    sectionId:'99110', 
+    url:'http://www.bbc.co.uk/news/science-environment-12859295', 
+    edition:'International'
+}); 
+-->
+
+
+
+Africa rhinos face &#039;worst poaching crisis for decades&#039;
+    
+     
+         
+ 
+        		
+					            	    		 			
+														By Mark Kinver
+				Science and environment reporter, BBC News 
+			
+		        
+        
+  
+
+    The growing demand for animal parts from South-East Asia is has triggered an increase in poaching
+  
+	
+		Continue reading the main story		Related Stories
+		
+						SA police smash &#039;rhino horn ring&#039;
+											Animal farms &#039;not the way to go&#039;
+											&#039;15-year high&#039; for rhino poaching
+														
+	
+                      Rhino populations in Africa are facing the &quot;worst poaching crisis for decades,&quot; say conservationists.
+        Over the past three years, gangs are said to have killed more than 800 rhinos for their horns, which can fetch £22,000 per kilo on the black market. 
+        Experts fear the rise in poaching could undermine recent efforts to stabilise black and white rhino populations.
+        They called for greater co-operation between conservationists and law enforcement agencies.
+        &quot;Although good biological management and anti-poaching efforts have led to modest population gains for both species of African rhino, we are still very concerned,&quot; said Richard Emslie, a scientific officer for the International Union for Conservation of Nature (IUCN).
+        Dr Emslie, a member of the IUCN&#039;s Species Survival Commission&#039;s (SSC) African Rhino Specialist Group (AfRSG), said the main threat was from the &quot;increasing involvement of organised criminal poaching networks&quot;.
+        &quot;Unless the rapid escalation in poaching in recent years can be halted, continental rhino numbers could once again start to decline,&quot; he warned.
+        Growing demand
+        The Critically Endangered black rhino (Diceros bicornis), which is made up of four sub-species, currently has a population of 4,840 (up from 4,240 in 2007) spread across southern African nations.
+        The two sub-species of white rhino (Ceratotherium simum), which has a similar distribution as the black rhino, has a population in the region of 20,000 (up from 17,500 in 2007).
+        Despite the high numbers, the white rhino is listed as Near Threatened by the IUCN. This is a direct result of the high level of poaching, especially in South Africa, Zimbabwe and Kenya.
+        It is estimated that 333 rhinos were killed in South Africa alone last year, with a further 70 being shot dead so far this year.
+        Conservationists suspect that most of the illegally harvested rhino horn are destined for the traditional medicine markets of South-East Asia, and the growing demand and high prices are fuelling the sharp rise in poaching.
+        They called for greater co-operation between the various parties involved in projecting the large mammals, including wildlife investigators and law enforcement agencies.
+        Some initiatives, such as the establishment of a National Wildlife Crime Reduction Unit in South Africa, are bearing fruit in the shape of more arrests. But IUCN SSC chairman Simon Stuart said it was important for wildlife agencies to work closely with private and community [land owners].
+        &quot;In South Africa, a large number of rhinos live on private land,&quot; Dr Stuart observed.
+        &quot;Rhino management, including control of rhino horn stockpiles and security, needs to be improved and co-ordinated among rhino holders.
+        &quot;This is essential if we are going to face the poaching crisis [head-on].&quot;
+             
+	
+	

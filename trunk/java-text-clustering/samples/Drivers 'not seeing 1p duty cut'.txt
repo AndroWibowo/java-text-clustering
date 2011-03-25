@@ -1,0 +1,193 @@
+    	
+    		  
+    25 March 2011
+Last updated at 14:04 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Motorists \'not seeing full 1p duty cut at the pumps\'', 
+    storyId:'12862949', 
+    sectionId:'99104', 
+    url:'http://www.bbc.co.uk/news/business-12862949', 
+    edition:'International'
+}); 
+-->
+
+
+
+Motorists &#039;not seeing full 1p duty cut at the pumps&#039;
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    The price of petrol has risen sharply over the past few weeks
+  
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	          
+
+		
+		
+						
+		
+		
+	
+						Budget 2011
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Key points at-a-glance
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	How will the Budget affect you?
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Budget calculator
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	&#039;Jobs to go&#039; due to oil tax hike
+	
+		
+	  	  
+  
+
+
+		
+	
+
+	       	     
+	
+                      Fuel prices have fallen since the Budget, but by less than the 1p cut in duty announced by Chancellor George Osborne, UK-wide research has found. 
+        There was a 0.6p average fall in petrol and diesel from Wednesday to Thursday, the survey by Experian Catalist found. 
+        The 1p cut in duty on petrol and diesel took effect from 1800 GMT on Wednesday.
+        The Retail Motor Industry Federation (RMI) says many garages will delay implementing the cut until stocks of existing, more expensive fuel are gone.
+        The survey found that the average cost of a litre of unleaded fell from £1.33.5p to £1.32.9p, while average diesel prices fell by the same amount, from £1.40.3p to £1.39.7p.
+        Some motorists have been contacting the BBC to complain that their local garages put up prices in advance of the Budget, so they are still paying more despite the fuel duty cut.
+        Other drivers reported that they had seen prices go up by a penny, so the cut in duty simply put them back where they were a few days ago.
+  
+	Continue reading the main story	&ldquo;Start Quote
+Drivers have long memories and will remember those garages that have not passed on the cut&rdquo;
+End Quote
+	Edmund King
+	AA president
+
+		      Brian Madderson of RMI Petrol, which represents 6,000 independent retailers, said businesses had faced a rise in their own costs this week which had to be passed on to drivers.
+        &quot;In the last three days the price of diesel has gone up by a penny a litre and unleaded is up by 2p,&quot; he told BBC News on Thursday.
+        While supermarkets and some oil companies purchased supplies a week or more ahead, his members tended to buy fuel from day-to-day, he added.
+  Accusations
+	      The AA said that Shell had passed on the cut at its service stations as had supermarket Morrisons.
+        AA president Edmund King said: &quot;Drivers have long memories and will remember those garages that have not passed on the cut.&quot;
+        He added: &quot;On Monday, Ofgem accused the electricity suppliers of putting up prices quickly and bringing them down slowly - exactly the way drivers perceive the way they are treated by retailers.
+        &quot;The road fuel industry desperately needs a regulator to act as honest broker between drivers, retailers and suppliers. If we had one, accusations of rip-off petrol stations would be answered fairly.&quot;
+        Political instability in the Middle East and North Africa has been putting upward pressure on the price of oil.
+        As the price of crude has risen, the cost increases have spilled over to refined products such as petrol and diesel.
+        Experian Catalist has charted an inexorable rise in the average price of fuel on the forecourt over the last month.
+             
+	
+	

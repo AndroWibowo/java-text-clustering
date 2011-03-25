@@ -1,0 +1,107 @@
+    	
+    		  
+    24 March 2011
+Last updated at 04:49 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - GP referral time \'variations\' revealed by King\'s Fund', 
+    storyId:'12835795', 
+    sectionId:'99108', 
+    url:'http://www.bbc.co.uk/news/health-12835795', 
+    edition:'International'
+}); 
+-->
+
+
+
+GP referral time &#039;variations&#039; revealed by King&#039;s Fund
+    
+     
+         
+ 
+        		
+					            	    		 			
+														By Nick Triggle
+				Health reporter, BBC News
+			
+		        
+        
+  
+
+    The two-year review looked at GP performance
+  
+	
+		Continue reading the main story		Related Stories
+		
+						Call to change GP performance pay
+											Concerns over &#039;GP bonus system&#039;
+											GPs anger over &#039;unfair pay poll&#039;
+														
+	
+                      Some patients wait far longer than others for referrals to hospital, an independent inquiry into the quality of GP practices in England has found. 
+        The report for the King&#039;s Fund think tank found this was due to variations in the performance of doctors.
+        It also called for doctors to be more open to comparing performance with their peers, but added the majority of services were good.
+        Doctors&#039; leaders said GPs were always willing to look at ways of improving.
+  Cancer referrals
+	      The two-year review was led by a panel of experts including Sir Ian Kennedy, the former head of the Healthcare Commission, and Professor Steve Field, the ex-leader of the Royal College of GPs.
+        It looked at existing research, as well as carrying out its own work with patients and NHS staff and concluded that, while in most cases care was good, there was too much variation in standards.
+        The report highlighted an eight-fold variation in which practices urgently referred patients to cancer specialists - in one local area, south London, there was a 35-fold difference.
+        It also said that there were issues with continuity of care - something which patients often say they value highly - as just over a quarter of patients were able to see their preferred doctor.
+        There were also wide variations in the admission rates to hospital for patients with conditions that could be treated outside hospital, while one in 10 patients with long-term illnesses reported having care plans despite a commitment that all of them should have one.
+  
+	Continue reading the main story	&ldquo;Start Quote
+Patients should be receiving a quality service regardless of the GP practice they attend&rdquo;
+End Quote
+	Patients Association spokesman
+	
+
+		      The report said the findings have implications for the future of GPs, particularly under the shake-up of the NHS, the report said.
+  'Constant reorganisations' 
+	      From 2013, they are due to get control of most of the NHS budget to manage and plan local services.
+        The report said part of the problem was that too many GPs were unwilling to measure their performance against each other - something which had to change if they were going to make a success of the changes.
+        It also called for them to &quot;strike a new deal with patients&quot; by getting them much more involved in making decisions about their care as well as taking more interest in encouraging healthy lifestyles by working more closely with partners including councils.
+        Sir Ian Kennedy, who was chairman of the panel, said: &quot;General practice is the bedrock of the NHS and the profession is rightly proud of the contribution it makes to the health of the nation. But the environment in which it operates is changing and the profession must change with it.&quot;
+        A Patients Association spokesman said: &quot;As the government hands responsibility for commissioning services to GPs, it needs to make sure that it offers support to those GPs who are struggling to perform and make sure that these practices are not allowed to fall further behind. 
+        &quot;Patients should be receiving a quality service regardless of the GP practice they attend. It should not be a lottery of care with your postcode determining the level of service you receive.&quot;
+        But Dr Laurence Buckhman, of the British Medical Association, said: &quot;GPs need time off the treadmill so they can look critically at what they do and make improvements. A reduction in bureaucracy would help them to do this, as would stopping the constant reorganisations within the NHS.&quot;
+        Health Minister Lord Howe said: &quot;I welcome the King&#039;s Fund report which reinforces the need for modernising the NHS. We have a very strong system of general practice in this country, but we agree that there is too much variation in quality.&quot;
+        He said the changes that were being would help address the problems, by making GPs more accountable and performance more transparent.
+             
+	
+	

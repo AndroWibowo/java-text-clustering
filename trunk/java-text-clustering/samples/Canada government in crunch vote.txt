@@ -1,0 +1,89 @@
+    	
+    		  
+    25 March 2011
+Last updated at 15:59 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Canada parliament begins no-confidence debate', 
+    storyId:'12863818', 
+    sectionId:'99127', 
+    url:'http://www.bbc.co.uk/news/world-us-canada-12863818', 
+    edition:'International'
+}); 
+-->
+
+
+
+Canada parliament begins no-confidence debate
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Liberal leader Michael Ignatieff said the Harper government &quot;conceals the facts&quot; from Canadians
+  
+	
+		Continue reading the main story		Related Stories
+		
+						PM Harper may miss royal wedding
+											Canadian parties challenge Harper
+											Canada parties seek to topple PM
+											
+	
+                      The Canadian parliament has begun debate on a no-confidence motion expected to topple the Conservative minority government.
+        Liberal Party leader Michael Ignatieff said Prime Minister Stephen Harper&#039;s government &quot;breaks the rules&quot; and &quot;does not deserve to remain in office&quot;.
+        If the motion passes on Friday, it will trigger an election in early May.
+        The vote stems from a ruling on Monday that the Conservative government was in contempt of parliament.
+        A parliamentary committee judged that Mr Harper&#039;s government had acted in contempt by failing to disclose the full costs of spending on programmes involving tougher crime legislation, corporate tax cuts and plans to purchase stealth fighter jets.
+        &#039;Reckless actions&#039;
+        &quot;The House must speak with a clear voice and it must say that a government that breaks the rules and conceals the facts from the Canadian people does not deserve to remain in office,&quot; Mr Ignatieff said.
+        Conservative House of Commons leader John Baird spoke on behalf of the Conservative Party ahead of the confidence vote.
+        &quot;I&#039;m saddened that a parliament which has accomplished a lot recently will come to an end because of the reckless actions of the [opposition]... in forcing an unwanted and unnecessary election on Canadians,&quot; he told legislators.
+        Mr Baird warned a vote of no-confidence in the government would &quot;weaken Canada&#039;s economic recovery&quot;.
+        Also at issue is the Conservative government&#039;s budget plan, which it unveiled on Tuesday and which was immediately rejected by the three opposition parties.
+        With four parties holding seats in the House of Commons - the New Democrats (NDP) and the Bloc Quebecois in addition to the Liberals and Conservatives - it is difficult for a single party to gain a majority.
+        The Conservatives came to power in 2006 but need opposition support in order to pass any legislation.
+        Recent polls suggest the Conservative party will retain power in a May election, although not necessarily win enough seats to take the majority.
+             
+	
+	

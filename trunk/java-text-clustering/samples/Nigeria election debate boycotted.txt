@@ -1,0 +1,199 @@
+    	
+    		  
+    25 March 2011
+Last updated at 09:25 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Nigeria election: Jonathan rivals pull out of TV debate', 
+    storyId:'12859073', 
+    sectionId:'99121', 
+    url:'http://www.bbc.co.uk/news/world-africa-12859073', 
+    edition:'International'
+}); 
+-->
+
+
+
+Nigeria election: Jonathan rivals pull out of TV debate
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    The three opposition candidates left an empty podium for President Jonathan at last week&#039;s debate
+  
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	          
+
+		
+		
+						
+		
+		
+	
+						Nigeria - Troubled Giant
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	&#039;Cash and carry&#039; politics
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Emirs: Power behind the throne
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	&#039;I burnt my friend&#039;s house down&#039;
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Armed robber?
+	
+		
+	  	  
+  
+
+
+		
+	
+
+	       	     
+	
+                      Nigeria&#039;s three main opposition candidates have pulled out of election debates with President Goodluck Jonathan, accusing him of &quot;arrogance&quot;.
+        The three - Nuhu Ribadu, Muhammadu Buhari and Ibrahim Shekarau - are suspicious that he will take part only in a live TV debate largely organised by state-run media.
+        A BBC correspondent says the boycott is embarrassing for Mr Jonathan.
+        He is favourite to win the 9 April poll in Africa&#039;s biggest oil exporter.
+        Mr Jonathan refused to take part in a debate last week, organised by NN24 TV, saying he would participate only in one scheduled for next Tuesday run by the Broadcasting Organisation of Nigeria.
+        His opponents say they are &quot;suspicious&quot; of his relationship with this body, which mostly comprises state-run broadcasters.
+  
+	Continue reading the main story		Presidential Candidates
+		
+	
+	
+	
+     Goodluck Jonathan, president - PDP
+     Nuhu Ribadu, former anti-corruption fighter  - AC
+     Muhammadu Buhari, former military ruler - CPC
+     Ibrahim Shekarau, Kano governor - ANPP
+  
+	
+		
+			Profile: Goodluck Jonathan
+			Profile: Nuhu Ribadu
+		
+	      &quot;He has arrogantly shunned the credible debate for which we made ourselves available,&quot; they said in a joint statement, insisting they had  &quot;bent backwards&quot; to accommodate him.
+        The BBC&#039;s Caroline Duffield in Lagos says Mr Jonathan  is a poor public speaker.
+        It is clear that his advisers want to shield him from the media as much as possible, she says.
+        Mr Jonathan is the candidate of the People&#039;s Democratic Party which has won every national poll since military rule ended in 1999.
+        But his candidacy was opposed by some party power-brokers, who say a northerner should have been the party candidate instead of Mr Jonathan, who is from the southern, oil-producing Niger Delta region.
+        The former vice-president inherited power last year when President Umaru Yar&#039;Adua died.
+        Previous elections have been marred by widespread violence and allegations of fraud.
+        Some of the promised electoral reforms have been implemented ahead of next month&#039;s elections but not enough to satisfy the opposition.
+        Elections for the National Assembly are due on 2 April.
+             
+	
+	

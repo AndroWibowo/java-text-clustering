@@ -1,0 +1,99 @@
+    	
+    		  
+    24 March 2011
+Last updated at 19:40 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Cyber security summit signs UK-US university deal', 
+    storyId:'12854531', 
+    sectionId:'99114', 
+    url:'http://www.bbc.co.uk/news/uk-wales-12854531', 
+    edition:'International'
+}); 
+-->
+
+
+
+Cyber security summit signs UK-US university deal
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Thousands of cyber security experts will need to be trained in the next few years, the summit concluded
+  
+	
+		Continue reading the main story		Related Stories
+		
+						US cyber war defences &#039;very thin&#039;
+											Cyber attacks &#039;are acts of war&#039;
+											Cyber war exaggerated says expert
+																										
+	
+                      A conference on cyber security has ended with a university deal to train a new generation of experts in fighting off criminal and terrorist IT attacks.
+        The summit in Cardiff agreed that the UK and the US would need to produce many thousands of people with this expertise over the next few years.
+        Delegates at the University of Wales event included the UN, the US defence department, Microsoft and IBM.
+        The US says government systems are under continued attack.
+        The US federal government recently announced plans to spend more than $13bn a year within the next five years on protecting its systems.
+        In the UK, cyber crime is costing the economy up to £27bn every year, it is estimated.
+        US officials say cyber criminals, terrorists and other nations are getting better at penetrating state and private networks, whether to spy, to steal data or damage critical infrastructure.
+  
+	Continue reading the main story	&ldquo;Start Quote
+Cyber-physical security is now considered the number one threat to national security&rdquo;
+End Quote
+	Professor John Williams
+	Geospatial Data Centre, MIT
+
+		      Last week, the head of the Pentagon&#039;s cyber command said the US military lacked the people and resources to defend the country adequately from concerted cyber attacks.
+        The two-day summit was organised by the University of Wales Global Academy and the Geospatial Data Center of the Massachusetts Institute of Technology (MIT) in the US.
+        It also included professors from Harvard University, the University of Oxford, University of Memphis, Boston University and the University of Central Florida.
+  'Overriding issue'
+	      The University of Wales and the Geospatial Data Centre at MIT signed an agreement to jointly develop cyber security leadership and training programmes.
+        University of Wales vice-chancellor Professor Marc Clement said he believed the summit was a &quot;major coup&quot; for Wales and the deal signed would put Wales at the forefront of cyber security defence.
+        He said the university hoped to &quot;work closely with many of the participating academics to take forward the agenda identified by the summit and to advance relations between MIT and the University of Wales&quot;.
+        He added: &quot;We now plan to develop a joint training programme for taking forward educational developments in the field of cyber-physical security, an area that the summit agreed was the overriding issue for government, business, and universities.&quot;
+        Professor John Williams, director of the Geospatial Data Centre, said: &quot;Cyber-physical security is now considered the number one threat to national security, being deemed more critical than conventional nuclear attacks. 
+        &quot;Last year alone, the US logged over 300,000 virus attacks on their networks and noted that organised crime now makes more money from cyber crime than any other activity.&quot;
+             
+	
+	

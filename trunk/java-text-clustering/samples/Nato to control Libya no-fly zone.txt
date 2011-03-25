@@ -1,0 +1,330 @@
+    	
+    		  
+    25 March 2011
+Last updated at 11:59 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Libya: Nato to take command of no-fly zone', 
+    storyId:'12856665', 
+    sectionId:'99121', 
+    url:'http://www.bbc.co.uk/news/world-africa-12856665', 
+    edition:'International'
+}); 
+-->
+
+
+
+Libya: Nato to take command of no-fly zone
+    
+     
+         
+ 
+        		
+		        
+        
+
+
+
+	
+ 
+
+
+    
+        		
+        
+            
+                                
+                                Please turn on JavaScript. Media requires JavaScript to play.
+            
+        
+        
+            
+                    
+                
+                    
+					
+							
+		            
+            
+            
+            
+            
+			
+		            
+                
+            
+        
+                    
+            
+        
+        
+        
+        
+/*<![CDATA[*/
+	bbc.fmtj.av.emp.load( function() {
+		var userAgent = navigator.userAgent.toLowerCase();
+		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
+			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
+			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
+			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
+			userAgent.search("android") == -1)
+		{
+			bbc.fmtj.av.emp.loadProxyPlayer("emp-12856603-11280");
+		}else{
+			bbc.fmtj.av.emp.loadEmp("emp-12856603-11280");
+		}
+	});
+/*]]>*/
+
+
+
+            
+             
+          
+		
+			
+				$render("advert","advert-companion","12856603");
+			
+			$render("advert-post-script-load");
+		
+         
+         
+    	
+        		
+		Anders Fogh Rasmussen explains the handover to Nato
+		
+        
+
+
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	          
+
+		
+		
+						
+		
+		
+	
+						Libya Crisis
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+		
+
+
+	
+
+
+
+
+
+	Libya and Mid-East crisis Live
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Nato control on Libya &#039;days away&#039;
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Turkey&#039;s difficulties
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Sarkozy seizes moment
+	
+		
+	  	  
+  
+
+
+		
+	
+
+	       	     
+	
+                      Nato says it has agreed to take over responsibility from the US for enforcing the no-fly zone over Libya.
+        Secretary General Anders Fogh Rasmussen said talks would continue on giving Nato a &quot;broader responsibility&quot;, with a decision possible in the coming days.
+        There have been differences of opinion about whether attacks on ground troops should form part of the action.
+        British jets have launched missiles at Libyan armoured vehicles near Ajdabiya during a sixth night of allied raids.
+        The UK government said Tornado aircraft fired guided Brimstone missiles at Libyan military units close to the town, where there has been fierce fighting between rebels and forces loyal to Col Muammar Gaddafi.
+  'Consensus decision'
+	      The handover of the no-fly mission to Nato could come as early as this weekend.
+  
+	Continue reading the main story		At the scene
+		
+	
+		Ben Brown
+	BBC News, near Ajdabiya
+	
+
+	
+	      The rebels are trying to push on into Ajdabiya, but it&#039;s got pro-Gaddafi forces on both sides. In the middle are civilians, who are running out of food and water and have very little electricity, we&#039;re told. 
+        Ajdabiya is blocking a rebel advance further west along the coastal highway into Sirte and ultimately to Tripoli. There&#039;s been more fighting here today. Rebels have been pounding Gaddafi forces&#039; positions. We drove up the road earlier and shells were fired from pro-Gaddafi forces in our direction. One shell landed just a few hundred metres from us. 
+        It&#039;s still pretty much military stalemate for the time being on the ground. Rebels say if there were some more coalition air strikes against Gaddafi forces around Ajdabiya, then they could perhaps take the city in just a day. But the UN mandate is to protect civilians, not for the allies to provide close air support for the rebels.
+  
+	
+	      Mr Rasmussen said all of Nato had agreed to the move, including Muslim-majority Turkey, which had expressed doubts over strikes on a Muslim country.
+        &quot;The fact is that in Nato, we take all decisions by consensus and the decision we are taking today to enforce a no-fly zone is also taken by a consensus, which means that all 28 allies support that decision,&quot; he told the BBC.
+        US Secretary of State Hillary Clinton welcomed Nato&#039;s decision.
+        The US initially agreed to lead enforcement of the UN resolution, but made clear it wanted only a limited role and would hand over responsibility as soon as possible.
+        The handover to Nato became bogged down when Turkey made clear its view that action should focus directly on enforcing the no-fly zone and arms embargo, rather than allowing continuing strikes against ground forces.
+        The resolution authorises the international community to use &quot;all necessary means&quot; to protect Libyan civilians, but the phrase has become open to different interpretations.
+        Nato ambassadors are also discussing a plan which would see Nato in charge of all military aspects of the action against Libya.
+        The BBC&#039;s Matthew Price in Brussels says it is understood that the entire operation would be overseen by a council of ambassadors and ministers from Nato countries, and importantly, Arab states which support the action.
+        But it is not clear what power such a council would have and whether it could veto particular military missions, our correspondent adds.
+  UAE joins allies
+	      The allies&#039; efforts to recruit Arab countries to avoid an all-Western military presence received a boost on Thursday as the United Arab Emirates agreed to send 12 planes to help enforce the no-fly zone. 
+        Qatar has already contributed two fighters and two military transport planes to the coalition and is expected to begin flying patrols over Libya this weekend.
+  
+  
+
+  
+      UN Secretary General Ban Ki-moon said the UN-mandated military operation was proving effective in protecting civilians, telling the BBC that he believed it would prevail over Col Gaddafi&#039;s forces.
+        &quot;It has deterred further aggression of military campaign by Libyan authorities and it was able to protect the civilians in Benghazi and some other areas,&quot; he said. &quot;But we&#039;ll have to see. I believe that the superiority of the military power will prevail.&quot;
+        There were explosions heard late on Thursday around the capital, Tripoli, and there have been reports that French aircraft bombed a Libyan base deep in the desert.
+        French officials also confirmed they had destroyed a Libyan military plane which had flown in breach of the no-fly zone. 
+        The G-2/Galeb, a training plane with a single engine, had just landed when it was hit by a missile fired by a Rafale jet, a spokesman said.  
+        It was the first such incident of its kind since the operation began.
+        Fresh fighting has meanwhile been reported in Misrata, scene of a bitter battle for control which has lasted for many days.
+        Further east in the strategically important city of Ajdabiya, residents described shelling, gunfire and houses on fire. 
+        One report said rebels were moving closer to the city but remained out-gunned by pro-Gaddafi forces.
+  
+                        Are you in Libya? Do you welcome Nato&#039;s involvement? Should more Arab nations take an active part in the military operation?  Send us your experiences and comments using the form below.
+  
+
+	
+		
+  
+    
+    
+    
+    
+      
+        (Required)  Name
+        
+        
+      
+      
+        (Required)  Your E-mail address
+        
+        
+      
+      
+        (Required)  Town &amp; Country
+        
+        
+      
+      
+        (Required)  Your telephone number
+        
+        
+      
+    
+    
+      
+        (Required)  Comments
+        
+        
+      
+    
+    
+      In most cases a selection of your comments will be published, displaying your name as you provide it and location unless you state otherwise. But your contact details will never be published. When sending us pictures, video or eyewitness accounts at no time should you endanger yourself or others, take any unnecessary risks or infringe any laws.
+      Terms and conditions
+      Send
+      Clear
+    
+  
+           
+	
+	

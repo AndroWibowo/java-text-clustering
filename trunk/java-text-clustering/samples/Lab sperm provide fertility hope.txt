@@ -1,0 +1,103 @@
+    	
+        		  
+    24 March 2011
+Last updated at 08:29 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Laboratory grown sperm provide fertility hope', 
+    storyId:'12825694', 
+    sectionId:'99108', 
+    url:'http://www.bbc.co.uk/news/health-12825694', 
+    edition:'International'
+}); 
+-->
+
+
+
+Laboratory grown sperm provide fertility hope
+    
+     
+         
+ 
+        		
+					            	    		 			
+														By James Gallagher
+				Health reporter, BBC News
+			
+		        
+        
+  
+
+    Sperm can take more than a month to develop
+  
+	
+		Continue reading the main story		Related Stories
+		
+						Male infertility gene discovered
+											Male infertility &#039;is increasing&#039;
+											Lead linked to male infertility
+								
+	
+                      Sperm have been successfully grown in the laboratory for the first time and it is hoped the technology could eventually help infertile men have children.
+        In the experiment on mice, the sperm were used to produce healthy, fertile offspring.
+        The researchers, writing in Nature, say their method will serve as a platform for future clinical applications.
+        A UK expert urged caution as many more studies were still required.
+        The research team have described sperm production as one of the longest and most complex processes in the body.
+        It takes more than a month from start to finish in most mammals and scientists have struggled to produce healthy sperm in the laboratory.
+        Rather than working with individual cells, the team in Japan used fragments of testes. It is like starting with a whole segment of an orange rather than just the juice.
+  
+	Continue reading the main story	&ldquo;Start Quote
+We need to be cautious with this kind of work&rdquo;
+End Quote
+	Dr Allan Pacey
+	University of Sheffield
+
+		      The fragments were then bathed in nutrients and sperm production was maintained for more than two months.
+  Cancer
+	      Some treatments for cancer, such as chemotherapy and radiotherapy, can result in fewer sperm being produced and reduce the ability of sperm to fertilise an egg. 
+        Patients can freeze sperm before undergoing treatment, however, this has limitations. It is only possible to store so much, sometimes it fails and young boys have no sperm to freeze. 
+        It is hoped the research at Yokohama City University will be able to help.
+        The study shows that mouse testes can be frozen until needed and still produce sperm.
+        A review article in Nature, by Marco Seandel and Shahin Rafii who are both from the Weill Cornell Medical College in New York, said the &quot;approach represents a crucial experimental advance along the thorny path to the clinical use of sperm&quot; developed in the laboratory.
+        Dr Allan Pacey, a senior lecturer in andrology at the University of Sheffield, believes that being able to grow human sperm in this way will lead to better understanding of infertility and would be a better subject for testing drugs.
+        On clinical developments, he added: &quot;It is important to be cautious because sometimes species-specific differences in biology means that what works for one species does not work in another. 
+        &quot;Also, it is clearly important to make sure that any sperm produced are safe and give rise to healthy offspring when used, and that they in turn have healthy offspring. We need to be cautious with this kind of work.&quot;
+             
+	
+	

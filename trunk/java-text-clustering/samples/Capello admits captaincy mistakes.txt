@@ -1,0 +1,252 @@
+
+                        EURO 2012 GROUP G QUALIFIER: WALES v ENGLANDVenue: Millennium Stadium Date: Saturday 26 March Kick-off: 1500 GMT Coverage: Live commentary on BBC Radio 5 live and BBC Radio Wales Sport; full text coverage and reports on BBC Sport website; also live on Sky Sports
+
+
+
+
+
+
+
+	
+	
+	
+	
+		
+			
+		
+			Please turn on JavaScript. Media requires JavaScript to play.  
+		
+		
+			
+		
+			
+			
+			
+		
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				
+				
+				
+			
+			
+				
+		
+		
+		
+		
+		
+/*<![CDATA[*/
+	bbc.fmtj.av.emp.load( function() {
+		var userAgent = navigator.userAgent.toLowerCase();
+		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
+			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
+			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
+			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
+			userAgent.search("android") == -1)
+		{
+			bbc.fmtj.av.emp.loadProxyPlayer("emp_9436299");
+		}else{
+			bbc.fmtj.av.emp.loadEmp("emp_9436299");
+		}
+	});
+/*]]>*/
+
+
+
+	
+	
+	
+	
+	
+	
+		Advertisement
+	
+	
+	
+	
+	Fabio Capello news conference in full
+
+
+
+
+
+England boss Fabio Capello has admitted he made mistakes over the captaincy issue and that he has still not spoken to former skipper Rio Ferdinand.Capello controversially re-instated John Terry as captain in place of Ferdinand ahead of Saturday's Euro 2012 qualifier against Wales in Cardiff. Terry was axed as captain 13 months ago amid allegations over his private life. &quot;Sometimes I regret what happened. It is possible to do some things better, but it is the past,&quot; said Capello. &quot;I can understand everything, but I need to make decisions.&quot; Manchester United defender Ferdinand's current absence from the squad because of a calf injury, plus the unavailability of vice-captain Steven Gerrard with a groin problem, meant Capello had a captaincy decision to make, and he defended his choice. &quot;Something happened in my mind when I saw the armband being passed around during our game in Copenhagen [against Denmark on 9 February],&quot; said the Italian. &quot;We changed it in the second half and it was unfair for John Terry to see this.
+	
+
+	
+		    
+			    
+				
+				
+			            
+			            
+			                
+			                        
+			                            FOOTBALL TACTICS BLOG
+			                        
+			                
+					
+			                
+			                     
+			                    
+	
+		
+			
+			
+    
+         
+        
+        
+            
+            Ramsey will feel Wilshere has taken over his club slot and he will be looking to prove a bit of a point
+            
+        
+        
+    
+    
+
+
+
+
+			
+	
+	
+
+
+
+
+
+			                
+			                     
+			                    
+	Former Wales midfielder Robbie Savage
+
+
+
+			                
+			            
+			        
+				
+				
+			    
+			
+	
+
+
+
+&quot;I thought that it was time for John Terry, after punishment, to return and be captain. &quot;I know that Rio Ferdinand and Steven Gerrard are not fit. I knew it was the moment, with one game which is so important, to have one captain like John Terry. &quot;I spoke with the players and personally with some players, and I spoke with the squad before I decided that John Terry will be the captain, and all the players were happy because John Terry was always a very important leader on the pitch and to the team.&quot; Capello said that he had tried to meet Ferdinand, who was appointed captain when Terry was axed from the role in February 2010, to discuss the matter, but was unable to do so. &quot;I tried to meet him [Ferdinand] when Manchester United played against Marseille but he told me no,&quot; said Capello. &quot;It didn't happen, he didn't come. I was in the directors' box. You will have to ask him.&quot; Looking ahead to Saturday's match at the Millenium Stadium, Capello revealed that Arsenal midfielder Jack Wilshere would start. He also praised the 19-year-old for the improvements he has made to his game since making his England debut as a second-half substitute against Hungary on 11 August last year. &quot;He is a young player who has improved a lot in a short time,&quot; said Capello. &quot;He was an interesting player, when he played his first game with us he was good, but young. &quot;Now he is playing like a player who has played a lot of games, like a 28 or 29-year-old. He plays the game fantastically with personality and without fear.
+
+	
+		
+			
+			
+				
+				Wilshere has impressed Capello with his maturity
+			
+			
+		
+		
+	
+
+	
+
+
+&quot;It's not easy to find players like him who play without fear in places like the Nou Camp. I spoke with [Arsenal manager] Arsene [Wenger] and he told me he was also surprised by how he had improved so much in so short a time.&quot; When asked whether Wilshere in the years ahead could emulate club-mate Aaron Ramsey, who will captain Wales for the first time on Saturday, Capello said: &quot;It will not be my problem. But I think he is a really good player, to be a captain you need to be a leader and I think Wilshere will be captain in a really short time.&quot; However, Capello effectively ruled out the prospect of Liverpool striker Andy Carroll starting in attack for England, despite the striker's promising start to his Liverpool career after returning from a thigh injury. &quot;I have monitored Andy Carroll in the games that he has played and I went to see him personally,&quot; said Capello. &quot;He is not at the level that he played before he got injured, he is not fit to play for 90 minutes.&quot; Meanwhile, Terry is focusing only on getting a positive result against Wales and not the furore surrounding his re-appointment as captain. &quot;It's a huge derby for our fans and everyone watching back home. The players realise the importance of it and we're determined to get a result which is our main priority,&quot; said the 30-year-old. &quot;A win is a must. We realise they [Wales] are bottom [of Group G] and have not had the best start. They're a dangerous side with some really good, young players coming through. &quot;On paper everyone is expecting us to win, but as players we're not feeling like that. We know what we have to do. &quot;On a personal note, I'm delighted with the manager's decision. It was important that we discussed it on Monday [with the media] and we've been concentrating on the training field since then and have a good week under our belts.
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+		
+		
+		
+	
+	
+	
+	
+	John Terry news conference in full
+
+
+
+
+
+&quot;Once we got Monday out of the way we drew a line under it, but I've been very touched to see some of the players publicly supporting me.&quot; Terry also rejected a suggestion that England's poor displays at the World Cup in South Africa last summer and in the early stages of their Euro 2012 qualifying campaign have been down to fear. &quot;I don't think it's a real fear,&quot; he said. &quot;It's a fear of not winning, not succeeding. We are playing for our country and we know everyone is watching us and believing in us and supporting us. &quot;We believe we have the quality. It's a fear of failure and we don't want to let down our fans, our families and everyone who comes along to support us. But I can promise we will give it all we can throughout this campaign.&quot; He added that Capello had played a significant role in changing the atmosphere around the England camp. &quot;There was this stigma about the place, that players had it too easy, that wasn't the case,&quot; admitted Terry. &quot;But he [Capello] came in and that has gone. He's seen that to get the best out of players you have got to relax a little, but he's certainly a man you don't want to upset.&quot; England go into the match in second place in the group, three points behind leaders Montenegro but having played a game less. Wales have lost all three of their group games to date.
+
+
+                         
+Bookmark with: 
+
+ 
+Delicious 
+
+ 
+Digg 
+
+ 
+reddit 
+
+ 
+Facebook 
+
+ 
+StumbleUpon 
+
+
+What are these?
+
+
+
+<!--
+var bm = new BookMark({site:'Sport',storyid:9436168,sectionid:46459,url:'/sport2/hi/football/9434774.stm',edition:'International'});
+//-->
+
+                        
+                        
+    
+        
+            
+                
+                E-mail this to a friend
+            
+            
+	       	
+	 	Printable version
+            
+        
+		    
+
+	Print Sponsor
+	BBC.adverts.write("storyprintsponsorship");
+
+BBC.adverts.show("storyprintsponsorship");
+
+    
+    
+
+
+
+                        
+
+	bbc_adsense_slot = "adsense_middle";"by" == "us" ? bbc_adsense_country = "by" : bbc_adsense_country = "rest";
+	
+
+BBC.adverts.show("adsense_middle");
+	
+                    

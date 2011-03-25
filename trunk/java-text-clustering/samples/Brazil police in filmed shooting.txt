@@ -1,0 +1,84 @@
+    	
+    		  
+    25 March 2011
+Last updated at 00:34 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Brazil police filmed \'shooting boy\' in Manaus', 
+    storyId:'12857100', 
+    sectionId:'99124', 
+    url:'http://www.bbc.co.uk/news/world-latin-america-12857100', 
+    edition:'International'
+}); 
+-->
+
+
+
+Brazil police filmed &#039;shooting boy&#039; in Manaus
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    The footage was recorded by a private security camera
+  
+	
+		Continue reading the main story		Related Stories
+		
+						&#039;Vigilante police&#039; held in Brazil
+											Police arrests in Rio gang purge
+											Brazil &#039;police arms gang&#039; busted
+								
+	
+                      Five Brazilian police officers have been arrested after television stations broadcast a video in which some of them appear to shoot a 14-year-old-boy. 
+        The footage - captured by a security camera in the city of Manaus - shows uniformed men pushing the teenager before shooting him in the chest.
+        The boy survived with several wounds and is now in a witness protection programme along with his family.
+        The incident happened in August but has only recently come to light. 
+        The boy&#039;s family and the person in charge of the security camera, as well as the first reporter to see the footage, initially held the video back because they feared retaliation if it was made public, prosecutors said.
+        Amazonas state prosecutor Joao Bosco Sa Valente said the officers would face charges of attempted homicide.  
+        &quot;I have been fighting organised crime for 30 years, but every time I see those images I feel indignation and disgust,&quot; the prosecutor told the Brazilian newspaper Folha de Sao Paulo.
+        The images have attracted widespread media attention across Brazil. 
+        Police officers in Brazil are frequently accused of using excessive force against criminal suspects, including extrajudicial execution.
+             
+	
+	

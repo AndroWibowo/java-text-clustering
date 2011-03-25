@@ -1,0 +1,181 @@
+    	
+    		  
+    25 March 2011
+Last updated at 15:58 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Plaid Cymru leader Ieuan Wyn Jones\'s election message', 
+    storyId:'12854789', 
+    sectionId:'99119', 
+    url:'http://www.bbc.co.uk/news/uk-wales-politics-12854789', 
+    edition:'International'
+}); 
+-->
+
+
+
+Plaid Cymru leader Ieuan Wyn Jones&#039;s election message
+    
+     
+         
+ 
+        		
+					            	    		 			
+														By Daniel Davies
+				Political reporter, BBC Wales News website
+			
+		        
+        
+
+
+
+	
+ 
+
+
+    
+        		
+        
+            
+                                
+                                Please turn on JavaScript. Media requires JavaScript to play.
+            
+        
+        
+            
+                    
+                
+                    
+					
+				            
+            
+            
+            
+            
+			
+		            
+                
+            
+        
+                    
+            
+        
+        
+        
+        
+/*<![CDATA[*/
+	bbc.fmtj.av.emp.load( function() {
+		var userAgent = navigator.userAgent.toLowerCase();
+		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
+			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
+			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
+			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
+			userAgent.search("android") == -1)
+		{
+			bbc.fmtj.av.emp.loadProxyPlayer("emp-12867380-6090");
+		}else{
+			bbc.fmtj.av.emp.loadEmp("emp-12867380-6090");
+		}
+	});
+/*]]>*/
+
+
+
+            
+             
+          
+		
+			
+				$render("advert","advert-companion","12867380");
+			
+			$render("advert-post-script-load");
+		
+         
+         
+    	
+        		
+		The Plaid Cymru leader tells his spring party conference in Cardiff that they&#039;ve proved their worth in government.
+		
+        
+
+
+	
+		Continue reading the main story		Related Stories
+		
+						Wales &#039;is exploited for energy&#039;
+											Plaid conference gears up for May
+											Plaid City bond idea for economy
+								
+	
+                      Plaid Cymru&#039;s leader has said &quot;it is time to take responsibility&quot; after 12 years of excuses under Labour.
+        Ieuan Wyn Jones told his party&#039;s spring conference it must &quot;transform Wales&quot;.
+        The assembly election on 5 May was an opportunity to stop Labour managing decline in public services, he said.
+        Plaid would insist the next 10 years are a &quot;decade of delivery&quot;, he told delegates in Cardiff. Mr Jones has been Deputy First Minister in the coalition government with Labour since 2007.
+        He joked that the two parties had &quot;started divorce proceedings&quot; as they part company to fight May&#039;s election.
+        But in an attack on his coalition partners, he said: &quot;A vote for us on 5 May will ensure that the culture of excuses which has been fostered and bred by the Labour Party for most of the last 12 years will come to an end.&quot;
+  
+	Continue reading the main story	&ldquo;Start Quote
+My message to the people of Wales is that it is time to take responsibility&rdquo;
+End Quote
+	Ieuan Wyn Jones
+	Plaid Cymru leader
+
+		      He said Wales needed a government that would stand up to Westminster and Brussels when necessary, but was willing to work with others when the time was right.
+        &quot;My message to the people of Wales is that it is time to take responsibility. It&#039;s time to stop shifting the blame,&quot; he said.
+        &quot;It is time for an end to the culture of excuses which has tarred Welsh government under Labour for most of the past 12 years.
+        He addressed an audience of the party faithful in a rehersal room at the Wales Millennium Centre, a stone&#039;s throw from the assembly in Cardiff Bay.
+        They applauded a list of Plaid successes in government, including legislation to protect the Welsh language and this month&#039;s referendum on direct law-making powers for the assembly - a key commitment in the Labour-Plaid coalition deal.
+        The speech put education at the centre of Plaid&#039;s campaign for the election - a portfolio held by Labour throughout the four years of the coalition.
+  
+  
+
+    Bethan Jenkins AM during a discussion event and Nerys Evans AM speaking to conference
+  
+      Raising standards would be the main priority of a Plaid government, Mr Jones said, pledging to concentrate resources on ending illiteracy among primary school leavers.
+        Recent test results for 15-year-olds showing Wales had slipped down an international league table were &quot;unaccaptable&quot;.
+        He hailed Plaid&#039;s plans for the economy, including a proposed not-for-profit company that would fund public infrastructure projects. 
+        Responding to attacks from opponents - who say the plan is not feasible - Mr Jones claimed it was a &quot;bold idea and we have the ambition and the determination to make it happen&quot;.
+        Plaid was not content to &quot;sit back and settle for a situation where people go out of work&quot;, he added.
+        The speech also attacked spending cuts by the UK government.
+        Although he has stopped short of explicitly ruling out talks with the Conservatives and Liberal Democrats if May&#039;s election is inconclusive, Mr Jones has said it would be &quot;difficult&quot; to form a coalition with them in the assembly because of their parties&#039; actions in Westminster.
+        But Labour has sought to claim that Plaid is prepared to deal with the Tories.
+        Labour MP Nia Griffith said: &quot;Only one party in Wales has ruled out any deal with the Tories and that is Welsh Labour - the true party of Wales.&quot;
+             
+	
+	

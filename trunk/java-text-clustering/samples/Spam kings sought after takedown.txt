@@ -1,0 +1,103 @@
+    	
+    		  
+    25 March 2011
+Last updated at 12:41 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Spammers sought after botnet takedown', 
+    storyId:'12859591', 
+    sectionId:'99113', 
+    url:'http://www.bbc.co.uk/news/technology-12859591', 
+    edition:'International'
+}); 
+-->
+
+
+
+Spammers sought after botnet takedown
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Hard drives seized in raids are being analysed for clues to who was behind Rustock
+  
+	
+		Continue reading the main story		Related Stories
+		
+						Microsoft aids spammer shutdown
+											Global dip in spam &#039;short lived&#039;
+											Global spam levels suddenly fall
+														
+	
+                      The Rustock botnet, which sent up to 30 billion spam messages per day, might have been run by two or three people.
+        Early analysis, following raids to knock out the spam network, suggest that it was the work of a small team.
+        Rustock was made up of about one million hijacked PCs and employed a series of tricks to hide itself from scrutiny for years.
+        Since the raids on the network&#039;s hardware, global spam levels have dropped and remain relatively low.
+  Net gains
+	      &quot;It does not look like there were more than a couple of people running it to me,&quot; said Alex Lanstein, a senior engineer at security firm FireEye, which helped with the investigation into Rustock.
+        Mr Lanstein based his appraisal on familiarity with Rustock gained while working to shut it down over the past few years.
+        He said that the character of the code inside the Rustock malware and the way the giant network was run suggested that it was operated by a small team.
+        That work by FireEye, Microsoft, Pfizer and others culminated on 16 March with simultaneous raids on data centres in seven US cities that seized 96 servers which had acted as the command and control (C&amp;C) system for Rustock. 
+        Mr Lanstein said hard drives from the servers had been handed over to a forensic firm that will scour them for clues as to the identity of the network&#039;s controllers.
+        His hunch that a small team was behind Rustock is partly based on how different it was to other spam networks such as Zeus. 
+        That network, said Mr Lanstein, operates on a franchise basis and involves many different groups and cyber criminals.
+        By contrast, Rustock was a tightly controlled, if huge, network that brought with it many of the administration headaches suffered by any web-based business.
+  
+  
+
+    Rustock specialised in sending out spam offering fake pills 
+  
+      &quot;They ran into a lot of problems with managing their assets and pushing updates out to a million user network,&quot; he said.
+        Rustock evaded capture for years because of the clever way it was controlled, he said. Victims were snared when they visited websites seeded with booby-trapped adverts and links. 
+        Once PCs were compromised, updates were regularly pushed out to them using custom written encryption.  Those downloads contained the spam engine that despatched billions of ads for fake pharmaceuticals. 
+        Updates to PCs in Rustock were also disguised to look like comments in discussion boards, making them hard to spot by security software which typically looks for well-known signs of malware. 
+        The servers controlling Rustock were also located within hosting centres in the US rather than overseas.
+        &quot;By locating all the C&amp;C servers in middle-America, not in major metropolitan areas, they were able to stay off the radar,&quot; said Mr Lanstein. 
+        Hosting costs for the C&amp;C systems ran to about $10,000 (£6,211) per month, he said. 
+        It was hard to estimate how much money the operators of Rustock had made, said Mr Lanstein, but it was likely to be a huge figure. 
+        Since the raids, Rustock&#039;s controllers do not seem to have tried to re-assert control of their creation. Technical steps taken by Microsoft could limit any future attempt, said Mr Lanstein, adding that he was not sure they would even try.
+        &quot;When you are a programmer and you realise that you have the full force of the Microsoft legal department pointed directly at you, then you might say to yourself its time to try something else,&quot; he said.
+             
+	
+	

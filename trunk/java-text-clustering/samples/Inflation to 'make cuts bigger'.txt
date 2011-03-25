@@ -1,0 +1,185 @@
+    	
+    		  
+    24 March 2011
+Last updated at 13:07 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Budget 2011: Inflation to make cuts bigger, says IFS', 
+    storyId:'12847678', 
+    sectionId:'99104', 
+    url:'http://www.bbc.co.uk/news/business-12847678', 
+    edition:'International'
+}); 
+-->
+
+
+
+Budget 2011: Inflation to make cuts bigger, says IFS
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    The government&#039;s £81bn cuts target could be hit by inflation
+  
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	          
+
+		
+		
+						
+		
+		
+	
+						Budget 2011
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Key points at-a-glance
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	How will the Budget affect you?
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Budget calculator
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	&#039;Jobs to go&#039; due to oil tax hike
+	
+		
+	  	  
+  
+
+
+		
+	
+
+	       	     
+	
+                      Rising inflation means cuts to public service spending are bigger in real terms than they would otherwise have been, a financial think tank says.
+        Cuts will on average be one percentage point greater over the next four years than announced in the spending review, the Institute for Fiscal Studies says.
+        The IFS says that means that cuts will therefore &quot;be harder to deliver&quot;. 
+        The planned £81bn cuts could lead to the loss of 490,000 public sector jobs. UK consumer price inflation is 4.4%.
+  'Barely true'
+	      It also said that as far as public finances were concerned &quot;the totality of measures announced in [Wednesday&#039;s] Budget was a fiscal non-event&quot;.
+        In its Green Budget, released the day after Chancellor George Osborne revealed the UK Budget for 2011, the IFS also turned its gaze to government promises on the health service.
+        &quot;In terms of the government&#039;s pledge to grow NHS spending in real terms year-on-year, this will now be only barely true between 2010-11 and 2011-12,&quot; it said.
+        &quot;If 2010-11 spending had not turned out less than planned, there would have been a small real cut in 2011-12. 
+        &quot;The government is sailing perilously close to the wind with respect to honouring this particular pledge.&quot;
+  'Formidable' cuts
+	      On Wednesday, the think tank said the government&#039;s prediction of a return to fiscal health by 2014-15 hinged on the &quot;unobservable&quot; growth potential of the economy.
+        The forecasted return to surplus in the latest budget was even more dependent on a pick-up in growth in 2013, said the IFS.
+        It came after the Office for Budget Responsibility (OBR) cut its growth projections for the next two years.
+        And the IFS said following the Budget that the planned cuts over the next four years remained &quot;formidable&quot;.
+        Last October, it had said that poorer families with children would be the &quot;biggest losers&quot; in the cuts.
+        That analysis was derided at the time by Deputy Prime Minister Nick Clegg as &quot;complete nonsense&quot; in a spat with the think tank.
+             
+	
+	

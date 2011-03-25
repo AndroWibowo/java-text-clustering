@@ -1,0 +1,174 @@
+    	
+    		  
+    25 March 2011
+Last updated at 13:45 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - US economic growth revised upwards for end for 2010', 
+    storyId:'12863703', 
+    sectionId:'99104', 
+    url:'http://www.bbc.co.uk/news/business-12863703', 
+    edition:'International'
+}); 
+-->
+
+
+
+US economic growth revised upwards for end for 2010
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Despite the revision, economists believe growth could be slower in the first quarter of 2011.
+  
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	          
+
+		
+		
+						
+		
+		
+	
+						US Economy
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Fed chair to face press scrutiny
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	US inflation rate picks up speed
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	US retail sales grew in February
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	US unemployment rate falls again
+	
+		
+	  	  
+  
+
+
+		
+	
+
+	       	     
+	
+                      The US economy grew faster than first thought in the final months of 2010, according to the Commerce Department.
+        Growth figures for the fourth quarter of 2010 have been revised upward to 3.1% from the 2.8% previously reported.
+        The rise was put down to more companies re-stocking and buying more plant and equipment than was believed.
+        Economists will welcome the news, although the economy is expected show slower growth in the first quarter of 2011, in part due to higher oil prices.
+        For the final three months of 2010, consumer spending grew at an annual rate of 4%, the strongest quarter for four years. 
+        Residential construction was growing at an annual rate of 3.3% in the final three months of the year after plunging at a 27.3% rate in the July-September quarter. 
+             
+	
+	

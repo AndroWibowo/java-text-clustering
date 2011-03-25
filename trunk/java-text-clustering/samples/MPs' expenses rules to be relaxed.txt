@@ -1,0 +1,126 @@
+    	
+    		  
+    25 March 2011
+Last updated at 11:43 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - MPs\' expenses: Rules relaxed for \'commuter belt\' MPs', 
+    storyId:'12852926', 
+    sectionId:'99207', 
+    url:'http://www.bbc.co.uk/news/uk-politics-12852926', 
+    edition:'International'
+}); 
+-->
+
+
+
+MPs&#039; expenses: Rules relaxed for &#039;commuter belt&#039; MPs
+    
+     
+         
+ 
+        		
+					            	    		 			
+														By Emma Griffiths
+				Political reporter, BBC News
+			
+		        
+        
+  
+
+    Sir Ian said changes were necessary to &quot;better support MPs&quot; in their jobs
+  
+	
+		Continue reading the main story		Related Stories
+		
+						MPs&#039; claims slumped after scandal
+											Ex-MPs entitled to £10.4m grants
+											Warning of MP expenses &#039;tragedy&#039;
+																	
+	
+                      More MPs will be able to claim extra expenses for children and accommodation under relaxed rules launched on Friday.
+        Changes to the scheme, introduced last year, follow MPs&#039; complaints that it was too bureaucratic and &quot;anti-family&quot;.
+        An extra 31 &quot;commuter belt&quot; MPs will be able to claim for hotels or rent, and those with children up to 18 will be able to claim extra for travel.
+        It could add &quot;a few million&quot; to the bill but expenses boss Sir Ian Kennedy said £18m had been saved already.
+        Sir Ian, chairman of the Independent Parliamentary Standards Authority (Ipsa), also said the new system had also come in £30m under its projected budget and had &quot;put an end to the expenses scandal that shocked us so much in 2009&quot;.
+        But he said there had always been an intention to review the scheme.
+        &quot;We didn&#039;t get everything right the first time,&quot; he said, and some changes were needed to &quot;better support MPs in doing their job&quot;.
+        It was not in the public interest for &quot;family life&quot; to be disrupted or for people with young families to be put off from becoming MPs, he said.
+  'Sleeping in office'
+	      One of the main changes reduces the number of MPs who are not allowed to claim towards accommodation, because they represent &quot;commuter belt&quot; constituencies, from 128 to 97. Before 2010, only 25 London MPs were not entitled to the full second homes allowance.
+        It means an extra 31 MPs, representing seats in Guildford, Milton Keynes, among others, will be able to request the allowance - up to a maximum of £19,900 a year for those claiming London rent.  
+        Sir Ian said: &quot;It is not in the public interest if they (MPs) are concerned where they are going to spend the night if the House is sitting late, or feel they are going to have to sleep in their office.&quot;
+  
+	Continue reading the main story	&ldquo;Start Quote
+Regulators are very rarely at the top of the Christmas card list of those they regulate &rdquo;
+End Quote
+	Sir Ian Kennedy
+	Ipsa chairman
+
+		      MPs with children would be able to claim more for travel and accommodation and would see a &quot;modest uplift&quot; in their staffing budget, Sir Ian said.
+        Currently MPs with children up to the age of five can claim an extra £2,425 per child for accommodation - and could claim for up to 30 journeys they make between London and the constituency.
+        Under the revised scheme, they will be able to make the same claims for children aged up to 16 - or 18 if they are in full time education - and for journeys by spouses or partners accompanying the child. 
+        MPs&#039; staffing budget will increase from a maximum of £109,548 to £115,000. 
+        And Sir Ian said the scheme would be simplified - two office-related allowances will be rolled into one.
+        MPs will be able to use &quot;payment cards&quot;, with a £4,000 monthly limit, to pay for stationery, hotels and constituency office costs - they are already used to cover travel, utility bills and council tax.
+        But a senior official said if MPs did not then supply the required evidence to back up money spent, they would be told to repay it.
+  'Toxic'
+	      Sir Ian would not give a figure for the amount the new scheme would cost - and said ultimately it would depend on &quot;take-up&quot; of the newly available expenses.
+        But he said a figure would be given to the MPs&#039; committee which signs off Ipsa&#039;s budget when it meets on 4 April and would then be publicly available. 
+        An Ipsa official said it would cost a &quot;very few million&quot; more pounds at most - and put it into context of the £18m the new system had already saved in claims in the scheme&#039;s first ten months.
+        Sir Ian said calls for changes to the rules on mortgage interest payments had been resisted because that particular expense was such a &quot;toxic&quot; issue: &quot;The sooner we close that chapter, the better.&quot;
+        Mortgage interest is now only payable to MPs who had bought second homes under the pre-2010 expenses scheme, and only up until 31 August 2012.
+  'Welcome steps'
+	      Ipsa has been heavily criticised by many MPs, including Prime Minister David Cameron, who has said its rules are &quot;anti-family&quot; and causing &quot;a lot of pain and difficulty&quot;. 
+  
+	Continue reading the main story	&ldquo;Start Quote
+Clearly the system remains under review by Ipsa and there is more that can be done&rdquo;
+End Quote
+	No 10
+	
+
+		      Sir Ian denied the body was fighting for its survival: &quot;Regulators are very rarely at the top of the Christmas card list of those they regulate - it comes with the territory.&quot; 
+        He also said Ipsa was &quot;actively going to consider&quot; calls for an MPs&#039; allowance in the future - there have been suggestions MPs should get a flat-rate allowance - but Sir Ian there would be no going back to the old, discredited system. 
+        A spokesman said Ipsa had not yet started to look into an MPs&#039; allowance so it was impossible to say what it could involve.
+        No 10 said the prime minister welcomed what it said was a &quot;significant step&quot; towards a &quot;more family-friendly&quot; system.
+        &quot;He agrees that the system established by Ipsa was not perfect and welcomes the steps they have taken towards addressing some of the problems of the current scheme,&quot; a Downing Street spokeswoman said.
+        &quot;But clearly the system remains under review by Ipsa and there is more that can be done. The bottom line, as far as the PM is concerned, is that expenses should be transparent, cost-effective and acceptable to the public.&quot;
+             
+	
+	

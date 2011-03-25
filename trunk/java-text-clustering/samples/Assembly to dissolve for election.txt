@@ -1,0 +1,148 @@
+    	
+        		  
+    23 March 2011
+Last updated at 10:27 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - NI Assembly to be dissolved ahead of May election', 
+    storyId:'12828605', 
+    sectionId:'99109', 
+    url:'http://www.bbc.co.uk/news/uk-northern-ireland-12828605', 
+    edition:'International'
+}); 
+-->
+
+
+
+NI Assembly to be dissolved ahead of May election
+    
+     
+         
+ 
+        		
+		        
+        
+
+
+
+	
+ 
+
+
+    
+        		
+        
+            
+                                
+                                Please turn on JavaScript. Media requires JavaScript to play.
+            
+        
+        
+            
+                    
+                
+                    
+					
+				            
+            
+            
+            
+            
+			
+		            
+                
+            
+        
+                    
+            
+        
+        
+        
+        
+/*<![CDATA[*/
+	bbc.fmtj.av.emp.load( function() {
+		var userAgent = navigator.userAgent.toLowerCase();
+		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
+			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
+			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
+			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
+			userAgent.search("android") == -1)
+		{
+			bbc.fmtj.av.emp.loadProxyPlayer("emp-8167445-254482");
+		}else{
+			bbc.fmtj.av.emp.loadEmp("emp-8167445-254482");
+		}
+	});
+/*]]>*/
+
+
+
+            
+             
+          
+		
+			
+				$render("advert","advert-companion","8167445");
+			
+			$render("advert-post-script-load");
+		
+         
+         
+    	
+        		
+		Democracy Live coverage of Stormont proceedings
+		
+        
+
+
+                      The speaker of the assembly has been reflecting on its work over the past four years as it is set to be dissolved ahead of an election in May. 
+        Several of the 108 assembly members will not be seeking re-election, including former First Minister, Ian Paisley.
+        Willie Hay thanked all the MLAs who are standing down and said some of them had given a lifetime of service. 
+        The assembly will be dissolved at 0001 GMT on Friday ahead of the election. 
+        MLAs are meeting at Stormont for a final sitting to try and push through last minute legislation.
+        BBC political editor Mark Devenport said history would view this mandate as &quot;an achievement&quot;.
+        He said it had been &quot;in contrast to what went before&quot;.
+        &quot;There were so many interruptions in the previous mandate, such as rows over decommissioning and rows over alleged republican spy rings at Stormont.&quot;
+        He said the MLAs themselves would point to various achievements including: &quot;free prescriptions, a freezing of the rates and finally overcoming that hurdle over the devolution of justice&quot;. 
+        &quot;Also standing together at the time of the dissident republican murders which were seen as the greatest challenge on the security front.&quot;
+        He also said the recent &quot;budget discussions have to some extent thrown up once again this whole business of having an opposition within&quot;.
+        &quot;Those very heated debates will have left a sour taste for some voters where they saw the DUP and Sinn Fein on one side with Alliance backing them, and the SDLP and the UUP on the other, all arguing about this.&quot;
+             
+	
+	

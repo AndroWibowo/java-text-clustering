@@ -1,0 +1,219 @@
+    	
+    		  
+    24 March 2011
+Last updated at 01:29 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Libya: Barack Obama\'s step from Nobel winner to warrior', 
+    storyId:'12843932', 
+    sectionId:'99121', 
+    url:'http://www.bbc.co.uk/news/world-africa-12843932', 
+    edition:'International'
+}); 
+-->
+
+
+
+Libya: Barack Obama&#039;s step from Nobel winner to warrior
+    
+     
+         
+ 
+        		
+					            	    		 			
+														By Andrew North
+				BBC News, Washington
+			
+		        
+        
+  
+
+    President Barack Obama&#039;s approval rating hovers around 50%, according to recent polls
+  
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	          
+
+		
+		
+						
+		
+		
+	
+						Libya Crisis
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+		
+
+
+	
+
+
+
+
+
+	Libya and Mid-East crisis Live
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Nato control on Libya &#039;days away&#039;
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Turkey&#039;s difficulties
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Sarkozy seizes moment
+	
+		
+	  	  
+  
+
+
+		
+	
+
+	       	     
+	
+                      It probably wasn&#039;t what the Nobel committee had in mind when it awarded the Peace Prize to President Barack Obama two years ago.
+        Two months later he ramped up the war in Afghanistan, sending in 30,000 extra US troops.
+        Now he has ordered massive air strikes on Libya - with United Nations backing, but still with the United States in the lead.
+        Judged by his actions, this supposedly anti-war president looks almost as warlike as President George W Bush.
+        If you include Mr Obama&#039;s increased use of drone strikes in Pakistan and Yemen, he&#039;s got the US involved in more conflicts than his much-criticised predecessor.
+        Judged by Mr Obama&#039;s words though, he is in plenty of internal conflict over his decisions.
+        Far from beating the drums of war, he keeps highlighting the risks and promising US action on Libya will last &quot;days not weeks&quot;.
+        Take a glance at the opinion polls and you can see why.
+        Less than a week since the first cruise missiles were launched, the clock is already ticking on how long Americans will back him.
+  
+  
+
+    Surveys suggest many Americans are not in favour of US military intervention in Libya
+  
+      Polls by Gallup, CBS and CNN since the attack show Mr Obama&#039;s approval ratings hovering around 50%.
+        Hardly encouraging, when the start of a military campaign is usually the high point of public support.
+        Surveys gave President Bush 90% approval ratings when he went into Afghanistan after the 9/11 attacks.
+        Even for the early stages of the 2003 Iraq invasion, his ratings were over 60%. They went downhill from then on.
+        When you dig deeper into the figures for Libya, there are already reasons for White House unease.
+        Only 47% of respondents were in favour of US military actions in Libya, according to a recent Gallup poll.
+  American interests?
+	      &quot;We need better judgment when we decide to send our young men and women into war,&quot; said one of the candidates in the 2008 White House race. 
+  
+  
+
+    US aircraft have been attacking Col Muammar Gaddafi&#039;s forces for the better half of a week
+  
+      He listed three key benchmarks: &quot;an imminent threat&quot;, protecting &quot;American interests&quot; and a &quot;plan to succeed and to exit&quot;. 
+        That candidate of course was Barack Obama. Does President Obama meet his own benchmarks in going into Libya?  
+        Fewer than 40% of people surveyed for the CBS poll believed Libya is &quot;very important&quot; to US interests, with far more sitting on the fence.  
+        Many Americans are bewildered that Mr Obama of all people has got them into another war - one they fear could turn into a costly Iraq-style quagmire at a time when they are being asked to tighten their belts.
+        When some Democratic senators held a telephone news conference to show support for the president, they were peppered with sceptical questions about how long it would last, how much it would cost and why.
+        Does the action in Libya pass the &quot;mother test&quot;, one reporter asked?
+        In other words, can the Obama administration justify putting American lives on the line for a mission some in Congress are already saying is not clearly defined?
+  Wary mood
+	      Leading that charge is the Republican House Speaker John Boehner, but rumblings of discontent are being heard from the Democratic side too. 
+        The White House insists the mission is clear - that if it had not acted against Col Muammar Gaddafi, it would have meant a Rwanda-style genocide against the rebel stronghold of Benghazi and a humanitarian crisis destablising North Africa.
+  
+  
+
+    US Secretary of State Hillary Clinton has repeatedly urged Col Gaddafi to step down
+  
+      If the Libyan leader is toppled relatively quickly, Mr Obama will look good - and silence those critics who have accused him of lacking courage.
+        But such is the wary mood, it is unlikely Americans will stomach many US casualties - as they did with Iraq and Afghanistan. 
+        If that happens, watch for comparisons with another US intervention in Africa - Somalia, when 18 Americans were killed in one battle and the rest of the force quickly pulled out.
+        Operation Odyssey Dawn could then quickly be dubbed Operation Black Hawk Down II.
+        So what does the Nobel peace prize committee think about its 2009 winner now? There has been no reply so far to an e-mail seeking comment.
+             
+	
+	

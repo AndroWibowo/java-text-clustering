@@ -1,0 +1,224 @@
+    	
+    		  
+    25 March 2011
+Last updated at 10:50 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Inflation switch \'will raise tax bill\'', 
+    storyId:'12859316', 
+    sectionId:'99104', 
+    url:'http://www.bbc.co.uk/news/business-12859316', 
+    edition:'International'
+}); 
+-->
+
+
+
+Inflation switch &#039;will raise tax bill&#039;
+    
+     
+         
+ 
+        		
+					            	    		 			
+														Money Talk by Chas Roy-Chowdhury
+				Head of taxation, ACCA
+			
+		        
+        
+  
+
+    National Insurance will be one of the many taxes affected by the change
+  
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	          
+
+		
+		
+						
+		
+		
+	
+						Budget 2011
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Key points at-a-glance
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	How will the Budget affect you?
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Budget calculator
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	&#039;Jobs to go&#039; due to oil tax hike
+	
+		
+	  	  
+  
+
+
+		
+	
+
+	       	     
+	
+                      It was a very low-key, innocuous announcement in Chancellor George Osborne&#039;s Budget speech - various direct tax thresholds would be indexed by the Consumer Prices Index (CPI) measure of inflation in future and not the Retail Prices Index (RPI). 
+        When he spoke of this, he seemed to pause for a nano-second, expecting a barracking from the opposition party. 
+        Instead, there was no reaction as, seemingly, the vast majority of Labour MPs were not well enough versed in accountancy and economics to understand the implications of what had just been said. 
+        The move to CPI will come in from April 2012 and will affect a whole host of taxes. 
+        The biggest issue around this move to index by CPI is that it is likely to create an even higher level of &quot;fiscal drag&quot; and result in more people, paying more tax, in more instances.
+        That is because the threshold at which they start paying these taxes will rise slower each year than would have been the case if linked to RPI.
+  Big difference
+	      There is currently a very significant difference in the level of RPI against CPI. CPI is 25% lower than RPI at present. RPI is higher than CPI most of the time. 
+  
+	Continue reading the main story		BBC Money Matters Roadshow
+		
+	
+  
+
+  
+
+	
+	
+     Get expert help with all of your money concerns at the latest BBC Money Matters event
+     Speak to specialist advisors on pensions, mortgages, debt  and benefits
+     0900 to 1700 on Wednesday 30 March at Drake Circus, Plymouth
+     There will be full coverage on BBC TV, radio and online
+  
+	
+		
+			Budget calculator
+			Full details from the BBC&#039;s Declan Curry
+		
+	      We should note, however, that in recent times it was, broadly speaking, from the last quarter of 2008 to the last quarter of 2009 that there was a significant undershoot in RPI in relation to CPI - and for a part of that period, RPI actually went negative.
+        The difference in the two measures is due to the basket of items they encompass and the population groups they include. 
+        The RPI includes within its basket such items as mortgage interest rates, buildings insurance, road fund licence and trade union subscriptions. These items are not included in the CPI. 
+        You might recollect that the Bank of England official interest rate dropped to the current 0.5% level in March 2009, from a peak at the end of 2007 of 5.75%. It is because of this that mortgage interest rates dropped dramatically and the RPI went negative for a good part of 2009. 
+  Change
+	      Budget note A27 deals with the move from RPI under the heading Policy Objective.
+  
+  
+
+    The two measures of inflation are considerably different, says Chas Roy-Chowdhury
+  
+      &quot;This measure reflects the government&#039;s intention to move the underlying indexation assumption for all direct taxes and contributions to CPI,&quot; the documents say. 
+        This means it will affect National Insurance contributions, capital gains tax, Individual Savings Accounts (Isas), inheritance tax and eventually income tax.
+        The government will raise nearly £1.1bn from the change. In actual fact, one suspects it could be significantly more than this. 
+        As I have said, the RPI went negative for a part of 2009 due to the general drop in mortgage interest rates. No-one has a crystal ball, but it seems to me that there is only one way that interest rates will go over the coming months and years, and that is up. 
+        Hence RPI is quite likely not going to drop significantly and could head higher, while CPI drops back to its 2% target. 
+        In those circumstances, we are likely to see the £1.1bn exchequer gain increase further and possibly significantly. 
+  Anomalies
+	      As mentioned already, the target taxes are all direct taxes, but there are a couple of anomalies at present. 
+        It seems that the employers&#039; National Insurance contributions (NICs) thresholds will continue to be increased by the &quot;equivalent&quot; of RPI for this Parliament. The government considers the employers&#039; NIC to be a tax on employment, hence this more generous indexation treatment.
+        The other area of variance from this will be income tax thresholds. The government intends to push up personal allowances faster than CPI or RPI. 
+        But the tax bands may increase or decrease as political judgement dictates. For instance, we will see the 40% starting rate band drop significantly from 6 April 2011. But in April 2012, it will increase by £630.
+        The final tax point to note is that the CPI treatment will also apply to inheritance tax, as I have said, but only from 2015. The nil rate band will be frozen until then at £325,000.
+        The opinions expressed are those of the author and are not held by the BBC unless specifically stated. The material is for general information only and does not constitute investment, tax, legal or other form of advice. You should not rely on this information to make (or refrain from making) any decisions. Links to external sites are for information only and do not constitute endorsement. Always obtain independent, professional advice for your own particular situation.
+             
+	
+	

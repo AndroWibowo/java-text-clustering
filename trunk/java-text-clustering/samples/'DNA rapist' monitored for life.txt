@@ -1,0 +1,102 @@
+    	
+    		  
+    25 March 2011
+Last updated at 13:47 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Rapist Kevan McDonald jailed and monitored for life', 
+    storyId:'12860157', 
+    sectionId:'99255', 
+    url:'http://www.bbc.co.uk/news/uk-scotland-glasgow-west-12860157', 
+    edition:'International'
+}); 
+-->
+
+
+
+Rapist Kevan McDonald jailed and monitored for life
+    
+     
+         
+ 
+        		
+		        
+        	
+		Continue reading the main story		Related Stories
+		
+						Case delays &#039;DNA rapist&#039; sentence
+											Risk assessment on &#039;DNA rapist&#039;
+											Sex attacker snared by twin&#039;s DNA
+											
+	
+                      A rapist who was caught because of his twin brother&#039;s DNA has been ordered to remain in prison until the parole board believes he no longer represents a danger to the public. 
+        Kevan McDonald, 34, from Paisley, raped a 17-year-old schoolgirl and a woman, and tried to rape two others. 
+        McDonald was convicted after he was identified through a DNA sample given by his twin brother in a separate case.
+        He cannot apply for parole until he has served six years and four months.
+        At the High Court in Glasgow, McDonald admitted raping a 17-year-old girl in Paisley and a 33-year-old woman on a cycle path near Elderslie in 2009. 
+        He also admitted the attempted rape of two teenagers in Renfrew and Paisley. 
+        McDonald was told he would be monitored for life after his release from prison.
+        During an earlier hearing, the court heard how the martial arts expert carried out the attacks over a three-month period between April and June 2009.
+  Four victims
+	      He admitted raping a 17-year-old schoolgirl in Paisley town centre on 3 April after pouncing while she walked home alone from a night out with friends. 
+        McDonald admitted targeting his second victim, a 16-year-old, in Renfrew on 27 May as she walked home in the early hours of the morning. 
+  
+	Continue reading the main story	&ldquo;Start Quote
+This was the most atrocious level of criminality and abuse of the most serious form imaginable&rdquo;
+End Quote
+	Lord Turnbull
+	Judge
+
+		      He hid in bushes and grabbed her as she walked past, dragging her into a wooded area. 
+        The court heard how the girl&#039;s screams attracted the attention of a passing taxi driver who went to her aid. 
+        His third victim, an 18-year-old girl, screamed for help as he attacked her in the early hours of 16 June in Paisley&#039;s Cochrane Street. 
+        McDonald ran off after her friends heard her screams and ran to her aid. 
+        His fourth victim, a 33-year-old woman, was attacked when she asked McDonald for directions while cycling along the path between Newton Terrace and Main Road, Elderslie, on the afternoon of 16 June. 
+        The court heard how he punched her in the face, grabbed her by the throat, compressed her neck, pulled her into woods, tied her hands with her trousers, and raped her.
+        The court was also told that McDonald had stolen a mobile phone and an iPod from the 16-year-old victim and a camera and phone from the 33-year-old woman.
+  Lifelong restriction
+	      These items were recovered when his home was searched by police.
+        The DNA profiles recovered in relation to the two rapes were found to match the profile of McDonald&#039;s identical twin brother.
+        Jailing McDonald, judge Lord Turnbull back-dated his sentence to June 2009 when he first appeared in the dock.
+        He also made him the subject of an order for lifelong restriction and placed McDonald on the sex offenders register for an indefinite period.
+        The judge told him: &quot;This was the most atrocious level of criminality and abuse of the most serious form imaginable.&quot;
+        Lord Turnbull told McDonald that he would have had to serve a minimum of 12 years and nine months before being considered for parole but a recent ruling in the appeal court meant that term would be halved.
+             
+	
+	

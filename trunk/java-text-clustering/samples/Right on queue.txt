@@ -1,0 +1,142 @@
+    	
+    		  
+    25 March 2011
+Last updated at 03:16 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - For Nintendo and Apple the queue is king at launch time', 
+    storyId:'12841643', 
+    sectionId:'99113', 
+    url:'http://www.bbc.co.uk/news/technology-12841643', 
+    edition:'International'
+}); 
+-->
+
+
+
+For Nintendo and Apple the queue is king at launch time
+    
+     
+         
+ 
+        		
+					            	    		 			
+														By Dave Lee
+				Technology Reporter
+			
+		        
+        
+  
+
+    Gamers in London&#039;s Oxford Street waited patiently for the Nintendo 3DS to go on sale at midnight
+  
+	
+		Continue reading the main story		Related Stories
+		
+						Gamers queue for Nintendo&#039;s 3DS
+											Nintendo 3DS games unveiled
+											Apple launches second iPad tablet
+											
+	
+                      There is something special about the sight of a queue.
+        It sends out subliminal messages - &quot;there is a thing here you might want&quot;, &quot;this is really worth waiting for&quot; and &quot;everyone else is getting one, why not you?&quot;
+        That line of people, waiting outside a shop, is a marketing man... or woman&#039;s dream.
+        Last night, customers at more than 1,500 stores across the UK queued up to get their hands on the latest object of gamers&#039; adoration - the Nintendo 3DS.
+        And, after selling out across the United States, Apple will again be drawing crowds for the UK launch of the iPad 2 at 5pm on Friday.
+        In what has now become a predictable sight outside flagship technology stores the world over, queues give a visual reminder of our thirst for the latest, most exciting technology.
+  
+  
+
+    New Yorker Greg Packer achieved minor celebrity after waiting nearly five days for the first iPhone
+  
+      Thousands of people feel compelled to give up a day - and night - to be among the first to have it, generating mountains of free publicity for technology companies in the process.
+        For the launch of the 3DS, the world&#039;s first glasses-free 3-D hand-held games console, Nintendo pulled out all the stops to make sure that demand was high and lines were long.
+        At the console&#039;s official launch at HMV on Oxford Street, the first 100 customers were offered a free game and a chance to meet top games producer Yoshinori Ono. 
+        If that wasn&#039;t enough, the first in the queue was also eligible for a free taxi home.
+        &quot;The fans enjoy being down there at midnight and getting access to developers and getting prizes and goodies and free games. It works for the media as well,&quot; said Robert Saunders, a spokesman for Nintendo UK.
+  Media frenzy
+	      It&#039;s an irresistible opportunity for the media - including the BBC - to produce stories that are almost guaranteed to attract a lot of readers.
+  
+	Continue reading the main story	&ldquo;Start Quote
+I guess part of the motivation for queuing up is they know the media is going to be there&rdquo;
+End Quote
+	Andrew McCormick
+	Marketing magazine
+
+		      Apple won&#039;t be laying it on quite as thick as Nintendo, in terms of the number of stores opening and freebie gifts on offer.
+        Arguably they do not need to, given the promotional prowess of the company&#039;s chief executive Steve Jobs.
+        &quot;In the technology game, Steve is the only guy who can create lust,&quot; said Brenden Tansey, chief executive of marketing firm Wunderman.
+        &quot;Apple don&#039;t mind the consumer being in love with them. They wouldn&#039;t want [queues] every day, but to have it as an event, where the public are saying we value this product so highly - I think that&#039;s perfect for their brand.&quot;
+        Indeed, it has been just 10 months since a line of eager fans snaked down London&#039;s Regent Street, waiting to get hold of Apple&#039;s original iPad, but Mr Jobs&#039; ability to repeatedly rouse his loyal user base means the lower-priced upgrade will likely be even more popular.
+        &quot;I think they&#039;re at the point now where they don&#039;t have to engineer this sort of thing any more, said Mr Tansey.
+        &quot;He orchestrates that developer community so they&#039;re like a &#039;groupie&#039; audience. I mean, they love him,&quot; he joked.
+  Queue blogging
+	      The sight of a twisting line has become one of Apple&#039;s most powerful marketing tools, according to Victor Agreda, editor-in-chief of The Unofficial Apple Weblog.
+  
+  
+
+    The sight of queues outside Apple stores has become part of the product launch experience
+  
+      &quot;Continuing to see a queue every time there&#039;s one of these product launches has begun to sink in to people: this is what you do if you want the latest and greatest from Apple. You go and you get in line.&quot;
+        For the hardcore fan, it is simply not an option to not be the first with the latest technology.
+        But it is not just ordinary members of the public queuing up.  In many cases, the most enthusiastic participants are bloggers - professional writers or enthusiastic amateurs.
+        They report live from the front line of a frenzy that they are themselves helping to create.
+        &quot;It&#039;s a competitive disadvantage to not have someone on the team sitting and poking at the new product,&quot; said Mr Algreda.
+        Andrew McCormick, deputy editor of Marketing magazine, agrees.
+        &quot;I guess part of the motivation for queuing up is they know the media is going to be there - and they&#039;ll be labelled as an Apple geek or a Nintendo geek - and they covet that title.&quot;
+        &quot;There are loads of them out there, it&#039;s unbelievable. 
+        &quot;Any article that criticises Apple in any way whatsoever will be smashed down in the comments underneath it.&quot;
+  Incredibly efficient
+	      Of course, it&#039;s not only the hardware manufacturers that benefit from big-time launches and buzz from the blogging and tweeting community.
+        For Nintendo&#039;s launch, UK stores opened their doors at midnight on Thursday. Their aim was not just to maximise sales, but capture some of the reflected glory from the 3DS.
+  
+  
+
+    Retailer Game gave away a free 3DS at each of their 482 stores across the UK
+  
+      &quot;For us, it gets our brand out there,&quot; said Neil Ashurst, head of PR for UK video game retailers Game and Gamestation, which opened 482 stores.
+        &quot;Whether we did the PR element or not, the customers would be there.
+        &quot;The gaming industry&#039;s marketing machine is actually an incredibly efficient one,&quot; he said.
+        Cynics suggest that the public will soon wise up to the yearly cycle of &#039;must-have&#039; products, but for the time being, the lines will keep getting longer.
+        &quot;I don&#039;t think it will backfire,&quot; said Brendan Tansey. 
+        &quot;The expectation is, &#039;I will stand in that queue for five hours and get a product.&#039;
+        &quot;They&#039;ve chosen to do the experience and no-one is surprised.&quot;
+             
+	
+	

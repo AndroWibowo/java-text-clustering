@@ -1,0 +1,149 @@
+    	
+        		  
+    28 February 2011
+Last updated at 08:36 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Minority Report-like adverts \'may hit the UK next year\'', 
+    storyId:'12582477', 
+    sectionId:'99113', 
+    url:'http://www.bbc.co.uk/news/technology-12582477', 
+    edition:'International'
+}); 
+-->
+
+
+
+Minority Report-like adverts &#039;may hit the UK next year&#039;
+    
+     
+         
+ 
+        		
+					            	    		 			
+														By Dave Lee
+				Technology Reporter
+			
+		        
+        
+  
+
+    The future of advertising? A report suggests interactive, knowledgeable adverts like these may become part of our lives very soon
+  
+	
+		Continue reading the main story		Related Stories
+		
+						More than just a pretty picture
+											Living life in augmented reality
+											TV ad goes interactive
+								
+	
+                      In 2002, Steven Spielberg&#039;s hugely successful film Minority Report set imaginations alight, showing a glimpse of what the world could be like in the not-too-distant future.
+        Its plot revolved around a special police unit named &#039;PreCrime&#039; which would predict when a murder was about to take place, giving police a chance to capture the potential criminal before they could commit the act.
+        Yet for many, by far the most intriguing &#039;invention&#039; in Minority Report intrusively made itself known as Tom Cruise&#039;s character strolled through a mall.
+        &quot;John Anderton!&quot; an advertisement yelled. &quot;You could use a Guinness right about now!&quot;
+        As Anderton walked on, his world was a blur of noise and distraction emanating from adverts all over the room.
+  
+	Continue reading the main story	&ldquo;Start Quote
+We have a situation where the boundaries between our online and offline worlds become even more blurred and we currently have no regulatory or legislative regime in place to deal with these dangers.&rdquo;
+End Quote
+	Alexander Hanff
+	Privacy International
+
+		Gladvertising
+	      The film was set in 2054, but while we are still many years away from the Minority Report world, a new report suggests that adverts like the ones in the film may be well on the way, and indeed, that some already exist.
+        Written by the Centre for Future Studies, it predicts an advertising revolution taking place over the next 12 months. 
+        Their report - commissioned by 3MGTG, which specialises in digital advertising - foresees the first step to be advertisements that adapt to our moods.
+        The tech has been dubbed &#039;Gladverts&#039; by the report&#039;s authors. 
+        They envision a world where emotion recognition software (ERS) can tell if you are happy or sad and then serve up an advert based on how you feel. 
+        In Japan, technology company NEC has already developed a system which can work out a person&#039;s gender, estimate their age, and serve up adverts suited to that demographic.
+        In the further future, this targeted advertising may go a step further by not only knowing your mood, but also information such as age, sex and interests, possibly powered by social networking profiles.
+        &quot;Steven Spielberg got it wrong,&quot; says Daniel Steinbichler, 3MGTG&#039;s chief executive.
+  
+	Continue reading the main story		The future, today?
+		
+	
+  
+
+  
+
+	
+	      Minority Report was set in the year 2054, but some of its ideas are already in use today, as well as other interactive advertising techniques.
+  
+     In Tokyo, an advertisement designed by NEC can work out your gender and make a guess at your age before serving an advert designed specifically for your demographic.
+     Cisco is working on technology that takes your image in store and lets you browse a store by virtually &quot;trying on&quot; clothes.
+     Many brands such as Levi&#039;s are experimenting with &#039;Facebook Connect&#039; - inviting customers to share personal information in return for a personalised shopping experience.
+     QR-Codes (pictured) have become a popular system to enable people with smart phones to scan a part of a poster and receive extras - such as a voucher -immediately to their mobile.
+  
+	
+	      &quot;It will be more advanced than the director ever imagined. Instead of just recognising consumers by name, technology such as gladvertising will allow brands to offer interactive experiences.&quot;
+  'Scary stuff'
+	      That has got privacy campaigners worried.
+        &quot;We feel that it is an industry that has so far gone unchallenged and because of this they are developing some scary stuff,&quot; Alexander Hanff from Privacy International told the BBC.
+        &quot;We have a situation where the boundaries between our online and offline worlds become even more blurred and we currently have no regulatory or legislative regime in place to deal with these dangers.&quot;
+        One key concern for the public will be how personal data is collected, and by whom. One floated suggestion is to use publicly available social networking information. Another is to tap in to existing market research.
+        Also, suggests Mr Hanff, the interactive nature of &#039;Gladverts&#039; may offer a service in return for information - a trend already seen with public Wifi hotspots which require assorted personal details before use.
+        &quot;We wouldn&#039;t be surprised to see digital signage also serving as WiFi hotspots in the future to collect even more data.
+        &quot;Since it is likely these signs will be networked, they serve as a very good opportunity for the industry to offer free Wifi hotspots as well.&quot;
+        We need not be so worried, suggests the report&#039;s author, Dr Frank Shaw. He believes that like many innovations, it will be the eagerness of young consumers that will lead to widespread take up.
+        &quot;It&#039;s about the younger generations that are going to be the early adopters and the leaders and the educators and the influencers. 
+        &quot;I think the power of what we&#039;re talking about is that the consumer is going to want to participate. If you see those guys in Times Square, playing on the digital boards - that&#039;s exciting! That&#039;s what they want to do.&quot;
+        But even the Facebook-generation may take some convincing.
+        &quot;It&#039;s creepy,&quot; says Sophie Legg, 24, from Cambridgeshire. 
+        &quot;I have a lot of personal things on Facebook that I wouldn&#039;t want being used for adverts. But I guess I wouldn&#039;t mind a funny advert appearing if I was having a sad moment.&quot;
+  'Out of date'
+	      Concerns over the amount of data collected by firms operating online has lead to Recent changes to the EU&#039;s ePrivacy Directive, tightening controls on the types of digital kept.
+  
+	Continue reading the main story	&ldquo;Start Quote
+If you see those guys in Times Square, playing on the digital boards - that's exciting! That's what they want to do.&rdquo;
+End Quote
+	Dr Frank Shaw
+	Centre for Future Studies
+
+		      But Mr Hanff, who says Privacy International will be taking a very close look at the issue in this year, believes that the changes are not strict enough.
+        &quot;Thanks to aggressive lobbying by industry groups such as the Internet Advertising Bureau, the changes fall a long way from their original target,&quot; he said.
+        &quot;New regulations are focused on browser controls and third party tools to protect the public (a self regulatory approach) and completely fail to see the wider issue such as apps, street level commercial surveillance (such as digital signage) and device tracking.
+        &quot;The changes to the ePrivacy Directive are already woefully out of date,&quot; said Mr Hanff.
+        Dr Shaw says the industry will now need to undertake a fresh wave of research into &#039;gladvertising&#039; to learn exactly how the public may react, and what their worries may be.
+        &quot;Naturally there are going to be anxieties and concerns about intrusive behaviour, about security issues and so on,&quot; he said. 
+        &quot;I think, though, that over time the consumer in their experience of the technology is going to become increasingly more comfortable. 
+        &quot;Don&#039;t forget, we have this wonderful invention called the off button!&quot;
+             
+	
+	

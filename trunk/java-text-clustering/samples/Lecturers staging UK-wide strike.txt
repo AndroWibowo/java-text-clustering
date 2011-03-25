@@ -1,0 +1,319 @@
+    	
+    		  
+    24 March 2011
+Last updated at 12:44 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - UK lecturers\' strike over pensions disrupts students ', 
+    storyId:'12830435', 
+    sectionId:'99105', 
+    url:'http://www.bbc.co.uk/news/education-12830435', 
+    edition:'International'
+}); 
+-->
+
+
+
+UK lecturers&#039; strike over pensions disrupts students 
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Lecturers formed picket lines outside some universities
+  
+	
+		Continue reading the main story		Related Stories
+		
+						University strike action spreads
+								
+	
+                      Students at universities and colleges across the UK are facing disruption to their studies as lecturers strike over pay and changes to their pensions.
+        The UK-wide action involves members of the University and College Union in up to 500 FE colleges, older universities and former polytechnic universities.
+        It follows earlier pension protests by dons at older universities in England, Scotland, Wales and Northern Ireland.
+        The Universities and Colleges Employers Association said it was disappointed.
+        The UCU says the protest is the first UK-wide strike action in universities for five years and the first in further education colleges since 2008. 
+        The union, which says tens of thousands of staff are striking, has received the support of the National Union of Students, despite the likely disruption to their members&#039; studies. 
+  Culmination of action
+	      The strike comes on top of four days of industrial action at 67 older UK universities in a row over changes to the Universities Superannuation Scheme.
+  
+	Continue reading the main story	&ldquo;Start Quote
+Employers are extremely disappointed by UCU's decision to take industrial action&rdquo;
+End Quote
+	Professor Keith Burnett 
+	UCEA
+
+		      The strike on Thursday will see them joined by colleagues in the rest of the UK&#039;s universities and those in further education colleges, who are members of the Teachers&#039; Pension Scheme.
+        The USS dispute centres on attempts to raise the retirement age, increase contributions from 6.35% to 7.5% of earnings, and end the final salary element of the scheme for new joiners.
+        The Employers&#039; Pensions Forum, which runs the scheme, said the strike action was &quot;damaging&quot; and the changes were are &quot;remarkably good deal&quot; in the context of likely changes to pensions across other sectors.
+  
+	Continue reading the main story		AT THE SCENE
+		
+	
+	
+	      Gillian Hargreaves, Education correspondent, BBC News
+        Participants in the University and College Union&#039;s week of discontent were enjoying a glorious summery day today as a gaggle of lecturers gathered around the entrance to the School of African and Oriental Studies in London. 
+        Dr Rachel Hunter, fluent in Thai and an expert on Asian films, said: &quot;I wont lose out much but people coming after me will lose a lot...  Today isn&#039;t just about pensions it&#039;s about cuts in higher education -   the removal of teaching grants and the introduction of fees completely change the future of higher education and devalues everything we do. &quot; 
+        I then made my way across to the University of Westminster, where there were less than a dozen pickets on the line.
+        Lecturers at the new universities are on the Teachers&#039; Pension  Scheme, like school teachers.
+        I asked why lecturers are on strike when other public sector workers face changes to their pensions too. &quot;Its not a gold-plated income,&quot; one picket said. &quot;It&#039;s not bad for people close to retirement but much worse for people coming into the profession.&quot;
+  
+	
+	      It accuses UCU of ignoring three years of negotiations - while the union blames the EPF for refusing talks through the conciliation service Acas.
+        The further education staff say they are striking because of the government&#039;s support for the principles laid out in the Hutton report on public sector pensions - raising contributions, moving to a career average scheme, and linking pension rises to the lower measure of inflation, CPI.
+        The government is yet to give its official response to the Hutton report.
+        Rallies were due to take place in cities including Leeds, Liverpool, Cardiff, Manchester, Glasgow, Aberdeen, Birmingham and Newcastle.
+        UCU general secretary Sally Hunt said: &quot;University and college staff really value their pension rights and have made their views of the detrimental changes crystal clear. 
+        &quot;Strike action is always a last resort but the attacks on pensions and pay have created real anger and, instead of burying their heads in the sand, the employers need to respond urgently to our concerns.
+        &quot;Staff are sick to the back teeth of being told that their pay and pensions need to be cut to pay for an economic crisis created by others.&quot;
+        NUS president Aaron Porter said: &quot;Huge cuts to university budgets ideologically imposed by this government pose a massive threat to jobs and education. 
+        &quot;NUS has worked closely with UCU throughout our campaigns to oppose government cuts and stands in solidarity with their strike action.&quot;
+        Chair of UCEA Professor Keith Burnett said: &quot;Employers are extremely disappointed by UCU&#039;s decision to take industrial action.   
+        &quot;We look to UCU to work with higher education institutions during this period of change and challenge for all - not against them. 
+        &quot;There is much uncertainty in HE [higher education] at present and this course of action will have the potential to cause further difficulties for students and institutions.&quot; 
+  ? 
+ 
+
+ 
+
+ 
+ 
+
+div.dna-comments_module textarea#dna-commentbox-text
+{
+    max-width: 100% !important;
+    width: 100% !important;
+    float: none;
+}
+
+div.dna-comments_module .dna-textarea-container textarea#dna-commentbox-text
+{
+    padding: 0;
+    border: none;
+}
+
+div.dna-comments_module form#submit_new_comment input
+{
+    clear: none !important;
+    float: none !important;
+    width: auto !important;
+}
+
+div.dna-comments_module ul.tabs
+{
+    margin-bottom: 0 !important;
+    clear: both;
+    float: none;
+}
+
+div.dna-comments_module
+{
+    max-width: 448px;
+}
+
+div.dna-comments_module ul.tabs li
+{
+    background-image: none !important;
+}
+
+div.dna-comments_module ul.collections li p
+{
+    font-size: 13px !important;
+    margin-bottom: 6px !important;
+}
+
+div.dna-comments_module ul
+{
+    display: block !important;
+}
+
+div.dna-comments_module ul.collections
+{
+    margin-bottom: 0 !important;
+}
+
+div.dna-comments_module ul.collections li div.dna-comments-comment-footer a
+{
+    font-size: 11px !important;
+}
+
+div.dna-comments_module form#submit_new_comment
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    float: none !important;
+    display: block !important;
+    margin-top: -16px;
+    clear: both;
+}
+
+/** IE FIXES **/
+
+.ie div.dna-comments_module form#submit_new_comment input,
+.ie7 div.dna-comments_module form#submit_new_comment input
+{
+    padding: 4px;
+    font-size: 13px;
+    border: 1px solid #cccccc;
+}
+
+.ie div.dna-comments_module form#submit_new_comment .dna-comments-footer,
+.ie7 div.dna-comments_module form#submit_new_comment .dna-comments-footer
+{
+    font-size: 12px;
+}
+
+.ie div.dna-comments_module,
+.ie7 div.dna-comments_module
+{
+    position: relative;
+}
+
+.ie div.dna-comments_module ul.tabs,
+.ie7 div.dna-comments_module ul.tabs
+{
+    position:relative;
+}
+
+.ie div.dna-comments_module ul.tabs li,
+.ie7 div.dna-comments_module ul.tabs li
+{
+    position: relative;
+}
+
+/* Story fixes */
+div.dna-comments_module ul.comments_pagination_ul li
+{
+    background-image: none;
+    padding: 0;
+}
+
+div.dna-comments_module .dna-comments-comment-footer
+{
+    line-height: 22px;
+}
+
+div.dna-comments_module .dna-commentbox-add-comment-cta
+{
+    margin-bottom: 8px;
+}
+
+.dna-comments_module .dna-comment-list
+{
+    margin-bottom: 8px;
+}
+
+.dna-comments_module .dna-commentbox-logged-in
+{
+    margin-bottom: 0;
+}
+
+.dna-comments_module .dna-user-signin-panel p
+{
+    color: #A9A9A9;
+    font-size: 1em;
+}
+
+.dna-comments_module .comments_pagination_ul
+{
+    margin-bottom: 0;
+}
+
+div.dna-comments_module #comment_pagination_page_status
+{
+    height: 16px;
+}
+
+div.dna-comments_module textarea#dna-commentbox-text
+{
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    width: 431px !important;
+}
+
+div.dna-comments_module .dna-textarea-container textarea#dna-commentbox-text
+{
+    padding: 0;
+    border: none;
+    margin-bottom: 0;
+    width: 100% !important;
+}
+
+div.dna-comments_module hr
+{
+/*    display: none;*/
+}
+
+.ie7 div.dna-comments_module ul.comments_pagination_ul li.show_more img
+{
+    position: absolute;
+    left: 232px;
+}
+
+div.dna-comments_module ul.comments_pagination_ul li.hidden img
+{
+    top: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+                          (function() { var commentsModuleLoader = setInterval(function() { if (typeof(commentsModule) == 'function' && typeof(window.comments) == 'object' && window.comments.flags.glow_ready == true) { comments.initParams( { bbc_id_env : 'id.bbc.co.uk', ajax_load_url : '/modules/comments/index/getcomments/', ajax_preview_url : 'http://www.bbc.co.uk/modules/comments/index/preview/', items_per_page : 20, sort_order : 'Descending', filter : 'EditorPicks', current_page : 1, page_count : 1, site_name : 'newscommentsmodule', forum_id : '12830435', preset : 'opinion', parent_uri : 'http://www.bbc.co.uk/news/education-12830435', postFreq : 0, character_limit : 0, policy_uri : '', textarea_height : '16px' ,logged_in : false  }); clearInterval(commentsModuleLoader); } }, 100); })();     Comments     This entry is now closed for comments     &nbsp;   Editors' Picks  All Comments (173)              117. FluviaSabrina  24th March 2011 - 15:04     As a part-time lecturer who doesn't work Thursdays I am at home but not on strike.  If it were a strike day I would find it difficult because I do not want to let my students down.  I would much rather that we brought out all the Finance staff or someone whose absence would make an impact on management not on students.As for milusvestal - lecturing is a real job and a harder one than many.     Report this comment Link to this          110. mememachine  24th March 2011 - 14:46     I am a postdoctoral researcher at a large university. I crossed the picket line for two reasons. 1) As a fairly new member of USS it is not really in my interests for it to give large payouts before I am anywhere near the point of retirement. There might not be anything left over by then. 2) Relying on pension fund managed by others as a 'significant component of renumeration' is a mugs game.      Report this comment Link to this          98. RubbishGirl  24th March 2011 - 13:43     First let me say that I agreee with the reasons for the strike & support the action.That being said they aren't doing themselves too many favours here! At the college I work in there were 20 or so lecturers stood out the front for about 2 hours. at 11.00am they all went home! I'm not sure sitting in the sunshine in your garden is the right way to conjure up support for your cause.     Report this comment Link to this          97. Christopher Clarke  24th March 2011 - 13:40     Im a full time student, and have been affected by these strikes. I support them fully. Not only are the lecturers not paid well enough for the knowledge they impart and research they do, but cutting their pay, when we, as students being asked to pay more to go to uni, seems rather silly. Perhaps the government should actually pay lecturers properly for the knowledge and inspiration they provide.     Report this comment Link to this          70. lafillecachee  24th March 2011 - 12:24     My father is a lecturer in Physics at a well-respected university and is striking today. As a final-year undergraduate, I completely support him. The pay in universities is shockingly bad considering how much intelligence and hard work is needed to reach such a level in academia. Some students seem to have a somewhat misguided view in thinking that lecturers only teach and do nothing else.     Report this comment Link to this         &nbsp;        Comments 5 of 11    Show more    &nbsp;      Add your comment      You are not currently signed in. Sign in or register.           
+
+           
+	
+	

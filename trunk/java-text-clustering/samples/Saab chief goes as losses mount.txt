@@ -1,0 +1,266 @@
+    	
+    		  
+    25 March 2011
+Last updated at 17:05 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Saab chief goes as losses mount', 
+    storyId:'12863223', 
+    sectionId:'99104', 
+    url:'http://www.bbc.co.uk/news/business-12863223', 
+    edition:'International'
+}); 
+-->
+
+
+
+Saab chief goes as losses mount
+    
+     
+         
+ 
+        		
+		        
+        
+
+
+
+	
+ 
+
+
+    
+        		
+        
+            
+                                
+                                Please turn on JavaScript. Media requires JavaScript to play.
+            
+        
+        
+            
+                    
+                
+                    
+					
+							
+		            
+            
+            
+            
+            
+			
+		            
+                
+            
+        
+                    
+            
+        
+        
+        
+        
+/*<![CDATA[*/
+	bbc.fmtj.av.emp.load( function() {
+		var userAgent = navigator.userAgent.toLowerCase();
+		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
+			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
+			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
+			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
+			userAgent.search("android") == -1)
+		{
+			bbc.fmtj.av.emp.loadProxyPlayer("emp-12861977-6313");
+		}else{
+			bbc.fmtj.av.emp.loadEmp("emp-12861977-6313");
+		}
+	});
+/*]]>*/
+
+
+
+            
+             
+          
+		
+			
+				$render("advert","advert-companion","12861977");
+			
+			$render("advert-post-script-load");
+		
+         
+         
+    	
+        		
+		Watch: Victor Muller, Saab owner and chairman, says chief Jan Ake Jonsson &#039;had the toughest job in Sweden&#039;
+		
+        
+
+
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	          
+
+		
+		
+						
+		
+		
+	
+						Global Car Industry
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Carmakers fear Japanese parts shortages
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Renault spy scandal ends in farce
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Knight Rider-style &#039;intelligent&#039; cars
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Racetrack to hatchback
+	
+		
+	  	  
+  
+
+
+		
+	
+
+	       	     
+	
+                      The chief executive of Saab is stepping down as the carmaker continues to struggle with weak sales and large losses.
+        Saab suffered a 218m euros ($308m; £191m) loss last year, according to parent company Spyker Cars.
+        Jan Ake Jonsson has worked for Saab for about 40 years.
+        As chief executive during the last six years, he was instrumental in saving Saab from closure.
+        &quot;He&#039;s done an incredible job getting Saab back on track,&quot; Victor Muller, owner and chairman of Saab, told BBC World in an interview.
+        Mr Jonsson said: &quot;The last three years have of course been very demanding and forced me to  focus on one thing only - my work.
+        &quot;Now it is time for me to also spend some time on other things that had to  stand back for my duties to Saab.&quot;
+  'Experienced manager'
+	      The company is still struggling, however.
+  
+  
+
+    Spyker is selling its sportscar arm and will focus on expanding Saab
+  
+      Saab sold only about 30,000 cars last year, a slight improvement on 2009.
+        It hopes to sell about 80,000 this year, though the departure of Mr Jonsson will make this target harder to achieve, analysts said.
+        &quot;This is certainly a negative,&quot; said Martin Crum at AEK.
+        &quot;He is a very experienced manager and it will be very difficult to find a proper replacement. It will make it more difficult than before.&quot;
+        Mr Muller said the focus should be on profits rather than volume.
+        &quot;We are constantly being confronted with sales targets, and this is logical because they&#039;re easy to measure,&quot; he said.
+        &quot;But I&#039;d rather sell 50,000 cars and make a profit.&quot;
+  Sportscar division sold
+	      Spyker and its owner Mr Muller bought Saab last year from General Motors following major restructuring at the US car giant.
+        Mr Muller insisted Saab is recovering and pointed to new models coming on stream soon.
+        &quot;The launch of new products, the real pivot in this business plan is the launch of the new 9-3 in October 2012. That&#039;s the tipping point,&quot; he said.
+        &quot;The company will have the widest and the newest product range the company has had in its entire 64 year history,&quot; said Mr Muller.
+        Last month, Spyker announced plans to sell its sportscar arm and focus instead on expanding Saab.
+        It signed a provisional deal to sell the business to UK-based, Russian-owned, CPP Global Holdings for some 32m euros.
+             
+	
+	

@@ -1,0 +1,177 @@
+    	
+    		  
+    25 March 2011
+Last updated at 06:53 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Oracle shares jump after profits beat expectations', 
+    storyId:'12857470', 
+    sectionId:'99104', 
+    url:'http://www.bbc.co.uk/news/business-12857470', 
+    edition:'International'
+}); 
+-->
+
+
+
+Oracle shares jump after profits beat expectations
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Oracle now offers software and hardware with its acquisition of Sun Microsystems
+  
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	          
+
+		
+		
+						
+		
+		
+	
+						More from Technology of Business
+		
+		
+
+		  	  
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Pads @ work
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Cloud computing
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Filesharing with Cory Doctorow
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	In your face
+	
+		
+	  	  
+  
+
+
+		
+	
+
+	       	     
+	
+                      US software-maker Oracle&#039;s shares jump more than 2% after it reported better-than-expected earnings in the last three months of the year.
+        The company reported a 37% jump in revenues to $8.8bn (£5.5bn), with net income rising 78%.
+        Oracle also set out a forecast for the current quarter ahead of most estimates and raised its dividend payment to shareholders by 20%.
+        Oracle is closely watched by analysts for trends in the technology industry.
+        New software license sales, which are a good gauge of future profits, jumped 29% to $2.2bn in the third quarter.
+        Oracle made net income for the quarter of $2.1bn up from $1.2bn a year earlier.
+        The company is in a battle with rivals IBM, Cisco Systems and HP to provide infrastructure for companies to move to &quot;cloud computing&quot; - the remote storage and handling of data.
+        Last year, Oracle diversified into server hardware with the purchase of Sun Microsystems.
+        Japan provides 5% of the company&#039;s revenues but Oracle executives told analysts they saw no material impact from the disruptions to production caused by the earthquake and tsunami.
+             
+	
+	

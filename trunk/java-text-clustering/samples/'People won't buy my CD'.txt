@@ -1,0 +1,117 @@
+    	
+    		  
+    25 March 2011
+Last updated at 02:59 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Bob Geldof: \'People won\'t hear my album\'', 
+    storyId:'12834951', 
+    sectionId:'99277', 
+    url:'http://www.bbc.co.uk/news/entertainment-arts-12834951', 
+    edition:'International'
+}); 
+-->
+
+
+
+Bob Geldof: &#039;People won&#039;t hear my album&#039;
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    The musician was awarded an honorary knighthood in 1986 
+  
+	
+		Continue reading the main story		Related Stories
+		
+						Geldof receives honorary degree
+											Geldof challenges BBC aid claim
+											Geldof presses Brown on aid cash
+								
+	
+                      Mercurial and outspoken, but always warm-hearted, Bob Geldof is one of the most recognisable rogues of the music scene.
+        But the man once dubbed &quot;pop&#039;s own Nelson Mandela&quot; is probably better known for his efforts to feed the world than songs like I Don&#039;t Like Mondays and Rat Trap.
+        A long hiatus from the recording studio hasn&#039;t helped. He spent the last 10 years raising his children and campaigning for debt relief, but finally found time to put together a new record.
+        How To Compose Popular Songs That Will Sell - inspired by a love of blues, Led Zeppelin and Captain Beefheart - was released last month to positive reviews. But Geldof says he doesn&#039;t think the public are interested. 
+        The man born Robert Frederick Zenon Geldof spoke to Matt Everitt, for an edition of BBC 6 Music&#039;s First Time programme, which will be broadcast this weekend.
+        When did you first become aware of music?
+        I was five or six years old, in Cork, one summer morning in a big room. I remember the smell of dust. Somebody put on an Elvis EP, and I particularly remember Teddy Bear and Don&#039;t Be Cruel.
+        Did it have a massive impact on you straight away?
+        It did, but my sisters were complete Cliff and the Shadows nuts. They shared a bedroom, and they had Cliff and the Shadows everywhere, all over the walls and ceiling. I thought he was a bit girly, but if you turned over to the B-sides, they were fairly hardcore. I really mean that. The guitar-playing was the first time I heard what we would now call rhythm and blues, and I liked that. 
+        Was it just rock and roll, or did you seek out other music?
+        I was interested in the blues, because Mick [Jagger] and Keith [Richards] used to say, &quot;forget about us, go and listen to Muddy Waters and Howlin&#039; Wolf&quot;. So I dutifully went to the record shop and said &quot;have you heard of these people?&quot; That someone could be called Howlin&#039; Wolf. Wow.
+  
+  
+
+    Geldof rose to fame with proto-punk pioneers The Boomtown Rats
+  
+      I listened to that music and I adored its primitivism. I joined the Irish Blues Appreciation Society. I was member 11. Out of 13.
+        You draw on lots of musical styles on your new record. Does that mean you&#039;ve fallen out of love with rock?
+        We believed rock and roll would last forever. Now I don&#039;t think it will. I think the diffuse nature of the medium means pop culture has won. We are pop culture. It&#039;s harder to identify the new and art has lost its ability to shock. Music is also trying too hard - there&#039;s a massive amount of stuff to reference, so why shouldn&#039;t I?
+        Why did you call the record How To Write Popular Songs That Will Sell?
+        Well, it was originally called 58 1/2 because that was my age when I did the record. But then I was in my mate&#039;s place and he had this 1930s book that was called How To Write Popular Songs That Will Sell. The guy who wrote it, Leslie A Shepherd, has these various admonitions like &quot;only use the key of G for dancing, uplifting music&quot;. It&#039;s a fantastic book, so I just took a picture of the cover and that&#039;s the album.
+        Is it important to you that people buy it?
+        I&#039;d love it if they did. How does it live unless they hear it? It&#039;s the musical zen question: If you&#039;ve written the greatest song in the history of rock and roll, and you put the guitar away, has it been written? 
+        What are your expectations, realistically?
+        I&#039;d love people to hear it, but I don&#039;t think people will. You&#039;ve got all the baggage that comes with me: The Boomtown Rats, all the tabloid stuff... You&#039;ve got to get through an awful lot of stuff, then put it aside and say, &quot;well, I&#039;ll have a listen, I&#039;ll give him a go&quot;.  
+        But bizarrely enough, people do buy my stuff, so I get to play great theatres all over the world. Except in the UK, where they don&#039;t give a crap. 
+        You could put up a poster with &#039;Tonight! Bob Geldof!&#039; on it, and people would see it and say, &quot;OK, fair enough…&quot; then wander off saying, &quot;Doing what? Is he gonna rant at us about Africa?&quot;
+  
+  
+
+    Geldof crossed swords with Margaret Thatcher over VAT revenues
+  
+      What do you remember about organising the Band Aid single?
+        It was instant. I don&#039;t think there was a band who was difficult. But without Midge Ure it wouldn&#039;t have happened. He sent me over the keyboard riff, which I thought sounded like Z Cars, and I had a song that the Rats had rejected, which went &quot;it&#039;s my world, there&#039;s no need to be afraid&quot;. I dashed out the new words in a cab... and then went up to Midge&#039;s. 
+        I hadn&#039;t quite defined my part of the tune, and I kind of shambled through it and Midge just said, &quot;leave it to me&quot;. The next day, we sat opposite each other and worked out the &quot;feed the world&quot; part. I then started calling round and organising the studio and that was it. 
+        It was that easy? No-one held out?
+        Paul McGuinness was a bit iffy about U2. They were a happening band, but they hadn&#039;t quite crested yet - and they weren&#039;t sure whether this was good or naff. But when push came to shove, they saw everyone who was involved, and they said ok. Then Bono nailed it with that vocal.
+        Did you know the band from Dublin? You must have been gigging around the same time.
+        I went to see them [at the start of their career] and I just didn&#039;t get it. I know he [Bono] says, &quot;we were punk rock&quot;. No. You weren&#039;t. 
+        They used to wear these sub-Bowie raincoat things with improbable hair, and they use to enter talent competitions, like Limerick X Factor. They won that... but they went for everything. 
+        You can hear the full interview with Bob Geldof on The First Time With Matt Everitt this Sunday, 27 March. Tune in to BBC 6 Music at midday, or listen later on the BBC iPlayer.
+        How To Compose Popular Songs That Will Sell is out now on Mercury Records.
+             
+	
+	

@@ -1,0 +1,117 @@
+    	
+    		  
+    25 March 2011
+Last updated at 10:25 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Eurozone sets bail-out terms as Portugal fears increase', 
+    storyId:'12858207', 
+    sectionId:'99104', 
+    url:'http://www.bbc.co.uk/news/business-12858207', 
+    edition:'International'
+}); 
+-->
+
+
+
+Eurozone sets bail-out terms as Portugal fears increase
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Many analysts believe Portugal is in denial about its need for rescue aid.
+  
+	
+		Continue reading the main story		Related Stories
+		
+						Europe leaders delay as Portugal falters
+											Merkel under pressure over Portugal
+								
+	
+                      European leaders have agreed a restructuring of a financial bail-out fund that they hope will resolve the bloc&#039;s debt crisis.
+        Eurozone ministers bowed to German demands to renegotiate the time-frame for contributions to the massive fund.
+        But the deal was overshadowed by concerns about Portugal and a growing row that the UK may be forced to contribute to a financial bail-out.
+        Portugal says it does not need aid, but many analysts say Lisbon is in denial.
+        The eurozone debt deal follows months of negotiations.
+        &quot;We decided a comprehensive package of economic measures... Today almost all the strands of this enterprise have come together,&quot; European Council President Herman Van Rompuy said.
+        The new plan provides for the creation of a permanent fund in 2013, the European Stability Mechanism, to help troubled eurozone countries. 
+        A major sticking point was the speed with which countries had to pay cash into the 700bn-euro (£615bn) fund.
+  
+	Continue reading the main story		Gavin Hewitt&#039;s Europe
+		
+	&ldquo;Start Quote
+There is increasing tension between the bankrollers and the bailed-out... three months of uncertainty lie ahead&rdquo;
+End Quote
+
+
+		
+		Gavin Hewitt
+	BBC Europe editor
+	
+
+	
+	
+	
+		
+			Read Gavin&#039;s thoughts in full
+		
+	      The agreement requires 80bn euros of cash provided by eurozone countries in five equal annual instalments. There will be a further 620bn euros in guarantees.
+        Originally, eurozone finance ministers agreed to put 40bn euros into the fund immediately it is created in 2013.
+        There had been expectations that the two-day summit in Brussels would agree a resolution over rescuing Portugal&#039;s stricken economy.
+        But Portuguese ministers said they had no intention of following Greece and the Irish Republic in tapping the bail-out fund.
+        Even so, analysts believe it is only a matter of time before other countries are forced to provide support to the ailing economy.
+  'Furious'
+	      UK Prime Minister David Cameron refused to respond to suggestions that Britain may have to pledge billions of pounds to any emergency funding.
+        He said: &quot;It&#039;s not right to comment and speculate on another country&#039;s finances, and I&#039;m not going to do that.&quot;
+        He has faced angry calls from his own Conservative MPs to refuse to contribute British money towards a bail-out. 
+        &quot;Can I remind you that we have just had an austerity Budget?&quot; said former frontbencher Bernard Jenkin in the Commons on Thursday.
+        &quot;Can you imagine how absolutely furious British voters would be if it turns out that the British taxpayer has to continue contributing to the bail-out of euro countries, even though we are not a member?&quot;
+        European Commission President Jose Manuel Barroso insisted that member states had not discussed bailing out Portugal.
+        &quot;We [EU leaders] expressed confidence in the capacity of Portugal to overcome the current situation and also to find the funding the country needs in the months to come.&quot;
+        The financial markets are also worried as Portugal must repay a large chunk of debt to lenders in April.
+        On Friday, Standard &amp; Poor&#039;s downgraded Portugal&#039;s credit ratings by two notches to BBB and warned it could cut it further.
+        S&amp;P followed a two-notch cut by Fitch on Thursday.
+             
+	
+	

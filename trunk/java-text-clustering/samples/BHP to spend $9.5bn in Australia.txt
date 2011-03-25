@@ -1,0 +1,85 @@
+    	
+    		  
+    25 March 2011
+Last updated at 02:10 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"true",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - BHP Billiton to invest $9.5bn in Australian projects', 
+    storyId:'12857168', 
+    sectionId:'99104', 
+    url:'http://www.bbc.co.uk/news/business-12857168', 
+    edition:'International'
+}); 
+-->
+
+
+
+BHP Billiton to invest $9.5bn in Australian projects
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    BHP Billiton is trying to meet demand from fast-developing countries like India and China
+  
+	
+		Continue reading the main story		Related Stories
+		
+						BHP Billiton moves into shale gas
+											BHP reports record $10.5bn profit
+								
+	
+                      BHP Billiton, the world&#039;s biggest miner, has said it will expand its Australian iron ore and coal mining projects, as it tries keep up with rising demand in Asia.
+        The company has approved $9.5bn (£5.9bn) in capital investments, it said in a statement.
+        The money will be spent on developing mines, rail links and ports in Australia.
+        BHP said in February that it expects to spend $80bn on development by 2015.
+        The Anglo-Australian company is the world&#039;s biggest producer of coking coal, which is used to make steel.
+        Its also a major producer of copper, iron ore, nickel and silver.
+        The company said its iron-ore operations in western Australia will see an investment of $7.4bn, expanding its capacity to more than 220m metric tonnes a year.
+        Investment will also flow into the Jimblebar mine, rail links and its Port Hedland site.
+        In the Bowen Basin of central Queensland, the company said more money will be put towards three metallurgical coal projects that will add 4.9m tonnes of capacity annually.
+        The planned expansions come after multiple failed take-over deals.
+        Last year BHP&#039;s $39bn bid for the Canadian fertiliser giant,  Potash Corp, fell through, largely due to regulatory concerns.
+             
+	
+	

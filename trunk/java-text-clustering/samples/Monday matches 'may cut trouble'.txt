@@ -1,0 +1,101 @@
+    	
+        		  
+    24 March 2011
+Last updated at 00:34 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Rangers v Celtic matches on Mondays \'could cut trouble\'', 
+    storyId:'12833956', 
+    sectionId:'99255', 
+    url:'http://www.bbc.co.uk/news/uk-scotland-12833956', 
+    edition:'International'
+}); 
+-->
+
+
+
+Rangers v Celtic matches on Mondays &#039;could cut trouble&#039;
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Business leaders want Old Firm games to be played on Mondays to reduce trouble in Glasgow
+  
+	
+		Continue reading the main story		Related Stories
+		
+						Fans praised after Old Firm clash
+											Churches back Old Firm clash call
+											Old Firm fans prepare for final
+														
+	
+                      Old Firm derby football games should be played on Monday nights as often as possible, business leaders have said.
+        Glasgow Chamber of Commerce and the Scottish Licensed Trade Association (SLTA) claimed it would reduce trouble and limit fans&#039; drinking time.
+        They also argued that cutting pub opening hours would only lead to more people drinking at home.
+        The call follows a recent ill-tempered Scottish Cup clash between Celtic and Rangers, described as &quot;shameful&quot;.
+        It culminated in a confrontation between Celtic manager Neil Lennon and Rangers assistant boss Ally McCoist.
+        There was also disruption off the pitch with more than 30 supporters arrested at Celtic Park in Glasgow.
+        An Old Firm summit was held in the wake of the game on 2 March and an eight-point action plan agreed.
+  'Shame game'
+	      On Sunday, the Co-operative Insurance Cup final between the teams at Hampden passed without incident.
+        However, Glasgow Chamber of Commerce chief executive Stuart Patrick said the fall-out from the previous &quot;shame game&quot; would have repercussions beyond the football pitch.
+        &quot;There has been talk around the issue of kick-off times, and following discussions with our colleagues in the Licensed Trade Association, we have come to the conclusion that Monday evenings would be best for all,&quot; he said.
+  
+	Continue reading the main story	&ldquo;Start Quote
+We have become a nation of take-home drinkers&rdquo;
+End Quote
+	Paul Waterson
+	SLTA chief executive
+
+		      The organisations also urged the Scottish government to show &quot;caution&quot; on the issue of limiting fans&#039; access to alcohol before and after matches.
+        &quot;It&#039;s important that Glasgow&#039;s tourism offering isn&#039;t adversely affected by visitors being unable to have a refreshment simply because their stay happens to coincide with a Rangers-Celtic match,&quot; Mr Patrick added.
+        Paul Waterson, chief executive of the SLTA, said more matches should be played on midweek evenings, preferably Mondays which are the quietest night of the week.
+        He said: &quot;Where games have to be at weekends, for example cup finals, the kick-off time should always be 3pm. 
+        &quot;Early kick offs have simply not worked.&quot;
+        Mr Waterson also warned cutting the opening hours of bars would &quot;simply lead to more fans drinking at home.&quot;
+        &quot;The problem is the vast majority of fans who are going to abuse alcohol do so at home anyway,&quot; he said. 
+        &quot;We have become a nation of take-home drinkers.&quot;
+             
+	
+	

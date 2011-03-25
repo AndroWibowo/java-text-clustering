@@ -1,0 +1,209 @@
+    	
+    		  
+    25 March 2011
+Last updated at 08:59 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Who, what, why: Why do children study Of Mice and Men?', 
+    storyId:'12829392', 
+    sectionId:'99189', 
+    url:'http://www.bbc.co.uk/news/magazine-12829392', 
+    edition:'International'
+}); 
+-->
+
+
+
+Who, what, why: Why do children study Of Mice and Men?
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Of Mice and Men is a mainstay on GCSE reading lists
+  
+
+	Continue reading the main story	
+
+
+
+
+		     
+	       	         
+
+			
+					
+			
+			  	  
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	How does a town get a &#039;royal&#039; title?
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	What would double summertime mean?
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	Do sex offenders stop being risks?
+	
+		
+	  	  	
+	   
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	How do you fight off a crocodile?
+	
+		
+	  	  
+  	
+
+
+
+	       	     
+	
+      SPOILER WARNING: Plot details are revealed below
+                        Education Secretary Michael Gove has called for children to read more books, again noting that John Steinbeck&#039;s novella Of Mice and Men dominates in many schools. Why should one American book be chosen by so many British teachers?
+        Michael Gove says children are reading too few books. 
+        He says that some students only read two books in an academic year, and that a departmental survey suggests that &quot;over 90% of schools teach Of Mice and Men to their GCSE students&quot;. 
+        But why does a novella written in 1937 about displaced ranch workers during the Great Depression hold such enduring popularity in schools?
+        The answer is that Steinbeck&#039;s classic is short, comprising only six chapters, and that its themes continue to be considered relevant to 21st Century society.  
+        Nicola Williams, a senior English teacher at Charlton School in Shropshire, admits the length of the novella is a factor in its appeal, suggesting that &quot;the reading is not too onerous when we are so pushed for time in the curriculum&quot;. But she believes the true draw of the novella lies in its accessibility to students across a range of academic abilities.
+  
+	Continue reading the main story		The answer
+		
+	
+	
+	
+     The book is just six chapters long - good for time-pressed staff and pupils
+     But its themes of bullying and compassion ring true in schools
+  
+	
+	      &quot;Students often struggle to understand why George shoots Lennie,&quot; she says, &quot;particularly at the lower end of the ability spectrum, but once explained they do get it.&quot;
+        &quot;Steinbeck offers a lot for more able students too with his references to light and noise and his presentation of the six clear scenes in a cyclical style.&quot;
+        Williams describes the relationship between main characters George and Lennie as the topic that provokes the most debate. She says: &quot;Interestingly, a lot of students jump to the conclusion that the two main characters must be gay as they travel together, and that, I think, is due to modern representations of male relationships.
+        &quot;It&#039;s really gritty because of the issues it deals with.&quot;
+  
+	Continue reading the main story		What is Of Mice and Men about?
+		
+	
+	
+	      The story of two ranchers who travel between jobs during the great depression. The committed George and the childlike giant Lennie attempt to achieve their dream of owning their own ranch and living off the land, but meet various problems along the way 
+  
+	
+	      Susan Van Kirk, author of the Cliff Notes Revision Guide for Of Mice and Men agrees, commenting: &quot;Thousands of books are written and printed every year, but very few stand the test of time and speak of enduring human values.
+        &quot;Of Mice and Men has universal themes that can be read in any culture and time. John Steinbeck wrote of lessons of the heart, lessons that teach children what it is to be a human being with compassion for his fellow humans and a social conscience.&quot;
+        Van Kirk believes the theme of bullying is of great relevance to teaching children in society today. 
+        &quot;Currently in Western culture, there is much discussion about school bullying. This book is certainly a bullying antidote.  Teenagers often feel lonely and powerless and they can identify with many of the characters in this novel.&quot; 
+  50 books a year
+	
+	Continue reading the main story		WHO, WHAT, WHY?
+		
+	
+  
+
+  
+
+	
+	      A part of BBC News Magazine, Who, What, Why? aims to answer questions behind the headlines
+  
+	
+	      With Gove announcing plans to restructure the curriculum, there is a possibility mainstay works such as Of Mice and Men may see their regular position on reading lists placed under threat. 
+        Gove believes that children from the age of 11 should be reading up to 50 books each year and suggests that an over-reliance on longstanding core texts is working to the detriment of the curriculum. 
+        But whether or not Gove&#039;s plans become reality, it is difficult to imagine a short, accessible, and perennially relevant novella like Of Mice and Men being abandoned. 
+        Written by Stephen Maunder.
+             
+	
+	

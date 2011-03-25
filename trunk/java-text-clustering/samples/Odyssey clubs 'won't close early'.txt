@@ -1,0 +1,96 @@
+    	
+    		  
+    25 March 2011
+Last updated at 18:00 GMT  
+
+
+	
+  Share this page
+    	
+    
+      Delicious
+    
+    
+      Digg
+    
+    
+      Facebook
+    
+    
+      reddit
+    
+    
+      StumbleUpon
+    
+    
+      Twitter
+    
+    
+      Email
+    
+    
+      Print
+    
+  
+
+
+ 
+<!--
+$render("page-bookmark-links","page-bookmark-links-head",{
+	useForgeShareTools:"false",
+    position:"top",
+    site:'News', 
+    headline:'BBC News - Odyssey clubs \'won\'t close early\' after Sunday violence', 
+    storyId:'12864624', 
+    sectionId:'99109', 
+    url:'http://www.bbc.co.uk/news/uk-northern-ireland-12864624', 
+    edition:'International'
+}); 
+-->
+
+
+
+Odyssey clubs &#039;won&#039;t close early&#039; after Sunday violence
+    
+     
+         
+ 
+        		
+		        
+        
+  
+
+    Trouble flared in the area around Belfast&#039;s Odyssey complex
+  
+	
+		Continue reading the main story		Related Stories
+		
+						Police apologise for riot silence
+								
+	
+                      Club owners at east Belfast&#039;s Odyssey complex have decided not to close early for the next two Sunday nights.
+        The move had been suggested by police after sectarian clashes outside the venue last Sunday night.
+        Nine people were arrested after about 100 people clashed shortly after midnight.
+        At a meeting on Friday between police, club owners and Odyssey management, it was decided  a minimum charge of £3 for alcohol would apply on Sundays.
+        &quot;We had a good sound meeting this afternoon, as we do every week with the police, and we have a very clear agreement that we will introduce a minimum price of £3 for drink and the (police) commander&#039;s very happy with that,&quot; Odyssey security manager Alan Mains said.
+  
+	Continue reading the main story	&ldquo;Start Quote
+It's been an unfortunate episode and certainly not one we would wish to repeat&rdquo;
+End Quote
+	Alan Mains 
+	Odyssey security manager
+
+		      &quot;Let&#039;s be honest, it&#039;s a business, at the end of the day there&#039;s a demand for people to come down and enjoy themselves and there&#039;s an awful lot of people who come down to the Odyssey every week and do that.&quot;
+        Mr Mains said the violence on Sunday night, which followed a football match between Glasgow Rangers and Celtic earlier in the day, was regrettable but not typical.
+        &quot;These things unfortunately do happen when you get the wrong elements coming down to the place,&quot; he said. 
+        &quot;We dealt with it, the PSNI dealt with it and we have put measures in now to prevent it from happening again.
+        &quot;It&#039;s been an unfortunate episode and certainly not one we would wish to repeat.&quot;
+  Decisions
+	      Police said they had suggested a voluntary reduction of trading hours on Sunday nights, reviewing alcohol promotions and looking at door supervisory practices.
+        &quot;However, these are not decisions to be made by police,&quot; a spokeswoman said. 
+        &quot;The PSNI remain committed to actively working with all of our partners to prevent and tackle crime and ensure that everyone visiting Belfast night spots can have an enjoyable and safe night out and ultimately get home safe.&quot;
+        Earlier, police apologised for not releasing information sooner about Sunday night&#039;s violence. 
+        A 28-year-old woman was treated in hospital for a facial injury and police used dogs to disperse the crowds during the trouble which lasted for about an hour and a half.
+             
+	
+	
