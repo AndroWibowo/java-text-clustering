@@ -24,6 +24,8 @@ public class KMeansAlgorithm<E extends DataElement> implements ClusteringAlgorit
 
     private VectorDistanse _vectorDistanse;
 
+    private int _rows = 0;
+
     public KMeansAlgorithm(VectorDistanse vectorDistanse) {
         this(vectorDistanse, null);
     }
@@ -40,6 +42,8 @@ public class KMeansAlgorithm<E extends DataElement> implements ClusteringAlgorit
         if (dataSet.isEmpty()) {
             return new LinkedList<Cluster<E>>();
         }
+
+        _rows = dataSet.getElements().get(0).asVector().size();
 
         final int numberOfBins = (_numberOfClusters != null) ? _numberOfClusters : computeNumberOfBins(dataSet);
         final List<Bin> bins = createBinList(numberOfBins);
@@ -169,6 +173,11 @@ public class KMeansAlgorithm<E extends DataElement> implements ClusteringAlgorit
         }
 
         private DoubleVector computeMeanVector() {
+
+            if (_elements.isEmpty()) {
+                return new DoubleSparceVector(_rows);
+            }
+
             final int size = _elements.get(0).asVector().size();
 
             DoubleSparceVector resultVector = new DoubleSparceVector(size);
