@@ -42,7 +42,8 @@ public class DoubleSparceVector implements DoubleVector {
 
         if (value != 0) {
             _data.put(index, value);
-        } else {
+        }
+        else {
             _data.remove(index);
         }
     }

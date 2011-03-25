@@ -43,7 +43,8 @@ public class RSSDocumentCollectionReader extends AbstractDocumentCollectionReade
                     Document document = createDocument(entry);
                     result.addDocument(document);
                 }
-            } catch (Exception e) {
+            }
+            catch (Exception e) {
                 throw new DocumentReadException(e);
             }
         }
@@ -71,7 +72,7 @@ public class RSSDocumentCollectionReader extends AbstractDocumentCollectionReade
                 document.addTerm(word);
             }
         }
-        
+
         document.setOriginalText(entryText);
 
         return document;
