@@ -31,7 +31,7 @@ public class TextKMeansAlgorithm implements ClusteringAlgorithm<DocumentDataElem
     public List<Cluster<DocumentDataElement>> cluster(DataSet<DocumentDataElement> dataSet) {
         List<Cluster<DocumentDataElement>> cluserList = _kMeans.cluster(dataSet);
         assignLabels(cluserList);
-        
+
         return cluserList;
     }
 
@@ -45,23 +45,24 @@ public class TextKMeansAlgorithm implements ClusteringAlgorithm<DocumentDataElem
 
     private void assignLabels(List<Cluster<DocumentDataElement>> clusterData) {
         for (Cluster<DocumentDataElement> cluster : clusterData) {
-            
+
             Map<String, Integer> wordCount = Maps.newHashMap();
             for (DocumentDataElement elem : cluster.getDataElements()) {
                 for (String term : elem.getDocument().getAllTerms()) {
-                    wordCount.put(term, elem.getDocument().getTermCount(term));
+                    int count = wordCount.containsKey(term) ? wordCount.get(term) : 0;
+                    wordCount.put(term, count + elem.getDocument().getTermCount(term));
                 }
             }
-            
+
             String label = null;
             int count = 0;
-            for(Map.Entry<String, Integer> entry: wordCount.entrySet()) {
-                if(entry.getValue() > count) {
+            for (Map.Entry<String, Integer> entry : wordCount.entrySet()) {
+                if (entry.getValue() > count) {
                     count = entry.getValue();
                     label = entry.getKey();
                 }
             }
-            
+
             cluster.setLabel(label);
             System.out.printf("\t%s %d times%n", label, count);
         }
