@@ -1,98 +1,30 @@
-    	
-        		  
-    23 March 2011
-Last updated at 18:03 GMT  
+A chemical in the brain controls sexual preference in mice, according to scientists in China.
 
+Male mice bred without serotonin lose their preference for females, a report in Nature says.
 
-	
-  Share this page
-    	
-    
-      Delicious
-    
-    
-      Digg
-    
-    
-      Facebook
-    
-    
-      reddit
-    
-    
-      StumbleUpon
-    
-    
-      Twitter
-    
-    
-      Email
-    
-    
-      Print
-    
-  
+The researchers say it is the first time that a neurotransmitter has been shown to play a role in sexual preference in mammals.
 
+Experts have warned about the dangers of drawing conclusions about human sexuality.
 
- 
-<!--
-$render("page-bookmark-links","page-bookmark-links-head",{
-	useForgeShareTools:"true",
-    position:"top",
-    site:'News', 
-    headline:'BBC News - Sexual preference chemical found in mice', 
-    storyId:'12825688', 
-    sectionId:'99108', 
-    url:'http://www.bbc.co.uk/news/health-12825688', 
-    edition:'International'
-}); 
--->
+The research team first bred male mice whose brains were not receptive to serotonin.
 
+A series of experiments demonstrated that these mice had lost the preference for females shown by unmodified males.
 
+When presented with a choice of partners, they showed no overall preference for either males or females. 
 
-Sexual preference chemical found in mice
-    
-     
-         
- 
-        		
-		        
-        
-  
+When just a male was introduced into the cage, the modified males were far more likely to mount the male and emit a "mating call" normally given off when encountering females than unmodified males were.
 
-    Serotonin controls a male mouse&#039;s choice of partner
-  
-	
-		Continue reading the main story		Related Stories
-		
-						How homosexuality is &#039;inherited&#039;
-											Scans see &#039;gay brain differences&#039;
-											Therapists offer gay &#039;treatment&#039;
-								
-	
-                      A chemical in the brain controls sexual preference in mice, according to scientists in China.
-        Male mice bred without serotonin lose their preference for females, a report in Nature says.
-        The researchers say it is the first time that a neurotransmitter has been shown to play a role in sexual preference in mammals.
-        Experts have warned about the dangers of drawing conclusions about human sexuality.
-        The research team first bred male mice whose brains were not receptive to serotonin.
-        A series of experiments demonstrated that these mice had lost the preference for females shown by unmodified males.
-        When presented with a choice of partners, they showed no overall preference for either males or females. 
-  
-	Continue reading the main story	&ldquo;Start Quote
-Any potential links between serotonin and human sexual preferences must be considered somewhat tenuous&rdquo;
-End Quote
-	Professor Keith Kendrick
-	Neuroscientist
+Similar results were achieved when a different set of mice were bred. These lacked the tryptonphan hydroxylase 2 gene, which is needed to produce serotonin.
 
-		      When just a male was introduced into the cage, the modified males were far more likely to mount the male and emit a &quot;mating call&quot; normally given off when encountering females than unmodified males were.
-        Similar results were achieved when a different set of mice were bred. These lacked the tryptonphan hydroxylase 2 gene, which is needed to produce serotonin.
-        However, a preference for females could be &quot;restored&quot; by injecting serotonin into the brain.
-        The report concludes: &quot;Serotonergic signalling is crucial for male sexual preference in mice. This is the first time, to our knowledge, that a neurotransmitter in the brain has been demonstrated to be important in mammalian sexual preference.&quot;
-  Humans
-	      Sexual behaviour in mice is thought to be driven by their sense of smell.
-        Professor Keith Kendrick, a neuroscientist at the Babraham Institute in Cambridge, said: &quot;In terms of having potential relevance to understanding human sexual preference/orientation, we are of course far less influenced by odour cues in this context than mice are.
-        &quot;There is some very limited evidence for altered responses to selective serotonin uptake inhibitors (SSRIs) in the brains of homosexuals, but we have been using psychoactive drugs which either increase or decrease serotonin function for quite some time now, and while effects on sexual arousal, impulsivity and aggression have often been reported, no effects on sexual preference/orientation have. 
-        &quot;At this time therefore any potential links between serotonin and human sexual preferences must be considered somewhat tenuous.&quot;
-             
-	
-	
+However, a preference for females could be "restored" by injecting serotonin into the brain.
+
+The report concludes: "Serotonergic signalling is crucial for male sexual preference in mice. This is the first time, to our knowledge, that a neurotransmitter in the brain has been demonstrated to be important in mammalian sexual preference."
+
+Sexual behaviour in mice is thought to be driven by their sense of smell.
+
+Professor Keith Kendrick, a neuroscientist at the Babraham Institute in Cambridge, said: "In terms of having potential relevance to understanding human sexual preference/orientation, we are of course far less influenced by odour cues in this context than mice are.
+
+"There is some very limited evidence for altered responses to selective serotonin uptake inhibitors (SSRIs) in the brains of homosexuals, but we have been using psychoactive drugs which either increase or decrease serotonin function for quite some time now, and while effects on sexual arousal, impulsivity and aggression have often been reported, no effects on sexual preference/orientation have. 
+
+"At this time therefore any potential links between serotonin and human sexual preferences must be considered somewhat tenuous."
+

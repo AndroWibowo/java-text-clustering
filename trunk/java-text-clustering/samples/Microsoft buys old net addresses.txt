@@ -1,92 +1,34 @@
-    	
-    		  
-    25 March 2011
-Last updated at 10:59 GMT  
+Microsoft has offered to pay $7.5m (?4.7m) for net addresses from bankrupt telecoms firm Nortel.
 
+The 666,624 IP version 4 (IPv4) net addresses were put up for auction as part of the sell-off of Nortel's assets. 
 
-	
-  Share this page
-    	
-    
-      Delicious
-    
-    
-      Digg
-    
-    
-      Facebook
-    
-    
-      reddit
-    
-    
-      StumbleUpon
-    
-    
-      Twitter
-    
-    
-      Email
-    
-    
-      Print
-    
-  
+Blocks of IPv4 are valuable because the pool of this generation of address is close to running dry. 
 
+It was predicted that a market in IPv4 would appear among companies facing a costly migration to the newer IPv6.
 
- 
-<!--
-$render("page-bookmark-links","page-bookmark-links-head",{
-	useForgeShareTools:"true",
-    position:"top",
-    site:'News', 
-    headline:'BBC News - Microsoft spends $7.5m on net addresses', 
-    storyId:'12859585', 
-    sectionId:'99113', 
-    url:'http://www.bbc.co.uk/news/technology-12859585', 
-    edition:'International'
-}); 
--->
+Details of the sale were contained in papers filed to a Delaware bankruptcy court and show that Microsoft's bid was the highest of the 80 firms asked if they wanted to make an offer for the IP addresses.
 
+The deal is yet to be approved by that court and anyone who objects to it can file their comments before 4 April.
 
+If it goes through, Microsoft will get hold of 470,016 of the IP addresses instantly and the remaining 196,608 will be released as former customers of Nortel are moved to other telecoms firms.
 
-Microsoft spends $7.5m on net addresses
-    
-     
-         
- 
-        		
-		        
-        
-  
+IP addresses are used to identify individual computing devices on the internet and private networks.
 
-    The pool of Version 4 net addresses has almost run dry
-  
-	
-		Continue reading the main story		Related Stories
-		
-						Last net addresses get handed out
-											Net approaches address exhaustion
-											Test looms for net address scheme
-											
-	
-                      Microsoft has offered to pay $7.5m (£4.7m) for net addresses from bankrupt telecoms firm Nortel.
-        The 666,624 IP version 4 (IPv4) net addresses were put up for auction as part of the sell-off of Nortel&#039;s assets. 
-        Blocks of IPv4 are valuable because the pool of this generation of address is close to running dry. 
-        It was predicted that a market in IPv4 would appear among companies facing a costly migration to the newer IPv6.
-        Details of the sale were contained in papers filed to a Delaware bankruptcy court and show that Microsoft&#039;s bid was the highest of the 80 firms asked if they wanted to make an offer for the IP addresses.
-        The deal is yet to be approved by that court and anyone who objects to it can file their comments before 4 April.
-        If it goes through, Microsoft will get hold of 470,016 of the IP addresses instantly and the remaining 196,608 will be released as former customers of Nortel are moved to other telecoms firms.
-        IP addresses are used to identify individual computing devices on the internet and private networks.
-        IPv4 allows for a maximum of approximately 4.3 billion devices.
-        That number seemed enough in the early 1980s when the standard was first proposed, however the rapid growth in personal computers, smartphones and other internet connected devices means that addresses have been rapidly running out.
-        The last big blocks of IPv4 addresses were handed out in February and all of them are expected to be used up by late 2011. 
-        Net firms are in the process of moving to version 6 of the IP addressing scheme, which offers more than 3 undecillion individual numbers (3 with 38 noughts)
-        However, the migration is happening very slowly. 
-        In the interim, it is expected that IPv4 addresses will become increasingly valuable.
-        It is not clear why Microsoft wants to buy Nortel&#039;s supply, however many companies are keen to avoid the cost of changing their networking systems over to IPv6 compatible equipment.
-        The Microsoft-Nortel deal values the IPv4 address blocks at $11.25 (£7) each, higher than the price many firms charge for a .com domain. This was indicative, said experts, that the market for IPv4 addresses was heating up.
-        Registries that oversee the allocation of net addresses are also working on plans for a re-circulation system that takes IPv4 addresses from firms that are using IPv6 and releases them for use by others.
-             
-	
-	
+IPv4 allows for a maximum of approximately 4.3 billion devices.
+
+That number seemed enough in the early 1980s when the standard was first proposed, however the rapid growth in personal computers, smartphones and other internet connected devices means that addresses have been rapidly running out.
+
+The last big blocks of IPv4 addresses were handed out in February and all of them are expected to be used up by late 2011. 
+
+Net firms are in the process of moving to version 6 of the IP addressing scheme, which offers more than 3 undecillion individual numbers (3 with 38 noughts)
+
+However, the migration is happening very slowly. 
+
+In the interim, it is expected that IPv4 addresses will become increasingly valuable.
+
+It is not clear why Microsoft wants to buy Nortel's supply, however many companies are keen to avoid the cost of changing their networking systems over to IPv6 compatible equipment.
+
+The Microsoft-Nortel deal values the IPv4 address blocks at $11.25 (?7) each, higher than the price many firms charge for a .com domain. This was indicative, said experts, that the market for IPv4 addresses was heating up.
+
+Registries that oversee the allocation of net addresses are also working on plans for a re-circulation system that takes IPv4 addresses from firms that are using IPv6 and releases them for use by others.
+

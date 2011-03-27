@@ -1,164 +1,96 @@
-    	
-    		  
-    25 March 2011
-Last updated at 00:04 GMT  
+These can be difficult times for publishers and content providers in this brave new digital world.
 
+Many are struggling to work out how to make their websites pay their way. Advertising revenues may not cover the bills, and are dependent on the amount of visitors to their site.
 
-	
-  Share this page
-    	
-    
-      Delicious
-    
-    
-      Digg
-    
-    
-      Facebook
-    
-    
-      reddit
-    
-    
-      StumbleUpon
-    
-    
-      Twitter
-    
-    
-      Email
-    
-    
-      Print
-    
-  
+Newspapers like the New York Times and The Times are putting up paywalls, with critics quick to point out that so far this has only worked for niche publications like the Wall Street Journal, or the FT. 
 
+But is there another way?
 
- 
-<!--
-$render("page-bookmark-links","page-bookmark-links-head",{
-	useForgeShareTools:"true",
-    position:"top",
-    site:'News', 
-    headline:'BBC News - Beyond banners? Making content do the talking', 
-    storyId:'12842959', 
-    sectionId:'99104', 
-    url:'http://www.bbc.co.uk/news/business-12842959', 
-    edition:'International'
-}); 
--->
+"I think what publishers who are creating their own content are wrestling with is the cost of content versus how to monetise it."
 
+Grant Whitmore is chief operating officer, digital media, with Hachette Filipacchi. Among the titles the company owns is fashion magazine Elle.
 
+Online arm Elle.com is using a service called Outbrain that places content tailored to individual readers on pages, while pushing articles from Elle out to other websites.
 
-Beyond banners? Making content do the talking
-    
-     
-         
- 
-        		
-					            	    		 			
-														By Fiona Graham
-				Technology of business reporter, BBC News
-			
-		        
-        
-  
+"We're always trying to figure out what the most efficient and high quality way to drive traffic to our sites is.
 
-    Advertising overload? What can content producers do when ads aren&#039;t paying their way
-  
-                      These can be difficult times for publishers and content providers in this brave new digital world.
-        Many are struggling to work out how to make their websites pay their way. Advertising revenues may not cover the bills, and are dependent on the amount of visitors to their site.
-        Newspapers like the New York Times and The Times are putting up paywalls, with critics quick to point out that so far this has only worked for niche publications like the Wall Street Journal, or the FT. 
-        But is there another way?
-  
-	Continue reading the main story		
-	
-  
+"Outbrain has really out-paced our other primary paid traffic sources. Not only is it getting the right message in front of the right person, but once they come in they tend to read a lot of pages so we can monetise them even better when on the site."
 
-  
+It's known as a content recommendation engine - and it works in the same way Amazon makes recommendations on what you might like to buy. 
 
-	
-	
-	
-		
-			Special Report: The Technology of Business
-			Tablets take over the workplace
-			Getting your business cloud-ready
-			Filesharing with Cory Doctorow
-			Talking cars could hit the road
-			Inside the mind of the consumer
-			The virtual office becomes reality
-		
-	Editorialising the adverts
-	      &quot;I think what publishers who are creating their own content are wrestling with is the cost of content versus how to monetise it.&quot;
-        Grant Whitmore is chief operating officer, digital media, with Hachette Filipacchi. Among the titles the company owns is fashion magazine Elle.
-        Online arm Elle.com is using a service called Outbrain that places content tailored to individual readers on pages, while pushing articles from Elle out to other websites.
-        &quot;We&#039;re always trying to figure out what the most efficient and high quality way to drive traffic to our sites is.
-        &quot;Outbrain has really out-paced our other primary paid traffic sources. Not only is it getting the right message in front of the right person, but once they come in they tend to read a lot of pages so we can monetise them even better when on the site.&quot;
-        It&#039;s known as a content recommendation engine - and it works in the same way Amazon makes recommendations on what you might like to buy. 
-  
-  
+Outbrain takes this one step further, where instead of just charging for the service, it provides revenue to site owners who host the tool when people click on the links.
 
-    Elle.com uses Outbrain&#039;s content recommendation tool (bottom r)
-  
-      Outbrain takes this one step further, where instead of just charging for the service, it provides revenue to site owners who host the tool when people click on the links.
-        You don&#039;t have to do both - but Elle.com pays to have their content placed elsewhere, and pulls it back in when their own readers click on Outbrain paid content.
-        Mr Whitmore says the site&#039;s users treat it more like an editorial tool than advertising. And he&#039;s happy to have links pointing away from the site.
-        &quot;If all we did was point to our own stuff I think that would be pretty transparently self-serving. 
-        &quot;I&#039;m happy to have other good content they&#039;ve found in that box because I think it makes us more credible in the eyes of our users.&quot;
-  'Richer editorial experience'
-	      Outbrain co-founder and chief executive officer Yaron Galai says the quality of the content and being clear on whether it is paid or not is central to its success.
-        &quot;We want to make sure that when someone clicks on a paid link today, when they see another they think this is where I get interesting content. 
-        &quot;We&#039;re very proactive in trying not to have people fooled into clicking on anything.&quot;
-        Content choice is dictated by around 20 different algorithms.
-        They work based on context, &#039;collaborative filtering&#039; - where people reading that article navigate to next, content being shared under the radar on social networking sites, and user behaviour.
-  
-  
+You don't have to do both - but Elle.com pays to have their content placed elsewhere, and pulls it back in when their own readers click on Outbrain paid content.
 
-    Outbrain CEO Yaron Galai says being clear about whether content is paid or not is important
-  
-      Mr Galai says customers find page views on their sites increase by between 5-8%, thanks in part to a richer editorial experience created by the tool.
-        &quot;We can account for 10-20% digital revenues on a page. From a publisher&#039;s point-of-view there&#039;s very little risk, there&#039;s a small piece of code to be installed on the page&quot;
-        Businesses are also using the service, making up 20% of customers, says Mr Galai.
-        &quot;Ford is a good example. When there are good reviews published about their cars on sites they&#039;ll promote it through our service.&quot;
-        Ultimately he feels the success of the service comes down to content and the importance of the relationship with the user.
-        &quot;Our ability as publishers to continually interrupt readers is diminishing. 
-        &quot;I think publishers need to think about what seems to me the way print magazines think about their readers. 
-        &quot;When I open the magazine the ads feel carefully selected and almost curated, well that totally goes away when I look at a website. It&#039;s increasing yield by engaging more.&quot;
-  Online toolkit
-	      But can this type of service replace advertising? Elle.com&#039;s Grant Whitmore sees it more as part of a balancing act.
-        &quot;It&#039;s a complementary system - one tool in a toolkit, I don&#039;t see it replacing display advertising. But it definitely has a place and I see it becoming increasingly important.&quot; 
-  
-  
+Mr Whitmore says the site's users treat it more like an editorial tool than advertising. And he's happy to have links pointing away from the site.
 
-    Google has invested heavily in online advertising
-  
-      Tech giant Google is responsible for the biggest ad network, AdSense. There are more than two million AdSense &#039;partners&#039;, from seldom-visited blogs to mainstream publishers like the Guardian.
-        In 2010, Google made $8.3bn from AdSense, with $5.9bn of that returning as revenue to partners.
-        Google&#039;s Ben Novick is sure advertising will remain a key generator for website revenue, but agrees that quality and content matter.
-        &quot;AdSense revenues are growing year on year. A key new business area for Google is display advertising, the graphical ads you see on third party websites.&quot; 
-        &quot;Advertisers want to be where the consumers are and more and more consumers are going online so we expect to see display advertising grow over the next few years.&quot;
-        Such is the company&#039;s belief in the future of display, it has invested heavily in AdSense and  Doubleclick, which was purchased in 2007 and has since introduced a new Ad Exchange which aims to simplify the buying and selling of display advertising..
-  Winners and losers
-	      Douglas McCabe of Enders Analysis is, in his own words, more &#039;bearish&#039; about the outlook.
-  
-	Continue reading the main story	&ldquo;Start Quote
-Some publishers will find something that works for them and some won't. There will be fewer winners&rdquo;
-End Quote
-	Douglas McCabe
-	Enders Analysis
+"If all we did was point to our own stuff I think that would be pretty transparently self-serving. 
 
-		      &quot;I suppose our key argument is not so much that advertising is not going to grow, but where the growth has come from in the last few years is through direct response advertising.
-        &quot;It&#039;s not brand advertising as we think of it that we see when we look at the Daily Mail or a double-page spread in the Sunday Times.
-        &quot;I think the internet is not being used with that sort of objective. That limits the scale and growth of it in the medium-term.&quot;
-        He says that tools like Outbrain are a &#039;no-brainer&#039;.
-        &quot;It inevitably works because it&#039;s audience-centric rather than content-centric, it&#039;s all about driving traffic to the relevant content.&quot; 
-        But Mr McCabe is quick to point there&#039;s no silver bullet when it comes to making money online - be that through a paywall, advertising, or services like Outbrain.
-        &quot;Some publishers will find something that works for them and some won&#039;t. There will be fewer winners, there&#039;s so much free content out there.&quot;
-        He says they need to be prepared to develop their strategy over time, moving quickly and changing quickly.
-        &quot;That&#039;s what&#039;s giving the Googles and Facebooks the power - they can change quickly and track audience behaviour easily. 
-        &quot;That approach and mindset is what publishers kind of need to apply. Rather than chasing a single solution that will fix things.
-        &quot;I think of it as a tool kit, they need to start thinking more as a producer of a live evolving product, constantly analysing users&#039; and advertisers&#039; behaviour in the ecosystem as a whole, and tweaking their product to take greater market share.&quot;
-             
-	
-	
+"I'm happy to have other good content they've found in that box because I think it makes us more credible in the eyes of our users."
+
+Outbrain co-founder and chief executive officer Yaron Galai says the quality of the content and being clear on whether it is paid or not is central to its success.
+
+"We want to make sure that when someone clicks on a paid link today, when they see another they think this is where I get interesting content. 
+
+"We're very proactive in trying not to have people fooled into clicking on anything."
+
+Content choice is dictated by around 20 different algorithms.
+
+They work based on context, 'collaborative filtering' - where people reading that article navigate to next, content being shared under the radar on social networking sites, and user behaviour.
+
+Mr Galai says customers find page views on their sites increase by between 5-8%, thanks in part to a richer editorial experience created by the tool.
+
+"We can account for 10-20% digital revenues on a page. From a publisher's point-of-view there's very little risk, there's a small piece of code to be installed on the page"
+
+Businesses are also using the service, making up 20% of customers, says Mr Galai.
+
+"Ford is a good example. When there are good reviews published about their cars on sites they'll promote it through our service."
+
+Ultimately he feels the success of the service comes down to content and the importance of the relationship with the user.
+
+"Our ability as publishers to continually interrupt readers is diminishing. 
+
+"I think publishers need to think about what seems to me the way print magazines think about their readers. 
+
+"When I open the magazine the ads feel carefully selected and almost curated, well that totally goes away when I look at a website. It's increasing yield by engaging more."
+
+But can this type of service replace advertising? Elle.com's Grant Whitmore sees it more as part of a balancing act.
+
+"It's a complementary system - one tool in a toolkit, I don't see it replacing display advertising. But it definitely has a place and I see it becoming increasingly important." 
+
+Tech giant Google is responsible for the biggest ad network, AdSense. There are more than two million AdSense 'partners', from seldom-visited blogs to mainstream publishers like the Guardian.
+
+In 2010, Google made $8.3bn from AdSense, with $5.9bn of that returning as revenue to partners.
+
+Google's Ben Novick is sure advertising will remain a key generator for website revenue, but agrees that quality and content matter.
+
+"AdSense revenues are growing year on year. A key new business area for Google is display advertising, the graphical ads you see on third party websites." 
+
+"Advertisers want to be where the consumers are and more and more consumers are going online so we expect to see display advertising grow over the next few years."
+
+Such is the company's belief in the future of display, it has invested heavily in AdSense and  Doubleclick, which was purchased in 2007 and has since introduced a new Ad Exchange which aims to simplify the buying and selling of display advertising..
+
+Douglas McCabe of Enders Analysis is, in his own words, more 'bearish' about the outlook.
+
+"I suppose our key argument is not so much that advertising is not going to grow, but where the growth has come from in the last few years is through direct response advertising.
+
+"It's not brand advertising as we think of it that we see when we look at the Daily Mail or a double-page spread in the Sunday Times.
+
+"I think the internet is not being used with that sort of objective. That limits the scale and growth of it in the medium-term."
+
+He says that tools like Outbrain are a 'no-brainer'.
+
+"It inevitably works because it's audience-centric rather than content-centric, it's all about driving traffic to the relevant content." 
+
+But Mr McCabe is quick to point there's no silver bullet when it comes to making money online - be that through a paywall, advertising, or services like Outbrain.
+
+"Some publishers will find something that works for them and some won't. There will be fewer winners, there's so much free content out there."
+
+He says they need to be prepared to develop their strategy over time, moving quickly and changing quickly.
+
+"That's what's giving the Googles and Facebooks the power - they can change quickly and track audience behaviour easily. 
+
+"That approach and mindset is what publishers kind of need to apply. Rather than chasing a single solution that will fix things.
+
+"I think of it as a tool kit, they need to start thinking more as a producer of a live evolving product, constantly analysing users' and advertisers' behaviour in the ecosystem as a whole, and tweaking their product to take greater market share."
+

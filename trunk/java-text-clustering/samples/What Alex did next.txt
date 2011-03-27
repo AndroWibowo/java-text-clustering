@@ -1,128 +1,66 @@
-    	
-    		  
-    24 March 2011
-Last updated at 03:01 GMT  
+As an internet entrepreneur, Alex Tew almost seems to be moving in the wrong direction.
 
+He achieved fame and wealth aged 21 by creating the Million Dollar Homepage, a website that sold advertising space by the pixel on a 1000x1000 grid.
 
-	
-  Share this page
-    	
-    
-      Delicious
-    
-    
-      Digg
-    
-    
-      Facebook
-    
-    
-      reddit
-    
-    
-      StumbleUpon
-    
-    
-      Twitter
-    
-    
-      Email
-    
-    
-      Print
-    
-  
+Despite an extortion attempt which led to the involvement of UK police and the FBI, Alex eventually became a millionaire.
 
+But while contemporaries such as Facebook's Mark Zuckerberg have moved on to making billions, Alex's latest project is a free site that encourages visitors to take a break from the internet.
 
- 
-<!--
-$render("page-bookmark-links","page-bookmark-links-head",{
-	useForgeShareTools:"true",
-    position:"top",
-    site:'News', 
-    headline:'BBC News - Fun not money drives net millionaire', 
-    storyId:'12778322', 
-    sectionId:'99113', 
-    url:'http://www.bbc.co.uk/news/technology-12778322', 
-    edition:'International'
-}); 
--->
+He created www.donothing for2minutes.com with coder friend Ben Dowling one evening, on a budget of just ?70.
 
+In its first month the site was visited more than 2.6 million times.
 
+The single webpage, featuring a picture of the sun setting behind the sea, is designed to prompt people into taking a "brief pause" from the hustle, bustle and noise of the digital age.
 
-Fun not money drives net millionaire
-    
-     
-         
- 
-        		
-					            	    		 			
-														By Jonathan Weinberg
-				Technology reporter
-			
-		        
-        
-  
+As the name suggests, users are invited to spend two minutes enjoying the electronic scenery.
 
-  
-	
-		Continue reading the main story		Related Stories
-		
-						Blackmailers target $1m website
-											Young entrepreneur aims for top
-											Teenage tycoons
-											
-	
-                      As an internet entrepreneur, Alex Tew almost seems to be moving in the wrong direction.
-        He achieved fame and wealth aged 21 by creating the Million Dollar Homepage, a website that sold advertising space by the pixel on a 1000x1000 grid.
-        Despite an extortion attempt which led to the involvement of UK police and the FBI, Alex eventually became a millionaire.
-        But while contemporaries such as Facebook&#039;s Mark Zuckerberg have moved on to making billions, Alex&#039;s latest project is a free site that encourages visitors to take a break from the internet.
-        He created www.donothing for2minutes.com with coder friend Ben Dowling one evening, on a budget of just £70.
-        In its first month the site was visited more than 2.6 million times.
-  
-  
+Perhaps tellingly, in a world filled with e-mail, tweets, and news feeds, only 54 per cent of visitors manage to see it through.
 
-    Donothingfor2minutes.com encourages users to take a break from the net. Only a few manage.
-  
-      The single webpage, featuring a picture of the sun setting behind the sea, is designed to prompt people into taking a &quot;brief pause&quot; from the hustle, bustle and noise of the digital age.
-        As the name suggests, users are invited to spend two minutes enjoying the electronic scenery.
-        Perhaps tellingly, in a world filled with e-mail, tweets, and news feeds, only 54 per cent of visitors manage to see it through.
-        The average down time of twitchy computer users is just 65 seconds because as soon as the keyboard, mouse or trackpad is touched, the website displays a &quot;FAIL&quot; message.
-        Alex believes that the site reveals something profound about how we interact with the modern world.
-        &quot;I read somewhere that our brains are to some extent being rewired by the internet, because every time we check Twitter or Facebook or our e-mail, we get a little dopamine kick if there&#039;s a new update,&quot; he said.
-        &quot;Apparently we&#039;re all developing shorter attention spans, as well as some anxiety if we feel we are missing out on new information.
-        &quot;I&#039;m totally addicted to checking Twitter or Facebook any time I have a spare moment, so I thought it would be fun to create a simple website to help people take a brief pause from all the noise of the internet, and use technology to give back what it has taken away: Calm.&quot;
-  Throwing shoes
-	      Alex&#039;s change of tack comes after developing another site with cash at its heart. In 2006, he launched Pixelotto, an online prize draw, which eventually paid out $153,000 (£94,000) to a single winner in Kenya.
-        Then in 2008, he founded a social network to share comedy called Popjam.
-        It spawned a flash-based game based on the President Bush shoe-throwing incident. The game got six million players in its first week and it was later sold for £5,000 on eBay.
-  
-  
+The average down time of twitchy computer users is just 65 seconds because as soon as the keyboard, mouse or trackpad is touched, the website displays a "FAIL" message.
 
-    Onemillionpeople.com was Alex Tew&#039;s attempt to chronicle the digital generation.
-  
-      But when Popjam didn&#039;t work out, Alex turned to using technology to make social statements.
-        His 2010 website onemillionpeople.com aimed to collect the faces of the &quot;digital generation&quot;, compiled into a coffee table-style book.
-        While the venture started out charging users, the site later switched to being funded by advertising.
-        However, it was with Do Nothing that Alex finally decided to produce something for its social value rather than business possibilities.
-        There is no advertising on the site and no opportunity to generate revenue.
-        Users won&#039;t earn anything either. Their only reward is a &quot;well done&quot; message and the chance for stressed surfers to share the experience friends via Facebook and Twitter.
-        Alex said that his change of motivation was driven by a desire to understand what is happening on the internet from a human perspective.
-        &quot;This project was done purely for fun, the intention isn&#039;t to make money,&quot; he said.
-        &quot;I&#039;m an avid internet user and fascinated by the awesome power that technology offers in spreading ideas across the world in lightning quick time.&quot;
-        &quot;My primary motive in life is creative output, and some of that might be profitable, and some of it not. But it&#039;s all fun.&quot;
-  'Just launch something'
-	      Alex is now thinking of ways to make the site more useful, taking in ideas from users.
-        These include animated waves, a waterfall, mountain scenes with birds flying, a crackling warm fireplace and a mobile app to relax on the move.
-  
-  
+Alex believes that the site reveals something profound about how we interact with the modern world.
 
-    Now aged 26, Alex is pursuing involved in new projects with less emphasis on making big money.
-  
-      He said: &quot;I think it&#039;s fair to say the site has really hit a nerve. The popularity has got me thinking about ideas for additional tools to aid relaxation.&quot; 
-        As for his next project, Alex is staying tight-lipped. But he can&#039;t hold back his enthusiasm for encouraging anyone to take advantage of the web&#039;s potential.
-        &quot;Social media in particular has increased the speed at which information travels around the globe. So good ideas spread superfast, as opposed to just fast,&quot; he said.
-        &quot;Just launch something, as soon as possible. It&#039;s important to get ideas out there into the wild and begin testing them with real users, and not spend ages building something only to realise there&#039;s no market for it.&quot;
-             
-	
-	
+"I read somewhere that our brains are to some extent being rewired by the internet, because every time we check Twitter or Facebook or our e-mail, we get a little dopamine kick if there's a new update," he said.
+
+"Apparently we're all developing shorter attention spans, as well as some anxiety if we feel we are missing out on new information.
+
+"I'm totally addicted to checking Twitter or Facebook any time I have a spare moment, so I thought it would be fun to create a simple website to help people take a brief pause from all the noise of the internet, and use technology to give back what it has taken away: Calm."
+
+Alex's change of tack comes after developing another site with cash at its heart. In 2006, he launched Pixelotto, an online prize draw, which eventually paid out $153,000 (?94,000) to a single winner in Kenya.
+
+Then in 2008, he founded a social network to share comedy called Popjam.
+
+It spawned a flash-based game based on the President Bush shoe-throwing incident. The game got six million players in its first week and it was later sold for ?5,000 on eBay.
+
+But when Popjam didn't work out, Alex turned to using technology to make social statements.
+
+His 2010 website onemillionpeople.com aimed to collect the faces of the "digital generation", compiled into a coffee table-style book.
+
+While the venture started out charging users, the site later switched to being funded by advertising.
+
+However, it was with Do Nothing that Alex finally decided to produce something for its social value rather than business possibilities.
+
+There is no advertising on the site and no opportunity to generate revenue.
+
+Users won't earn anything either. Their only reward is a "well done" message and the chance for stressed surfers to share the experience friends via Facebook and Twitter.
+
+Alex said that his change of motivation was driven by a desire to understand what is happening on the internet from a human perspective.
+
+"This project was done purely for fun, the intention isn't to make money," he said.
+
+"I'm an avid internet user and fascinated by the awesome power that technology offers in spreading ideas across the world in lightning quick time."
+
+"My primary motive in life is creative output, and some of that might be profitable, and some of it not. But it's all fun."
+
+Alex is now thinking of ways to make the site more useful, taking in ideas from users.
+
+These include animated waves, a waterfall, mountain scenes with birds flying, a crackling warm fireplace and a mobile app to relax on the move.
+
+He said: "I think it's fair to say the site has really hit a nerve. The popularity has got me thinking about ideas for additional tools to aid relaxation." 
+
+As for his next project, Alex is staying tight-lipped. But he can't hold back his enthusiasm for encouraging anyone to take advantage of the web's potential.
+
+"Social media in particular has increased the speed at which information travels around the globe. So good ideas spread superfast, as opposed to just fast," he said.
+
+"Just launch something, as soon as possible. It's important to get ideas out there into the wild and begin testing them with real users, and not spend ages building something only to realise there's no market for it."
+

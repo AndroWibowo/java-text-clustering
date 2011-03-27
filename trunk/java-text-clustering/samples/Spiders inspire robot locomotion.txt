@@ -1,0 +1,38 @@
+The walking patterns of crabs, lobsters and spiders are helping to inspire new ways of getting robots to move around.
+
+Closer study of the neural networks controlling the legs of invertebrates has revealed the rhythmic nerve impulses that govern gait.
+
+These have been adapted into modular control elements that can be transferred into robots to help mimic natural movement.
+
+European researchers have already put the control systems into a robot worm.
+
+The rhythmic impulses are known as central pattern generators (CPGs), and are among the best known of all neural circuits, according to Fernando Herrero, one of the Spanish researchers employing them to control a robot.
+
+CPGs allow the body to automate certain repetitive tasks, such as chewing or walking.  Although the activity requires some initial input to get started, the repetitive motion effectively runs on autopilot.
+
+One reason that CPGs are so well understood is that the relative simplicity of invertebrate neural systems, compared with those of mammals, makes it much easier to map how their nerves interconnect.
+
+This access, said Mr Herrero, has allowed researchers to understand the ways in which CPGs generate the rhythmic impulses that help a spider or crab scuttle around.
+
+Research is also allowing the impulses and rhythms to be recorded and used to generate control sequences for a robot's artificial limbs.
+
+Traditionally, said Mr Herrero, robot makers get their creations moving by defining a series of rules that dictates what the legs of that machine should do to get about. 
+
+"CPGs autonomously generate rhythms without specifying any rule and thus can deal better with unexpected situations," he said.
+
+Even better, said Mr Herrero, CPGs are discrete circuits that can be linked together, like building blocks, to create ever more complex behaviour.
+
+Instead of trying to define rules for all the limbs on a robot and get their movements co-ordinated, CPGs make it possible to build up from one joint or sub-section of a limb.
+
+"You can concentrate first on each part of each leg, and design a controller mini-CPG for the ankle, for the knee, the hip and so on," he said. "Then, you connect them in such a way that you get a leg-CPG, that is, the ankle, knee and hips mechanism act co-ordinately."
+
+Using control systems inspired by nature means that they also have some basic intelligence, said Mr Herrero. That allows the machines to modify their rhythm to cope with the unexpected and then return to pumping out the original tempo.
+
+Mr Herrero, along with colleagues Pablo Varona and Francisco Rodriguez, has used CPGs as a control system to make a worm robot writhe around like the real thing. The robot is based on similar machines created by Dr Juan Gomez from Madrid's Carlos III University.
+
+The worm robot has eight sections and its control system was derived by letting the movement rhythm evolve in a simulator. Once evolved, the system was downloaded to a robot which then undulated like a worm and managed to move around with ease.
+
+"The key is to combine the right set of bio-inspired strategies with human engineering approaches to build a new generation of more autonomous robots," said Mr Herrero.
+
+The research was detailed in the journal Bioinspiration and Biomimetics.
+

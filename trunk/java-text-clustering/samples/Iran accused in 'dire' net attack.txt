@@ -1,92 +1,32 @@
-    	
-    		  
-    24 March 2011
-Last updated at 11:18 GMT  
+Hackers in Iran have been accused of trying to subvert one of the net's key security systems.
 
+Analysis in the wake of the thwarted attack suggests it originated and was co-ordinated via servers in Iran.
 
-	
-  Share this page
-    	
-    
-      Delicious
-    
-    
-      Digg
-    
-    
-      Facebook
-    
-    
-      reddit
-    
-    
-      StumbleUpon
-    
-    
-      Twitter
-    
-    
-      Email
-    
-    
-      Print
-    
-  
+If it had succeeded, the attackers would have been able to pass themselves off as web giants Google, Yahoo, Skype, Mozilla and Microsoft.
 
+The impersonation would have let attackers trick web users into thinking they were accessing the real service.
 
- 
-<!--
-$render("page-bookmark-links","page-bookmark-links-head",{
-	useForgeShareTools:"true",
-    position:"top",
-    site:'News', 
-    headline:'BBC News - Iran accused in \'dire\' net security attack', 
-    storyId:'12847072', 
-    sectionId:'99113', 
-    url:'http://www.bbc.co.uk/news/technology-12847072', 
-    edition:'International'
-}); 
--->
+The attack was mounted on the widely used online security system known as the Secure Sockets Layer or SSL. 
 
+This acts as a guarantee of identity so users can be confident that the site they are visiting is who it claims to be. The guarantee of identity is in the form of a digital passport known as a certificate.
 
+Analysis of the attack reveals that someone got access to the computer systems of one firm that issue certificates. This allowed them to issue bogus certificates that, if they had been used, would have let them impersonate any one of several big net firms.
 
-Iran accused in &#039;dire&#039; net security attack
-    
-     
-         
- 
-        		
-		        
-        
-  
+It appears that the attackers targeted the SSL certificates of several specific net communication services such as Gmail and Skype as well as other popular sites such as Microsoft Live, Yahoo and the Firefox browser.
 
-    The attack was run from servers based in Iran, suggests analysis
-  
-	
-		Continue reading the main story		Related Stories
-		
-						US and Israel blamed for Stuxnet
-											Cyber war exaggerated says expert
-											Oil and gas firms hit by hackers
-											
-	
-                      Hackers in Iran have been accused of trying to subvert one of the net&#039;s key security systems.
-        Analysis in the wake of the thwarted attack suggests it originated and was co-ordinated via servers in Iran.
-        If it had succeeded, the attackers would have been able to pass themselves off as web giants Google, Yahoo, Skype, Mozilla and Microsoft.
-        The impersonation would have let attackers trick web users into thinking they were accessing the real service.
-  Fake identity
-	      The attack was mounted on the widely used online security system known as the Secure Sockets Layer or SSL. 
-        This acts as a guarantee of identity so users can be confident that the site they are visiting is who it claims to be. The guarantee of identity is in the form of a digital passport known as a certificate.
-        Analysis of the attack reveals that someone got access to the computer systems of one firm that issue certificates. This allowed them to issue bogus certificates that, if they had been used, would have let them impersonate any one of several big net firms.
-        It appears that the attackers targeted the SSL certificates of several specific net communication services such as Gmail and Skype as well as other popular sites such as Microsoft Live, Yahoo and the Firefox browser.
-        SSL certificate issuer Comodo published an analysis of the attack which was carried out via the computer systems of one of its regional affiliates. 
-        It said the attack exhibited &quot;clinical accuracy&quot; and that, along with other facets of the attack led it to one conclusion: &quot;this was likely to be a state-driven attack.&quot; 
-        It is thought it was carried out by the Iranian authorities to step up scrutiny of opposition groups in the country that use the web to co-ordinate their activity.
-        The bogus certificates have now been revoked and Comodo said it was looking into ways of improving security at its affiliates. 
-        Browsers have also been updated so anyone visiting a site whose credentials are guaranteed by the bogus certificates will be warned. 
-        Writing on the blog of digital rights lobby group the Electronic Frontier Foundation, Peter Eckersley, said the attack posed a &quot;dire risk to internet security&quot;.
-        &quot;The incident got close to — but was not quite — an internet-wide security meltdown,&quot; he said. 
-        &quot;We urgently need to start reinforcing the system that is currently used to authenticate and identify secure websites and e-mail systems,&quot; said Mr Eckersley.
-             
-	
-	
+SSL certificate issuer Comodo published an analysis of the attack which was carried out via the computer systems of one of its regional affiliates. 
+
+It said the attack exhibited "clinical accuracy" and that, along with other facets of the attack led it to one conclusion: "this was likely to be a state-driven attack." 
+
+It is thought it was carried out by the Iranian authorities to step up scrutiny of opposition groups in the country that use the web to co-ordinate their activity.
+
+The bogus certificates have now been revoked and Comodo said it was looking into ways of improving security at its affiliates. 
+
+Browsers have also been updated so anyone visiting a site whose credentials are guaranteed by the bogus certificates will be warned. 
+
+Writing on the blog of digital rights lobby group the Electronic Frontier Foundation, Peter Eckersley, said the attack posed a "dire risk to internet security".
+
+"The incident got close to — but was not quite — an internet-wide security meltdown," he said. 
+
+"We urgently need to start reinforcing the system that is currently used to authenticate and identify secure websites and e-mail systems," said Mr Eckersley.
+

@@ -1,124 +1,66 @@
-    	
-        		  
-    21 March 2011
-Last updated at 12:55 GMT  
+Five short years since it started, Twitter has become part of the fabric of society for tens of millions of users who regularly tweet about their lives and experiences in no more than 140 characters.
 
+And it all started on 21 March 21, 2006 with the brief and banal tweet sent by co-founder Jack Dorsey simply saying "inviting coworkers".
 
-	
-  Share this page
-    	
-    
-      Delicious
-    
-    
-      Digg
-    
-    
-      Facebook
-    
-    
-      reddit
-    
-    
-      StumbleUpon
-    
-    
-      Twitter
-    
-    
-      Email
-    
-    
-      Print
-    
-  
+For the last 10 days, Mr Dorsey has been ploughing through his archives to re-send some of the tweets he first sent out. He has also shared some of the e-mails and instant messages that passed back and forth between him and his fellow co-founders, Biz Stone and Evan Williams.
 
+In a tweet last week, Mr Dorsey revealed the thinking behind the quirky moniker: "The name Twitter came from @Noah Glass &amp; the Oxford English: "a short inconsequential burst of information, chirps from birds."  
 
- 
-<!--
-$render("page-bookmark-links","page-bookmark-links-head",{
-	useForgeShareTools:"true",
-    position:"top",
-    site:'News', 
-    headline:'BBC News - Twitter celebrates its fifth birthday', 
-    storyId:'12805216', 
-    sectionId:'99113', 
-    url:'http://www.bbc.co.uk/news/technology-12805216', 
-    edition:'International'
-}); 
--->
+To date billions of those chirps have been tweeted around the globe. Recent figures released showed that more than 140 million tweets are sent daily - about one billion a week.
 
+Biz Stone said the last five years had been a roller-coaster ride.
 
+"Sometimes the roller coaster is fun and sometimes you want to throw up," he said.
 
-Twitter celebrates its fifth birthday
-    
-     
-         
- 
-        		
-					            	    		 			
-														By Maggie Shiels
-				Technology reporter, BBC News, Silicon Valley
-			
-		        
-        
-  
+"Just keeping up with the service and the downtime and all the things we have been through have been over all positive and wonderful, but there have been stressful times," he told BBC News. "It's so crazy because it does not feel like five years."
 
-    The first Tweet underlined the social nature of the fledgling service
-  
-	
-		Continue reading the main story		Related Stories
-		
-						Famous first lines from technology
-											Twitter founder steps down as CEO
-											Congress to archive every tweet
-											
-	
-                      Five short years since it started, Twitter has become part of the fabric of society for tens of millions of users who regularly tweet about their lives and experiences in no more than 140 characters.
-        And it all started on 21 March 21, 2006 with the brief and banal tweet sent by co-founder Jack Dorsey simply saying &quot;inviting coworkers&quot;.
-        For the last 10 days, Mr Dorsey has been ploughing through his archives to re-send some of the tweets he first sent out. He has also shared some of the e-mails and instant messages that passed back and forth between him and his fellow co-founders, Biz Stone and Evan Williams.
-        In a tweet last week, Mr Dorsey revealed the thinking behind the quirky moniker: &quot;The name Twitter came from @Noah Glass &amp; the Oxford English: &quot;a short inconsequential burst of information, chirps from birds.&quot;  
-        To date billions of those chirps have been tweeted around the globe. Recent figures released showed that more than 140 million tweets are sent daily - about one billion a week.
-        Biz Stone said the last five years had been a roller-coaster ride.
-        &quot;Sometimes the roller coaster is fun and sometimes you want to throw up,&quot; he said.
-        &quot;Just keeping up with the service and the downtime and all the things we have been through have been over all positive and wonderful, but there have been stressful times,&quot; he told BBC News. &quot;It&#039;s so crazy because it does not feel like five years.&quot;
-  Making history
-	      In the early days, the biggest stress came from the image of the famous fail whale which greeted users whenever the service got overloaded or there were technical problems.
-        Another type of tests came in 2008 with the US Presidential elections and in 2009 during the Iranian elections.
-  
-  
+In the early days, the biggest stress came from the image of the famous fail whale which greeted users whenever the service got overloaded or there were technical problems.
 
-    President Obama made heavy use of Twitter during his election campaign
-  
-      Barack Obama capped his campaign for the Whitehouse by tweeting: &quot;We just made history. All of this happened because you gave your time, talent and passion. All of this happened because of you. Thanks @BarackObama&quot;.
-        Twitter&#039;s role in the Iranian elections raised its profile further. With much of the media banned from the country, Twitter, and other social networks, were one way to find out what was happening inside the country.
-        Its role even resulted in calls among some in the Bush administration for Twitter to be nominated for the Nobel Peace prize.
-        &quot;In the back of our minds we knew there would be some value to this open exchange of information because we had seen it with blogging networks,&quot; said Mr Stone.
-        &quot;But for me, did I ever think I was going to be hosting [Russian] President Medvedev in my office? No, I didn&#039;t.&quot; he said. &quot;Or that the President of the US would have an account and they would be tweeting each other. That wasn&#039;t on the cards.&quot;
-        But the coverage of its role in Iran was not all positive. Its credibility was challenged during the protests when the US government asked for a delay to maintenance work because of the role it was playing.
-        Mr Stone said Twitter was inundated with similar pleas from users but it was hard to strike a balance between helping people in Iran without being seen as an extension of US foreign policy.
-        &quot;It is very important to not be perceived as a tool for the US government,&quot; he said. &quot;It is wonderful that the US government takes an interest in what we do and it&#039;s flattering but to be a truly global company, we need to have credibility outside the US as much as inside.&quot;
-        &quot;That means we need to make our own decisions and we temper that with feedback from our users. That is our ultimate audience. The people who use Twitter,&quot; said Mr Stone.
-        It is in acknowledgement of the broad range of views its users hold that has led Twitter to steer clear of backing or blocking any particular cause. 
-        &quot;It doesn&#039;t matter what our opinion is,&quot; said Mr Stone. &quot;All that matters is that the content is flowing freely through the system, whether we like it or not.&quot; 
-        We err on the side of freedom of speech and we don&#039;t have an opinion about whether or not the content is good or bad,&quot; he said. &quot;We remain neutral by really being agnostic.&quot;
-  Twitter Revolution
-	
-  
+Another type of tests came in 2008 with the US Presidential elections and in 2009 during the Iranian elections.
 
-    For many, tweeting as they go about their lives has become a habit
-  
-      While many point to the power of real-time information and its role in the uprisings in the Middle East and North Africa, many commentators decry claims that Twitter has heralded revolutions or toppled dictators.
-        &quot;There are lots of tools that can be useful in a revolution, Twitter is just one of them,&quot; said Evgeny Morozov a visiting fellow at Stanford University and author of The Net Delusion: The Dark Side of Internet Freedom.
-        &quot;It is not just tools we need for a successful revolution,&quot; he said. &quot;When there are millions committed to the cause, committed to sacrifice their lives, then yes social media can be useful.&quot;
-        Headlines may have dubbed the uprisings in the Arab world as Twitter Revolutions, Mr Stone does not.
-        &quot;It doesn&#039;t matter how sophisticated our algorithm gets and it doesn&#039;t matter how many machines we add to the network,&quot; he said. &quot;Ultimately, if we are to be a success or a triumph, then we are to be a success or triumph not just of technology but of humanity.&quot;
-        &quot;That is the thing that is most important about Twitter - that it is driven by people,&quot; he added. &quot;It is people that are doing all these amazing wonderful things around the world.&quot;
-        Awareness of that which leads Mr Stone to scotch talks of the service being sold. 
-        &quot;We are not for sale,&quot; he said. &quot;People insist we are, but we&#039;re not.&quot;
-        &quot;I think we have created a strong brand but we need to do that second part which is build a strong business on top of all that work,&quot; he said. &quot;In that regard we are just beginning.&quot;
-        &quot;When we started five years ago it was to prove we could be a valuable, important and meaningful information and communication network in the world,&quot; he declared. &quot;We feel we don&#039;t have to fold into another company to do this meaningful work.&quot;
-        Concluded Mr Stone: &quot;We are more excited about remaining independent rather than entertaining the notion of being part of a larger company.&quot;
-             
-	
-	
+Barack Obama capped his campaign for the Whitehouse by tweeting: "We just made history. All of this happened because you gave your time, talent and passion. All of this happened because of you. Thanks @BarackObama".
+
+Twitter's role in the Iranian elections raised its profile further. With much of the media banned from the country, Twitter, and other social networks, were one way to find out what was happening inside the country.
+
+Its role even resulted in calls among some in the Bush administration for Twitter to be nominated for the Nobel Peace prize.
+
+"In the back of our minds we knew there would be some value to this open exchange of information because we had seen it with blogging networks," said Mr Stone.
+
+"But for me, did I ever think I was going to be hosting [Russian] President Medvedev in my office? No, I didn't." he said. "Or that the President of the US would have an account and they would be tweeting each other. That wasn't on the cards."
+
+But the coverage of its role in Iran was not all positive. Its credibility was challenged during the protests when the US government asked for a delay to maintenance work because of the role it was playing.
+
+Mr Stone said Twitter was inundated with similar pleas from users but it was hard to strike a balance between helping people in Iran without being seen as an extension of US foreign policy.
+
+"It is very important to not be perceived as a tool for the US government," he said. "It is wonderful that the US government takes an interest in what we do and it's flattering but to be a truly global company, we need to have credibility outside the US as much as inside."
+
+"That means we need to make our own decisions and we temper that with feedback from our users. That is our ultimate audience. The people who use Twitter," said Mr Stone.
+
+It is in acknowledgement of the broad range of views its users hold that has led Twitter to steer clear of backing or blocking any particular cause. 
+
+"It doesn't matter what our opinion is," said Mr Stone. "All that matters is that the content is flowing freely through the system, whether we like it or not." 
+
+We err on the side of freedom of speech and we don't have an opinion about whether or not the content is good or bad," he said. "We remain neutral by really being agnostic."
+
+While many point to the power of real-time information and its role in the uprisings in the Middle East and North Africa, many commentators decry claims that Twitter has heralded revolutions or toppled dictators.
+
+"There are lots of tools that can be useful in a revolution, Twitter is just one of them," said Evgeny Morozov a visiting fellow at Stanford University and author of The Net Delusion: The Dark Side of Internet Freedom.
+
+"It is not just tools we need for a successful revolution," he said. "When there are millions committed to the cause, committed to sacrifice their lives, then yes social media can be useful."
+
+Headlines may have dubbed the uprisings in the Arab world as Twitter Revolutions, Mr Stone does not.
+
+"It doesn't matter how sophisticated our algorithm gets and it doesn't matter how many machines we add to the network," he said. "Ultimately, if we are to be a success or a triumph, then we are to be a success or triumph not just of technology but of humanity."
+
+"That is the thing that is most important about Twitter - that it is driven by people," he added. "It is people that are doing all these amazing wonderful things around the world."
+
+Awareness of that which leads Mr Stone to scotch talks of the service being sold. 
+
+"We are not for sale," he said. "People insist we are, but we're not."
+
+"I think we have created a strong brand but we need to do that second part which is build a strong business on top of all that work," he said. "In that regard we are just beginning."
+
+"When we started five years ago it was to prove we could be a valuable, important and meaningful information and communication network in the world," he declared. "We feel we don't have to fold into another company to do this meaningful work."
+
+Concluded Mr Stone: "We are more excited about remaining independent rather than entertaining the notion of being part of a larger company."
+
