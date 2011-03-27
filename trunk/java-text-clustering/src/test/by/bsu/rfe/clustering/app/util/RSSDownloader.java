@@ -12,6 +12,7 @@ import java.util.Set;
 import org.htmlparser.Node;
 import org.htmlparser.Parser;
 import org.htmlparser.filters.CssSelectorNodeFilter;
+import org.htmlparser.tags.ParagraphTag;
 import org.htmlparser.util.NodeList;
 import org.htmlparser.util.SimpleNodeIterator;
 
@@ -73,8 +74,20 @@ public class RSSDownloader {
                                     SimpleNodeIterator it = nodes.elements();
                                     while (it.hasMoreNodes()) {
                                         Node node = it.nextNode();
-                                        String text = node.toPlainTextString();
-                                        out.print(text);
+
+                                        NodeList children = node.getChildren();
+                                        SimpleNodeIterator childItr = children.elements();
+
+                                        while (childItr.hasMoreNodes()) {
+                                            Node child = childItr.nextNode();
+                                            
+                                            if (child instanceof ParagraphTag) {
+                                                String text = child.toPlainTextString()
+                                                    .replaceAll("&#039;", "\'")
+                                                    .replaceAll("&quot;", "\"");
+                                                out.printf("%s%n%n", text);
+                                            }
+                                        }
                                     }
 
                                     _downloadedNews.add(newsURL);
@@ -102,14 +115,14 @@ public class RSSDownloader {
     }
 
     public static void main(String[] args) throws Exception {
-        RSSDownloader downloader = new RSSDownloader(new File("d:\\diplom\\texts")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/world/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/uk/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/business/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/politics/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/health/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/technology/rss.xml"));
+        RSSDownloader downloader = new RSSDownloader(new File("samples"))
+                .addSource(new URL("http://feeds.bbci.co.uk/news/rss.xml"))
+                .addSource(new URL("http://feeds.bbci.co.uk/news/world/rss.xml"))
+                .addSource(new URL("http://feeds.bbci.co.uk/news/uk/rss.xml"))
+                .addSource(new URL("http://feeds.bbci.co.uk/news/business/rss.xml"))
+                .addSource(new URL("http://feeds.bbci.co.uk/news/politics/rss.xml"))
+                .addSource(new URL("http://feeds.bbci.co.uk/news/health/rss.xml"))
+                .addSource(new URL("http://feeds.bbci.co.uk/news/technology/rss.xml"));
 
         downloader.download();
     }

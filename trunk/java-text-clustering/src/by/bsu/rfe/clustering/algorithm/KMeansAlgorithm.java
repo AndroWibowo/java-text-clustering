@@ -107,12 +107,14 @@ public class KMeansAlgorithm<E extends DataElement> implements ClusteringAlgorit
 
         int clusterOrdinal = 0;
         for (Bin bin : bins) {
-            Cluster<E> cluster = new Cluster<E>();
-            cluster.addDataElements(bin.elements());
-            cluster.setLabel(String.valueOf(clusterOrdinal));
-            clusterOrdinal++;
+            if (!bin.elements().isEmpty()) {
+                Cluster<E> cluster = new Cluster<E>();
+                cluster.addDataElements(bin.elements());
+                cluster.setLabel(String.valueOf(clusterOrdinal));
+                clusterOrdinal++;
 
-            clusters.add(cluster);
+                clusters.add(cluster);
+            }
         }
 
         return clusters;

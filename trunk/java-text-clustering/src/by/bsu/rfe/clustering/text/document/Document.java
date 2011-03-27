@@ -11,6 +11,8 @@ public class Document {
 
     private Map<String, Integer> _terms;
 
+    private String _title;
+
     private String _originalText;
 
     public Document() {
@@ -35,6 +37,14 @@ public class Document {
     public int getTermCount(String term) {
         Integer count = _terms.get(term);
         return (count == null) ? 0 : count;
+    }
+
+    public String getTitle() {
+        return _title;
+    }
+
+    public void setTitle(String title) {
+        _title = title;
     }
 
     public String getOriginalText() {

@@ -1,4 +1,4 @@
-package by.bsu.rfe.clustering.text.database;
+package by.bsu.rfe.clustering.text.ir;
 
 public class DocumentReadException extends Exception {
 

@@ -17,11 +17,11 @@ import by.bsu.rfe.clustering.math.EuclideanDistance;
 import by.bsu.rfe.clustering.math.VectorDistanse;
 import by.bsu.rfe.clustering.nlp.WordList;
 import by.bsu.rfe.clustering.text.algorithm.TextKMeansAlgorithm;
-import by.bsu.rfe.clustering.text.database.DocumentCollectionReader;
-import by.bsu.rfe.clustering.text.database.FileSystemDocumentCollectionReader;
-import by.bsu.rfe.clustering.text.database.RSSDocumentCollectionReader;
 import by.bsu.rfe.clustering.text.document.DocumentCollection;
 import by.bsu.rfe.clustering.text.document.DocumentDataElement;
+import by.bsu.rfe.clustering.text.ir.DocumentCollectionReader;
+import by.bsu.rfe.clustering.text.ir.FileSystemDocumentCollectionReader;
+import by.bsu.rfe.clustering.text.ir.RSSDocumentCollectionReader;
 import by.bsu.rfe.clustering.text.vsm.DocumentVSMGenerator;
 import by.bsu.rfe.clustering.text.vsm.TFIDF;
 
@@ -31,32 +31,13 @@ public class CLI {
         File stopWords = new File("dictionary\\stopwords.txt");
         WordList stopWordList = WordList.load(stopWords);
 
-        /*
-         * DocumentCollectionReader reader = new
-         * RSSDocumentCollectionReader(stopWordList).addSource( // new
-         * URL("http://feeds.bbci.co.uk/news/rss.xml")).addSource( // new //
-         * URL("http://feeds.bbci.co.uk/news/world/rss.xml")).addSource( // new
-         * // URL("http://feeds.bbci.co.uk/news/uk/rss.xml")).addSource( // new
-         * // URL("http://feeds.bbci.co.uk/news/business/rss.xml")).addSource(
-         * // new //
-         * URL("http://feeds.bbci.co.uk/news/politics/rss.xml")).addSource( //
-         * new // URL("http://feeds.bbci.co.uk/news/health/rss.xml")).addSource(
-         * // new //
-         * URL("http://feeds.bbci.co.uk/news/education/rss.xml")).addSource( //
-         * new //
-         * URL("http://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
-         * )).addSource( // new //
-         * URL("http://feeds.bbci.co.uk/news/technology/rss.xml")).addSource(
-         * new
-         * URL("http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml"));
-         */
 
-        DocumentCollectionReader reader = new FileSystemDocumentCollectionReader(new File("d:\\diplom\\texts"),
+        DocumentCollectionReader reader = new FileSystemDocumentCollectionReader(new File("samples"),
                 stopWordList);
 
         DocumentCollection docCollection = reader.readDocuments();
 
-        for (String term : docCollection.getAllTerms()) {
+        for (String term : new TreeSet<String>(docCollection.getAllTerms())) {
             System.out.println(term);
         }
 
@@ -75,15 +56,10 @@ public class CLI {
         List<Cluster<DocumentDataElement>> clusters = clustering.cluster(dataSet);
 
         for (Cluster<DocumentDataElement> cluster : clusters) {
-            System.out.printf("%s:%n", cluster.getLabel());
+            System.out.printf("%n%s:%n%n", cluster.getLabel());
 
             for (DocumentDataElement elem : cluster.getDataElements()) {
-                // System.out.printf("\t\t\t%s%n", Joiner.on(",").join(new
-                // TreeSet<String>(elem.getDocument().getAllTerms())));
-                // System.out.printf("\t%s%n",
-                // elem.getDocument().getOriginalText());
-                // System.out.printf("\t\t%s%n",
-                // elem.getDocument()._terms.values().toString());
+                System.out.printf("\t%s%n", elem.getDocument().getTitle());
             }
         }
     }
