@@ -1,12 +1,16 @@
-package by.bsu.rfe.clustering.text.database;
+package by.bsu.rfe.clustering.text.ir;
 
 import java.io.File;
 import java.io.FileFilter;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import com.google.common.base.Preconditions;
+import com.google.common.io.Files;
 
 import by.bsu.rfe.clustering.nlp.WordList;
 import by.bsu.rfe.clustering.text.document.Document;
@@ -52,29 +56,43 @@ public class FileSystemDocumentCollectionReader extends AbstractDocumentCollecti
         DocumentCollection collection = new DocumentCollection();
         WordList stopWords = getStopWords();
 
-        File[] files = _folder.listFiles(_fileFilter);
+        // TODO add more punctuation characters
+        Pattern delimiter = Pattern.compile("[\\s.,;:()_\\[\\]{}!]+");
+
+        File[] files = _folder.
+
+        listFiles(_fileFilter);
         for (File file : files) {
-            Scanner scanner = null;
-            Document newDoc = new Document();
+            if (!file.isDirectory()) {
+                Scanner scanner = null;
+                Document newDoc = new Document();
 
-            try {
-                scanner = new Scanner(file);
+                try {
+                    scanner = new Scanner(file).useDelimiter(delimiter);
 
-                while (scanner.hasNext()) {
-                    String term = scanner.next();
-                    if ((stopWords == null) || !stopWords.contains(term)) {
-                        newDoc.addTerm(term);
+                    while (scanner.hasNext()) {
+                        String term = scanner.next();
+                        if (((stopWords == null) || !stopWords.contains(term)) && (term.length() > 2)) {
+                            Matcher matcher = WordList.WORD_PATTERN.matcher(term);
+
+                            if (matcher.matches()) {
+                                newDoc.addTerm(term);
+                            }
+                        }
                     }
-                }
 
-                collection.addDocument(newDoc);
-            }
-            catch (FileNotFoundException e) {
-                throw e;
-            }
-            finally {
-                if (scanner != null) {
-                    scanner.close();
+                    newDoc.setOriginalText(Files.toString(file, Charset.defaultCharset()));
+                    newDoc.setTitle(file.getName());
+                    
+                    collection.addDocument(newDoc);
+                }
+                catch (FileNotFoundException e) {
+                    throw e;
+                }
+                finally {
+                    if (scanner != null) {
+                        scanner.close();
+                    }
                 }
             }
         }

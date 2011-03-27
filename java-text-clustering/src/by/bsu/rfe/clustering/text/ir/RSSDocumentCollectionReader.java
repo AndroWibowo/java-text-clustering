@@ -1,4 +1,4 @@
-package by.bsu.rfe.clustering.text.database;
+package by.bsu.rfe.clustering.text.ir;
 
 import java.net.URL;
 import java.util.LinkedList;

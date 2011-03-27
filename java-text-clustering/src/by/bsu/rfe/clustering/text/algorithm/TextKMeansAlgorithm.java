@@ -1,9 +1,11 @@
 package by.bsu.rfe.clustering.text.algorithm;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 
 import com.google.common.collect.Maps;
+import com.google.common.collect.MinMaxPriorityQueue;
 
 import by.bsu.rfe.clustering.algorithm.ClusteringAlgorithm;
 import by.bsu.rfe.clustering.algorithm.KMeansAlgorithm;
@@ -54,17 +56,46 @@ public class TextKMeansAlgorithm implements ClusteringAlgorithm<DocumentDataElem
                 }
             }
 
-            String label = null;
-            int count = 0;
-            for (Map.Entry<String, Integer> entry : wordCount.entrySet()) {
-                if (entry.getValue() > count) {
-                    count = entry.getValue();
-                    label = entry.getKey();
-                }
-            }
+            MinMaxPriorityQueue<TermEntry> queue = MinMaxPriorityQueue.orderedBy(new Comparator<TermEntry>() {
 
+                @Override
+                public int compare(TermEntry o1, TermEntry o2) {
+                    return o2.getCount() - o1.getCount();
+                }
+            })
+            .maximumSize(7)
+            .create();
+            
+            for (Map.Entry<String, Integer> entry : wordCount.entrySet()) {
+                queue.offer(new TermEntry(entry.getKey(), entry.getValue()));
+            }
+            
+            StringBuilder labelBuilder = new StringBuilder();
+            for(TermEntry termEntry: queue) {
+                labelBuilder.append(termEntry.getTerm()).append(":").append(termEntry.getCount()).append(",");
+            }
+            
+            String label = labelBuilder.substring(0, labelBuilder.length() - 1);
             cluster.setLabel(label);
-            System.out.printf("\t%s %d times%n", label, count);
+            //System.out.printf("\t%s %d times%n", label, count);
+        }
+    }
+
+    private static class TermEntry {
+        private String _term;
+        private int _count;
+
+        private TermEntry(String term, int count) {
+            _term = term;
+            _count = count;
+        }
+
+        private int getCount() {
+            return _count;
+        }
+
+        private String getTerm() {
+            return _term;
         }
     }
 }
