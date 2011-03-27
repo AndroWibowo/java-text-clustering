@@ -1,129 +1,56 @@
-    	
-        		  
-    24 February 2011
-Last updated at 23:22 GMT  
+As New Zealand tries to come to terms with Christchurch's devastating earthquake, rescuers continue to bravely work their way through the rubble in search of more than 200 missing people.
 
+From the ground, experts attempt to judge where people are most likely to be buried by scrambling through rubble, listening out for sounds and sending dogs to locate life.
 
-	
-  Share this page
-    	
-    
-      Delicious
-    
-    
-      Digg
-    
-    
-      Facebook
-    
-    
-      reddit
-    
-    
-      StumbleUpon
-    
-    
-      Twitter
-    
-    
-      Email
-    
-    
-      Print
-    
-  
+Some buildings, however, have proven simply too dangerous for rescue teams to enter. 
 
+A team of engineers at the University of Warwick has been working to solve this problem by developing a robot capable of entering unstable buildings and "looking" around for any signs of survival.
 
- 
-<!--
-$render("page-bookmark-links","page-bookmark-links-head",{
-	useForgeShareTools:"true",
-    position:"top",
-    site:'News', 
-    headline:'BBC News - Microsoft Kinect-powered robot to aid earthquake rescue', 
-    storyId:'12559231', 
-    sectionId:'99113', 
-    url:'http://www.bbc.co.uk/news/technology-12559231', 
-    edition:'International'
-}); 
--->
+Until now, previous technology has relied on prohibitively expensive laser-based equipment, but Warwick's team have turned to a far more affordable piece of hardware - Microsoft's Xbox Kinect.
 
+The motion-detection device means Warwick Mobile Robotics (WMR) have been able to create a robot which can accurately model its surroundings and even identify places in which survivors may be.
 
+"The whole idea is to protect the lives of the rescuers," explained Peter Crook, mechanical engineer on the project.
 
-Microsoft Kinect-powered robot to aid earthquake rescue
-    
-     
-         
- 
-        		
-					            	    		 			
-														By Dave Lee
-				BBC World Service
-			
-		        
-        
-  
+"What you'd have is a team of maybe two people - it doesn't take a lot of manpower - and they'd set up outside. From a safe distance they'd drive the robot in and then use that robot to look for victims."
 
-    Peter Crook (far right) hopes the robot can make search and rescues attempts &quot;more streamlined&quot;
-  
-                      As New Zealand tries to come to terms with Christchurch&#039;s devastating earthquake, rescuers continue to bravely work their way through the rubble in search of more than 200 missing people.
-        From the ground, experts attempt to judge where people are most likely to be buried by scrambling through rubble, listening out for sounds and sending dogs to locate life.
-        Some buildings, however, have proven simply too dangerous for rescue teams to enter. 
-        A team of engineers at the University of Warwick has been working to solve this problem by developing a robot capable of entering unstable buildings and &quot;looking&quot; around for any signs of survival.
-        Until now, previous technology has relied on prohibitively expensive laser-based equipment, but Warwick&#039;s team have turned to a far more affordable piece of hardware - Microsoft&#039;s Xbox Kinect.
-        The motion-detection device means Warwick Mobile Robotics (WMR) have been able to create a robot which can accurately model its surroundings and even identify places in which survivors may be.
-        &quot;The whole idea is to protect the lives of the rescuers,&quot; explained Peter Crook, mechanical engineer on the project.
-  
-	Continue reading the main story	&ldquo;Start Quote
-It's not really designed to bring people who are stuck there out, but it would mean that the rescue services know where they are&rdquo;
-End Quote
-	Peter Crook
-	Warwick Mobile Robotics
+Last year, the robot was awarded first place at the European Robocup Rescue championship in Germany, a prestigious competition which seeks to give initiatives in this field the ability to gain publicity and funding.
 
-		      &quot;What you&#039;d have is a team of maybe two people - it doesn&#039;t take a lot of manpower - and they&#039;d set up outside. From a safe distance they&#039;d drive the robot in and then use that robot to look for victims.&quot;
-  Award-winning
-	      Last year, the robot was awarded first place at the European Robocup Rescue championship in Germany, a prestigious competition which seeks to give initiatives in this field the ability to gain publicity and funding.
-        WMR is currently courting further sponsorship for their research - particularly when it comes to testing the robot in real-life situations.
-        &quot;They&#039;re obviously hard to predict and we don&#039;t have the money to fly out there,&quot; said Mr Crook, reflecting on the disaster in New Zealand.
-        &quot;We raise all our own funding and so cost is a massive issue for us in what we can and can&#039;t produce&quot;.
-        Mr Crook estimates that by using Kinect rather than other similar technology, the team has managed to save over £2000 per robot. 
-        And, as well as being cheaper, the machine is more technologically advanced than ever before.
-        &quot;What we had before was a LIDAR - a laser range finder - but that then just gives you literally a planar view so you get a flat-line of how far things are away from you. 
-  
-  
+WMR is currently courting further sponsorship for their research - particularly when it comes to testing the robot in real-life situations.
 
-    The robots are currently in the testing phase
-  
-      &quot;Whereas the Kinect gives us a 3-D view so we can actually see like an image and how far everything is away.&quot;
-        This makes the robot potentially a massive help for rescuers desperate to waste no time in getting to survivors.
-        &quot;It&#039;s not really designed to bring people who are stuck there out, but it would mean that the rescue services know where they are, and would be able to get to them much more effectively than maybe looking through a whole building which may be empty.
-        &quot;It also produces a 3-D map at the same time, so what you will then have back on the computer is a whole map of the interior of the building. You could then streamline your rescue process.&quot;
-  New approach
-	      However, the project faced one concerning hurdle. 
-        Microsoft had, in the past, been reluctant to support using Kinect on anything other than their Xbox console. 
-  
-	Continue reading the main story		Digital Planet
-		
-	
-	
-	
-     Digital Planet is the weekly technology programme broadcast from the BBC World Service
-     It is broadcast on Tuesday at 1232GMT and repeated at 1632GMT, 2032GMT and on Wednesday at 0032GMT
-  
-	
-		
-			Listen to Digital Planet
-			Download as a podcast
-			Discuss on Facebook
-			More from BBC World Service
-		
-	      WMR&#039;s robot was only made possible after an independent programmer produced unofficial drivers which enabled the Kinect to be used on a normal computer.
-        &quot;We hadn&#039;t dealt with permission,&quot; Mr Crook said. 
-        &quot;So should this become a commercial product, I think we may need to cross that bridge.&quot;
-        However, while Microsoft resisted adapting Kinect&#039;s use in the devices early stages, the company now says it has changed its stance.
-        From the spring, a developers kit for the Kinect will be made available for personal users, while a commercial kit will follow at a later date.
-        &quot;It&#039;s definitely good news for us,&quot; said Mr Crook, welcoming the new approach.
-        &quot;Essentially we&#039;re using it for the function it&#039;s designed for but applying it not to computer games but for saving lives.&quot;
-             
-	
-	
+"They're obviously hard to predict and we don't have the money to fly out there," said Mr Crook, reflecting on the disaster in New Zealand.
+
+"We raise all our own funding and so cost is a massive issue for us in what we can and can't produce".
+
+Mr Crook estimates that by using Kinect rather than other similar technology, the team has managed to save over ?2000 per robot. 
+
+And, as well as being cheaper, the machine is more technologically advanced than ever before.
+
+"What we had before was a LIDAR - a laser range finder - but that then just gives you literally a planar view so you get a flat-line of how far things are away from you. 
+
+"Whereas the Kinect gives us a 3-D view so we can actually see like an image and how far everything is away."
+
+This makes the robot potentially a massive help for rescuers desperate to waste no time in getting to survivors.
+
+"It's not really designed to bring people who are stuck there out, but it would mean that the rescue services know where they are, and would be able to get to them much more effectively than maybe looking through a whole building which may be empty.
+
+"It also produces a 3-D map at the same time, so what you will then have back on the computer is a whole map of the interior of the building. You could then streamline your rescue process."
+
+However, the project faced one concerning hurdle. 
+
+Microsoft had, in the past, been reluctant to support using Kinect on anything other than their Xbox console. 
+
+WMR's robot was only made possible after an independent programmer produced unofficial drivers which enabled the Kinect to be used on a normal computer.
+
+"We hadn't dealt with permission," Mr Crook said. 
+
+"So should this become a commercial product, I think we may need to cross that bridge."
+
+However, while Microsoft resisted adapting Kinect's use in the devices early stages, the company now says it has changed its stance.
+
+From the spring, a developers kit for the Kinect will be made available for personal users, while a commercial kit will follow at a later date.
+
+"It's definitely good news for us," said Mr Crook, welcoming the new approach.
+
+"Essentially we're using it for the function it's designed for but applying it not to computer games but for saving lives."
+

@@ -1,278 +1,50 @@
-    	
-    		  
-    25 March 2011
-Last updated at 16:46 GMT  
-
-
-	
-  Share this page
-    	
-    
-      Delicious
-    
-    
-      Digg
-    
-    
-      Facebook
-    
-    
-      reddit
-    
-    
-      StumbleUpon
-    
-    
-      Twitter
-    
-    
-      Email
-    
-    
-      Print
-    
-  
-
-
- 
-<!--
-$render("page-bookmark-links","page-bookmark-links-head",{
-	useForgeShareTools:"false",
-    position:"top",
-    site:'News', 
-    headline:'BBC News - Libya: William Hague says Nato control days away', 
-    storyId:'12857912', 
-    sectionId:'99116', 
-    url:'http://www.bbc.co.uk/news/uk-12857912', 
-    edition:'International'
-}); 
--->
-
-
-
-Libya: William Hague says Nato control days away
-    
-     
-         
- 
-        		
-		        
-        
-
-
-
-	
- 
-
-
-    
-        		
-        
-            
-                                
-                                Please turn on JavaScript. Media requires JavaScript to play.
-            
-        
-        
-            
-                    
-                
-                    
-					
-							
-		            
-            
-            
-            
-            
-			
-		            
-                
-            
-        
-                    
-            
-        
-        
-        
-        
-/*<![CDATA[*/
-	bbc.fmtj.av.emp.load( function() {
-		var userAgent = navigator.userAgent.toLowerCase();
-		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
-			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
-			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
-			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
-			userAgent.search("android") == -1)
-		{
-			bbc.fmtj.av.emp.loadProxyPlayer("emp-12858759-195447");
-		}else{
-			bbc.fmtj.av.emp.loadEmp("emp-12858759-195447");
-		}
-	});
-/*]]>*/
+Nato will be able to take over command of the entire military operation in Libya within days, according to UK Foreign Secretary William Hague.
 
+He said he had "every expectation" the alliance would assume full command, instead of enforcing only the no-fly zone and the arms embargo.
 
+Coalition forces are into a seventh day of military action over Libya to enforce the UN resolution.
 
-            
-             
-          
-		
-			
-				$render("advert","advert-companion","12858759");
-			
-			$render("advert-post-script-load");
-		
-         
-         
-    	
-        		
-		David Cameron says Nato will shortly take over the entire operation over Libya
-		
-        
+Mr Hague insisted there was no split in the international community.
 
+"If the Gaddafi regime think the international will and unity on this is faltering in any way, they are in for quite a surprise," he said.
 
+Mr Hague said a conference in London on Tuesday, which will include Arab nations alongside the EU and the US, would lock in commitments of military and financial support which he said were "increasing all the time".
 
-	Continue reading the main story	
+Prime Minister David Cameron also told a news conference at the EU summit in Brussels that Nato would shortly be providing command and control for the operation.
 
+Dismissing talk of a split within Nato, he explained: "These things always take a bit of time."
 
+The BBC's correspondent in Brussels, Matthew Price, said there were growing signs that Mr Cameron's prediction was correct.
 
+"I am getting the impression that is not just wishful thinking, because other diplomatic sources here are saying very much the same thing."
 
-		     
-	       	          
+He added: "Interestingly, President Sarkozy of France is still talking about this overseeing political council, that would include representatives from Qatar and the UAE as well, to keep the Arab states onside."
 
-		
-		
-						
-				
-		
-		
-	
-						Libya Crisis
-		
-		
+Twelve countries, including UAE and Qatar, are now part of the coalition seeking to enforce the UN Security Council resolution passed last week to protect civilians from attack during fighting between rebels and Col Muammar Gaddafi's forces. 
 
-		  	  
-	  	  	
-	   
+Mr Cameron said the EU summit had agreed that "military action should continue until people are safe and secure".
 
+British Tornado jets attacked Col Gaddafi's forces in Ajdabiya on Thursday.
 
+The Ministry of Defence said the Tornados, which were on an armed reconnaissance mission, fired guided Brimstone missiles at armoured vehicles which were threatening the civilian population of Ajdabiya.
 
+"They are losing aircraft, tanks and guns that they cannot replace. [Col Gaddafi's] ability to use these weapons against his own people is diminished daily," said Maj Gen John Lorimer at a press conference on Friday.
 
-		
+"It's very clear that, despite the heavy losses inflicted on his forces by coalition operations, Colonel Gaddafi continues to flout the will of the international community and is continuing to mount deadly and indiscriminate attacks on his own people.
 
+"But it is equally clear that our operations have saved many innocent lives already and we are confident that they will continue to do so."
 
-	
+William Hague said the coalition was doing everything possible to avoid civilian deaths.
 
+"There are no confirmed civilian casualties so far from coalition air strikes and missile strikes in all these operations since last Saturday", he said. "All the civilian casualties are being caused by the Gaddafi regime."
 
+Downing Street said the UAE's decision to contribute 12 planes was "evidence of the real and tangible Arab role" in enforcing the no-fly zone.
 
+Fresh fighting has meanwhile been reported in Misrata, scene of a bitter battle for control.
 
+The foreign secretary said it was difficult to use coalition airpower in the city because Col Gaddafi's tanks were within the town itself.
 
-	Libya and Mid-East crisis Live
-	
-		
-	  	  	
-	   
+He said regime forces must withdraw from rebel-held areas in Libya.
 
+One report said rebels were moving closer to the city of Ajdabiya but remained outgunned by pro-Gaddafi forces.
 
-
-
-	
-
-
-	
-
-
-
-
-
-	Turkey&#039;s difficulties
-	
-		
-	  	  	
-	   
-
-
-
-
-	
-
-
-	
-
-
-
-
-
-	Sarkozy seizes moment
-	
-		
-	  	  	
-	   
-
-
-
-
-	
-
-
-	
-
-
-
-
-
-	What next?
-	
-		
-	  	  
-  
-
-
-		
-						
-
-	       	     
-	
-                      Nato will be able to take over command of the entire military operation in Libya within days, according to UK Foreign Secretary William Hague.
-        He said he had &quot;every expectation&quot; the alliance would assume full command, instead of enforcing only the no-fly zone and the arms embargo.
-        Coalition forces are into a seventh day of military action over Libya to enforce the UN resolution.
-        Mr Hague insisted there was no split in the international community.
-        &quot;If the Gaddafi regime think the international will and unity on this is faltering in any way, they are in for quite a surprise,&quot; he said.
-        Mr Hague said a conference in London on Tuesday, which will include Arab nations alongside the EU and the US, would lock in commitments of military and financial support which he said were &quot;increasing all the time&quot;.
-        Prime Minister David Cameron also told a news conference at the EU summit in Brussels that Nato would shortly be providing command and control for the operation.
-        Dismissing talk of a split within Nato, he explained: &quot;These things always take a bit of time.&quot;
-  'Safe and secure'
-	      The BBC&#039;s correspondent in Brussels, Matthew Price, said there were growing signs that Mr Cameron&#039;s prediction was correct.
-  
-	Continue reading the main story	&ldquo;Start Quote
-Our operations have saved many innocent lives and we are confident that they will continue to do so&rdquo;
-End Quote
-	Maj Gen John Lorimer
-	Chief of the Defence Staff's chief spokesman
-
-		      &quot;I am getting the impression that is not just wishful thinking, because other diplomatic sources here are saying very much the same thing.&quot;
-        He added: &quot;Interestingly, President Sarkozy of France is still talking about this overseeing political council, that would include representatives from Qatar and the UAE as well, to keep the Arab states onside.&quot;
-        Twelve countries, including UAE and Qatar, are now part of the coalition seeking to enforce the UN Security Council resolution passed last week to protect civilians from attack during fighting between rebels and Col Muammar Gaddafi&#039;s forces. 
-        Mr Cameron said the EU summit had agreed that &quot;military action should continue until people are safe and secure&quot;.
-        British Tornado jets attacked Col Gaddafi&#039;s forces in Ajdabiya on Thursday.
-        The Ministry of Defence said the Tornados, which were on an armed reconnaissance mission, fired guided Brimstone missiles at armoured vehicles which were threatening the civilian population of Ajdabiya.
-  
-  
-
-    British jets attacked targets in Ajdabiya, where Libyan rebels are trying to retake the town
-  
-      &quot;They are losing aircraft, tanks and guns that they cannot replace. [Col Gaddafi&#039;s] ability to use these weapons against his own people is diminished daily,&quot; said Maj Gen John Lorimer at a press conference on Friday.
-        &quot;It&#039;s very clear that, despite the heavy losses inflicted on his forces by coalition operations, Colonel Gaddafi continues to flout the will of the international community and is continuing to mount deadly and indiscriminate attacks on his own people.
-        &quot;But it is equally clear that our operations have saved many innocent lives already and we are confident that they will continue to do so.&quot;
-  Arab role
-	      William Hague said the coalition was doing everything possible to avoid civilian deaths.
-        &quot;There are no confirmed civilian casualties so far from coalition air strikes and missile strikes in all these operations since last Saturday&quot;, he said. &quot;All the civilian casualties are being caused by the Gaddafi regime.&quot;
-        Downing Street said the UAE&#039;s decision to contribute 12 planes was &quot;evidence of the real and tangible Arab role&quot; in enforcing the no-fly zone.
-        Fresh fighting has meanwhile been reported in Misrata, scene of a bitter battle for control.
-        The foreign secretary said it was difficult to use coalition airpower in the city because Col Gaddafi&#039;s tanks were within the town itself.
-        He said regime forces must withdraw from rebel-held areas in Libya.
-        One report said rebels were moving closer to the city of Ajdabiya but remained outgunned by pro-Gaddafi forces.
-             
-	
-	

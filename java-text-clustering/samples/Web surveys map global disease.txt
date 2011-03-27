@@ -1,124 +1,54 @@
-    	
-        		  
-    19 January 2011
-Last updated at 11:28 GMT  
+Type in a search for flu in Google and you will not only find out how sick you are but your data will also be recorded on its flu monitoring service.
 
+The service, which is part of the search engine's philanthropic arm, google.org, is just one of many software-based disease alert systems dotted around the worldwide web.
 
-	
-  Share this page
-    	
-    
-      Delicious
-    
-    
-      Digg
-    
-    
-      Facebook
-    
-    
-      reddit
-    
-    
-      StumbleUpon
-    
-    
-      Twitter
-    
-    
-      Email
-    
-    
-      Print
-    
-  
+By gathering aggregate data from millions of people or by scouring the web for online news reports, blogs and chat room postings, these programs are considered to be excellent indicators of disease levels across the globe.    
 
+"We've found what people search for are actually very good indicators of influenza in a population," Google Flu Trends spokeswoman Corrie Conrad told BBC World Service's Digital Planet.
 
- 
-<!--
-$render("page-bookmark-links","page-bookmark-links-head",{
-	useForgeShareTools:"false",
-    position:"top",
-    site:'News', 
-    headline:'BBC News - Web surveillance maps global disease trends', 
-    storyId:'12176180', 
-    sectionId:'99113', 
-    url:'http://www.bbc.co.uk/news/technology-12176180', 
-    edition:'International'
-}); 
--->
+"We have flu estimates for 28 countries and accuracy will vary depending on each country. But in the United States when compared with the official data from the Centres for Disease Control (CDC), we found we were over 90% accurate. 
 
+She added: "It can take one to two weeks for the CDC to collect data from the different doctors across the country that are part of their system but search data is updated automatically every day."
 
+Users can gauge estimated levels of influenza by viewing Google's world flu level map (pictured) which projects various colours - green meaning the level of the virus is low and red meaning it is high.
 
-Web surveillance maps global disease trends
-    
-     
-         
- 
-        		
-		        
-        
-  
+By clicking on each country, users will also find charts of flu levels over time, month to month.
 
-    Software-based disease alert systems are considered to be excellent indicators
-  
-                      Type in a search for flu in Google and you will not only find out how sick you are but your data will also be recorded on its flu monitoring service.
-        The service, which is part of the search engine&#039;s philanthropic arm, google.org, is just one of many software-based disease alert systems dotted around the worldwide web.
-        By gathering aggregate data from millions of people or by scouring the web for online news reports, blogs and chat room postings, these programs are considered to be excellent indicators of disease levels across the globe.    
-        &quot;We&#039;ve found what people search for are actually very good indicators of influenza in a population,&quot; Google Flu Trends spokeswoman Corrie Conrad told BBC World Service&#039;s Digital Planet.
-        &quot;We have flu estimates for 28 countries and accuracy will vary depending on each country. But in the United States when compared with the official data from the Centres for Disease Control (CDC), we found we were over 90% accurate. 
-        She added: &quot;It can take one to two weeks for the CDC to collect data from the different doctors across the country that are part of their system but search data is updated automatically every day.&quot;
-  
-  
+Other systems, which include the Global Public Health Intelligence Network and HealthMap, employ a different method. 
 
-    Google&#039;s world flu map shows estimate influenza levels in various countries
-  
-      Users can gauge estimated levels of influenza by viewing Google&#039;s world flu level map (pictured) which projects various colours - green meaning the level of the virus is low and red meaning it is high.
-        By clicking on each country, users will also find charts of flu levels over time, month to month.
-  Disease signs
-	      Other systems, which include the Global Public Health Intelligence Network and HealthMap, employ a different method. 
-        They search internet news sites around the world for signs of disease.
-  
-	Continue reading the main story	&ldquo;Start Quote
-It is a wonderful use of modern technology which is amazingly quick&rdquo;
-End Quote
-	Prof David Spiegelhalter 
-	Cambridge University
+They search internet news sites around the world for signs of disease.
 
-		      &quot;We&#039;re essentially a web crawling tool very similar to Google in that we&#039;re scouring the web through tens of thousands of websites, every hour looking for specific clues about infectious diseases,&quot; explains HealthMap co-founder John Brownstein. 
-        &quot;Once we find those articles about an outbreak, we organise that information and put it on a map available to our users.&quot;
-        According to Mr Brownstein, the system is also useful for tourists who are planning to travel abroad.
-        &quot;They can see events happening in places they might travel to,&quot; he said. 
-        &quot;For instance foot and mouth disease is in South Korea, there&#039;s cholera in many parts of the world especially in Haiti. There is polio happening in many parts of Africa including the DR Congo.&quot;
-        While both systems search the web for news, HealthMap also employs a &quot;citizen reporting&quot; scheme which allows the public to report events through iPhone and Google Android apps.
-        &quot;This involves people taking a picture of a cluster of dead birds by their house, a photo of a line at a vaccination clinic or photos of themselves lying in a hospital bed,&quot; explains Mr Brownstein. &quot;Their event becomes a dot on the map alongside all the other events.&quot;
-  Economic crisis
-	      While these software-based disease alert systems may be quick and user friendly the real question is just how accurate are they compared to official bodies such as the World Health Organization?
-        Mr Brownstein admits that while software-based disease alert systems are rapid, they not as reliable as official bodies. 
-        &quot;The World Health Organization has a mandate to release validated information because if they release it without going through proper channels, they could potentially be faced with a major economic crisis for reporting something which is not true,&quot; he argues.
-        &quot;In our case we&#039;re willing to sacrifice a little bit of risk in terms of the information and not necessarily always validating it perfectly until we release it. 
-  
-	Continue reading the main story		Digital Planet
-		
-	
-	
-	
-     Digital Planet is the weekly technology programme broadcast from the BBC World Service
-     It is broadcast on Tuesday at 1232GMT and repeated at 1632GMT, 2032GMT and on Wednesday at 0032GMT
-  
-	
-		
-			Listen again to Digital Planet
-			Download as a podcast
-			Discuss on Facebook
-			More from BBC World Service
-		
-	      He continued: &quot;On some level it is a nice balance between one website that is providing a rapid dissemination of information that you do have to take with a grain of salt at all times versus the validated information you might get from the World Health Organization or the Health Protection Agency in the UK.&quot;
-        Professor David Spiegelhalter from the Centre for Mathematical Sciences at Cambridge University agrees.
-        He argues that while they may not be as reliable as official figures, speed is their greatest strength.
-        &quot;It is a wonderful use of modern technology which is amazingly quick,&quot; he said. &quot;You get things within a day without waiting for weeks.  
-        &quot;They are valuable for recording what people are currently concerned about,&quot; he added. 
-        &quot;They&#039;re not as accurate as official surveillance but that is not the issue, the idea is timeliness and getting things out to people in a way that is easy to understand and see.&quot;
-             
-	
-	
+"We're essentially a web crawling tool very similar to Google in that we're scouring the web through tens of thousands of websites, every hour looking for specific clues about infectious diseases," explains HealthMap co-founder John Brownstein. 
+
+"Once we find those articles about an outbreak, we organise that information and put it on a map available to our users."
+
+According to Mr Brownstein, the system is also useful for tourists who are planning to travel abroad.
+
+"They can see events happening in places they might travel to," he said. 
+
+"For instance foot and mouth disease is in South Korea, there's cholera in many parts of the world especially in Haiti. There is polio happening in many parts of Africa including the DR Congo."
+
+While both systems search the web for news, HealthMap also employs a "citizen reporting" scheme which allows the public to report events through iPhone and Google Android apps.
+
+"This involves people taking a picture of a cluster of dead birds by their house, a photo of a line at a vaccination clinic or photos of themselves lying in a hospital bed," explains Mr Brownstein. "Their event becomes a dot on the map alongside all the other events."
+
+While these software-based disease alert systems may be quick and user friendly the real question is just how accurate are they compared to official bodies such as the World Health Organization?
+
+Mr Brownstein admits that while software-based disease alert systems are rapid, they not as reliable as official bodies. 
+
+"The World Health Organization has a mandate to release validated information because if they release it without going through proper channels, they could potentially be faced with a major economic crisis for reporting something which is not true," he argues.
+
+"In our case we're willing to sacrifice a little bit of risk in terms of the information and not necessarily always validating it perfectly until we release it. 
+
+He continued: "On some level it is a nice balance between one website that is providing a rapid dissemination of information that you do have to take with a grain of salt at all times versus the validated information you might get from the World Health Organization or the Health Protection Agency in the UK."
+
+Professor David Spiegelhalter from the Centre for Mathematical Sciences at Cambridge University agrees.
+
+He argues that while they may not be as reliable as official figures, speed is their greatest strength.
+
+"It is a wonderful use of modern technology which is amazingly quick," he said. "You get things within a day without waiting for weeks.  
+
+"They are valuable for recording what people are currently concerned about," he added. 
+
+"They're not as accurate as official surveillance but that is not the issue, the idea is timeliness and getting things out to people in a way that is easy to understand and see."
+

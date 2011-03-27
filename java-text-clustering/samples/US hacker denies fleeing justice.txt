@@ -1,92 +1,32 @@
-    	
-        		  
-    24 March 2011
-Last updated at 09:24 GMT  
+The American hacker who unlocked Sony's PS3 has denied fleeing the country to avoid legal action.
 
+George Hotz, also known as Geohot, said his trip had been planned for months and added that he was still in contact with his lawyers.
 
-	
-  Share this page
-    	
-    
-      Delicious
-    
-    
-      Digg
-    
-    
-      Facebook
-    
-    
-      reddit
-    
-    
-      StumbleUpon
-    
-    
-      Twitter
-    
-    
-      Email
-    
-    
-      Print
-    
-  
+Sony had raised questions about the reason for his sudden disappearance in recent legal papers that it filed in California.
 
+The company is suing him for computer fraud and breach of copyright.
 
- 
-<!--
-$render("page-bookmark-links","page-bookmark-links-head",{
-	useForgeShareTools:"true",
-    position:"top",
-    site:'News', 
-    headline:'BBC News - US hacker denies fleeing justice', 
-    storyId:'12846589', 
-    sectionId:'99113', 
-    url:'http://www.bbc.co.uk/news/technology-12846589', 
-    edition:'International'
-}); 
--->
+To explain his absence, Mr Hotz wrote on his blog: "Factually, it's true I'm in South America, on a vacation I've had planned and paid for since November. I mean, it is Spring break; hacking isn't my life."
 
+He continued: "Rest assured that not a dime of legal defense money would ever go toward something like this."
 
+The blog was written in reaction to reports of his departure which speculated that he may have paid for the trip with money donated by supporters, intended to pay for pay for his legal costs.
 
-US hacker denies fleeing justice
-    
-     
-         
- 
-        		
-		        
-        
-  
+His absence was brought to light in the latest court documents filed by Sony Computer Entertainment America (SCEA) to the San Francisco court where he is being sued.
 
-    The hack of the PS3 lets owners play &quot;homebrew&quot; applications on the hardware
-  
-	
-		Continue reading the main story		Related Stories
-		
-						Sony gets PS3 hack case details
-											Hardware hackers claim PS3 crack
-											Sony disables PlayStation feature
-								
-	
-                      The American hacker who unlocked Sony&#039;s PS3 has denied fleeing the country to avoid legal action.
-        George Hotz, also known as Geohot, said his trip had been planned for months and added that he was still in contact with his lawyers.
-        Sony had raised questions about the reason for his sudden disappearance in recent legal papers that it filed in California.
-        The company is suing him for computer fraud and breach of copyright.
-        To explain his absence, Mr Hotz wrote on his blog: &quot;Factually, it&#039;s true I&#039;m in South America, on a vacation I&#039;ve had planned and paid for since November. I mean, it is Spring break; hacking isn&#039;t my life.&quot;
-        He continued: &quot;Rest assured that not a dime of legal defense money would ever go toward something like this.&quot;
-        The blog was written in reaction to reports of his departure which speculated that he may have paid for the trip with money donated by supporters, intended to pay for pay for his legal costs.
-  Serious question
-	      His absence was brought to light in the latest court documents filed by Sony Computer Entertainment America (SCEA) to the San Francisco court where he is being sued.
-        They raise concerns, both about Mr Hotz whereabouts and the condition of computer equipment he was due to submit for examination.
-        The filing states: &quot;SCEA learned that Hotz had deliberately removed integral components of his impounded hard drives prior to delivering them to a third party neutral and that Hotz is now in South America, an excuse for why he will not immediately provide the components of his hard drives as requested by the neutral.
-        &quot;Hotz&#039;s attempts to dodge this Court&#039;s authority raise very serious questions.&quot;
-        Sony launched its legal action in California where its US subsidiary is headquartered. It also claims that information relating to the hack was posted on several California-based websites, including Twitter and Youtube.
-        However, Mr Hotz has disputed the court&#039;s jurisdiction, claiming that he is a resident of New Jersey and that the PS3 is made in Japan.
-        Mr Hotz developed his system for unlocking the PlayStation 3 in 2009.  It makes it possible for users to play &quot;homebrew&quot; software and copied games, although he denies that it was his intention to enable piracy.
-        Sony is taking legal action against Mr Hotz and more than 100 other defendants who, it claims, downloaded the hack.
-        In previous hearings, George Hotz has been ordered to hand over the IP addresses of users who accessed his website.
-             
-	
-	
+They raise concerns, both about Mr Hotz whereabouts and the condition of computer equipment he was due to submit for examination.
+
+The filing states: "SCEA learned that Hotz had deliberately removed integral components of his impounded hard drives prior to delivering them to a third party neutral and that Hotz is now in South America, an excuse for why he will not immediately provide the components of his hard drives as requested by the neutral.
+
+"Hotz's attempts to dodge this Court's authority raise very serious questions."
+
+Sony launched its legal action in California where its US subsidiary is headquartered. It also claims that information relating to the hack was posted on several California-based websites, including Twitter and Youtube.
+
+However, Mr Hotz has disputed the court's jurisdiction, claiming that he is a resident of New Jersey and that the PS3 is made in Japan.
+
+Mr Hotz developed his system for unlocking the PlayStation 3 in 2009.  It makes it possible for users to play "homebrew" software and copied games, although he denies that it was his intention to enable piracy.
+
+Sony is taking legal action against Mr Hotz and more than 100 other defendants who, it claims, downloaded the hack.
+
+In previous hearings, George Hotz has been ordered to hand over the IP addresses of users who accessed his website.
+

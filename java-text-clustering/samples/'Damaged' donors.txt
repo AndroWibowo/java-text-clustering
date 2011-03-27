@@ -1,196 +1,44 @@
-    	
-        		  
-    22 March 2011
-Last updated at 08:25 GMT  
+An investigation is under way after two transplant patients got cancer from the same donor.
 
+The recipients were each given a kidney from a woman with a rare form of blood cancer which was not picked up in routine safety checks.
 
-	
-  Share this page
-    	
-    
-      Delicious
-    
-    
-      Digg
-    
-    
-      Facebook
-    
-    
-      reddit
-    
-    
-      StumbleUpon
-    
-    
-      Twitter
-    
-    
-      Email
-    
-    
-      Print
-    
-  
+The disease was detected too late in a post-mortem examination.
 
+NHS Blood and Transplant (NHSBT), the agency responsible for transplant safety, said research would determine the scale of the problem nationally.
 
- 
-<!--
-$render("page-bookmark-links","page-bookmark-links-head",{
-	useForgeShareTools:"true",
-    position:"top",
-    site:'News', 
-    headline:'BBC News - Inquiry launched as transplant patients contract cancer', 
-    storyId:'12792136', 
-    sectionId:'99108', 
-    url:'http://www.bbc.co.uk/news/health-12792136', 
-    edition:'International'
-}); 
--->
+Rob Law, 59, and Gillian Smart, 46, both had transplants at the Royal Liverpool Hospital on 26 November 2010. The Royal Liverpool and Broadgreen University Hospitals Trust is conducting a joint investigation with NHSBT.
 
+The donor, a 56-year-old woman, is said to have died from a brain haemorrhage.
 
+Pathologists later discovered she suffered from intravascular B-cell lymphoma, a rare but aggressive form of cancer.
 
-Inquiry launched as transplant patients contract cancer
-    
-     
-         
- 
-        		
-					            	    		 			
-														By Allan Urry
-				BBC News
-			
-		        
-        
+Both kidney patients are now undergoing chemotherapy.
 
+Speaking to BBC Radio 4's File on 4, Gillian Smart said: "As a renal patient you come to terms with death very quickly. You see a lot of death while you dialyse.
 
+"I didn't expect to have to come to terms with maybe a cancer death. It is quite a serious cancer and a hard cancer to fight."
 
-	
- 
+Both patients want to know how the cancer was missed until the post-mortem and are considering legal action.
 
+Mr Law said: "I felt I had to get to the bottom of this for the sake of anyone else in the same position, because there are 10,000 people a year who are waiting for a transplant.
 
-    
-        		
-        
-            
-                                
-                                Please turn on JavaScript. Media requires JavaScript to play.
-            
-        
-        
-            
-                    
-                
-                    
-					
-							
-		            
-            
-            
-            
-            
-			
-		            
-                
-            
-        
-                    
-            
-        
-        
-        
-        
-/*<![CDATA[*/
-	bbc.fmtj.av.emp.load( function() {
-		var userAgent = navigator.userAgent.toLowerCase();
-		if (bbc.fmtj.av.emp.loadProxyPlayer !== undefined && bbc.fmtj.page !== undefined && 
-			(bbc.fmtj.page.siteToServe === "news" || bbc.fmtj.page.siteToServe === "sport") &&
-			!(userAgent.search("safari") > -1 && userAgent.search("version/3.") > -1) &&
-			!(userAgent.search("windows") > -1 && userAgent.search("safari") > -1 && userAgent.search("version/4.") > -1) &&
-			userAgent.search("android") == -1)
-		{
-			bbc.fmtj.av.emp.loadProxyPlayer("emp-12805667-95132");
-		}else{
-			bbc.fmtj.av.emp.loadEmp("emp-12805667-95132");
-		}
-	});
-/*]]>*/
+"I feel they should know that any organs they get are suitable and they're not going to be infected by cancer or any other disease."
 
+The Royal Liverpool's medical director Dr Peter Williams said both kidneys were transplanted from the same donor, who died at another hospital.
 
+"When the kidneys were transplanted, the surgical team were completely unaware that the donor could have cancer," he said.
 
-            
-             
-          
-		
-			
-				$render("advert","advert-companion","12805667");
-			
-			$render("advert-post-script-load");
-		
-         
-         
-    	
-        		
-		Robert Law on getting cancer from a donor kidney
-		
-        
+"It was only days later when a post-mortem was carried out that we discovered the donor's condition.
 
+"This is a very difficult and distressing time for Rob and Gillian, and we continue to offer full support, care and treatment to them."
 
-	
-		Continue reading the main story		Related Stories
-		
-						Push for more progress on organ donation
-											Dear donor...
-											Organ transplants hit record high
-											
-	
-                      An investigation is under way after two transplant patients got cancer from the same donor.
-        The recipients were each given a kidney from a woman with a rare form of blood cancer which was not picked up in routine safety checks.
-        The disease was detected too late in a post-mortem examination.
-        NHS Blood and Transplant (NHSBT), the agency responsible for transplant safety, said research would determine the scale of the problem nationally.
-  'Aggressive cancer'
-	      Rob Law, 59, and Gillian Smart, 46, both had transplants at the Royal Liverpool Hospital on 26 November 2010. The Royal Liverpool and Broadgreen University Hospitals Trust is conducting a joint investigation with NHSBT.
-        The donor, a 56-year-old woman, is said to have died from a brain haemorrhage.
-        Pathologists later discovered she suffered from intravascular B-cell lymphoma, a rare but aggressive form of cancer.
-  
-	Continue reading the main story	&ldquo;Start Quote
-Transplantation isn't risk-free. These are second hand organs&rdquo;
-End Quote
-	Professor James Neuberger
-	Associate medical director, NHS Blood Transplant
+NHS Blood and Transplant associate medical director Professor James Neuberger said transfer of malignancy was a very rare occurance but more organs were likely to carry diseases as donors get older. He admitted the scale of the problem was not known.
 
-		      Both kidney patients are now undergoing chemotherapy.
-        Speaking to BBC Radio 4&#039;s File on 4, Gillian Smart said: &quot;As a renal patient you come to terms with death very quickly. You see a lot of death while you dialyse.
-        &quot;I didn&#039;t expect to have to come to terms with maybe a cancer death. It is quite a serious cancer and a hard cancer to fight.&quot;
-        Both patients want to know how the cancer was missed until the post-mortem and are considering legal action.
-        Mr Law said: &quot;I felt I had to get to the bottom of this for the sake of anyone else in the same position, because there are 10,000 people a year who are waiting for a transplant.
-        &quot;I feel they should know that any organs they get are suitable and they&#039;re not going to be infected by cancer or any other disease.&quot;
-  'Completely unaware'
-	      The Royal Liverpool&#039;s medical director Dr Peter Williams said both kidneys were transplanted from the same donor, who died at another hospital.
-        &quot;When the kidneys were transplanted, the surgical team were completely unaware that the donor could have cancer,&quot; he said.
-  
-	Continue reading the main story		Listen to the programme
-		
-	
-  
+A research fellow has now been appointed to find out how often infected organs are passed on to patients.
 
-  
+Professor Neuberger said his first role was to try and get all the data together from transplant centres and then to work out strategies with clinicians to reduce risk.
 
-	
-	      File on 4 is on BBC Radio 4 on 22 March at 2000 GMT and Sunday 27 March at 1700 GMT
-  
-	
-		
-			Listen again on BBC iPlayer
-			Download the podcast
-		
-	      &quot;It was only days later when a post-mortem was carried out that we discovered the donor&#039;s condition.
-        &quot;This is a very difficult and distressing time for Rob and Gillian, and we continue to offer full support, care and treatment to them.&quot;
-        NHS Blood and Transplant associate medical director Professor James Neuberger said transfer of malignancy was a very rare occurance but more organs were likely to carry diseases as donors get older. He admitted the scale of the problem was not known.
-        A research fellow has now been appointed to find out how often infected organs are passed on to patients.
-        Professor Neuberger said his first role was to try and get all the data together from transplant centres and then to work out strategies with clinicians to reduce risk.
-        But he added: &quot;Transplantation isn&#039;t risk-free. These are second hand organs&quot;.
-                        File on 4 is on BBC Radio 4 on Tuesday 22 March at 2000 GMT and Sunday 27 March at 1700 GMT. Listen again via the BBC iPlayer or download the podcast.
-             
-	
-	
+But he added: "Transplantation isn't risk-free. These are second hand organs".
+
+File on 4 is on BBC Radio 4 on Tuesday 22 March at 2000 GMT and Sunday 27 March at 1700 GMT. Listen again via the BBC iPlayer or download the podcast.
+
