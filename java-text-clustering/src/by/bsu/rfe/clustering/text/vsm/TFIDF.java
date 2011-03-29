@@ -2,22 +2,22 @@ package by.bsu.rfe.clustering.text.vsm;
 
 import java.util.Set;
 
-import by.bsu.rfe.clustering.algorithm.data.DataSet;
 import by.bsu.rfe.clustering.math.DoubleSparceVector;
 import by.bsu.rfe.clustering.math.DoubleVector;
 import by.bsu.rfe.clustering.text.document.Document;
 import by.bsu.rfe.clustering.text.document.DocumentCollection;
 import by.bsu.rfe.clustering.text.document.DocumentDataElement;
+import by.bsu.rfe.clustering.text.document.DocumentDataSet;
 
 import com.google.common.base.Preconditions;
 
-public class TFIDF implements DocumentVSMGenerator<DocumentDataElement> {
+public class TFIDF implements DocumentVSMGenerator {
 
     @Override
-    public DataSet<DocumentDataElement> generateVSM(DocumentCollection documentCollection) {
+    public DocumentDataSet generateVSM(DocumentCollection documentCollection) {
         Preconditions.checkNotNull(documentCollection, "DocumentCollection is null");
 
-        DataSet<DocumentDataElement> resultSet = new DataSet<DocumentDataElement>();
+        DocumentDataSet resultSet = new DocumentDataSet(documentCollection);
 
         for (Document document : documentCollection) {
             DoubleVector vector = calculateTFIDF(document, documentCollection);
