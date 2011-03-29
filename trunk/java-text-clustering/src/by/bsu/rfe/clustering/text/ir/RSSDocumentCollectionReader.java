@@ -34,14 +34,17 @@ public class RSSDocumentCollectionReader extends AbstractDocumentCollectionReade
         SyndFeedInput input = new SyndFeedInput();
         SyndFeed feed = null;
 
+        int documentIdSuffix = 0;
         for (URL feedSource : _feedSourceList) {
             try {
                 feed = input.build(new XmlReader(feedSource));
 
                 for (Object entryObj : feed.getEntries()) {
                     SyndEntry entry = (SyndEntry) entryObj;
-                    Document document = createDocument(entry);
+                    Document document = createDocument(entry, "doc_" + documentIdSuffix);
                     result.addDocument(document);
+
+                    documentIdSuffix++;
                 }
             }
             catch (Exception e) {
@@ -58,8 +61,8 @@ public class RSSDocumentCollectionReader extends AbstractDocumentCollectionReade
         return this;
     }
 
-    private Document createDocument(SyndEntry entry) {
-        Document document = new Document();
+    private Document createDocument(SyndEntry entry, String documentId) {
+        Document document = new Document(documentId);
         WordList stopWords = getStopWords();
 
         String entryText = entry.getDescription().getValue();

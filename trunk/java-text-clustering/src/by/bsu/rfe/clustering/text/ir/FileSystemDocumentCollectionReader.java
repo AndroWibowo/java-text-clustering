@@ -9,12 +9,12 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.google.common.base.Preconditions;
-import com.google.common.io.Files;
-
 import by.bsu.rfe.clustering.nlp.WordList;
 import by.bsu.rfe.clustering.text.document.Document;
 import by.bsu.rfe.clustering.text.document.DocumentCollection;
+
+import com.google.common.base.Preconditions;
+import com.google.common.io.Files;
 
 public class FileSystemDocumentCollectionReader extends AbstractDocumentCollectionReader {
 
@@ -62,10 +62,11 @@ public class FileSystemDocumentCollectionReader extends AbstractDocumentCollecti
         File[] files = _folder.
 
         listFiles(_fileFilter);
+        int idSuffix = 0;
         for (File file : files) {
             if (!file.isDirectory()) {
                 Scanner scanner = null;
-                Document newDoc = new Document();
+                Document newDoc = new Document("doc_" + idSuffix);
 
                 try {
                     scanner = new Scanner(file).useDelimiter(delimiter);
@@ -83,7 +84,7 @@ public class FileSystemDocumentCollectionReader extends AbstractDocumentCollecti
 
                     newDoc.setOriginalText(Files.toString(file, Charset.defaultCharset()));
                     newDoc.setTitle(file.getName());
-                    
+
                     collection.addDocument(newDoc);
                 }
                 catch (FileNotFoundException e) {
@@ -95,6 +96,8 @@ public class FileSystemDocumentCollectionReader extends AbstractDocumentCollecti
                     }
                 }
             }
+
+            idSuffix++;
         }
 
         return collection;

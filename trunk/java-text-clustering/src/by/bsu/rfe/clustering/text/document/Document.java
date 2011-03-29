@@ -9,13 +9,16 @@ import com.google.common.base.Preconditions;
 
 public class Document {
 
+    private String _id;
+
     private Map<String, Integer> _terms;
 
     private String _title;
 
     private String _originalText;
 
-    public Document() {
+    public Document(String id) {
+        _id = Preconditions.checkNotNull(id, "Id is null");
         _terms = new HashMap<String, Integer>();
     }
 
@@ -32,6 +35,10 @@ public class Document {
 
     public Set<String> getAllTerms() {
         return Collections.unmodifiableSet(_terms.keySet());
+    }
+
+    public String getId() {
+        return _id;
     }
 
     public int getTermCount(String term) {

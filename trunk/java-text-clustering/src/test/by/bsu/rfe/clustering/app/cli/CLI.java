@@ -1,16 +1,13 @@
 package test.by.bsu.rfe.clustering.app.cli;
 
 import java.io.File;
-import java.net.URL;
-import java.util.Collections;
 import java.util.List;
 import java.util.TreeSet;
 
-import com.google.common.base.Joiner;
-import com.google.common.collect.Collections2;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 
 import by.bsu.rfe.clustering.algorithm.ClusteringAlgorithm;
-import by.bsu.rfe.clustering.algorithm.KMeansAlgorithm;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
 import by.bsu.rfe.clustering.algorithm.data.DataSet;
 import by.bsu.rfe.clustering.math.EuclideanDistance;
@@ -21,19 +18,18 @@ import by.bsu.rfe.clustering.text.document.DocumentCollection;
 import by.bsu.rfe.clustering.text.document.DocumentDataElement;
 import by.bsu.rfe.clustering.text.ir.DocumentCollectionReader;
 import by.bsu.rfe.clustering.text.ir.FileSystemDocumentCollectionReader;
-import by.bsu.rfe.clustering.text.ir.RSSDocumentCollectionReader;
 import by.bsu.rfe.clustering.text.vsm.DocumentVSMGenerator;
 import by.bsu.rfe.clustering.text.vsm.TFIDF;
 
 public class CLI {
 
+    private static transient Log _log = LogFactory.getLog(CLI.class);
+
     public static void main(String[] args) throws Exception {
         File stopWords = new File("dictionary\\stopwords.txt");
         WordList stopWordList = WordList.load(stopWords);
 
-
-        DocumentCollectionReader reader = new FileSystemDocumentCollectionReader(new File("samples"),
-                stopWordList);
+        DocumentCollectionReader reader = new FileSystemDocumentCollectionReader(new File("samples"), stopWordList);
 
         DocumentCollection docCollection = reader.readDocuments();
 
@@ -43,7 +39,7 @@ public class CLI {
 
         System.out.println("\r\n\r\n\r\n");
 
-        DocumentVSMGenerator<DocumentDataElement> vsmGen = new TFIDF();
+        DocumentVSMGenerator vsmGen = new TFIDF();
         DataSet<DocumentDataElement> dataSet = vsmGen.generateVSM(docCollection);
 
         VectorDistanse distanse = new EuclideanDistance();
@@ -62,6 +58,7 @@ public class CLI {
                 System.out.printf("\t%s%n", elem.getDocument().getTitle());
             }
         }
+
     }
 
 }

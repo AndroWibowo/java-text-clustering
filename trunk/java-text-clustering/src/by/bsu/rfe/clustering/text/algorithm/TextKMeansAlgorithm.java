@@ -4,15 +4,15 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 
-import com.google.common.collect.Maps;
-import com.google.common.collect.MinMaxPriorityQueue;
-
 import by.bsu.rfe.clustering.algorithm.ClusteringAlgorithm;
 import by.bsu.rfe.clustering.algorithm.KMeansAlgorithm;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
 import by.bsu.rfe.clustering.algorithm.data.DataSet;
 import by.bsu.rfe.clustering.math.VectorDistanse;
 import by.bsu.rfe.clustering.text.document.DocumentDataElement;
+
+import com.google.common.collect.Maps;
+import com.google.common.collect.MinMaxPriorityQueue;
 
 public class TextKMeansAlgorithm implements ClusteringAlgorithm<DocumentDataElement, Cluster<DocumentDataElement>> {
 
@@ -62,22 +62,20 @@ public class TextKMeansAlgorithm implements ClusteringAlgorithm<DocumentDataElem
                 public int compare(TermEntry o1, TermEntry o2) {
                     return o2.getCount() - o1.getCount();
                 }
-            })
-            .maximumSize(7)
-            .create();
-            
+            }).maximumSize(7).create();
+
             for (Map.Entry<String, Integer> entry : wordCount.entrySet()) {
                 queue.offer(new TermEntry(entry.getKey(), entry.getValue()));
             }
-            
+
             StringBuilder labelBuilder = new StringBuilder();
-            for(TermEntry termEntry: queue) {
+            for (TermEntry termEntry : queue) {
                 labelBuilder.append(termEntry.getTerm()).append(":").append(termEntry.getCount()).append(",");
             }
-            
+
             String label = labelBuilder.substring(0, labelBuilder.length() - 1);
             cluster.setLabel(label);
-            //System.out.printf("\t%s %d times%n", label, count);
+            // System.out.printf("\t%s %d times%n", label, count);
         }
     }
 

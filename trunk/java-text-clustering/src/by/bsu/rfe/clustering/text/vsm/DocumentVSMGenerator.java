@@ -1,11 +1,10 @@
 package by.bsu.rfe.clustering.text.vsm;
 
-import by.bsu.rfe.clustering.algorithm.data.DataElement;
-import by.bsu.rfe.clustering.algorithm.data.DataSet;
 import by.bsu.rfe.clustering.text.document.DocumentCollection;
+import by.bsu.rfe.clustering.text.document.DocumentDataSet;
 
-public interface DocumentVSMGenerator<E extends DataElement> {
+public interface DocumentVSMGenerator {
 
-    public DataSet<E> generateVSM(DocumentCollection documentCollection);
+    public DocumentDataSet generateVSM(DocumentCollection documentCollection);
 
 }

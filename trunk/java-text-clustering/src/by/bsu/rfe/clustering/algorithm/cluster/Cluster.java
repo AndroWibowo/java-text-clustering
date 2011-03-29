@@ -3,9 +3,9 @@ package by.bsu.rfe.clustering.algorithm.cluster;
 import java.util.Collection;
 import java.util.LinkedList;
 
-import com.google.common.base.Preconditions;
-
 import by.bsu.rfe.clustering.algorithm.data.DataElement;
+
+import com.google.common.base.Preconditions;
 
 public class Cluster<E extends DataElement> {
 

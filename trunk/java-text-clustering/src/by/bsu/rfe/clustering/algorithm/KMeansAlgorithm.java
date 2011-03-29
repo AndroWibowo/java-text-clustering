@@ -43,7 +43,7 @@ public class KMeansAlgorithm<E extends DataElement> implements ClusteringAlgorit
             return new LinkedList<Cluster<E>>();
         }
 
-        _rows = dataSet.getElements().get(0).asVector().size();
+        _rows = dataSet.elements().get(0).asVector().size();
 
         final int numberOfBins = (_numberOfClusters != null) ? _numberOfClusters : computeNumberOfBins(dataSet);
         final List<Bin> bins = createBinList(numberOfBins);
@@ -68,7 +68,7 @@ public class KMeansAlgorithm<E extends DataElement> implements ClusteringAlgorit
                 meanVectors.put(bin, bin.computeMeanVector());
             }
 
-            for (E elem : dataSet) {
+            for (E elem : dataSet.elements()) {
                 double minDistance = Double.MAX_VALUE;
                 Bin assignTo = null;
 
@@ -151,7 +151,7 @@ public class KMeansAlgorithm<E extends DataElement> implements ClusteringAlgorit
 
     // distribute data vectors among bins
     private void prepareCentroids(DataSet<E> dataSet, List<Bin> bins) {
-        final int totalElems = dataSet.getElements().size();
+        final int totalElems = dataSet.elements().size();
 
         Random random = new Random();
 
@@ -159,7 +159,7 @@ public class KMeansAlgorithm<E extends DataElement> implements ClusteringAlgorit
             int binIndex = random.nextInt(bins.size());
 
             Bin bin = bins.get(binIndex);
-            bin.elements().add(dataSet.getElements().get(elemIndex));
+            bin.elements().add(dataSet.elements().get(elemIndex));
         }
     }
 
