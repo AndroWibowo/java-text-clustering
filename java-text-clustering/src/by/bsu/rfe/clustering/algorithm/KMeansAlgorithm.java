@@ -18,7 +18,8 @@ import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Multimap;
 
-public class KMeansAlgorithm<E extends DataElement> implements ClusteringAlgorithm<E, Cluster<E>> {
+public class KMeansAlgorithm<E extends DataElement, D extends DataSet<E>> implements
+        ClusteringAlgorithm<E, Cluster<E>, D> {
 
     private Integer _numberOfClusters = null;
 
@@ -36,7 +37,7 @@ public class KMeansAlgorithm<E extends DataElement> implements ClusteringAlgorit
     }
 
     @Override
-    public List<Cluster<E>> cluster(DataSet<E> dataSet) {
+    public List<Cluster<E>> cluster(D dataSet) {
         Preconditions.checkNotNull(dataSet, "DataSet is null");
 
         if (dataSet.isEmpty()) {

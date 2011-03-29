@@ -2,20 +2,19 @@ package test.by.bsu.rfe.clustering.app.cli;
 
 import java.io.File;
 import java.util.List;
-import java.util.TreeSet;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 import by.bsu.rfe.clustering.algorithm.ClusteringAlgorithm;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
-import by.bsu.rfe.clustering.algorithm.data.DataSet;
 import by.bsu.rfe.clustering.math.EuclideanDistance;
 import by.bsu.rfe.clustering.math.VectorDistanse;
 import by.bsu.rfe.clustering.nlp.WordList;
 import by.bsu.rfe.clustering.text.algorithm.TextKMeansAlgorithm;
 import by.bsu.rfe.clustering.text.document.DocumentCollection;
 import by.bsu.rfe.clustering.text.document.DocumentDataElement;
+import by.bsu.rfe.clustering.text.document.DocumentDataSet;
 import by.bsu.rfe.clustering.text.ir.DocumentCollectionReader;
 import by.bsu.rfe.clustering.text.ir.FileSystemDocumentCollectionReader;
 import by.bsu.rfe.clustering.text.vsm.DocumentVSMGenerator;
@@ -33,20 +32,24 @@ public class CLI {
 
         DocumentCollection docCollection = reader.readDocuments();
 
-        for (String term : new TreeSet<String>(docCollection.getAllTerms())) {
-            System.out.println(term);
-        }
+        /*
+         * for (String term : new TreeSet<String>(docCollection.getAllTerms()))
+         * { System.out.println(term); }
+         */
 
         System.out.println("\r\n\r\n\r\n");
 
         DocumentVSMGenerator vsmGen = new TFIDF();
-        DataSet<DocumentDataElement> dataSet = vsmGen.generateVSM(docCollection);
+        DocumentDataSet dataSet = vsmGen.generateVSM(docCollection);
+
+        // CSVDataSetExporter.export(dataSet, new
+        // File("dictionary\\dataset.csv"));
 
         VectorDistanse distanse = new EuclideanDistance();
 
-        final int numberOfClusters = 10;
+        final int numberOfClusters = 30;
 
-        ClusteringAlgorithm<DocumentDataElement, Cluster<DocumentDataElement>> clustering = new TextKMeansAlgorithm(
+        ClusteringAlgorithm<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> clustering = new TextKMeansAlgorithm(
                 distanse, numberOfClusters);
 
         List<Cluster<DocumentDataElement>> clusters = clustering.cluster(dataSet);
