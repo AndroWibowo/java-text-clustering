@@ -1,19 +1,22 @@
 package by.bsu.rfe.clustering.text.document;
 
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import by.bsu.rfe.clustering.algorithm.data.DataSet;
 import by.bsu.rfe.clustering.algorithm.data.GenericDataSet;
 
 import com.google.common.base.Preconditions;
+import com.google.common.collect.Maps;
 
 public class DocumentDataSet implements DataSet<DocumentDataElement> {
 
     private Map<String, Integer> _documentIndexMap = new HashMap<String, Integer>();
 
-    private Map<String, Integer> _termIndexMap = new HashMap<String, Integer>();
+    private Map<String, Integer> _termIndexMap = Maps.newHashMap();
 
     private DataSet<DocumentDataElement> _delegateDataSet = new GenericDataSet<DocumentDataElement>();
 
@@ -43,6 +46,10 @@ public class DocumentDataSet implements DataSet<DocumentDataElement> {
 
         _delegateDataSet.addElement(element);
         _documentIndexMap.put(documentId, _delegateDataSet.size() - 1);
+    }
+
+    public Set<String> getAllTerms() {
+        return Collections.unmodifiableSet(_termIndexMap.keySet());
     }
 
     public DocumentDataElement getElement(int index) {

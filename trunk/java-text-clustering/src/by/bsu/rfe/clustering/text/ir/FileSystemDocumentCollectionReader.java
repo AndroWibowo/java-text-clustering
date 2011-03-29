@@ -35,7 +35,7 @@ public class FileSystemDocumentCollectionReader extends AbstractDocumentCollecti
     @Override
     public DocumentCollection readDocuments() throws DocumentReadException {
         if (!_folder.exists()) {
-            String msg = "Detination folder doese not exist";
+            String msg = "Destination folder does not exist";
             throw new DocumentReadException(new FileNotFoundException(msg));
         }
 
