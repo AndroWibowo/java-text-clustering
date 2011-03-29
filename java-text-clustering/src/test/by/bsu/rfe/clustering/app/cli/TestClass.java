@@ -29,7 +29,7 @@ public class TestClass {
         DocumentVSMGenerator vsmGen = new TFIDF();
         DocumentDataSet dataSet = vsmGen.generateVSM(docCollection);
 
-        CSVDataSetExporter.export(dataSet, new File("dictionary\\dataset.csv"));
+        CSVDataSetExporter.export(dataSet, new File("tmp\\dataset.csv"));
 
         log.info("CSV export finished");
     }
