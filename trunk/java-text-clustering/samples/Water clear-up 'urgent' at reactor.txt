@@ -1,0 +1,54 @@
+At this stage, the announcement by Tokyo Electric Power (Tepco) that it will decommission four hobbled nuclear reactors at Fukushima, Japan, is little more than a formality. 
+
+Their fates were more or less sealed when the company took a decision - a few days into the crisis - to pump seawater into the reactor vessels as a measure to cool them down.
+
+The salt water is extremely corrosive to the materials used inside - even without core damage, the vessels would have been written off.
+
+Technicians are still working around the clock to cool and stabilise the reactors. This remains the priority for now. 
+
+For workers on-site, the high levels of radiation found in waters in the basement of the reactor 2 building - at doses of 1,000 millisieverts per hour - continue to be the major hazard.
+
+By way of comparison, the annual maximum dose allowed for nuclear workers is 20 millisieverts.
+
+A one-off dose of 1,000 millisieverts would cause radiation sickness such as nausea and decreased white blood cell count, as well as an increased risk of cancer in the long term.
+
+So, according to Tony Roulstone, from Cambridge University's department of engineering, the substantial quantities of contaminated water will have to be pumped away and "immobilised" - perhaps by locking it up in concrete, which would then be stored.
+
+The cause of the contaminated water in Building 2 is unclear, but Mr Roulstone said it could be coming from the reactor's "torus" - an extension of the reactor's containment vessel where steam from the relief valves is allowed to condense. He said it was "urgent" that workers contained any possible leak.
+
+"The indications are that either the torus or the pipes connecting it to the dry well containment around the reactor vessel have been breached," Mr Roulstone told BBC News. 
+
+"It seems the pressure from steam being relieved from the reactor was above its design pressure and that at some stage either that or a hydrogen explosion ruptured the torus or one of the connecting pipes."
+
+"Now there seems to be water leaking out and causing these high levels of radioactivity."
+
+If engineers cannot identify the precise source of the contaminated water and seal it off, they will have to build a steel or concrete "surrounder" to catch it. The water would then be piped away to another site for immobilisation.
+
+Professor Laurence Williams, from the University of Central Lancashire, said contaminated water could also be passed through an ion exchange resin, which would reduce the radioactivity levels of the water.
+
+According to unconfirmed press reports, Japanese experts are considering whether to drape the reactor buildings with a fabric to "reduce radiation".
+
+This might refer to radioactivity from rods in the spent fuel ponds located at the top of the reactor buildings and to water in the turbine halls. Coverings could also simply be a measure to shield the interiors of the buildings from the weather.
+
+In the longer term, the nuclear fuel will have to be transported away from the reactor sites and to dry stores elsewhere. 
+
+If the nuclear incident at Three Mile Island in the US is any guide, de-fuelling and cleaning up the reactors could take 4-5 years. A press report about the use of a sarcophagus - such as that used to enclose the doomed Chernobyl reactor - was wide of the mark, said Mr Roulstone.
+
+Some of the nuclear fuel at the Fukushima plant will be intact, but some could be damaged, and this will need to be treated in a different way to the rest. 
+
+"They will have to think about how they will store that damaged fuel in containers. It will have to be stored for quite a long time," said Mr Roulstone, who spent several years working with the UK Atomic Energy Authority (UKAEA) and in industry.
+
+Robots with remote cameras could be deployed to determine the state of the fuel rods.
+
+Mr Roulstone explained: "In the reactor at Three Mile Island, quite a lot of the fuel cladding was melted. Instead of being in the form of ordered vertical rods, it had collected into a mass halfway down the vessel of molten zirconium and uranium fuel. 
+
+"They had to break that apart and take it away. That scenario is one end of the spectrum, but Three Mile Island showed they could do it."
+
+At the other end of the spectrum, the fuel rods may simply have overheated and cracked, allowing fission products such as radioactive iodine and caesium out. But they will not have melted and will therefore be in roughly the same form as they were while the reactor was working.
+
+Mr Roulstone said this latter scenario was compatible with the fission products measured so far, but said this could not be known until inspections were carried out.  
+
+After the fuel is taken away, workers will need to embark on the process of decontaminating the reactor vessels and the containment facilities.
+
+Paul.Rincon-INTERNET@bbc.co.uk
+

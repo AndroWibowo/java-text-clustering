@@ -1,0 +1,28 @@
+Technical problems with the BBC website saw a total outage of the news site, iPlayer and other web services yesterday.
+
+The disruption lasted for around an hour on Tuesday evening.
+
+BBC bosses admitted that there had been a "major network problem" caused by multiple systems and their backups failing.
+
+The outage set Twitter alight with angry fans questioning how such a breakdown happened.
+
+In a blog posting, Steve Herrmann, editor of the BBC news website apologised for the system failure.
+
+Mr Herrmann wrote: "Normally this would not cause any problems as we plan for events like this and run backup equipment. But, in an unusual turn of events, these also failed, meaning that the whole of BBC Online became unavailable. A number of internal services were also affected."
+
+The BBC's controller of digital distribution, Richard Cooper, explained that the problem lay with the way users are directed to BBC websites: "For the more technically minded, this was a failure in the systems that perform two functions.
+
+"The first is the aggregation of network traffic from the BBC's hosting centres to the internet. The second is the announcement of 'routes' onto the internet that allows BBC Online to be 'found'," he wrote.
+
+Some users, writing online, have speculated that the site had been subject to a massive distributed denial of service (DDoS) attack.
+
+Typically, hackers will crash a website's servers by swamping it with requests, usually from computers that have been hijacked using malicious software.
+
+The BBC said that, at this stage, there was no indication that the failure had been caused by such an attack.
+
+Paul Mutton, a security researcher at Netcraft, said that traffic patterns around the BBC site immediately before and after the outage suggested that it was down to a technical failure.
+
+"It did not look like a DDoS.  It was a very abrupt outage," he explained.
+
+"Usually there will be an increase in request times [to a website] before a DDoS.  Traffic patterns to the BBC site were not typical of an attack," said Mr Mutton.
+

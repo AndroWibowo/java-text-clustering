@@ -1,0 +1,30 @@
+US scientist Paul Baran, whose work in the 1960s helped pave the way for the internet, has died aged 84.
+
+Mr Baran thought up the idea of making communication networks resilient to attack or traffic surges by splitting the data sent over them into chunks.
+
+His pioneering work was carried out in connection with Cold War military research.
+
+It would later form the basis of the academic network Arpanet which eventually led to the internet.
+
+Mr Baran first put forward the idea of slicing data into "message blocks" and using a distributed system of nodes to pass them on when working at the Rand Corporation in the mid-1960s.
+
+In his initial conception, Mr Baran said the system would operate by what he called "hot-potato routing".
+
+The work was done as part of a project to keep telecommunications networks operating even if a large part of them was knocked out by a first strike nuclear attack.
+
+The system would be better able to withstand an attack because it lacked a central hub through which all data or messages passed.
+
+This work found new relevance during the early days of the Arpanet, a network designed to aid US scientists communicate and which laid the foundations of the modern-day internet.
+
+Contributions from British scientist Donald Davies led to Mr Baran's ideas being adapted into a technology known as packet switching. This cuts data up into small chunks that are then despatched around the network.
+
+"Paul wasn't afraid to go in directions counter to what everyone else thought was the right or only thing to do," Vinton Cerf, one of the fathers of the internet and a longtime friend of Baran, told the New York Times.
+
+Mr Baran died at home in Palo Alto, California from complications caused by lung cancer.
+
+"He was a man of infinite patience," said his son David Baran.
+
+He added that his father had recently shown him a paper written in 1966 which speculated about what people would do with the telecommunication networks in the future.
+
+"It spelled out this idea that by the year 2000 that people would be using online networks for shopping and news," he said. "It was an absolute lunatic fringe idea."
+

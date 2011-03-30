@@ -1,0 +1,46 @@
+Cloud service provider Salesforce.com has bought social media tracking firm Radian6 for $326m (£203m).
+
+The deal demonstrates the rapidly growing interest in how companies use social media to connect with customers.
+
+Salesforce.com itself recently began to sell a social media tool for companies.
+
+Another social media player, Jive, meanwhile announced that top managers from Google and Facebook had joined its board, a clear sign that it is getting ready for a stock market flotation.
+
+Jive makes social business software that promises to help companies such as Lufthansa and Toshiba to connect with customers and collaborate with both suppliers and employees. 
+
+Jive has the backing of two legendary Silicon Valley venture capital firms, Sequoia Capital and Kleiner Perkins. 
+
+The addition of Jonathan Heiliger, vice president of technical operations at Facebook, Sundar Pichai, vice president of product management at Google, plus Chuck Robel and David DeWalt, two executives of web security firm McAfee (now owned by Intel), is a move designed to make the firm attractive to investors.
+
+While the company officially will not say so, it is now set on a path to an initial public offering of its stock. 
+
+However, the appointments do not signal a closer relationship between Jive and Google, Facebook or Intel, chief executive Tony Zingale told BBC News.
+
+The rush into the social media space sees companies either use services such as YouTube, Twitter and Facebook to communicate with and monitor the behaviour of their customers - they watch our every social media move. 
+
+At the same time, many firms open up their corporate communications and turn them into a dialogue with customers.
+
+Radian6 is one of the pioneers in the field, helping firms such as Dell, Kodak, PepsiCo and UPS monitor and analyse what is being said about them in the field of social media.
+
+Until now, Salesforce.com had approached the field from a different angle, offering its Chatter software package, which pulls together communications and documents within a company and works very much like a Facebook for corporate communications.
+
+"With Radian6, Salesforce.com is gaining the technology and market leader in social media monitoring," said Salesforce.com's chief executive Marc Benioff.
+
+"It will extend the value of all of our offerings."
+
+The estimates for the value of social media firms focusing on consumers have surged in recent months, with social networking giant Facebook gaining a valuation of more than $50bn. 
+
+Business-focused social network Linkedin recently announced that it was on course for a stock market listing.
+
+So far, few social media firms have listed on the stock market. Canadian firm Radian6, for example, was privately held. That has not diminished investor interest and made the valuations of firms such as Twitter, Social Living, Groupon and most recently Color soar.
+
+However, Jive's Mr Zingale believes that while there is a certain "frothiness" in the consumer space, for firms in the social business space this is not another dotcom bubble like in 1999. 
+
+"This are very real companies with very real products and very real revenue streams and real income," says Mr Zingale. 
+
+Companies cannot stick with "dusty" enterprise software developed 20 or 30 years ago, says Mr Zingale. 
+
+"The new way of doing business [using social collaboration tools] is far more effective," he said.
+
+"And if you don't have a social strategy, inside and outside, you better get one; it's a matter of survival as your workforce and your customers get more social."
+
