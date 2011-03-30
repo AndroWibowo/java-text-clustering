@@ -82,10 +82,8 @@ public class TextKMeansAlgorithm implements
 
                 for (String term : document.getAllTerms()) {
 
-                    if (getDocumentCount(term, cluster) > 0) {
-                        double termWeight = clusterDataSet.getTermWeight(document.getId(), term);
-                        queue.offer(new TermEntry(term, termWeight));
-                    }
+                    double termWeight = clusterDataSet.getTermWeight(document.getId(), term);
+                    queue.offer(new TermEntry(term, termWeight * getDocumentCount(term, cluster)));
                 }
             }
 
