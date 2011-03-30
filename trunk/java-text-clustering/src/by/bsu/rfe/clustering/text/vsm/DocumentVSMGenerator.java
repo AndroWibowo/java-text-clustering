@@ -5,6 +5,6 @@ import by.bsu.rfe.clustering.text.document.DocumentDataSet;
 
 public interface DocumentVSMGenerator {
 
-    public DocumentDataSet generateVSM(DocumentCollection documentCollection);
+    public DocumentDataSet createVSM(DocumentCollection documentCollection);
 
 }

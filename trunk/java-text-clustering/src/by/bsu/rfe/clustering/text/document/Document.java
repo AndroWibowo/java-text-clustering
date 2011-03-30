@@ -62,4 +62,14 @@ public class Document {
         _originalText = originalText;
     }
 
+    // TODO remove to length()
+    public int size() {
+        int size = 0;
+        for (String term : getAllTerms()) {
+            size += getTermCount(term);
+        }
+
+        return size;
+    }
+
 }

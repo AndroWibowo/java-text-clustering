@@ -111,7 +111,7 @@ public class KMeansAlgorithm<E extends DataElement, D extends DataSet<E>> implem
             if (!bin.elements().isEmpty()) {
                 Cluster<E> cluster = new Cluster<E>();
                 cluster.addDataElements(bin.elements());
-                cluster.setLabel(String.valueOf(clusterOrdinal));
+                cluster.setLabel("cluster_" + clusterOrdinal);
                 clusterOrdinal++;
 
                 clusters.add(cluster);
@@ -189,10 +189,9 @@ public class KMeansAlgorithm<E extends DataElement, D extends DataSet<E>> implem
                 double nextValue = 0;
 
                 for (int elemIndex = 0; elemIndex < _elements.size(); elemIndex++) {
-                    nextValue += _elements.get(elemIndex).asVector().get(vectorIndex);
+                    nextValue += (_elements.get(elemIndex).asVector().get(vectorIndex) / _elements.size());
                 }
 
-                nextValue /= _elements.size();
                 resultVector.set(vectorIndex, nextValue);
             }
 

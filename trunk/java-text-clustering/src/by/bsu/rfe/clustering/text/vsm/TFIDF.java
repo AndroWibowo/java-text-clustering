@@ -14,7 +14,7 @@ import com.google.common.base.Preconditions;
 public class TFIDF implements DocumentVSMGenerator {
 
     @Override
-    public DocumentDataSet generateVSM(DocumentCollection documentCollection) {
+    public DocumentDataSet createVSM(DocumentCollection documentCollection) {
         Preconditions.checkNotNull(documentCollection, "DocumentCollection is null");
 
         DocumentDataSet resultSet = new DocumentDataSet(documentCollection);
@@ -34,13 +34,18 @@ public class TFIDF implements DocumentVSMGenerator {
 
         int index = 0;
         for (String term : allTerms) {
-            int termFrequency = document.getTermCount(term);
+            int termCount = document.getTermCount(term);
 
-            if (termFrequency > 0) {
-                int documentFrequency = documentFrequency(term, collection);
-                double cardinality = collection.size();
-                double tfIdf = termFrequency * Math.log(cardinality / (1 + documentFrequency));
-                resultVector.set(index, tfIdf);
+            if (termCount > 0) {
+                double tf = ((double) termCount) / document.size();
+
+                // number of documents in the collection
+                double totalDocuments = collection.size();
+
+                int documentsWithTerm = documentsWithTerm(term, collection);
+
+                double tfIdf = tf * Math.log(totalDocuments / documentsWithTerm);
+                resultVector.set(index, tfIdf / resultVector.size());
             }
 
             index++;
@@ -50,7 +55,7 @@ public class TFIDF implements DocumentVSMGenerator {
     }
 
     // how many documents contain the specified term
-    private int documentFrequency(String term, DocumentCollection collection) {
+    private int documentsWithTerm(String term, DocumentCollection collection) {
         int frequency = 0;
 
         for (Document document : collection) {
