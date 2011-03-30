@@ -1,4 +1,4 @@
-package by.bsu.rfe.clustering.ui;
+package by.bsu.rfe.clustering.ui.frames;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;

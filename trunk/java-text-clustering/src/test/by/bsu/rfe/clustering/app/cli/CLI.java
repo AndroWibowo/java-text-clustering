@@ -47,7 +47,7 @@ public class CLI {
 
         VectorDistanse distanse = new EuclideanDistance();
 
-        final int numberOfClusters = 30;
+        final int numberOfClusters = 10;
 
         ClusteringAlgorithm<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> clustering = new TextKMeansAlgorithm(
                 distanse, numberOfClusters);

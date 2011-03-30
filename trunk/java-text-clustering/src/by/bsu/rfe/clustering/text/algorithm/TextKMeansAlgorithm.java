@@ -8,6 +8,7 @@ import by.bsu.rfe.clustering.algorithm.KMeansAlgorithm;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
 import by.bsu.rfe.clustering.math.VectorDistanse;
 import by.bsu.rfe.clustering.text.document.Document;
+import by.bsu.rfe.clustering.text.document.DocumentCollection;
 import by.bsu.rfe.clustering.text.document.DocumentDataElement;
 import by.bsu.rfe.clustering.text.document.DocumentDataSet;
 
@@ -53,21 +54,30 @@ public class TextKMeansAlgorithm implements
                 public int compare(TermEntry o1, TermEntry o2) {
                     return -Double.compare(o1.getWeight(), o2.getWeight());
                 }
-            }).maximumSize(7).create();
+            }).maximumSize(3).create();
 
             for (DocumentDataElement elem : cluster.getDataElements()) {
                 Document document = elem.getDocument();
 
                 for (String term : document.getAllTerms()) {
-                    double termWeight = dataSet.getTermWeight(document.getId(), term);
-                    queue.offer(new TermEntry(term, termWeight));
+                    
+                    if (getDocumentCount(term, cluster) > 1) {
+                        double termWeight = dataSet.getTermWeight(document.getId(), term);
+                        queue.offer(new TermEntry(term, termWeight));
+                    }
                 }
             }
 
             String label = "";
             StringBuilder labelBuilder = new StringBuilder();
             for (TermEntry termEntry : queue) {
-                labelBuilder.append(termEntry.getTerm()).append(",");
+                labelBuilder
+                    .append(termEntry.getTerm())
+                    .append(":")
+                    .append(String.format("%5.2f",termEntry.getWeight()))
+                    .append(";")
+                    .append(getDocumentCount(termEntry.getTerm(), cluster))
+                    .append(",");
             }
 
             if (labelBuilder.length() > 0) {
@@ -75,6 +85,18 @@ public class TextKMeansAlgorithm implements
             }
             cluster.setLabel(label);
         }
+    }
+    
+    private int getDocumentCount(String term, Cluster<DocumentDataElement> cluster) {
+        int count = 0;
+        
+        for(DocumentDataElement elem: cluster.getDataElements()) {
+            if(elem.getDocument().getTermCount(term) > 0) {
+                count++;
+            }
+        }
+        
+        return count;
     }
 
     private static class TermEntry {

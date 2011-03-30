@@ -2,7 +2,7 @@ package test.by.bsu.rfe.clustering.app.cli;
 
 import javax.swing.JFrame;
 
-import by.bsu.rfe.clustering.ui.ApplicationFrame;
+import by.bsu.rfe.clustering.ui.frames.ApplicationFrame;
 
 public class UITest {
 
