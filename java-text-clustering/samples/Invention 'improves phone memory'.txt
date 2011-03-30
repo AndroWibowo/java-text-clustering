@@ -1,0 +1,24 @@
+Scottish researchers have helped to create a device which improves memory storage for technology including MP3s, smartphones and cameras.
+
+The device uses a tiny mechanical arm to translate data into electrical signals.
+
+This allows faster operation and uses less energy compared with conventional memory storage products.
+
+The Edinburgh University researchers worked with the Konkuk University and Seoul National University, in Korea.
+
+The device records data by measuring the current passing through a carbon nanotube, and the binary value of the data is determined by an electrode that controls the flow of current.
+
+Previous attempts to use carbon nanotube transistors for memory storage hit a stumbling block because they had low operational speed and short memory retention times.
+
+By using a mechanical arm to charge the electrode, which operates faster than conventional memory devices, scientists have been able to overcome the problems.
+
+Prof Eleanor Campbell, from Edinburgh University's school of chemistry, said: "This is a novel approach to designing memory storage devices.
+
+"With this device you have much faster switching on and off which you do not have with conventional memory storage devices.
+
+"However, one of the issues with these novel devices is how easy they can be manufactured on an industrial scale, which we are yet to see."
+
+Prof Campbell said research was continuing with colleagues in Korea on increasing the operating speed of the device even further.
+
+The findings were published in the journal Nature Communications.
+
