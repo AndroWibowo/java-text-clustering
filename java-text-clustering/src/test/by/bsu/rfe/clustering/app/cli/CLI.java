@@ -40,7 +40,7 @@ public class CLI {
         System.out.println("\r\n\r\n\r\n");
 
         DocumentVSMGenerator vsmGen = new TFIDF();
-        DocumentDataSet dataSet = vsmGen.generateVSM(docCollection);
+        DocumentDataSet dataSet = vsmGen.createVSM(docCollection);
 
         // CSVDataSetExporter.export(dataSet, new
         // File("dictionary\\dataset.csv"));

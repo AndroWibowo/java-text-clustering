@@ -27,7 +27,7 @@ public class TestClass {
         DocumentCollection docCollection = reader.readDocuments();
 
         DocumentVSMGenerator vsmGen = new TFIDF();
-        DocumentDataSet dataSet = vsmGen.generateVSM(docCollection);
+        DocumentDataSet dataSet = vsmGen.createVSM(docCollection);
 
         CSVDataSetExporter.export(dataSet, new File("tmp\\dataset.csv"));
 

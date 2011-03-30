@@ -1,7 +1,11 @@
 package by.bsu.rfe.clustering.text.algorithm;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Comparator;
 import java.util.List;
+
+import test.by.bsu.rfe.clustering.app.util.CSVDataSetExporter;
 
 import by.bsu.rfe.clustering.algorithm.ClusteringAlgorithm;
 import by.bsu.rfe.clustering.algorithm.KMeansAlgorithm;
@@ -11,6 +15,8 @@ import by.bsu.rfe.clustering.text.document.Document;
 import by.bsu.rfe.clustering.text.document.DocumentCollection;
 import by.bsu.rfe.clustering.text.document.DocumentDataElement;
 import by.bsu.rfe.clustering.text.document.DocumentDataSet;
+import by.bsu.rfe.clustering.text.vsm.DocumentVSMGenerator;
+import by.bsu.rfe.clustering.text.vsm.TFIDF;
 
 import com.google.common.collect.MinMaxPriorityQueue;
 
@@ -52,17 +58,32 @@ public class TextKMeansAlgorithm implements
 
                 @Override
                 public int compare(TermEntry o1, TermEntry o2) {
-                    return -Double.compare(o1.getWeight(), o2.getWeight());
+                    return -Double.compare(o1.getScore(), o2.getScore());
                 }
-            }).maximumSize(3).create();
+            }).maximumSize(5).create();
 
+            DocumentCollection localCollection = new DocumentCollection();
             for (DocumentDataElement elem : cluster.getDataElements()) {
+                localCollection.addDocument(elem.getDocument());
+            }
+
+            DocumentVSMGenerator docToVsm = new TFIDF();
+            DocumentDataSet clusterDataSet = docToVsm.createVSM(localCollection);
+            // TODO remove this
+            try {
+                CSVDataSetExporter.export(clusterDataSet, new File("tmp/" + cluster.getLabel() + ".csv"));
+            }
+            catch (IOException e) {
+
+            }
+
+            for (DocumentDataElement elem : clusterDataSet.elements()) {
                 Document document = elem.getDocument();
 
                 for (String term : document.getAllTerms()) {
-                    
-                    if (getDocumentCount(term, cluster) > 1) {
-                        double termWeight = dataSet.getTermWeight(document.getId(), term);
+
+                    if (getDocumentCount(term, cluster) > 0) {
+                        double termWeight = clusterDataSet.getTermWeight(document.getId(), term);
                         queue.offer(new TermEntry(term, termWeight));
                     }
                 }
@@ -71,13 +92,9 @@ public class TextKMeansAlgorithm implements
             String label = "";
             StringBuilder labelBuilder = new StringBuilder();
             for (TermEntry termEntry : queue) {
-                labelBuilder
-                    .append(termEntry.getTerm())
-                    .append(":")
-                    .append(String.format("%5.2f",termEntry.getWeight()))
-                    .append(";")
-                    .append(getDocumentCount(termEntry.getTerm(), cluster))
-                    .append(",");
+                labelBuilder.append(termEntry.getTerm()).append(":")
+                    .append(String.format("%7.5f", termEntry.getScore())).append(";")
+                    .append(getDocumentCount(termEntry.getTerm(), cluster)).append(",");
             }
 
             if (labelBuilder.length() > 0) {
@@ -86,30 +103,30 @@ public class TextKMeansAlgorithm implements
             cluster.setLabel(label);
         }
     }
-    
+
     private int getDocumentCount(String term, Cluster<DocumentDataElement> cluster) {
         int count = 0;
-        
-        for(DocumentDataElement elem: cluster.getDataElements()) {
-            if(elem.getDocument().getTermCount(term) > 0) {
+
+        for (DocumentDataElement elem : cluster.getDataElements()) {
+            if (elem.getDocument().getTermCount(term) > 0) {
                 count++;
             }
         }
-        
+
         return count;
     }
 
     private static class TermEntry {
         private String _term;
-        private double _weight;
+        private double _score;
 
         private TermEntry(String term, double weight) {
             _term = term;
-            _weight = weight;
+            _score = weight;
         }
 
-        private double getWeight() {
-            return _weight;
+        private double getScore() {
+            return _score;
         }
 
         private String getTerm() {
