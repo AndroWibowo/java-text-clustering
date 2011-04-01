@@ -37,7 +37,7 @@ public class TFIDF implements DocumentVSMGenerator {
             int termCount = document.getTermCount(term);
 
             if (termCount > 0) {
-                double tf = ((double) termCount) / document.size();
+                double tf = ((double) termCount) / document.totalTerms();
 
                 // number of documents in the collection
                 double totalDocuments = collection.size();
