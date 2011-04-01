@@ -9,7 +9,7 @@ import org.apache.commons.logging.LogFactory;
 import by.bsu.rfe.clustering.algorithm.ClusteringAlgorithm;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
-import by.bsu.rfe.clustering.math.VectorDistanseMeasure;
+import by.bsu.rfe.clustering.math.DistanseMeasure;
 import by.bsu.rfe.clustering.nlp.WordList;
 import by.bsu.rfe.clustering.text.algorithm.TextKMeansAlgorithm;
 import by.bsu.rfe.clustering.text.document.DocumentCollection;
@@ -45,7 +45,7 @@ public class CLI {
         // CSVDataSetExporter.export(dataSet, new
         // File("dictionary\\dataset.csv"));
 
-        VectorDistanseMeasure distanse = new EuclideanDistanceMeasure();
+        DistanseMeasure distanse = new EuclideanDistanceMeasure();
 
         final int numberOfClusters = 50;
 

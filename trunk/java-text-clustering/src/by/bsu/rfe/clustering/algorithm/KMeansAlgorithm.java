@@ -11,7 +11,7 @@ import by.bsu.rfe.clustering.algorithm.data.DataElement;
 import by.bsu.rfe.clustering.algorithm.data.DataSet;
 import by.bsu.rfe.clustering.math.DoubleSparceVector;
 import by.bsu.rfe.clustering.math.DoubleVector;
-import by.bsu.rfe.clustering.math.VectorDistanseMeasure;
+import by.bsu.rfe.clustering.math.DistanseMeasure;
 
 import com.google.common.base.Preconditions;
 import com.google.common.collect.HashMultimap;
@@ -23,15 +23,15 @@ public class KMeansAlgorithm<E extends DataElement, D extends DataSet<E>> implem
 
     private Integer _numberOfClusters = null;
 
-    private VectorDistanseMeasure _vectorDistanse;
+    private DistanseMeasure _vectorDistanse;
 
     private int _rows = 0;
 
-    public KMeansAlgorithm(VectorDistanseMeasure vectorDistanse) {
+    public KMeansAlgorithm(DistanseMeasure vectorDistanse) {
         this(vectorDistanse, null);
     }
 
-    public KMeansAlgorithm(VectorDistanseMeasure vectorDistanse, Integer numberOfClusters) {
+    public KMeansAlgorithm(DistanseMeasure vectorDistanse, Integer numberOfClusters) {
         setNumberOfClusters(numberOfClusters);
         setVectorDistanse(vectorDistanse);
     }
@@ -56,7 +56,7 @@ public class KMeansAlgorithm<E extends DataElement, D extends DataSet<E>> implem
         return clusterList;
     }
 
-    public void setVectorDistanse(VectorDistanseMeasure vectorDistanse) {
+    public void setVectorDistanse(DistanseMeasure vectorDistanse) {
         _vectorDistanse = Preconditions.checkNotNull(vectorDistanse, "Vector distance is null");
     }
 

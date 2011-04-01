@@ -17,6 +17,10 @@ public class WeightedValue<V> implements Comparable<WeightedValue<V>> {
         return _weight;
     }
 
+    public void setWeight(double weight) {
+        _weight = weight;
+    }
+
     public V value() {
         return _value;
     }

@@ -8,8 +8,9 @@ import java.util.List;
 import test.by.bsu.rfe.clustering.app.util.CSVDataSetExporter;
 import by.bsu.rfe.clustering.algorithm.ClusteringAlgorithm;
 import by.bsu.rfe.clustering.algorithm.KMeansAlgorithm;
+import by.bsu.rfe.clustering.algorithm.KMeansPlusPlusAlgorithm;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
-import by.bsu.rfe.clustering.math.VectorDistanseMeasure;
+import by.bsu.rfe.clustering.math.DistanseMeasure;
 import by.bsu.rfe.clustering.text.document.Document;
 import by.bsu.rfe.clustering.text.document.DocumentCollection;
 import by.bsu.rfe.clustering.text.document.DocumentDataElement;
@@ -19,17 +20,18 @@ import by.bsu.rfe.clustering.text.vsm.TFIDF;
 
 import com.google.common.collect.MinMaxPriorityQueue;
 
+// TODO use builder pattern
 public class TextKMeansAlgorithm implements
         ClusteringAlgorithm<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> {
 
     private KMeansAlgorithm<DocumentDataElement, DocumentDataSet> _kMeans;
 
-    public TextKMeansAlgorithm(VectorDistanseMeasure vectorDistanse) {
+    public TextKMeansAlgorithm(DistanseMeasure vectorDistanse) {
         this(vectorDistanse, null);
     }
 
-    public TextKMeansAlgorithm(VectorDistanseMeasure vectorDistanse, Integer numberOfClusters) {
-        _kMeans = new KMeansAlgorithm<DocumentDataElement, DocumentDataSet>(vectorDistanse);
+    public TextKMeansAlgorithm(DistanseMeasure vectorDistanse, Integer numberOfClusters) {
+        _kMeans = new KMeansPlusPlusAlgorithm<DocumentDataElement, DocumentDataSet>(vectorDistanse);
 
         setNumberOfClusters(numberOfClusters);
         setVectorDistanse(vectorDistanse);
@@ -47,7 +49,7 @@ public class TextKMeansAlgorithm implements
         _kMeans.setNumberOfClusters(numberOfClusters);
     }
 
-    public void setVectorDistanse(VectorDistanseMeasure vectorDistanse) {
+    public void setVectorDistanse(DistanseMeasure vectorDistanse) {
         _kMeans.setVectorDistanse(vectorDistanse);
     }
 
@@ -91,9 +93,9 @@ public class TextKMeansAlgorithm implements
 
             // TODO this is a debug version of labels
             for (TermEntry termEntry : queue) {
-                labelBuilder.append(termEntry.getTerm()).append(":").append(
-                        String.format("%7.5f", termEntry.getScore())).append(";").append(
-                        getDocumentCount(termEntry.getTerm(), cluster)).append(",");
+                labelBuilder.append(termEntry.getTerm()).append(":")
+                        .append(String.format("%7.5f", termEntry.getScore())).append(";")
+                        .append(getDocumentCount(termEntry.getTerm(), cluster)).append(",");
             }
 
             if (labelBuilder.length() > 0) {

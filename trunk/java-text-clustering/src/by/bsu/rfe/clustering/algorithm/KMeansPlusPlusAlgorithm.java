@@ -1,24 +1,24 @@
 package by.bsu.rfe.clustering.algorithm;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
-import java.util.Set;
 
 import by.bsu.rfe.clustering.algorithm.data.DataElement;
 import by.bsu.rfe.clustering.algorithm.data.DataSet;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
-import by.bsu.rfe.clustering.math.VectorDistanseMeasure;
+import by.bsu.rfe.clustering.math.DistanseMeasure;
 import by.bsu.rfe.clustering.math.WeightedValue;
 
 import com.google.common.collect.Lists;
-import com.google.common.collect.Sets;
 
 public class KMeansPlusPlusAlgorithm<E extends DataElement, D extends DataSet<E>> extends KMeansAlgorithm<E, D> {
 
-    public KMeansPlusPlusAlgorithm(VectorDistanseMeasure vectorDistanse) {
+    public KMeansPlusPlusAlgorithm(DistanseMeasure vectorDistanse) {
         super(vectorDistanse);
     }
 
+    // TODO split into multiples methods
     @Override
     protected List<Bin> selectInitialCenters(D dataSet, final int numberOfClusters) {
         final List<Bin> clusterList = Lists.newArrayListWithCapacity(numberOfClusters);
@@ -27,7 +27,7 @@ public class KMeansPlusPlusAlgorithm<E extends DataElement, D extends DataSet<E>
 
         List<E> probableClusterCenters = Lists.newArrayList(dataSet.elements());
 
-        // there MUST be at least one bin in the list
+        // there MUST be at least one cluster in the list
         int firstCenterIndex = random.nextInt(dataSet.size());
 
         // first step of KMeans++
@@ -35,10 +35,10 @@ public class KMeansPlusPlusAlgorithm<E extends DataElement, D extends DataSet<E>
         chosenCenters.add(firstCenter);
         probableClusterCenters.remove(firstCenter);
 
-        VectorDistanseMeasure distanceMeasure = new EuclideanDistanceMeasure();
+        DistanseMeasure distanceMeasure = new EuclideanDistanceMeasure();
 
         // we'll reuse this array
-        double[] clusterProbabilities = new double[numberOfClusters - 1];
+        double[] clusterProbabilities = new double[probableClusterCenters.size()];
 
         // choose next centers
         for (int remainingClusters = (numberOfClusters - 1); remainingClusters > 0; remainingClusters--) {
@@ -52,21 +52,33 @@ public class KMeansPlusPlusAlgorithm<E extends DataElement, D extends DataSet<E>
                 totalSquaredDistance += clusterProbabilities[index];
             }
 
-            Set<WeightedValue<E>> probableCenters = Sets.newTreeSet();
-
+            @SuppressWarnings("unchecked")
+            WeightedValue<E>[] probableCenters = (WeightedValue<E>[]) new WeightedValue[remainingClusters];
             // final probability values
             for (int index = 0; index < remainingClusters; index++) {
                 clusterProbabilities[index] /= totalSquaredDistance;
+                E probableCenter = probableClusterCenters.get(index);
 
-                probableCenters.add(WeightedValue.of(probableClusterCenters.get(index), clusterProbabilities[index]));
+                probableCenters[index] = WeightedValue.of(probableCenter, clusterProbabilities[index]);
             }
 
+            Arrays.sort(probableCenters);
+            E nextCenter = chooseNextCenter(probableCenters, random).value();
+
+            chosenCenters.add(nextCenter);
+            probableClusterCenters.remove(nextCenter);
+        }
+
+        for (E center : chosenCenters) {
+            Bin bin = new Bin();
+            bin.elements().add(center);
+            clusterList.add(bin);
         }
 
         return clusterList;
     }
 
-    private double distanceToNearest(E probableCenter, List<E> chosenCenters, VectorDistanseMeasure distanceMeasure) {
+    private double distanceToNearest(E probableCenter, List<E> chosenCenters, DistanseMeasure distanceMeasure) {
         double minDistance = Double.MIN_VALUE;
 
         for (E center : chosenCenters) {
@@ -79,9 +91,21 @@ public class KMeansPlusPlusAlgorithm<E extends DataElement, D extends DataSet<E>
         return minDistance;
     }
 
-    private WeightedValue<E> chooseNextCluster(Set<WeightedValue<E>> probableCenters) {
-        // TODO implement me!!!
-        return null;
+    private WeightedValue<E> chooseNextCenter(WeightedValue<E>[] probableCentersSorted, Random random) {
+        double sum = 0;
+        for (int index = 0; index < probableCentersSorted.length; index++) {
+            sum += probableCentersSorted[index].weight();
+        }
+
+        double randomValue = random.nextDouble() * sum;
+
+        for (int index = 0; index < probableCentersSorted.length; index++) {
+            if (randomValue <= probableCentersSorted[index].weight()) {
+                return probableCentersSorted[index];
+            }
+        }
+
+        return probableCentersSorted[probableCentersSorted.length - 1];
     }
 
 }
