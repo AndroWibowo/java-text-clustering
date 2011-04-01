@@ -11,7 +11,7 @@ import by.bsu.rfe.clustering.algorithm.data.DataElement;
 import by.bsu.rfe.clustering.algorithm.data.DataSet;
 import by.bsu.rfe.clustering.math.DoubleSparceVector;
 import by.bsu.rfe.clustering.math.DoubleVector;
-import by.bsu.rfe.clustering.math.VectorDistanse;
+import by.bsu.rfe.clustering.math.VectorDistanseMeasure;
 
 import com.google.common.base.Preconditions;
 import com.google.common.collect.HashMultimap;
@@ -23,15 +23,15 @@ public class KMeansAlgorithm<E extends DataElement, D extends DataSet<E>> implem
 
     private Integer _numberOfClusters = null;
 
-    private VectorDistanse _vectorDistanse;
+    private VectorDistanseMeasure _vectorDistanse;
 
     private int _rows = 0;
 
-    public KMeansAlgorithm(VectorDistanse vectorDistanse) {
+    public KMeansAlgorithm(VectorDistanseMeasure vectorDistanse) {
         this(vectorDistanse, null);
     }
 
-    public KMeansAlgorithm(VectorDistanse vectorDistanse, Integer numberOfClusters) {
+    public KMeansAlgorithm(VectorDistanseMeasure vectorDistanse, Integer numberOfClusters) {
         setNumberOfClusters(numberOfClusters);
         setVectorDistanse(vectorDistanse);
     }
@@ -47,9 +47,7 @@ public class KMeansAlgorithm<E extends DataElement, D extends DataSet<E>> implem
         _rows = dataSet.elements().get(0).asVector().size();
 
         final int numberOfBins = (_numberOfClusters != null) ? _numberOfClusters : computeNumberOfBins(dataSet);
-        final List<Bin> bins = createBinList(numberOfBins);
-
-        selectInitialCenters(dataSet, bins);
+        final List<Bin> bins = selectInitialCenters(dataSet, numberOfBins);
 
         List<Cluster<E>> clusterList = runKMeans(dataSet, bins);
 
@@ -58,7 +56,7 @@ public class KMeansAlgorithm<E extends DataElement, D extends DataSet<E>> implem
         return clusterList;
     }
 
-    public void setVectorDistanse(VectorDistanse vectorDistanse) {
+    public void setVectorDistanse(VectorDistanseMeasure vectorDistanse) {
         _vectorDistanse = Preconditions.checkNotNull(vectorDistanse, "Vector distance is null");
     }
 
@@ -155,7 +153,8 @@ public class KMeansAlgorithm<E extends DataElement, D extends DataSet<E>> implem
     }
 
     // distribute data vectors among bins
-    protected void selectInitialCenters(D dataSet, List<Bin> bins) {
+    protected List<Bin> selectInitialCenters(D dataSet, int numberOfBins) {
+        List<Bin> bins = createBinList(numberOfBins);
         final int totalElems = dataSet.elements().size();
 
         Random random = new Random();
@@ -166,6 +165,8 @@ public class KMeansAlgorithm<E extends DataElement, D extends DataSet<E>> implem
             Bin bin = bins.get(binIndex);
             bin.elements().add(dataSet.elements().get(elemIndex));
         }
+
+        return bins;
     }
 
     protected void postProcess(List<Cluster<E>> clusterList, D initialDataSet) {
@@ -176,18 +177,19 @@ public class KMeansAlgorithm<E extends DataElement, D extends DataSet<E>> implem
         }
     }
 
+    // TODO replace this with Cluster
     protected class Bin {
 
         private final List<E> _elements = new ArrayList<E>();
 
-        private Bin() {
+        protected Bin() {
         }
 
-        private List<E> elements() {
+        protected List<E> elements() {
             return _elements;
         }
 
-        private DoubleVector computeMeanVector() {
+        protected DoubleVector computeMeanVector() {
 
             if (_elements.isEmpty()) {
                 return new DoubleSparceVector(_rows);

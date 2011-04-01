@@ -8,7 +8,7 @@ public interface DataSet<E extends DataElement> {
 
     public List<E> elements();
 
-    public E getElement(int index);
+    public E get(int index);
 
     public boolean isEmpty();
 
