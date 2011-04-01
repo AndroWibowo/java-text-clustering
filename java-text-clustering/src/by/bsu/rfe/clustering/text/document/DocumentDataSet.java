@@ -30,7 +30,7 @@ public class DocumentDataSet implements DataSet<DocumentDataElement> {
     // TODO set a more descriptive method name
     public double getTermWeight(String documentId, String term) {
         Integer documentIndex = _documentIndexMap.get(documentId);
-        DocumentDataElement element = _delegateDataSet.getElement(documentIndex);
+        DocumentDataElement element = _delegateDataSet.get(documentIndex);
 
         Integer termIndexInVector = _termIndexMap.get(term);
         return element.asVector().get(termIndexInVector);
@@ -52,8 +52,8 @@ public class DocumentDataSet implements DataSet<DocumentDataElement> {
         return Collections.unmodifiableSet(_termIndexMap.keySet());
     }
 
-    public DocumentDataElement getElement(int index) {
-        return _delegateDataSet.getElement(index);
+    public DocumentDataElement get(int index) {
+        return _delegateDataSet.get(index);
     }
 
     public List<DocumentDataElement> elements() {

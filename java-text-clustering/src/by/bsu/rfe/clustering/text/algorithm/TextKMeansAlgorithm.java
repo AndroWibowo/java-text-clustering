@@ -6,11 +6,10 @@ import java.util.Comparator;
 import java.util.List;
 
 import test.by.bsu.rfe.clustering.app.util.CSVDataSetExporter;
-
 import by.bsu.rfe.clustering.algorithm.ClusteringAlgorithm;
 import by.bsu.rfe.clustering.algorithm.KMeansAlgorithm;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
-import by.bsu.rfe.clustering.math.VectorDistanse;
+import by.bsu.rfe.clustering.math.VectorDistanseMeasure;
 import by.bsu.rfe.clustering.text.document.Document;
 import by.bsu.rfe.clustering.text.document.DocumentCollection;
 import by.bsu.rfe.clustering.text.document.DocumentDataElement;
@@ -25,11 +24,11 @@ public class TextKMeansAlgorithm implements
 
     private KMeansAlgorithm<DocumentDataElement, DocumentDataSet> _kMeans;
 
-    public TextKMeansAlgorithm(VectorDistanse vectorDistanse) {
+    public TextKMeansAlgorithm(VectorDistanseMeasure vectorDistanse) {
         this(vectorDistanse, null);
     }
 
-    public TextKMeansAlgorithm(VectorDistanse vectorDistanse, Integer numberOfClusters) {
+    public TextKMeansAlgorithm(VectorDistanseMeasure vectorDistanse, Integer numberOfClusters) {
         _kMeans = new KMeansAlgorithm<DocumentDataElement, DocumentDataSet>(vectorDistanse);
 
         setNumberOfClusters(numberOfClusters);
@@ -48,7 +47,7 @@ public class TextKMeansAlgorithm implements
         _kMeans.setNumberOfClusters(numberOfClusters);
     }
 
-    public void setVectorDistanse(VectorDistanse vectorDistanse) {
+    public void setVectorDistanse(VectorDistanseMeasure vectorDistanse) {
         _kMeans.setVectorDistanse(vectorDistanse);
     }
 
@@ -89,10 +88,12 @@ public class TextKMeansAlgorithm implements
 
             String label = "";
             StringBuilder labelBuilder = new StringBuilder();
+
+            // TODO this is a debug version of labels
             for (TermEntry termEntry : queue) {
-                labelBuilder.append(termEntry.getTerm()).append(":")
-                    .append(String.format("%7.5f", termEntry.getScore())).append(";")
-                    .append(getDocumentCount(termEntry.getTerm(), cluster)).append(",");
+                labelBuilder.append(termEntry.getTerm()).append(":").append(
+                        String.format("%7.5f", termEntry.getScore())).append(";").append(
+                        getDocumentCount(termEntry.getTerm(), cluster)).append(",");
             }
 
             if (labelBuilder.length() > 0) {

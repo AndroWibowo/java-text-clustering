@@ -24,7 +24,7 @@ public class GenericDataSet<E extends DataElement> implements DataSet<E>, Iterab
         return Collections.unmodifiableList(_elements);
     }
 
-    public E getElement(int index) {
+    public E get(int index) {
         return _elements.get(index);
     }
 
