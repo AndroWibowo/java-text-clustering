@@ -127,7 +127,7 @@ public class KMeansAlgorithm<E extends DataElement, D extends DataSet<E>> implem
         for (Bin bin : bins) {
             if (!bin.elements().isEmpty()) {
                 Cluster<E> cluster = new Cluster<E>();
-                cluster.addDataElements(bin.elements());
+                cluster.addAll(bin.elements());
                 clusterList.add(cluster);
             }
         }

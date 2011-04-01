@@ -1,17 +1,19 @@
 package by.bsu.rfe.clustering.algorithm.cluster;
 
-import java.util.Collection;
-import java.util.LinkedList;
+import static com.google.common.collect.Constraints.constrainedList;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import by.bsu.rfe.clustering.algorithm.data.DataElement;
 
-import com.google.common.base.Preconditions;
+import com.google.common.collect.Constraints;
 
 public class Cluster<E extends DataElement> {
 
     private String _label;
 
-    private Collection<E> _data = new LinkedList<E>();
+    private List<E> _data = constrainedList(new ArrayList<E>(), Constraints.notNull());
 
     public String getLabel() {
         return _label;
@@ -21,17 +23,17 @@ public class Cluster<E extends DataElement> {
         _label = label;
     }
 
-    public Collection<E> getDataElements() {
+    public List<E> getDataElements() {
         return _data;
     }
 
     public void addDataElement(E dataElement) {
-        _data.add(Preconditions.checkNotNull(dataElement, "Data element is null."));
+        _data.add(dataElement);
     }
 
-    public void addDataElements(Iterable<E> dataElements) {
+    public void addAll(Iterable<E> dataElements) {
         for (E elem : dataElements) {
-            _data.add(elem);
+            addDataElement(elem);
         }
     }
 
