@@ -44,8 +44,8 @@ public class TFIDF implements DocumentVSMGenerator {
 
                 int documentsWithTerm = documentsWithTerm(term, collection);
 
-                double tfIdf = tf * Math.log(totalDocuments / documentsWithTerm);
-                resultVector.set(index, tfIdf / resultVector.size());
+                double tfIdf = tf * Math.log(1 + totalDocuments / documentsWithTerm);
+                resultVector.set(index, tfIdf);
             }
 
             index++;
