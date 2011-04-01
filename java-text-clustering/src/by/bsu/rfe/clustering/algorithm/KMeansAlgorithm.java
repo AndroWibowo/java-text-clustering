@@ -49,8 +49,28 @@ public class KMeansAlgorithm<E extends DataElement, D extends DataSet<E>> implem
         final int numberOfBins = (_numberOfClusters != null) ? _numberOfClusters : computeNumberOfBins(dataSet);
         final List<Bin> bins = createBinList(numberOfBins);
 
-        prepareCentroids(dataSet, bins);
+        selectInitialCenters(dataSet, bins);
 
+        List<Cluster<E>> clusterList = runKMeans(dataSet, bins);
+
+        postProcess(clusterList, dataSet);
+
+        return clusterList;
+    }
+
+    public void setVectorDistanse(VectorDistanse vectorDistanse) {
+        _vectorDistanse = Preconditions.checkNotNull(vectorDistanse, "Vector distance is null");
+    }
+
+    public void setNumberOfClusters(Integer numberOfClusters) {
+        if (numberOfClusters != null) {
+            Preconditions.checkArgument(numberOfClusters > 0, "Non-positive number of clusters");
+        }
+
+        _numberOfClusters = numberOfClusters;
+    }
+
+    private List<Cluster<E>> runKMeans(D dataSet, List<Bin> bins) {
         final Map<E, Bin> elementBinMap = Maps.newIdentityHashMap();
         final Map<Bin, DoubleVector> meanVectors = Maps.newIdentityHashMap();
         final Multimap<Bin, E> tempElementStorage = HashMultimap.create();
@@ -104,36 +124,20 @@ public class KMeansAlgorithm<E extends DataElement, D extends DataSet<E>> implem
             tempElementStorage.clear();
         }
 
-        final List<Cluster<E>> clusters = new ArrayList<Cluster<E>>(numberOfBins);
+        final List<Cluster<E>> clusterList = new ArrayList<Cluster<E>>(bins.size());
 
-        int clusterOrdinal = 0;
         for (Bin bin : bins) {
             if (!bin.elements().isEmpty()) {
                 Cluster<E> cluster = new Cluster<E>();
                 cluster.addDataElements(bin.elements());
-                cluster.setLabel("cluster_" + clusterOrdinal);
-                clusterOrdinal++;
-
-                clusters.add(cluster);
+                clusterList.add(cluster);
             }
         }
 
-        return clusters;
+        return clusterList;
     }
 
-    public void setVectorDistanse(VectorDistanse vectorDistanse) {
-        _vectorDistanse = Preconditions.checkNotNull(vectorDistanse, "Vector distance is null");
-    }
-
-    public void setNumberOfClusters(Integer numberOfClusters) {
-        if (numberOfClusters != null) {
-            Preconditions.checkArgument(numberOfClusters > 0, "Non-positive number of clusters");
-        }
-
-        _numberOfClusters = numberOfClusters;
-    }
-
-    private int computeNumberOfBins(DataSet<E> dataSet) {
+    private int computeNumberOfBins(D dataSet) {
         // TODO Auto-generated method stub
         return 4;
     }
@@ -151,7 +155,7 @@ public class KMeansAlgorithm<E extends DataElement, D extends DataSet<E>> implem
     }
 
     // distribute data vectors among bins
-    private void prepareCentroids(DataSet<E> dataSet, List<Bin> bins) {
+    protected void selectInitialCenters(D dataSet, List<Bin> bins) {
         final int totalElems = dataSet.elements().size();
 
         Random random = new Random();
@@ -164,7 +168,15 @@ public class KMeansAlgorithm<E extends DataElement, D extends DataSet<E>> implem
         }
     }
 
-    private class Bin {
+    protected void postProcess(List<Cluster<E>> clusterList, D initialDataSet) {
+        int clusterOrdinal = 0;
+        for (Cluster<E> cluster : clusterList) {
+            cluster.setLabel("cluster_" + clusterOrdinal);
+            clusterOrdinal++;
+        }
+    }
+
+    protected class Bin {
 
         private final List<E> _elements = new ArrayList<E>();
 
