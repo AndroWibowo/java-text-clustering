@@ -8,8 +8,8 @@ import org.apache.commons.logging.LogFactory;
 
 import by.bsu.rfe.clustering.algorithm.ClusteringAlgorithm;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
-import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
 import by.bsu.rfe.clustering.math.DistanseMeasure;
+import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
 import by.bsu.rfe.clustering.nlp.WordList;
 import by.bsu.rfe.clustering.text.algorithm.TextKMeansAlgorithm;
 import by.bsu.rfe.clustering.text.document.DocumentCollection;
@@ -47,7 +47,7 @@ public class CLI {
 
         DistanseMeasure distanse = new EuclideanDistanceMeasure();
 
-        final int numberOfClusters = 50;
+        final int numberOfClusters = 5;
 
         ClusteringAlgorithm<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> clustering = new TextKMeansAlgorithm(
                 distanse, numberOfClusters);
