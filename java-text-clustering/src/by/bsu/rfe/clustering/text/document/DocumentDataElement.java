@@ -1,11 +1,11 @@
 package by.bsu.rfe.clustering.text.document;
 
-import by.bsu.rfe.clustering.algorithm.data.DataElement;
+import by.bsu.rfe.clustering.algorithm.data.GenericDataElement;
 import by.bsu.rfe.clustering.math.DoubleVector;
 
 import com.google.common.base.Preconditions;
 
-public class DocumentDataElement extends DataElement {
+public class DocumentDataElement extends GenericDataElement {
 
     private Document _document;
 
