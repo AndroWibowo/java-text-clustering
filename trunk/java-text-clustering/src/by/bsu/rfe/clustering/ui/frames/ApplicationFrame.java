@@ -1,8 +1,5 @@
 package by.bsu.rfe.clustering.ui.frames;
 
-import java.awt.Dimension;
-import java.awt.Toolkit;
-
 import javax.swing.JFrame;
 import javax.swing.JSplitPane;
 
@@ -17,22 +14,12 @@ public class ApplicationFrame extends JFrame {
 
     public ApplicationFrame() {
         setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
-        center();
+        Frames.center(this);
         init();
     }
 
     private void init() {
         getContentPane().add(_mainPanel);
-    }
-
-    private void center() {
-        Toolkit kit = Toolkit.getDefaultToolkit();
-        Dimension screenSize = kit.getScreenSize();
-
-        int screenHeight = screenSize.height;
-        int screenWidth = screenSize.width;
-
-        setLocation(screenWidth / 2 - getWidth() / 2, screenHeight / 2 - getHeight() / 2);
     }
 
 }
