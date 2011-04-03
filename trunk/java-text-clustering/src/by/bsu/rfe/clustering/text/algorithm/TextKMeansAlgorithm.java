@@ -8,7 +8,6 @@ import java.util.List;
 import test.by.bsu.rfe.clustering.app.util.CSVDataSetExporter;
 import by.bsu.rfe.clustering.algorithm.ClusteringAlgorithm;
 import by.bsu.rfe.clustering.algorithm.KMeansAlgorithm;
-import by.bsu.rfe.clustering.algorithm.KMeansPlusPlusAlgorithm;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
 import by.bsu.rfe.clustering.math.DistanseMeasure;
 import by.bsu.rfe.clustering.text.document.Document;
@@ -31,7 +30,7 @@ public class TextKMeansAlgorithm implements
     }
 
     public TextKMeansAlgorithm(DistanseMeasure vectorDistanse, Integer numberOfClusters) {
-        _kMeans = new KMeansPlusPlusAlgorithm<DocumentDataElement, DocumentDataSet>(vectorDistanse);
+        _kMeans = new KMeansAlgorithm<DocumentDataElement, DocumentDataSet>(vectorDistanse);
 
         setNumberOfClusters(numberOfClusters);
         setVectorDistanse(vectorDistanse);

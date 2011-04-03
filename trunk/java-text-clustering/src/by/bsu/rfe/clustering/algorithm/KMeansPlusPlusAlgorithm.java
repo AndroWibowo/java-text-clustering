@@ -4,10 +4,11 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
+import by.bsu.rfe.clustering.algorithm.cluster.CentroidCluster;
 import by.bsu.rfe.clustering.algorithm.data.DataElement;
 import by.bsu.rfe.clustering.algorithm.data.DataSet;
-import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
 import by.bsu.rfe.clustering.math.DistanseMeasure;
+import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
 import by.bsu.rfe.clustering.math.WeightedValue;
 
 import com.google.common.collect.Lists;
@@ -20,8 +21,8 @@ public class KMeansPlusPlusAlgorithm<E extends DataElement, D extends DataSet<E>
 
     // TODO split into multiples methods
     @Override
-    protected List<Bin> selectInitialCenters(D dataSet, final int numberOfClusters) {
-        final List<Bin> clusterList = Lists.newArrayListWithCapacity(numberOfClusters);
+    protected List<CentroidCluster<E>> createInitialClusters(D dataSet, final int numberOfClusters) {
+        final List<CentroidCluster<E>> clusterList = Lists.newArrayListWithCapacity(numberOfClusters);
         final List<E> chosenCenters = Lists.newArrayListWithCapacity(numberOfClusters);
         Random random = new Random();
 
@@ -70,9 +71,9 @@ public class KMeansPlusPlusAlgorithm<E extends DataElement, D extends DataSet<E>
         }
 
         for (E center : chosenCenters) {
-            Bin bin = new Bin();
-            bin.elements().add(center);
-            clusterList.add(bin);
+            CentroidCluster<E> cluster = new CentroidCluster<E>();
+            cluster.getDataElements().add(center);
+            clusterList.add(cluster);
         }
 
         return clusterList;
