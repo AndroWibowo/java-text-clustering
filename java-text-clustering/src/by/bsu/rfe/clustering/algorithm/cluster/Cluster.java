@@ -6,9 +6,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 import by.bsu.rfe.clustering.algorithm.data.DataElement;
+import by.bsu.rfe.clustering.algorithm.data.GenericDataElement;
 
 import com.google.common.collect.Constraints;
 
+/**
+ * A group of one or more {@link GenericDataElement} instances that are similar
+ * to each other
+ * 
+ * @author Siarhei_Yarashevich
+ * 
+ * @param <E>
+ *            type of {@link GenericDataElement}
+ */
 public class Cluster<E extends DataElement> {
 
     private String _label;
