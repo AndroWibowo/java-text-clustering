@@ -114,14 +114,14 @@ public class RSSDownloader {
     }
 
     public static void main(String[] args) throws Exception {
-        RSSDownloader downloader = new RSSDownloader(new File("samples")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/world/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/uk/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/business/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/politics/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/health/rss.xml")).addSource(
-                new URL("http://feeds.bbci.co.uk/news/technology/rss.xml"));
+        RSSDownloader downloader = new RSSDownloader(new File("samples"))
+                .addSource(new URL("http://feeds.bbci.co.uk/news/rss.xml"))
+                .addSource(new URL("http://feeds.bbci.co.uk/news/world/rss.xml"))
+                .addSource(new URL("http://feeds.bbci.co.uk/news/uk/rss.xml"))
+                .addSource(new URL("http://feeds.bbci.co.uk/news/business/rss.xml"))
+                .addSource(new URL("http://feeds.bbci.co.uk/news/politics/rss.xml"))
+                .addSource(new URL("http://feeds.bbci.co.uk/news/health/rss.xml"))
+                .addSource(new URL("http://feeds.bbci.co.uk/news/technology/rss.xml"));
 
         downloader.download();
     }
