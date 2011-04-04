@@ -1,0 +1,76 @@
+It is a bright Thursday morning and, like millions of people all over the world, I am sitting in front of a computer. Unlike them, however, it is not to work.
+
+Instead, I am a test subject sitting inside a research lab at the London offices of internet giant Google. 
+
+A researcher explains that the computer will record everything I do, while a camera pointing at me will track my facial expressions.
+
+With clipboard in hand, she tells me to imagine that I am looking to buy something and want to find out more online. 
+
+So I start the PC and head to the web. 
+
+Then the questions start: What am I looking for? How do I decide what looks interesting? Why click on one link rather than another?
+
+The experiment may seem odd, but it is precisely what thousands of businesses now do each day as part of what is known as user experience design.
+
+In the past, companies would simply slap information on a website — but today, with so much competition online, top destinations put a great deal of thought into making their products better. 
+
+As a result, designing online user experiences is now an important process for any company that is serious about the web, from huge names such as Google and Facebook all the way down to small businesses. 
+
+"User experience designers are the digital equivalent of architects," says Andy Budd, the managing director of web agency Clearleft, based in Brighton, England. 
+
+"Just as architects are crafting the physical world around you, user experience designers are doing the same with the digital landscape you use every single day."
+
+Practitioners,  who refer to what they do simply as "UX", try to understand people's desires and motivations in order to make sure that online services are satisfying, pleasurable and a joy to use. 
+
+By observing people's behaviour online, asking them careful questions and testing different options, researchers can sometimes be the difference between a visitor sticking with a site or getting frustrated and going somewhere else.
+
+Many online businesses are still dominated by usability decisions made by engineers or graphics designers, who tend to prioritise efficiency or beauty over the needs of users. 
+
+But over the last few years, user experience design has emerged as a distinct concept. 
+
+Primarily championed by scientist and researcher Donald Norman in the 1990s, it developed more rapidly as the web became more prevalent in people's lives.
+
+In recent years it has evolved into a fast-growing field that many see as integral to building great products.
+
+Google, for example, now has hundreds of UX experts working all over the world, each of them operating in labs similar to the one I am sitting in. 
+
+The researcher who has been grilling me about the way I use the web is Lidia Oshlyansky. 
+
+She joined the Californian company last year, having previously done a similar job for the world's biggest mobile phone manufacturer, Nokia. 
+
+"When you're doing user experience testing, you're looking for patterns," she says. 
+
+"If one person says something about the way they use the product, that's interesting — but if lots of people are saying similar things, then you might have found something important."
+
+The fact that a company such as Google spends so much time perfecting its web design may surprise some. 
+
+It is, after all, famous for its spartan homepage and dedication to speed above everything else. 
+
+In fact, to many people it seems that Google is almost anti-design, especially compared with a rival such as Apple, known for its focus on luxurious products.
+
+"We have this reputation, and it's been touted quite a bit," admits Ms Oshlyansky. 
+
+"But there is actually an emphasis on the user experience." 
+
+Still, she points out, making things fast can be an important part of a user's experience of an online service: "Speed is part of what we do, though." 
+
+Since the world of user experience design is still young, many professionals began their careers doing something very different. 
+
+Ms Oshlyansky, for example, spent several years as a social worker in Chicago before deciding to change track. 
+
+Today her job involves travelling around the world to study ordinary web surfers and find out how they think and use Google's products. 
+
+Once she has collected the raw information and understood what it means, she works with the company's engineers and web designers to improve what a product does. 
+
+This can be as simple as using different words to describe things to users, or changing the size, shape or prominence of buttons. 
+
+Sometimes it becomes more complicated, with new features being added to help people do what they need to do or getting rid of aspects of a service that can impede its purpose.
+
+Even though the benefits of this research can be clear — more engaged customers, and more of them — Ms Oshlyansky says it can be a battle to explain the difference a good UX practitioner can make to a product, especially since many people believe they have an innate sense for design.
+
+Still, says Mr Budd, demand for smart designers is outstripping supply as more businesses realise that how a user feels about their service can often be as important as what it does for them.
+
+"I wouldn't say that good user experience design was vital to the success of every online business any more than I would say that good customer service was vital to every offline business," he says. 
+
+"But it can be a strong competitive advantage, and will continue to grow in importance over time."
+

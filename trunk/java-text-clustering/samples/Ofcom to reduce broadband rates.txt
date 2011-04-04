@@ -1,0 +1,30 @@
+The cost of home telephone and broadband services could come down after telecoms regulator Ofcom moved to reduce the wholesale price.
+
+It has revised the list of rates that Openreach, which manages BT's network, can charge other providers for using its services.
+
+In some cases, the wholesale price could fall by more than 10% per year.
+
+The move could benefit companies such as TalkTalk and Sky, but not Virgin Media which uses its own cable network.
+
+Under Ofcom's proposals the prices of two of the ways that BT's rivals get access to its network will come down.
+
+The first, called Local Loop Unbundling, allows telecoms firms to site their equipment in BT exchanges and take over lines to customers. 
+
+Ofcom wants the price Openreach charges when an operator takes over these lines completely to drop by between 1.2 and 4.2% every year. Where lines are shared it wants prices to drop by between 11.6 and 14.6% every year. To illustrate the potential numbers affected, Ofcom said there were about 7.6 million unbundled lines in the UK.
+
+The second, called Wholesale Line Rental, involves telecoms firms simply renting lines from Openreach. Ofcom wants the prices of these to drop by between 3.1 and 6.1% every year. There are about 6.14 million WLR lines in the UK.
+
+The price changes are to be applied after taking inflation into account. This might mean that some prices creep upwards if inflation rises. 
+
+"Ofcom expects its proposed prices to lead to real term price reductions for consumers, as communications providers pass on savings to their landline and broadband customers," it said in a statement.
+
+In response, BT released a statement which said: "BT invests more than any other company in the UK's communications infrastructure, so it is critical that it is able to achieve a fair rate of return in order to continue its investment in copper and fibre-based services." 
+
+It added: "Upon initial review, we are encouraged by Ofcom's recognition of this fact, but would question some of the underlying assumptions being used."
+
+The communications watchdog said its proposals were the start of a consultation process that would end on 9 June. BT said it would raise its concerns with Ofcom during the consultation process.
+
+The conclusions of the consultation will be published in the autumn.
+
+Any price changes that result would come into effect towards the end of 2011 and be in place until March 2014.
+

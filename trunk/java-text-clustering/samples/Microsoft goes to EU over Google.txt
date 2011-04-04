@@ -1,0 +1,44 @@
+Microsoft is to take an anti-competition complaint against Google to the European Commission.
+
+The software maker claims that Google used its dominant position in the search market to restrict the growth of Microsoft services.
+
+It cites a number of practices, including Google limiting the ability of Microsoft Bing to index web content.
+
+Google said it was not surprised by the move and would happily explain itself.
+
+In a detailed blog, Microsoft's general counsel, Brad Smith, outlined the company's grievances.
+
+He wrote: "Our filing today focuses on a pattern of actions that Google has taken to entrench its dominance in the markets for online search and search advertising to the detriment of European consumers."
+
+The post goes on to list five different ways in which Google, according to Microsoft, has sought to control the search market.
+
+Those are:
+
+The European Commission launched an investigation into allegations of anti-competitive practices by Google last November, at the behest of several internet companies, including Ciao, a shopping site owned by Microsoft.
+
+It is likely, if the Commission accepts the latest round of complaints from Microsoft, that they would be rolled into the same investigation.
+
+For the Microsoft case to be accepted, the company would have to prove two things - firstly that Google was dominant in a particular market, namely search, and secondly that it had abused that position.
+
+In a statement, Google said it would cooperate with any investigation.
+
+"We're not surprised that Microsoft has done this, since one of their subsidiaries was one of the original complainants. For our part, we continue to discuss the case with the European Commission and we're happy to explain to anyone how our business works," is stated.
+
+Penalties for companies found to have engaged in anti-competitive practices in Europe can be severe.  The EC has the power to impose fines up to 10% of global earnings.
+
+That will likely have a bearing on how the case proceeds, according to Mark Tricker, an antitrust lawyer with the law firm Norton Rose.
+
+He told BBC News: "Once the Commission has formulated its claims then I suspect that Google will enter into a dialogue with them to address those concerns so it does not have to reach a judgement."
+
+Microsoft's position as accuser in an anti-competition case is something of a role reversal.
+
+In the past, the world's leading software company has been the target of similar actions.
+
+A 2003 EC ruling determined that Microsoft had unfairly advantaged its Windows Media Player software over other streaming technologies by embedding it into the Windows operating system.
+
+It was fined ?381m, followed by a further ?194m in 2006 for failing to comply with elements of the original ruling.
+
+To date, the largest fine levied by the EC was ?948m against Intel in 2009.
+
+The microchip maker was found to have offered financial incentives to manufacturers to favour its products over those of its rivals.
+

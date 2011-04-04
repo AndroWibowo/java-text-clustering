@@ -1,0 +1,34 @@
+The government is talking to ISPs about blocking access to websites deemed to help people infringe copyright.
+
+With the help of ISPs and content makers it has set up a working party to see how such a pro-active blocking system would work.
+
+Discussions about the site blocking system emerged in a letter sent to the Open Rights Group (ORG).
+
+The ORG said site blocking was a "bad idea" that could overstep laws set up to police copyright infringement.
+
+In the letter published on the ORG website, Ed Vaizey, minister for culture, communications and creative industries, said his department was exploring "alternative plans" for site-blocking measures.
+
+A meeting in late February attended by ISPs and rights holders, he wrote, ended with the creation of the working group that would investigate site-blocking systems.
+
+A spokesman for the DCMS said it was appropriate that only ISPs, rights holders and web intermediaries such as Google and Yahoo were party to the initial discussions. 
+
+"Consumer representative groups will be invited to take part in future discussions on this issue," he said. The working party will meet for the first time in the first week of April.
+
+Jim Killock, executive director of the ORG, said that the discussions between the government, ISPs and rights holders had been prompted by delays to the Digital Economy Act.
+
+The DEA is currently under judicial review following a legal challenge from BT and TalkTalk which claim that its provisions on file-sharing harm users' privacy. The legislation is not expected to be enacted before early 2012.
+
+The DEA lays out measures which will see content providers monitor file-sharing sites for infringements. They can apply to court to get ISPs to surrender the name of the computer that used an infringing net address.
+
+The government-backed discussions were a way to advance similar controls via the backdoor, said Mr Killock.
+
+"It would not be something that needs judges and acts of parliament to implement," he said. "It's a private arrangement."
+
+Mr Killock said similar systems set up in other countries such as Finland had shown that such arrangements had great potential for abuse and made it very difficult to get anything changed if sites were blocked mistakenly. 
+
+Others have pointed out that many national site blocking systems are easy to get around and few have the ability to tackle the peer-to-peer networks that many use to get at music and movies.
+
+Mr Killock also queried whether rights holders needed more powers to block sites given that existing laws give them two separate routes for getting infringing content removed.
+
+He said: "The principle at stake is whether you want private voluntary arrangements censoring parts of the internet that rights holders are worried about or do you believe in the rule of law?"
+

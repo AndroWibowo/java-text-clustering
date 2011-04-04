@@ -1,0 +1,42 @@
+A leading US privacy group has filed an objection to agreements Google has reached over its social network Buzz.
+
+The Buzz experiment was heavily criticised because it automatically enrolled all Gmail users without seeking prior permission.
+
+Legal action was taken by a group of Gmail users, with Google agreeing to set up a $8.5m (?5.2m) privacy fund.
+
+The Electronic Privacy Information Center (EPIC) is unhappy that it is not one of the beneficiaries of the fund.
+
+This is despite the fact that it filed the original complaint about the service with the Federal Trade Commission.
+
+It has asked for $1.75m (?1.09m), claiming that it is a more independent group than some of those being given money.
+
+It said that the majority of funds would be allocated to groups that "receive support from Google for lobbying, consulting or similar services".
+
+It asked the court to reject a deal "that encourages organisations to stand by quietly while others do the actual work of safeguarding internet privacy".
+
+It declined to say which groups provided lobbying services.
+
+The American Civil Liberties Union, the Electronic Frontier Foundation and the Brookings Institution are among those hoping to receive funds.
+
+Earlier this week, Google reached an agreement with the US Federal Trade Commission, following the conclusion of its investigation.
+
+The FTC said that Google wrongly used information from Google Mail users to create Buzz.
+
+Google has agreed to undergo a privacy review once every two years for the next 20 years.
+
+In a statement after the FTC settlement, Google said it had "put this incident behind us".
+
+"We are 100% focused on ensuring that our new privacy procedures effectively protect the interests of all our users," it said.
+
+It declined to comment directly on the EPIC case.
+
+Buzz was launched as an application within Gmail in February 2010.
+
+Like rival Facebook, it allowed users to post status updates, share content and read and comment on friends' posts.
+
+But it also gave users a ready-made circle of friends based on the people they most frequently e-mailed.
+
+This list could automatically be made public, which privacy experts said could be a huge problem for journalists, businesses or people having an illicit affair.
+
+Following anger from users, Google made changes and apologised for insufficient testing of the service.
+

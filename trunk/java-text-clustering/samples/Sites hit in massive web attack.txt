@@ -1,0 +1,30 @@
+Hundreds of thousands of websites appear to have been compromised by a massive cyber attack.
+
+The hi-tech criminals used a well-known attack vector that exploits security loopholes on other sites to insert a link to their website.
+
+Those visiting the criminals' webpage were told that their machines were infected with many different viruses.
+
+Swift action by security researchers has managed to get the sites offering the sham software shut down.
+
+Security firm Websense has been tracking the attack since it started on 29 March. The initial count of compromised sites was 28,000 sites but this has grown to encompass many times this number as the attack has rolled on.
+
+Websense dubbed it the Lizamoon attack because that was the name of the first domain to which victims were re-directed. The fake software is called the Windows Stability Center.
+
+The re-directions were carried out by what is known as an SQL injection attack. This succeeded because many servers keeping websites running do not filter the text being sent to them by web applications. 
+
+By formatting the text correctly it is possible to conceal instructions in it that are then injected into the databases these servers are running. In this case the injection meant a particular domain appeared as a re-direction link on webpages served up to visitors.
+
+Early reports suggested that the attackers were hitting sites using Microsoft SQL Server 2003 and 2005 and it is thought that weaknesses in associated web application software are proving vulnerable.
+
+Ongoing analysis of the attack reveals that the attackers managed to inject code to display links to 21 separate domains. The exact numbers of sites hit by the attack is hard to judge but a Google search for the attackers' domains shows more than three million weblinks are displaying them.
+
+Security experts say it is the most successful SQL injection attack ever seen.
+
+Generally, the sites being hit are small businesses, community groups, sports teams and many other mid-tier organisations. 
+
+Currently the re-directs are not working because the sites peddling the bogus software have been shut down.
+
+Also hit were some web links connected with Apple's iTunes service. However, wrote Websense security researcher Patrick Runald on the firm's blog, this did not mean people were being redirected to the bogus software sites. 
+
+"The good thing is that iTunes encodes the script tags, which means that the script doesn't execute on the user's computer," he wrote.
+
