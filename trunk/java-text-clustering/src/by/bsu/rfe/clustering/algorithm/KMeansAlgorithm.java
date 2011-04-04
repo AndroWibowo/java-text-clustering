@@ -151,19 +151,20 @@ public class KMeansAlgorithm<E extends DataElement, D extends DataSet<E>> implem
         Random random = new Random();
 
         // select some elements as initial cluster centers
-        Set<Integer> i = Sets.newTreeSet();
+        
+        Set<Integer> indexSet = Sets.newTreeSet();
         for (int index = 0; index < numberOfClusters; index++) {
 
             int elemIndex;
             do {
                 elemIndex = random.nextInt(dataSet.size());
             }
-            while (i.contains(elemIndex));
+            while (indexSet.contains(elemIndex));
 
-            i.add(elemIndex);
+            indexSet.add(elemIndex);
             clusters.get(index).getDataElements().add(dataSet.get(elemIndex));
         }
-
+        
         return clusters;
     }
 
