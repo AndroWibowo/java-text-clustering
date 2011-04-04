@@ -85,4 +85,27 @@ public class DoubleSparceVector implements DoubleVector {
             throw new UnsupportedOperationException("remove() is not supported");
         }
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+
+        if (!(obj instanceof DoubleVector)) {
+            return false;
+        }
+
+        DoubleVector v = (DoubleVector) obj;
+        if (v.size() != size()) {
+            return false;
+        }
+
+        for (Integer index : indices()) {
+            if (Double.compare(get(index), v.get(index)) != 0) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
