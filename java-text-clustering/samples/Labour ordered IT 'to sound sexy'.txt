@@ -6,9 +6,9 @@ He told the public administration committee Labour's procurement had been over-a
 
 The coalition has called a halt to big IT projects to save cash.
 
-In a strategy document published by the Cabinet Office, it vowed to move to "smaller more manageable projects" and said no scheme will cost more than £100m.
+In a strategy document published by the Cabinet Office, it vowed to move to "smaller more manageable projects" and said no scheme will cost more than ?100m.
 
-It has also promised to open up procurement to smaller firms, who have found it difficult in the past to break the grip of giants such as HP, BT and Fujitsu, who together get about a third of central government contracts, worth about £5bn a year.
+It has also promised to open up procurement to smaller firms, who have found it difficult in the past to break the grip of giants such as HP, BT and Fujitsu, who together get about a third of central government contracts, worth about ?5bn a year.
 
 Mr Watmore, who is permanent secretary at the Cabinet Office, said some of the high profile IT "fiascos" under the previous government had not been down to defective technology but to poor project management and badly-defined policies.
 
@@ -28,9 +28,17 @@ He said the "so-called IT disasters" of recent years were not down to technical 
 
 Mr Jenkin also questioned the government's commitment to "open source" software, asking how many civil servants in charge of making the policy work had a background in the open source community. He pointed out that the previous government's "open source" guru had left to join Microsoft.
 
-Mr Watmore, who claims to have already saved £2bn in Whitehall efficiencies, said he wants to end the UK government's reliance on Microsoft products, which are used by about 90% of civil servants.
+Mr Watmore, who claims to have already saved ?2bn in Whitehall efficiencies, said he wants to end the UK government's reliance on Microsoft products, which are used by about 90% of civil servants.
 
 He insisted the government was committed to using more "open source" software to save cash - but had to balance this with concerns about how easily it could be "hacked".
 
 His "personal" view, he added, was that Apple products, which he said he used at home, should also be used more in government.
+
+"I personally would like to see people move off Microsoft products onto open source or use Apple technology.
+
+"I use Apple at home. I know it's not very open but I use it. I love it, it works and I think it is great - I'm Steve Jobs' best customer.
+
+"But 95% of the business and government world still use Microsoft for its basic desktop products because it is reliable and it works.
+
+"I think we, in government, have an opportunity to change that game quite dramatically, particularly on desktop technology, by getting greater use of open products."
 

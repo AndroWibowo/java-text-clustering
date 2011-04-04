@@ -1,0 +1,36 @@
+Many of the UK's biggest radio broadcasters have joined forces to launch a system for listening to their stations over the internet.
+
+UK Radioplayer brings together commercial outlets alongside BBC stations in an attempt to boost online listening.
+
+Only 3% of people access radio via the web and growth has been sluggish.
+
+Although broadcasters will now use the same interface, they are free to customise it and include advertising.
+
+Among the radio groups supporting the project are Global, GMG, Bauer Media and UTV Radio, as well as the BBC.
+
+Tim Davie, director of audio and music at the BBC, welcomed the move, but conceded it was perhaps overdue.
+
+"It is true that, to a certain extent, the radio industry has lacked the level of innovation of television," he said.
+
+Mr Davie suggested that the launch of UK Radioplayer, along with a BBC trial of high bitrate HD radio, indicated a renewed determination to innovate.
+
+The UK Radioplayer is intended to offer some consistency to users, with all players having the same basic controls, search function and favourites option.
+
+However the system does not guarantee that all radio stations will provide the same quality of audio stream.
+
+Broadcasters remain free to chose lower or higher bitrates, said Michael Hill, managing director of Radioplayer Ltd.
+
+He told BBC News: "We wanted to leave it to stations to chose their own bitrate. That is the way for small stations to keep their costs down."
+
+At launch, the Radioplayer will only work on devices that are capable of running Adobe's Flash platform.  That includes most personal computers and some mobile phones and tablets.
+
+A version capable of running on Apple devices will follow shortly, said Mr Hill.
+
+UK Radioplayer has been broadly welcomed, even by those who have previously voiced scepticism about industry's digital strategy.
+
+William Rogers, chief executive of radio group UKRD, is a critic of the DAB system.  He believes that internet broadcasting may be a better way to proceed.
+
+"This will improve the online offering of radio and undoubtedly assist listening.
+
+"I do not think it will be a panacea," he said. "But it is a step in the right direction."
+
