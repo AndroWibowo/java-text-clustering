@@ -31,10 +31,10 @@ public class CentroidCluster<E extends DataElement> extends Cluster<E> {
             double nextValue = 0;
 
             for (int elemIndex = 0; elemIndex < elements.size(); elemIndex++) {
-                nextValue += (elements.get(elemIndex).asVector().get(vectorIndex) / elements.size());
+                nextValue += (elements.get(elemIndex).asVector().get(vectorIndex));
             }
 
-            resultVector.set(vectorIndex, nextValue);
+            resultVector.set(vectorIndex, nextValue / elements.size());
         }
 
         return resultVector;
