@@ -29,4 +29,9 @@ public class WeightedValue<V> implements Comparable<WeightedValue<V>> {
     public int compareTo(WeightedValue<V> anotherValue) {
         return Double.compare(weight(), anotherValue.weight());
     }
+
+    @Override
+    public String toString() {
+        return _value + ":" + _weight;
+    }
 }
