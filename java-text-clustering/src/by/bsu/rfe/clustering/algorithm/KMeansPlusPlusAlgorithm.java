@@ -54,9 +54,9 @@ public class KMeansPlusPlusAlgorithm<E extends DataElement, D extends DataSet<E>
             }
 
             @SuppressWarnings("unchecked")
-            WeightedValue<E>[] probableCenters = (WeightedValue<E>[]) new WeightedValue[remainingClusters];
+            WeightedValue<E>[] probableCenters = (WeightedValue<E>[]) new WeightedValue[probableClusterCenters.size()];
             // final probability values
-            for (int index = 0; index < remainingClusters; index++) {
+            for (int index = 0; index < probableClusterCenters.size(); index++) {
                 clusterProbabilities[index] /= totalSquaredDistance;
                 E probableCenter = probableClusterCenters.get(index);
 
@@ -80,7 +80,7 @@ public class KMeansPlusPlusAlgorithm<E extends DataElement, D extends DataSet<E>
     }
 
     private double distanceToNearest(E probableCenter, List<E> chosenCenters, DistanseMeasure distanceMeasure) {
-        double minDistance = Double.MIN_VALUE;
+        double minDistance = Double.MAX_VALUE;
 
         for (E center : chosenCenters) {
             double distance = distanceMeasure.compute(probableCenter.asVector(), center.asVector());
@@ -98,12 +98,18 @@ public class KMeansPlusPlusAlgorithm<E extends DataElement, D extends DataSet<E>
             sum += probableCentersSorted[index].weight();
         }
 
-        double randomValue = random.nextDouble() * sum;
+        double rnd = random.nextDouble();
+        double randomValue = rnd * sum;
+        
+        double lastSum = 0;
 
         for (int index = 0; index < probableCentersSorted.length; index++) {
-            if (randomValue <= probableCentersSorted[index].weight()) {
+            double weight = probableCentersSorted[index].weight();
+            
+            if ((randomValue > lastSum) && (randomValue <= lastSum + weight)) {
                 return probableCentersSorted[index];
             }
+            lastSum += weight;
         }
 
         return probableCentersSorted[probableCentersSorted.length - 1];
