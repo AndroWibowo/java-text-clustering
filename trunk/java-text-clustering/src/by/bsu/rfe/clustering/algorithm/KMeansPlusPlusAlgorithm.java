@@ -100,12 +100,12 @@ public class KMeansPlusPlusAlgorithm<E extends DataElement, D extends DataSet<E>
 
         double rnd = random.nextDouble();
         double randomValue = rnd * sum;
-        
+
         double lastSum = 0;
 
         for (int index = 0; index < probableCentersSorted.length; index++) {
             double weight = probableCentersSorted[index].weight();
-            
+
             if ((randomValue > lastSum) && (randomValue <= lastSum + weight)) {
                 return probableCentersSorted[index];
             }
