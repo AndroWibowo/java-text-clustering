@@ -7,22 +7,29 @@ import java.util.NoSuchElementException;
 
 import com.google.common.base.Preconditions;
 
+/**
+ * This implementation of {@link DoubleVector} is used for vectors where most of
+ * values are zeros.
+ * 
+ * @author Siarhei Yarashevich
+ * 
+ */
 public class DoubleSparceVector implements DoubleVector {
 
-    private final Map<Integer, Double> _data;
+    private final Map<Integer, Double> _values;
     private int _size = 0;
 
     public DoubleSparceVector(int size) {
         Preconditions.checkArgument(size >= 0, "Negative size: " + size);
 
-        _data = new HashMap<Integer, Double>();
+        _values = new HashMap<Integer, Double>();
         _size = size;
     }
 
     public double get(int index) {
         rangeCheck(index);
 
-        Double value = _data.get(index);
+        Double value = _values.get(index);
         return (value == null) ? 0 : value;
     }
 
@@ -41,10 +48,10 @@ public class DoubleSparceVector implements DoubleVector {
         rangeCheck(index);
 
         if (value != 0) {
-            _data.put(index, value);
+            _values.put(index, value);
         }
         else {
-            _data.remove(index);
+            _values.remove(index);
         }
     }
 
@@ -84,6 +91,18 @@ public class DoubleSparceVector implements DoubleVector {
         public void remove() {
             throw new UnsupportedOperationException("remove() is not supported");
         }
+    }
+
+    @Override
+    public double vectorLength() {
+        double sum = 0;
+
+        for (Integer index : _values.keySet()) {
+            double val = get(index);
+            sum += (val * val);
+        }
+
+        return Math.sqrt(sum);
     }
 
     @Override
