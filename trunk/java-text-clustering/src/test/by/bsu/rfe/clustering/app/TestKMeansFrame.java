@@ -1,4 +1,4 @@
-package by.bsu.rfe.clustering.ui.frames;
+package test.by.bsu.rfe.clustering.app;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -15,9 +15,10 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-import by.bsu.rfe.clustering.algorithm.KMeansHelper;
-import by.bsu.rfe.clustering.algorithm.KMeansHelper.StepCompleteEvent;
-import by.bsu.rfe.clustering.algorithm.KMeansHelper.StepCompleteListener;
+import test.by.bsu.rfe.clustering.app.util.KMeansHelper;
+import test.by.bsu.rfe.clustering.app.util.KMeansHelper.StepCompleteEvent;
+import test.by.bsu.rfe.clustering.app.util.KMeansHelper.StepCompleteListener;
+
 import by.bsu.rfe.clustering.algorithm.cluster.CentroidCluster;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
 import by.bsu.rfe.clustering.algorithm.data.DataElement;
@@ -25,6 +26,7 @@ import by.bsu.rfe.clustering.algorithm.data.DataSet;
 import by.bsu.rfe.clustering.algorithm.data.GenericDataSet;
 import by.bsu.rfe.clustering.math.DoubleSparceVector;
 import by.bsu.rfe.clustering.math.DoubleVector;
+import by.bsu.rfe.clustering.ui.frames.Frames;
 
 import com.google.common.collect.ImmutableList;
 

@@ -6,6 +6,8 @@ import java.util.List;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
+import test.by.bsu.rfe.clustering.app.util.CSVDataSetExporter;
+
 import by.bsu.rfe.clustering.algorithm.ClusteringAlgorithm;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
 import by.bsu.rfe.clustering.math.DistanseMeasure;
@@ -18,6 +20,7 @@ import by.bsu.rfe.clustering.text.document.DocumentDataSet;
 import by.bsu.rfe.clustering.text.ir.DocumentCollectionReader;
 import by.bsu.rfe.clustering.text.ir.FileSystemDocumentCollectionReader;
 import by.bsu.rfe.clustering.text.vsm.DocumentVSMGenerator;
+import by.bsu.rfe.clustering.text.vsm.NormalizedTFIDF;
 import by.bsu.rfe.clustering.text.vsm.TFIDF;
 
 public class CLI {
@@ -39,15 +42,14 @@ public class CLI {
 
         System.out.println("\r\n\r\n\r\n");
 
-        DocumentVSMGenerator vsmGen = new TFIDF();
+        DocumentVSMGenerator vsmGen = new NormalizedTFIDF();
         DocumentDataSet dataSet = vsmGen.createVSM(docCollection);
 
-        // CSVDataSetExporter.export(dataSet, new
-        // File("dictionary\\dataset.csv"));
+        CSVDataSetExporter.export(dataSet, new File("tmp\\dataset.csv"));
 
         DistanseMeasure distanse = new EuclideanDistanceMeasure();
 
-        final int numberOfClusters = 5;
+        final int numberOfClusters = 100;
 
         ClusteringAlgorithm<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> clustering = new TextKMeansAlgorithm(
                 distanse, numberOfClusters);
@@ -55,7 +57,7 @@ public class CLI {
         List<Cluster<DocumentDataElement>> clusters = clustering.cluster(dataSet);
 
         for (Cluster<DocumentDataElement> cluster : clusters) {
-            System.out.printf("%n%s:%n%n", cluster.getLabel());
+            System.out.printf("%n(%d) %s:%n%n",cluster.getDataElements().size(), cluster.getLabel());
 
             for (DocumentDataElement elem : cluster.getDataElements()) {
                 System.out.printf("\t%s%n", elem.getDocument().getTitle());
