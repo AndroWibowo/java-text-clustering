@@ -9,4 +9,6 @@ public interface DoubleVector {
     public void set(int index, double value);
 
     public int size();
+
+    public double vectorLength();
 }
