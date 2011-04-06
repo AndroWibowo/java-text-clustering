@@ -1,4 +1,4 @@
-package by.bsu.rfe.clustering.algorithm;
+package test.by.bsu.rfe.clustering.app.util;
 
 import static com.google.common.collect.Constraints.constrainedList;
 import static com.google.common.collect.Constraints.notNull;
