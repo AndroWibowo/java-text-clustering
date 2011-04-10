@@ -22,14 +22,13 @@ import com.google.common.collect.Maps;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.Sets;
 
-public class KMeansAlgorithm<E extends DataElement, D extends DataSet<E>> implements
-    ClusteringAlgorithm<E, Cluster<E>, D> {
+public class KMeansClustering<E extends DataElement, D extends DataSet<E>> implements Clustering<E, Cluster<E>, D> {
 
   private Integer _numberOfClusters = null;
 
   private DistanseMeasure _vectorDistanse = new EuclideanDistanceMeasure();
 
-  public KMeansAlgorithm(Integer numberOfClusters) {
+  public KMeansClustering(Integer numberOfClusters) {
     setNumberOfClusters(numberOfClusters);
   }
 

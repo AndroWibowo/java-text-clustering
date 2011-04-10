@@ -6,8 +6,8 @@ import java.util.Comparator;
 import java.util.List;
 
 import test.by.bsu.rfe.clustering.app.util.CSVDataSetExporter;
-import by.bsu.rfe.clustering.algorithm.ClusteringAlgorithm;
-import by.bsu.rfe.clustering.algorithm.KMeansAlgorithm;
+import by.bsu.rfe.clustering.algorithm.Clustering;
+import by.bsu.rfe.clustering.algorithm.KMeansClustering;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
 import by.bsu.rfe.clustering.math.DistanseMeasure;
 import by.bsu.rfe.clustering.text.document.Document;
@@ -21,12 +21,12 @@ import com.google.common.collect.MinMaxPriorityQueue;
 
 // TODO use builder pattern
 public class TextKMeansAlgorithm implements
-        ClusteringAlgorithm<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> {
+        Clustering<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> {
 
-    private KMeansAlgorithm<DocumentDataElement, DocumentDataSet> _kMeans;
+    private KMeansClustering<DocumentDataElement, DocumentDataSet> _kMeans;
 
     public TextKMeansAlgorithm(Integer numberOfClusters) {
-        _kMeans = new KMeansAlgorithm<DocumentDataElement, DocumentDataSet>(numberOfClusters);
+        _kMeans = new KMeansClustering<DocumentDataElement, DocumentDataSet>(numberOfClusters);
     }
 
     @Override

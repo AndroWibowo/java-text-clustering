@@ -13,9 +13,9 @@ import by.bsu.rfe.clustering.math.WeightedValue;
 
 import com.google.common.collect.Lists;
 
-public class KMeansPlusPlusAlgorithm<E extends DataElement, D extends DataSet<E>> extends KMeansAlgorithm<E, D> {
+public class KMeansPlusPlusClustering<E extends DataElement, D extends DataSet<E>> extends KMeansClustering<E, D> {
 
-  public KMeansPlusPlusAlgorithm(Integer numberOfClusters) {
+  public KMeansPlusPlusClustering(Integer numberOfClusters) {
     super(numberOfClusters);
   }
 
