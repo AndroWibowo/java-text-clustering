@@ -25,15 +25,8 @@ public class TextKMeansAlgorithm implements
 
     private KMeansAlgorithm<DocumentDataElement, DocumentDataSet> _kMeans;
 
-    public TextKMeansAlgorithm(DistanseMeasure vectorDistanse) {
-        this(vectorDistanse, null);
-    }
-
-    public TextKMeansAlgorithm(DistanseMeasure vectorDistanse, Integer numberOfClusters) {
-        _kMeans = new KMeansAlgorithm<DocumentDataElement, DocumentDataSet>(vectorDistanse);
-
-        setNumberOfClusters(numberOfClusters);
-        setVectorDistanse(vectorDistanse);
+    public TextKMeansAlgorithm(Integer numberOfClusters) {
+        _kMeans = new KMeansAlgorithm<DocumentDataElement, DocumentDataSet>(numberOfClusters);
     }
 
     @Override
@@ -46,10 +39,6 @@ public class TextKMeansAlgorithm implements
 
     public void setNumberOfClusters(Integer numberOfClusters) {
         _kMeans.setNumberOfClusters(numberOfClusters);
-    }
-
-    public void setVectorDistanse(DistanseMeasure vectorDistanse) {
-        _kMeans.setVectorDistanse(vectorDistanse);
     }
 
     private void assignLabels(List<Cluster<DocumentDataElement>> clusterData, DocumentDataSet dataSet) {

@@ -17,7 +17,7 @@ import com.google.common.collect.Constraints;
  * @author Siarhei_Yarashevich
  * 
  * @param <E>
- *            type of {@link GenericDataElement}
+ *            type of {@link DataElement}
  */
 public class Cluster<E extends DataElement> {
 
