@@ -2,13 +2,13 @@ package by.bsu.rfe.clustering.math;
 
 public interface DoubleVector {
 
-    public double get(int index);
+  public double get(int index);
 
-    public Iterable<Integer> indices();
+  public Iterable<Integer> indices();
 
-    public void set(int index, double value);
+  public void set(int index, double value);
 
-    public int size();
+  public int size();
 
-    public double vectorLength();
+  public double vectorLength();
 }

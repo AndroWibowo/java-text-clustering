@@ -8,6 +8,9 @@ import by.bsu.rfe.clustering.math.DoubleVector;
 
 public class CentroidCluster<E extends DataElement> extends Cluster<E> {
 
+    private DoubleVector _centroid;
+
+    // TODO remove this method
     /**
      * Computes the center of this cluster.
      * 
@@ -38,5 +41,13 @@ public class CentroidCluster<E extends DataElement> extends Cluster<E> {
         }
 
         return resultVector;
+    }
+
+    public DoubleVector getCentroid() {
+        return _centroid;
+    }
+
+    public void setCentroid(DoubleVector centroid) {
+        _centroid = centroid;
     }
 }
