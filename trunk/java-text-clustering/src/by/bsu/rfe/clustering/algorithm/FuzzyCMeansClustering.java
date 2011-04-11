@@ -21,6 +21,7 @@ import by.bsu.rfe.clustering.math.DistanseMeasure;
 import by.bsu.rfe.clustering.math.DoubleSparceVector;
 import by.bsu.rfe.clustering.math.DoubleVector;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
+import by.bsu.rfe.clustering.nlp.PorterStemmer;
 import by.bsu.rfe.clustering.nlp.WordList;
 import by.bsu.rfe.clustering.text.document.DocumentCollection;
 import by.bsu.rfe.clustering.text.document.DocumentDataElement;
@@ -279,8 +280,8 @@ public class FuzzyCMeansClustering<E extends FuzzyDataElement<? extends DataElem
   }
 
   public static void main(String[] args) throws Exception {
-    pointCMeans();
-    // textCMeans();
+    //pointCMeans();
+     textCMeans();
   }
 
   private static class Point implements DataElement {
@@ -358,7 +359,7 @@ public class FuzzyCMeansClustering<E extends FuzzyDataElement<? extends DataElem
     File stopWords = new File("dictionary\\stopwords.txt");
     WordList stopWordList = WordList.load(stopWords);
 
-    DocumentCollectionReader reader = new FileSystemDocumentCollectionReader(new File("h:\\samples"), stopWordList);
+    DocumentCollectionReader reader = new FileSystemDocumentCollectionReader(new File("c:\\samples"), stopWordList).useStemmer(new PorterStemmer());
 
     DocumentCollection docCollection = reader.readDocuments();
 
@@ -374,10 +375,10 @@ public class FuzzyCMeansClustering<E extends FuzzyDataElement<? extends DataElem
 
     CSVDataSetExporter.export(dataSet, new File("tmp\\dataset.csv"));
 
-    final int numberOfClusters = 2;
+    final int numberOfClusters = 3;
 
     Clustering<FuzzyDataElement<DocumentDataElement>, Cluster<FuzzyDataElement<DocumentDataElement>>, DataSet<FuzzyDataElement<DocumentDataElement>>> clustering = new FuzzyCMeansClustering<FuzzyDataElement<DocumentDataElement>, DataSet<FuzzyDataElement<DocumentDataElement>>>(
-        numberOfClusters, 0);// new TextKMeansAlgorithm(
+        numberOfClusters, 0.25);// new TextKMeansAlgorithm(
 
     DataSet<FuzzyDataElement<DocumentDataElement>> toCLuster = new GenericDataSet<FuzzyDataElement<DocumentDataElement>>();
     for (DocumentDataElement e : dataSet.elements()) {
