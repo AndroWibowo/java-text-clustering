@@ -28,7 +28,7 @@ public class RSSDocumentCollectionReader extends AbstractDocumentCollectionReade
     }
 
     @Override
-    public DocumentCollection readDocuments() throws DocumentReadException {
+    public DocumentCollection readDocuments() throws InformationRetrievalException {
         DocumentCollection result = new DocumentCollection();
 
         SyndFeedInput input = new SyndFeedInput();
@@ -48,7 +48,7 @@ public class RSSDocumentCollectionReader extends AbstractDocumentCollectionReade
                 }
             }
             catch (Exception e) {
-                throw new DocumentReadException(e);
+                throw new InformationRetrievalException(e);
             }
         }
 
@@ -77,6 +77,7 @@ public class RSSDocumentCollectionReader extends AbstractDocumentCollectionReade
         }
 
         document.setOriginalText(entryText);
+        document.setTitle(entry.getTitle());
 
         return document;
     }

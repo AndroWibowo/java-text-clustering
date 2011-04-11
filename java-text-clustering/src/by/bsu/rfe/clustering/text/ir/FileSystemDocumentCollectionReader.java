@@ -9,6 +9,7 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import by.bsu.rfe.clustering.nlp.Stemmer;
 import by.bsu.rfe.clustering.nlp.WordList;
 import by.bsu.rfe.clustering.text.document.Document;
 import by.bsu.rfe.clustering.text.document.DocumentCollection;
@@ -31,24 +32,30 @@ public class FileSystemDocumentCollectionReader extends AbstractDocumentCollecti
         _fileFilter = filter;
         return this;
     }
+    
+    @Override
+    public FileSystemDocumentCollectionReader useStemmer(Stemmer stemmer) {
+        super.useStemmer(stemmer);
+        return this;
+    }
 
     @Override
-    public DocumentCollection readDocuments() throws DocumentReadException {
+    public DocumentCollection readDocuments() throws InformationRetrievalException {
         if (!_folder.exists()) {
             String msg = "Destination folder does not exist";
-            throw new DocumentReadException(new FileNotFoundException(msg));
+            throw new InformationRetrievalException(new FileNotFoundException(msg));
         }
 
         if (!_folder.isDirectory()) {
             String msg = "Destination is not a directory";
-            throw new DocumentReadException(msg);
+            throw new InformationRetrievalException(msg);
         }
 
         try {
             return read();
         }
         catch (IOException e) {
-            throw new DocumentReadException(e);
+            throw new InformationRetrievalException(e);
         }
     }
 
@@ -77,6 +84,10 @@ public class FileSystemDocumentCollectionReader extends AbstractDocumentCollecti
                             Matcher matcher = WordList.WORD_PATTERN.matcher(term);
 
                             if (matcher.matches()) {
+                                
+                                if(getStemmer() != null) {
+                                    term = getStemmer().stem(term);
+                                }
                                 newDoc.addTerm(term);
                             }
                         }

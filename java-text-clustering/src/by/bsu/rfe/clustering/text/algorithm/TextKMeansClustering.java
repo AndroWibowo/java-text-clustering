@@ -20,12 +20,12 @@ import by.bsu.rfe.clustering.text.vsm.TFIDF;
 import com.google.common.collect.MinMaxPriorityQueue;
 
 // TODO use builder pattern
-public class TextKMeansAlgorithm implements
+public class TextKMeansClustering implements
         Clustering<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> {
 
     private KMeansClustering<DocumentDataElement, DocumentDataSet> _kMeans;
 
-    public TextKMeansAlgorithm(Integer numberOfClusters) {
+    public TextKMeansClustering(Integer numberOfClusters) {
         _kMeans = new KMeansClustering<DocumentDataElement, DocumentDataSet>(numberOfClusters);
     }
 
