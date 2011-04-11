@@ -11,11 +11,11 @@ import org.junit.Test;
 
 import test.by.bsu.rfe.clustering.app.util.CSVDataSetExporter;
 
-import by.bsu.rfe.clustering.algorithm.ClusteringAlgorithm;
+import by.bsu.rfe.clustering.algorithm.Clustering;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
 import by.bsu.rfe.clustering.math.DistanseMeasure;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
-import by.bsu.rfe.clustering.text.algorithm.TextKMeansAlgorithm;
+import by.bsu.rfe.clustering.text.algorithm.TextKMeansClustering;
 import by.bsu.rfe.clustering.text.document.Document;
 import by.bsu.rfe.clustering.text.document.DocumentCollection;
 import by.bsu.rfe.clustering.text.document.DocumentDataElement;
@@ -69,9 +69,8 @@ public class TestKMeansClustering extends TestCase {
             // nobody cares
         }
 
-        DistanseMeasure distanse = new EuclideanDistanceMeasure();
-        ClusteringAlgorithm<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> clustering = 
-            new TextKMeansAlgorithm(distanse, numberOfClusters);
+        Clustering<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> clustering = 
+            new TextKMeansClustering(numberOfClusters);
 
         List<Cluster<DocumentDataElement>> clusters = clustering.cluster(dataSet);
 
