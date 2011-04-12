@@ -1,8 +1,8 @@
 package by.bsu.rfe.clustering.algorithm.data;
 
-import com.google.common.base.Preconditions;
-
 import by.bsu.rfe.clustering.math.DoubleVector;
+
+import com.google.common.base.Preconditions;
 
 /**
  * 
@@ -13,11 +13,11 @@ import by.bsu.rfe.clustering.math.DoubleVector;
  */
 public class FuzzyDataElement<E extends DataElement> implements DataElement {
 
-  private E _dataElement;
+  private E _delegate;
   private double _weight;
 
   public FuzzyDataElement(E dataElement, double weight) {
-    _dataElement = Preconditions.checkNotNull(dataElement, "Data Element is null");
+    _delegate = Preconditions.checkNotNull(dataElement, "Data Element is null");
     _weight = weight;
   }
 
@@ -42,12 +42,12 @@ public class FuzzyDataElement<E extends DataElement> implements DataElement {
   }
 
   public E getDataElement() {
-    return _dataElement;
+    return _delegate;
   }
 
   @Override
   public DoubleVector asVector() {
-    return _dataElement.asVector();
+    return _delegate.asVector();
   }
 
 }

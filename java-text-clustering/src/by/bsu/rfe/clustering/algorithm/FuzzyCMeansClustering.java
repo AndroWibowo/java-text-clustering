@@ -23,9 +23,8 @@ import by.bsu.rfe.clustering.math.DoubleVector;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
 import by.bsu.rfe.clustering.nlp.PorterStemmer;
 import by.bsu.rfe.clustering.nlp.WordList;
-import by.bsu.rfe.clustering.text.document.DocumentCollection;
-import by.bsu.rfe.clustering.text.document.DocumentDataElement;
 import by.bsu.rfe.clustering.text.document.DocumentDataSet;
+import by.bsu.rfe.clustering.text.ir.DocumentCollection;
 import by.bsu.rfe.clustering.text.ir.DocumentCollectionReader;
 import by.bsu.rfe.clustering.text.ir.FileSystemDocumentCollectionReader;
 import by.bsu.rfe.clustering.text.vsm.DocumentVSMGenerator;
@@ -33,8 +32,7 @@ import by.bsu.rfe.clustering.text.vsm.NormalizedTFIDF;
 
 import com.google.common.collect.Lists;
 
-public class FuzzyCMeansClustering<E extends FuzzyDataElement<? extends DataElement>, D extends DataSet<E>> implements
-    Clustering<E, Cluster<E>, D> {
+public class FuzzyCMeansClustering<E extends DataElement, D extends DataSet<E>> implements FuzzyClustering<E, D> {
 
   private static Log log = LogFactory.getLog(FuzzyCMeansClustering.class);
 
@@ -71,7 +69,7 @@ public class FuzzyCMeansClustering<E extends FuzzyDataElement<? extends DataElem
   }
 
   @Override
-  public List<Cluster<E>> cluster(D dataSet) {
+  public List<Cluster<FuzzyDataElement<E>>> cluster(D dataSet) {
     Matrix weights = createRandomProbabilityMatrix(dataSet);
     Matrix prev = null;
 
@@ -82,7 +80,7 @@ public class FuzzyCMeansClustering<E extends FuzzyDataElement<? extends DataElem
     final double eps = 1e-5;
 
     List<CentroidCluster<E>> tempClusters = createClusters(dataSet);
-    List<Cluster<E>> result = Lists.newArrayListWithCapacity(_numberOfClusters);
+    List<Cluster<FuzzyDataElement<E>>> result = Lists.newArrayListWithCapacity(_numberOfClusters);
 
     // double nextTargetValue = 0;
 
@@ -111,7 +109,7 @@ public class FuzzyCMeansClustering<E extends FuzzyDataElement<? extends DataElem
     }
 
     for (int i = 0; i < tempClusters.size(); i++) {
-      Cluster<E> newCluster = new Cluster<E>();
+      Cluster<FuzzyDataElement<E>> newCluster = Cluster.create();
 
       for (int j = 0; j < dataSet.size(); j++) {
         double weight = weights.get(i, j);
@@ -120,7 +118,7 @@ public class FuzzyCMeansClustering<E extends FuzzyDataElement<? extends DataElem
           System.out.println("\t\t" + weight);
           E elem = dataSet.get(j);
           FuzzyDataElement<E> newElem = FuzzyDataElement.newInstance(elem, weight);
-          newCluster.addDataElement((E) newElem);
+          newCluster.addDataElement(newElem);
         }
       }
       result.add(newCluster);
@@ -280,8 +278,8 @@ public class FuzzyCMeansClustering<E extends FuzzyDataElement<? extends DataElem
   }
 
   public static void main(String[] args) throws Exception {
-    //pointCMeans();
-     textCMeans();
+    // pointCMeans();
+    textCMeans();
   }
 
   private static class Point implements DataElement {
@@ -322,27 +320,26 @@ public class FuzzyCMeansClustering<E extends FuzzyDataElement<? extends DataElem
 
   private static void pointCMeans() {
     // butterfly dataset
-    DataSet<FuzzyDataElement<Point>> dataSet = new GenericDataSet<FuzzyDataElement<Point>>();
-    dataSet.addElement(FuzzyDataElement.newInstance(new Point(0, 0.0), 0));
-    dataSet.addElement(FuzzyDataElement.newInstance(new Point(0, 0.2), 0));
-    dataSet.addElement(FuzzyDataElement.newInstance(new Point(0, 0.4), 0));
-    dataSet.addElement(FuzzyDataElement.newInstance(new Point(0.1, 0.1), 0));
-    dataSet.addElement(FuzzyDataElement.newInstance(new Point(0.1, 0.2), 0));
-    dataSet.addElement(FuzzyDataElement.newInstance(new Point(0.1, 0.3), 0));
-    dataSet.addElement(FuzzyDataElement.newInstance(new Point(0.2, 0.2), 0));
-    dataSet.addElement(FuzzyDataElement.newInstance(new Point(0.3, 0.2), 0));
-    dataSet.addElement(FuzzyDataElement.newInstance(new Point(0.4, 0.2), 0));
-    dataSet.addElement(FuzzyDataElement.newInstance(new Point(0.5, 0.1), 0));
-    dataSet.addElement(FuzzyDataElement.newInstance(new Point(0.5, 0.2), 0));
-    dataSet.addElement(FuzzyDataElement.newInstance(new Point(0.5, 0.3), 0));
-    dataSet.addElement(FuzzyDataElement.newInstance(new Point(0.6, 0.0), 0));
-    dataSet.addElement(FuzzyDataElement.newInstance(new Point(0.6, 0.2), 0));
-    dataSet.addElement(FuzzyDataElement.newInstance(new Point(0.6, 0.4), 0));
+    DataSet<Point> dataSet = new GenericDataSet<Point>();
+    dataSet.addElement(new Point(0, 0.0));
+    dataSet.addElement(new Point(0, 0.2));
+    dataSet.addElement(new Point(0, 0.4));
+    dataSet.addElement(new Point(0.1, 0.1));
+    dataSet.addElement(new Point(0.1, 0.2));
+    dataSet.addElement(new Point(0.1, 0.3));
+    dataSet.addElement(new Point(0.2, 0.2));
+    dataSet.addElement(new Point(0.3, 0.2));
+    dataSet.addElement(new Point(0.4, 0.2));
+    dataSet.addElement(new Point(0.5, 0.1));
+    dataSet.addElement(new Point(0.5, 0.2));
+    dataSet.addElement(new Point(0.5, 0.3));
+    dataSet.addElement(new Point(0.6, 0.0));
+    dataSet.addElement(new Point(0.6, 0.2));
+    dataSet.addElement(new Point(0.6, 0.4));
 
     final int numberOfClusters = 2;
 
-    Clustering<FuzzyDataElement<Point>, Cluster<FuzzyDataElement<Point>>, DataSet<FuzzyDataElement<Point>>> alg = new FuzzyCMeansClustering<FuzzyDataElement<Point>, DataSet<FuzzyDataElement<Point>>>(
-        numberOfClusters, 0.2);
+    FuzzyClustering<Point, DataSet<Point>> alg = new FuzzyCMeansClustering<Point, DataSet<Point>>(numberOfClusters);
 
     List<Cluster<FuzzyDataElement<Point>>> result = alg.cluster(dataSet);
     for (Cluster<FuzzyDataElement<Point>> cluster : result) {
@@ -359,7 +356,8 @@ public class FuzzyCMeansClustering<E extends FuzzyDataElement<? extends DataElem
     File stopWords = new File("dictionary\\stopwords.txt");
     WordList stopWordList = WordList.load(stopWords);
 
-    DocumentCollectionReader reader = new FileSystemDocumentCollectionReader(new File("c:\\samples"), stopWordList).useStemmer(new PorterStemmer());
+    DocumentCollectionReader reader = new FileSystemDocumentCollectionReader(new File("c:\\samples"), stopWordList)
+        .useStemmer(new PorterStemmer());
 
     DocumentCollection docCollection = reader.readDocuments();
 
@@ -377,24 +375,32 @@ public class FuzzyCMeansClustering<E extends FuzzyDataElement<? extends DataElem
 
     final int numberOfClusters = 3;
 
-    Clustering<FuzzyDataElement<DocumentDataElement>, Cluster<FuzzyDataElement<DocumentDataElement>>, DataSet<FuzzyDataElement<DocumentDataElement>>> clustering = new FuzzyCMeansClustering<FuzzyDataElement<DocumentDataElement>, DataSet<FuzzyDataElement<DocumentDataElement>>>(
-        numberOfClusters, 0.25);// new TextKMeansAlgorithm(
-
-    DataSet<FuzzyDataElement<DocumentDataElement>> toCLuster = new GenericDataSet<FuzzyDataElement<DocumentDataElement>>();
-    for (DocumentDataElement e : dataSet.elements()) {
-      toCLuster.addElement(FuzzyDataElement.newInstance(e, 0));
-    }
-
-    List<Cluster<FuzzyDataElement<DocumentDataElement>>> clusters = clustering.cluster(toCLuster);
-
-    for (Cluster<FuzzyDataElement<DocumentDataElement>> cluster : clusters) {
-      System.out.printf("%n(%d) %s:%n%n", cluster.getDataElements().size(), cluster.getLabel());
-
-      for (FuzzyDataElement elem : cluster.getDataElements()) {
-        DocumentDataElement doc = ((FuzzyDataElement<DocumentDataElement>) elem.getDataElement()).getDataElement();
-        System.out.printf("\t(%20.15f)%s%n", elem.getWeight(), doc.getDocument().getTitle());
-      }
-    }
+    /*
+     * Clustering<FuzzyDataElement<DocumentDataElement>,
+     * Cluster<FuzzyDataElement<DocumentDataElement>>,
+     * DataSet<FuzzyDataElement<DocumentDataElement>>> clustering = new
+     * FuzzyCMeansClustering<FuzzyDataElement<DocumentDataElement>,
+     * DataSet<FuzzyDataElement<DocumentDataElement>>>( numberOfClusters);// new
+     * TextKMeansAlgorithm(
+     * 
+     * DataSet<FuzzyDataElement<DocumentDataElement>> toCLuster = new
+     * GenericDataSet<FuzzyDataElement<DocumentDataElement>>(); for
+     * (DocumentDataElement e : dataSet.elements()) {
+     * toCLuster.addElement(FuzzyDataElement.newInstance(e, 0)); }
+     * 
+     * List<Cluster<FuzzyDataElement<DocumentDataElement>>> clusters =
+     * clustering.cluster(toCLuster);
+     * 
+     * for (Cluster<FuzzyDataElement<DocumentDataElement>> cluster : clusters) {
+     * System.out.printf("%n(%d) %s:%n%n", cluster.getDataElements().size(),
+     * cluster.getLabel());
+     * 
+     * for (FuzzyDataElement elem : cluster.getDataElements()) {
+     * DocumentDataElement doc = ((FuzzyDataElement<DocumentDataElement>)
+     * elem.getDataElement()).getDataElement();
+     * System.out.printf("\t(%20.15f)%s%n", elem.getWeight(),
+     * doc.getDocument().getTitle()); } }
+     */
   }
 
 }
