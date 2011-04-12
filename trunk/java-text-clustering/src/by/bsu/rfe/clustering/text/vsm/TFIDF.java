@@ -4,67 +4,67 @@ import java.util.Set;
 
 import by.bsu.rfe.clustering.math.DoubleSparceVector;
 import by.bsu.rfe.clustering.math.DoubleVector;
-import by.bsu.rfe.clustering.text.document.Document;
-import by.bsu.rfe.clustering.text.document.DocumentCollection;
 import by.bsu.rfe.clustering.text.document.DocumentDataElement;
 import by.bsu.rfe.clustering.text.document.DocumentDataSet;
+import by.bsu.rfe.clustering.text.ir.Document;
+import by.bsu.rfe.clustering.text.ir.DocumentCollection;
 
 import com.google.common.base.Preconditions;
 
 public class TFIDF implements DocumentVSMGenerator {
 
-    @Override
-    public DocumentDataSet createVSM(DocumentCollection documentCollection) {
-        Preconditions.checkNotNull(documentCollection, "DocumentCollection is null");
+  @Override
+  public DocumentDataSet createVSM(DocumentCollection documentCollection) {
+    Preconditions.checkNotNull(documentCollection, "DocumentCollection is null");
 
-        DocumentDataSet resultSet = new DocumentDataSet(documentCollection);
+    DocumentDataSet resultSet = new DocumentDataSet(documentCollection);
 
-        for (Document document : documentCollection) {
-            DoubleVector vector = calculateTFIDF(document, documentCollection);
-            DocumentDataElement dataElement = new DocumentDataElement(vector, document);
-            resultSet.addElement(dataElement);
-        }
-
-        return resultSet;
+    for (Document document : documentCollection) {
+      DoubleVector vector = calculateTFIDF(document, documentCollection);
+      DocumentDataElement dataElement = new DocumentDataElement(vector, document);
+      resultSet.addElement(dataElement);
     }
 
-    private DoubleVector calculateTFIDF(Document document, DocumentCollection collection) {
-        Set<String> allTerms = collection.getAllTerms();
-        DoubleVector resultVector = new DoubleSparceVector(allTerms.size());
+    return resultSet;
+  }
 
-        int index = 0;
-        for (String term : allTerms) {
-            int termCount = document.getTermCount(term);
+  private DoubleVector calculateTFIDF(Document document, DocumentCollection collection) {
+    Set<String> allTerms = collection.getAllTerms();
+    DoubleVector resultVector = new DoubleSparceVector(allTerms.size());
 
-            if (termCount > 0) {
-                double tf = ((double) termCount) / document.totalTerms();
+    int index = 0;
+    for (String term : allTerms) {
+      int termCount = document.getTermCount(term);
 
-                // number of documents in the collection
-                double totalDocuments = collection.size();
+      if (termCount > 0) {
+        double tf = ((double) termCount) / document.totalTerms();
 
-                int documentsWithTerm = documentsWithTerm(term, collection);
+        // number of documents in the collection
+        double totalDocuments = collection.size();
 
-                double tfIdf = tf * Math.log(1 + totalDocuments / documentsWithTerm);
-                resultVector.set(index, tfIdf);
-            }
+        int documentsWithTerm = documentsWithTerm(term, collection);
 
-            index++;
-        }
+        double tfIdf = tf * Math.log(1 + totalDocuments / documentsWithTerm);
+        resultVector.set(index, tfIdf);
+      }
 
-        return resultVector;
+      index++;
     }
 
-    // how many documents contain the specified term
-    private int documentsWithTerm(String term, DocumentCollection collection) {
-        int frequency = 0;
+    return resultVector;
+  }
 
-        for (Document document : collection) {
-            if (document.getTermCount(term) > 0) {
-                frequency++;
-            }
-        }
+  // how many documents contain the specified term
+  private int documentsWithTerm(String term, DocumentCollection collection) {
+    int frequency = 0;
 
-        return frequency;
+    for (Document document : collection) {
+      if (document.getTermCount(term) > 0) {
+        frequency++;
+      }
     }
+
+    return frequency;
+  }
 
 }

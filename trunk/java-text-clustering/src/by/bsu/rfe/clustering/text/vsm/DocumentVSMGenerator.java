@@ -1,10 +1,10 @@
 package by.bsu.rfe.clustering.text.vsm;
 
-import by.bsu.rfe.clustering.text.document.DocumentCollection;
 import by.bsu.rfe.clustering.text.document.DocumentDataSet;
+import by.bsu.rfe.clustering.text.ir.DocumentCollection;
 
 public interface DocumentVSMGenerator {
 
-    public DocumentDataSet createVSM(DocumentCollection documentCollection);
+  public DocumentDataSet createVSM(DocumentCollection documentCollection);
 
 }
