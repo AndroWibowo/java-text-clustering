@@ -7,12 +7,13 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Set;
 
+import no.uib.cipr.matrix.Vector;
+
 import by.bsu.rfe.clustering.algorithm.cluster.CentroidCluster;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
 import by.bsu.rfe.clustering.algorithm.data.DataElement;
 import by.bsu.rfe.clustering.algorithm.data.DataSet;
 import by.bsu.rfe.clustering.math.DistanseMeasure;
-import by.bsu.rfe.clustering.math.DoubleVector;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
 
 import com.google.common.base.Preconditions;
@@ -22,6 +23,7 @@ import com.google.common.collect.Maps;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.Sets;
 
+// TODO fix this class
 public class KMeansClustering<E extends DataElement, D extends DataSet<E>> implements Clustering<E, Cluster<E>, D> {
 
   private Integer _numberOfClusters = null;
@@ -61,7 +63,7 @@ public class KMeansClustering<E extends DataElement, D extends DataSet<E>> imple
   // TODO use arrays and indexes instead of maps
   private List<Cluster<E>> runKMeans(D dataSet, List<CentroidCluster<E>> clusters) {
     final Map<E, CentroidCluster<E>> elementClusterMap = Maps.newIdentityHashMap();
-    final Map<CentroidCluster<E>, DoubleVector> meanVectors = Maps.newIdentityHashMap();
+    final Map<CentroidCluster<E>, Vector> meanVectors = Maps.newIdentityHashMap();
     final Multimap<CentroidCluster<E>, E> tempElementStorage = HashMultimap.create();
 
     for (CentroidCluster<E> cluster : clusters) {
@@ -75,7 +77,7 @@ public class KMeansClustering<E extends DataElement, D extends DataSet<E>> imple
       long movedElements = 0;
 
       for (CentroidCluster<E> cluster : clusters) {
-        meanVectors.put(cluster, cluster.computeCentroid());
+        meanVectors.put(cluster, cluster.getCentroid());
       }
 
       for (E elem : dataSet.elements()) {
@@ -83,8 +85,8 @@ public class KMeansClustering<E extends DataElement, D extends DataSet<E>> imple
         CentroidCluster<E> assignTo = null;
 
         for (CentroidCluster<E> cluster : clusters) {
-          DoubleVector meanVector = meanVectors.get(cluster);
-          DoubleVector elemVector = elem.asVector();
+          Vector meanVector = meanVectors.get(cluster);
+          Vector elemVector = elem.asVector();
 
           double diffDistance = _vectorDistanse.compute(meanVector, elemVector);
 

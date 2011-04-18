@@ -2,24 +2,25 @@ package test.by.bsu.rfe.clustering.app.cli.testapache;
 
 import java.util.Collection;
 
+import no.uib.cipr.matrix.Vector;
+import no.uib.cipr.matrix.sparse.SparseVector;
+
 import org.apache.commons.math.stat.clustering.Clusterable;
 
-import by.bsu.rfe.clustering.math.DoubleSparceVector;
-import by.bsu.rfe.clustering.math.DoubleVector;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
 import by.bsu.rfe.clustering.text.document.DocumentDataElement;
 import by.bsu.rfe.clustering.text.ir.Document;
 
 public class DocumentClusterable extends DocumentDataElement implements Clusterable<DocumentClusterable> {
 
-  public DocumentClusterable(DoubleVector vector, Document document) {
+  public DocumentClusterable(Vector vector, Document document) {
     super(vector, document);
     // TODO Auto-generated constructor stub
   }
 
   @Override
   public DocumentClusterable centroidOf(Collection<DocumentClusterable> p) {
-    DoubleVector v = new DoubleSparceVector(asVector().size());
+    Vector v = new SparseVector(asVector().size());
 
     for (int i = 0; i < asVector().size(); i++) {
       int newValue = 0;

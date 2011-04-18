@@ -8,12 +8,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
+import no.uib.cipr.matrix.Vector;
+
 import by.bsu.rfe.clustering.algorithm.cluster.CentroidCluster;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
 import by.bsu.rfe.clustering.algorithm.data.DataElement;
 import by.bsu.rfe.clustering.algorithm.data.DataSet;
 import by.bsu.rfe.clustering.math.DistanseMeasure;
-import by.bsu.rfe.clustering.math.DoubleVector;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
 
 import com.google.common.collect.HashMultimap;
@@ -32,7 +33,7 @@ public class KMeansHelper<E extends DataElement, D extends DataSet<E>> {
   private DistanseMeasure _vectorDistanse = new EuclideanDistanceMeasure();
 
   final Map<E, CentroidCluster<E>> elementClusterMap = Maps.newIdentityHashMap();
-  final Map<CentroidCluster<E>, DoubleVector> meanVectors = Maps.newIdentityHashMap();
+  final Map<CentroidCluster<E>, Vector> meanVectors = Maps.newIdentityHashMap();
   final Multimap<CentroidCluster<E>, E> tempElementStorage = HashMultimap.create();
 
   private List<StepCompleteListener<E>> _stepCompleteListeners = constrainedList(
@@ -59,7 +60,7 @@ public class KMeansHelper<E extends DataElement, D extends DataSet<E>> {
     long movedDocuments = 0;
 
     for (CentroidCluster<E> cluster : _clusterList) {
-      meanVectors.put(cluster, cluster.computeCentroid());
+      meanVectors.put(cluster, cluster.getCentroid());
     }
 
     for (E elem : _dataSet.elements()) {
@@ -67,8 +68,8 @@ public class KMeansHelper<E extends DataElement, D extends DataSet<E>> {
       CentroidCluster<E> assignTo = null;
 
       for (CentroidCluster<E> cluster : _clusterList) {
-        DoubleVector meanVector = meanVectors.get(cluster);
-        DoubleVector elemVector = elem.asVector();
+        Vector meanVector = meanVectors.get(cluster);
+        Vector elemVector = elem.asVector();
 
         double diffDistance = _vectorDistanse.compute(meanVector, elemVector);
 

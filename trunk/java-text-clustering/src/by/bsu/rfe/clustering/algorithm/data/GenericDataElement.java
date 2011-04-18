@@ -1,18 +1,18 @@
 package by.bsu.rfe.clustering.algorithm.data;
 
 import static com.google.common.base.Preconditions.checkNotNull;
-import by.bsu.rfe.clustering.math.DoubleVector;
+import no.uib.cipr.matrix.Vector;
 
 public class GenericDataElement implements DataElement {
 
-  private DoubleVector _vector;
+  private Vector _vector;
 
-  public GenericDataElement(DoubleVector vector) {
+  public GenericDataElement(Vector vector) {
     _vector = checkNotNull(vector, "Vector is null");
   }
 
   @Override
-  public DoubleVector asVector() {
+  public Vector asVector() {
     return _vector;
   }
 

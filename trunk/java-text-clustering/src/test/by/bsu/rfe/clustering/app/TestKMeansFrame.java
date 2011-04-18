@@ -15,6 +15,9 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
+import no.uib.cipr.matrix.Vector;
+import no.uib.cipr.matrix.sparse.SparseVector;
+
 import test.by.bsu.rfe.clustering.app.util.KMeansHelper;
 import test.by.bsu.rfe.clustering.app.util.KMeansHelper.StepCompleteEvent;
 import test.by.bsu.rfe.clustering.app.util.KMeansHelper.StepCompleteListener;
@@ -23,8 +26,6 @@ import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
 import by.bsu.rfe.clustering.algorithm.data.DataElement;
 import by.bsu.rfe.clustering.algorithm.data.DataSet;
 import by.bsu.rfe.clustering.algorithm.data.GenericDataSet;
-import by.bsu.rfe.clustering.math.DoubleSparceVector;
-import by.bsu.rfe.clustering.math.DoubleVector;
 import by.bsu.rfe.clustering.ui.frames.Frames;
 
 import com.google.common.collect.ImmutableList;
@@ -126,7 +127,7 @@ public class TestKMeansFrame extends JFrame {
         for (int i = 0; i < _cList.size(); i++) {
           g.setColor(_colors.get(i));
 
-          DoubleVector center = ((CentroidCluster<KPoint>) _cList.get(i)).computeCentroid();
+          Vector center = ((CentroidCluster<KPoint>) _cList.get(i)).getCentroid();
 
           for (KPoint p : _cList.get(i).getDataElements()) {
             g.fillOval((int) (p.getX() * getWidth()) - 5, (int) (p.getY() * getHeight()) + 5, 10, 10);
@@ -186,7 +187,7 @@ public class TestKMeansFrame extends JFrame {
 
   private static class KPoint implements DataElement {
 
-    private DoubleSparceVector _vector = new DoubleSparceVector(2);
+    private Vector _vector = new SparseVector(2);
 
     public KPoint() {
     }
@@ -208,7 +209,7 @@ public class TestKMeansFrame extends JFrame {
     }
 
     @Override
-    public DoubleVector asVector() {
+    public Vector asVector() {
       return _vector;
     }
   }
