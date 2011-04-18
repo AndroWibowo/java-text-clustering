@@ -2,15 +2,15 @@ package by.bsu.rfe.clustering.algorithm.cluster;
 
 import java.util.List;
 
+import no.uib.cipr.matrix.Vector;
+
 import by.bsu.rfe.clustering.algorithm.data.DataElement;
-import by.bsu.rfe.clustering.math.DoubleSparceVector;
-import by.bsu.rfe.clustering.math.DoubleVector;
 
 public class CentroidCluster<E extends DataElement> extends Cluster<E> {
 
-  private DoubleVector _centroid;
+  private Vector _centroid;
 
-  // TODO remove this method
+  // TODO move the method logic to utility class
   /**
    * Computes the center of this cluster.
    * 
@@ -18,7 +18,7 @@ public class CentroidCluster<E extends DataElement> extends Cluster<E> {
    *           if the cluster has no elements
    * @return a {@link DoubleVector} which is the center of this cluster
    */
-  public DoubleVector computeCentroid() {
+/*  public DoubleVector computeCentroid() {
 
     List<E> elements = getDataElements();
 
@@ -41,13 +41,13 @@ public class CentroidCluster<E extends DataElement> extends Cluster<E> {
     }
 
     return resultVector;
-  }
+  }*/
 
-  public DoubleVector getCentroid() {
+  public Vector getCentroid() {
     return _centroid;
   }
 
-  public void setCentroid(DoubleVector centroid) {
+  public void setCentroid(Vector centroid) {
     _centroid = centroid;
   }
 }

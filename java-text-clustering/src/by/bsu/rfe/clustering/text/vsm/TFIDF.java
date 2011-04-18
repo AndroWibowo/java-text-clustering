@@ -2,8 +2,9 @@ package by.bsu.rfe.clustering.text.vsm;
 
 import java.util.Set;
 
-import by.bsu.rfe.clustering.math.DoubleSparceVector;
-import by.bsu.rfe.clustering.math.DoubleVector;
+import no.uib.cipr.matrix.Vector;
+import no.uib.cipr.matrix.sparse.SparseVector;
+
 import by.bsu.rfe.clustering.text.document.DocumentDataElement;
 import by.bsu.rfe.clustering.text.document.DocumentDataSet;
 import by.bsu.rfe.clustering.text.ir.Document;
@@ -20,7 +21,7 @@ public class TFIDF implements DocumentVSMGenerator {
     DocumentDataSet resultSet = new DocumentDataSet(documentCollection);
 
     for (Document document : documentCollection) {
-      DoubleVector vector = calculateTFIDF(document, documentCollection);
+      Vector vector = calculateTFIDF(document, documentCollection);
       DocumentDataElement dataElement = new DocumentDataElement(vector, document);
       resultSet.addElement(dataElement);
     }
@@ -28,9 +29,9 @@ public class TFIDF implements DocumentVSMGenerator {
     return resultSet;
   }
 
-  private DoubleVector calculateTFIDF(Document document, DocumentCollection collection) {
+  private Vector calculateTFIDF(Document document, DocumentCollection collection) {
     Set<String> allTerms = collection.getAllTerms();
-    DoubleVector resultVector = new DoubleSparceVector(allTerms.size());
+    Vector resultVector = new SparseVector(allTerms.size());
 
     int index = 0;
     for (String term : allTerms) {

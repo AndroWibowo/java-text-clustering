@@ -6,6 +6,8 @@ import java.util.Random;
 
 import no.uib.cipr.matrix.DenseMatrix;
 import no.uib.cipr.matrix.Matrix;
+import no.uib.cipr.matrix.Vector;
+import no.uib.cipr.matrix.sparse.SparseVector;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -18,8 +20,6 @@ import by.bsu.rfe.clustering.algorithm.data.DataSet;
 import by.bsu.rfe.clustering.algorithm.data.FuzzyDataElement;
 import by.bsu.rfe.clustering.algorithm.data.GenericDataSet;
 import by.bsu.rfe.clustering.math.DistanseMeasure;
-import by.bsu.rfe.clustering.math.DoubleSparceVector;
-import by.bsu.rfe.clustering.math.DoubleVector;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
 import by.bsu.rfe.clustering.nlp.PorterStemmer;
 import by.bsu.rfe.clustering.nlp.WordList;
@@ -133,10 +133,10 @@ public class FuzzyCMeansClustering<E extends DataElement, D extends DataSet<E>> 
 
     for (int clusterOrdinal = 0; clusterOrdinal < clusterList.size(); clusterOrdinal++) {
       CentroidCluster<E> cluster = clusterList.get(clusterOrdinal);
-      DoubleVector centroid = cluster.getCentroid();
+      Vector centroid = cluster.getCentroid();
 
       if (centroid == null) {
-        centroid = new DoubleSparceVector(dimSize);
+        centroid = new SparseVector(dimSize);
       }
 
       double sumUijSquared = 0;
@@ -151,7 +151,7 @@ public class FuzzyCMeansClustering<E extends DataElement, D extends DataSet<E>> 
 
         // each cluster "contains" all elements from original set
         for (int elemIndex = 0; elemIndex < dataSet.size(); elemIndex++) {
-          DoubleVector elemVector = dataSet.get(elemIndex).asVector();
+          Vector elemVector = dataSet.get(elemIndex).asVector();
           double val = elemVector.get(j);
           double weight = weights.get(clusterOrdinal, elemIndex);
           newCentroidValue += val * weight * weight;
@@ -171,14 +171,14 @@ public class FuzzyCMeansClustering<E extends DataElement, D extends DataSet<E>> 
   private void updateWeights(List<CentroidCluster<E>> clusterList, D dataSet, Matrix weights) {
     for (int i = 0; i < weights.numRows(); i++) {
       for (int j = 0; j < weights.numColumns(); j++) {
-        DoubleVector centroid = clusterList.get(i).getCentroid();
-        DoubleVector elemVector = dataSet.get(j).asVector();
+        Vector centroid = clusterList.get(i).getCentroid();
+        Vector elemVector = dataSet.get(j).asVector();
 
         double distanceToThis = _distanseMeasure.compute(centroid, elemVector);
         double newWeight = 0;
 
         for (int k = 0; k < _numberOfClusters; k++) {
-          DoubleVector kCentroid = clusterList.get(k).getCentroid();
+          Vector kCentroid = clusterList.get(k).getCentroid();
           double distanceToThat = _distanseMeasure.compute(kCentroid, elemVector);
           // System.out.println("\t\t" + distanceToThat);
           double inc = distanceToThis / distanceToThat;
@@ -212,8 +212,8 @@ public class FuzzyCMeansClustering<E extends DataElement, D extends DataSet<E>> 
 
     for (int row = 0; row < weights.numRows(); row++) {
       for (int col = 0; col < weights.numColumns(); col++) {
-        DoubleVector centroidVector = clusterList.get(row).getCentroid();
-        DoubleVector elementVector = dataSet.get(col).asVector();
+        Vector centroidVector = clusterList.get(row).getCentroid();
+        Vector elementVector = dataSet.get(col).asVector();
 
         double distance = _distanseMeasure.compute(centroidVector, elementVector);
         result += distance * distance * weights.get(row, col);
@@ -284,7 +284,7 @@ public class FuzzyCMeansClustering<E extends DataElement, D extends DataSet<E>> 
 
   private static class Point implements DataElement {
 
-    private DoubleSparceVector _vector = new DoubleSparceVector(2);
+    private Vector _vector = new SparseVector(2);
 
     public Point(double x, double y) {
       setX(x);
@@ -308,7 +308,7 @@ public class FuzzyCMeansClustering<E extends DataElement, D extends DataSet<E>> 
     }
 
     @Override
-    public DoubleVector asVector() {
+    public Vector asVector() {
       return _vector;
     }
 

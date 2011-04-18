@@ -1,15 +1,15 @@
 package by.bsu.rfe.clustering.algorithm.data;
 
-import by.bsu.rfe.clustering.math.DoubleVector;
+import no.uib.cipr.matrix.Vector;
 
 public interface DataElement {
 
   /**
    * Returns vector representation of this element
    * 
-   * @return an implementation of {@link DoubleVector} - vector representation
-   *         of this element
+   * @return an implementation of {@link Vector} - vector representation of this
+   *         element
    */
-  public DoubleVector asVector();
+  public Vector asVector();
 
 }

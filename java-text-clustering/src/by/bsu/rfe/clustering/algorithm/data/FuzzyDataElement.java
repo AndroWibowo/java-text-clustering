@@ -1,6 +1,6 @@
 package by.bsu.rfe.clustering.algorithm.data;
 
-import by.bsu.rfe.clustering.math.DoubleVector;
+import no.uib.cipr.matrix.Vector;
 
 import com.google.common.base.Preconditions;
 
@@ -46,7 +46,7 @@ public class FuzzyDataElement<E extends DataElement> implements DataElement {
   }
 
   @Override
-  public DoubleVector asVector() {
+  public Vector asVector() {
     return _delegate.asVector();
   }
 
