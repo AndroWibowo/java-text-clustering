@@ -8,7 +8,7 @@ import junit.framework.TestCase;
 import org.junit.Test;
 
 import test.by.bsu.rfe.clustering.app.util.CSVDataSetExporter;
-import by.bsu.rfe.clustering.text.document.DocumentDataSet;
+import by.bsu.rfe.clustering.text.data.DocumentDataSet;
 import by.bsu.rfe.clustering.text.ir.Document;
 import by.bsu.rfe.clustering.text.ir.DocumentCollection;
 import by.bsu.rfe.clustering.text.vsm.DocumentVSMGenerator;

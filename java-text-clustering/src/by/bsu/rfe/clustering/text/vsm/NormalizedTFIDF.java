@@ -3,8 +3,8 @@ package by.bsu.rfe.clustering.text.vsm;
 import no.uib.cipr.matrix.Vector;
 import no.uib.cipr.matrix.VectorEntry;
 import no.uib.cipr.matrix.Vector.Norm;
-import by.bsu.rfe.clustering.text.document.DocumentDataElement;
-import by.bsu.rfe.clustering.text.document.DocumentDataSet;
+import by.bsu.rfe.clustering.text.data.DocumentDataElement;
+import by.bsu.rfe.clustering.text.data.DocumentDataSet;
 import by.bsu.rfe.clustering.text.ir.DocumentCollection;
 
 public class NormalizedTFIDF implements DocumentVSMGenerator {

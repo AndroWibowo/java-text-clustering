@@ -7,7 +7,7 @@ import org.apache.commons.logging.LogFactory;
 
 import test.by.bsu.rfe.clustering.app.util.CSVDataSetExporter;
 import by.bsu.rfe.clustering.nlp.WordList;
-import by.bsu.rfe.clustering.text.document.DocumentDataSet;
+import by.bsu.rfe.clustering.text.data.DocumentDataSet;
 import by.bsu.rfe.clustering.text.ir.DocumentCollection;
 import by.bsu.rfe.clustering.text.ir.DocumentCollectionReader;
 import by.bsu.rfe.clustering.text.ir.FileSystemDocumentCollectionReader;
