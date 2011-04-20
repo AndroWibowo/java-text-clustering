@@ -5,8 +5,8 @@ import java.util.Set;
 import no.uib.cipr.matrix.Vector;
 import no.uib.cipr.matrix.sparse.SparseVector;
 
-import by.bsu.rfe.clustering.text.document.DocumentDataElement;
-import by.bsu.rfe.clustering.text.document.DocumentDataSet;
+import by.bsu.rfe.clustering.text.data.DocumentDataElement;
+import by.bsu.rfe.clustering.text.data.DocumentDataSet;
 import by.bsu.rfe.clustering.text.ir.Document;
 import by.bsu.rfe.clustering.text.ir.DocumentCollection;
 

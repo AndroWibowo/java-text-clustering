@@ -1,4 +1,4 @@
-package by.bsu.rfe.clustering.text.document;
+package by.bsu.rfe.clustering.text.data;
 
 import no.uib.cipr.matrix.Vector;
 import by.bsu.rfe.clustering.algorithm.data.GenericDataElement;

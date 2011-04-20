@@ -1,17 +1,17 @@
 package by.bsu.rfe.clustering.text.ir;
 
 import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Set;
 
 import com.google.common.base.Preconditions;
+import com.google.common.collect.HashMultiset;
+import com.google.common.collect.Multiset;
 
 public class Document {
 
   private String _id;
 
-  private Map<String, Integer> _terms;
+  private Multiset<String> _terms = HashMultiset.create();
 
   private String _title;
 
@@ -19,7 +19,6 @@ public class Document {
 
   public Document(String id) {
     _id = Preconditions.checkNotNull(id, "Id is null");
-    _terms = new HashMap<String, Integer>();
   }
 
   public void addTerm(String term) {
@@ -27,14 +26,11 @@ public class Document {
 
     final String normalizedTerm = term.toLowerCase().trim();
 
-    Integer count = _terms.get(normalizedTerm);
-    Integer newTermCount = (count == null) ? 1 : count + 1;
-
-    _terms.put(normalizedTerm, newTermCount);
+    _terms.add(normalizedTerm);
   }
 
   public Set<String> getAllTerms() {
-    return Collections.unmodifiableSet(_terms.keySet());
+    return Collections.unmodifiableSet(_terms.elementSet());
   }
 
   public String getId() {
@@ -42,8 +38,7 @@ public class Document {
   }
 
   public int getTermCount(String term) {
-    Integer count = _terms.get(term);
-    return (count == null) ? 0 : count;
+    return _terms.count(term);
   }
 
   public String getTitle() {

@@ -8,7 +8,6 @@ import java.util.Random;
 import java.util.Set;
 
 import no.uib.cipr.matrix.Vector;
-
 import by.bsu.rfe.clustering.algorithm.cluster.CentroidCluster;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
 import by.bsu.rfe.clustering.algorithm.data.DataElement;

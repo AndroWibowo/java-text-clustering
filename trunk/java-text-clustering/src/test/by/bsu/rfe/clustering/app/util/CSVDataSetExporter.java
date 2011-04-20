@@ -8,8 +8,8 @@ import java.io.PrintWriter;
 import java.util.Set;
 import java.util.TreeSet;
 
-import by.bsu.rfe.clustering.text.document.DocumentDataElement;
-import by.bsu.rfe.clustering.text.document.DocumentDataSet;
+import by.bsu.rfe.clustering.text.data.DocumentDataElement;
+import by.bsu.rfe.clustering.text.data.DocumentDataSet;
 
 public class CSVDataSetExporter {
 

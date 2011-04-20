@@ -1,4 +1,4 @@
-package by.bsu.rfe.clustering.text.document;
+package by.bsu.rfe.clustering.text.data;
 
 import java.util.Collections;
 import java.util.HashMap;

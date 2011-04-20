@@ -23,7 +23,7 @@ import by.bsu.rfe.clustering.math.DistanseMeasure;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
 import by.bsu.rfe.clustering.nlp.PorterStemmer;
 import by.bsu.rfe.clustering.nlp.WordList;
-import by.bsu.rfe.clustering.text.document.DocumentDataSet;
+import by.bsu.rfe.clustering.text.data.DocumentDataSet;
 import by.bsu.rfe.clustering.text.ir.DocumentCollection;
 import by.bsu.rfe.clustering.text.ir.DocumentCollectionReader;
 import by.bsu.rfe.clustering.text.ir.FileSystemDocumentCollectionReader;
