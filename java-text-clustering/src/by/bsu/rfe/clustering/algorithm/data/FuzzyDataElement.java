@@ -25,7 +25,7 @@ public class FuzzyDataElement<E extends DataElement> implements DataElement {
     this(dataElement, 1);
   }
 
-  public static <E extends DataElement> FuzzyDataElement<E> newInstance(E elem, double weight) {
+  public static <E extends DataElement> FuzzyDataElement<E> create(E elem, double weight) {
     return new FuzzyDataElement<E>(elem, weight);
   }
 

@@ -95,10 +95,8 @@ public class FuzzyCMeansClustering<E extends DataElement, D extends DataSet<E>> 
       // nextTargetValue = evalObjectiveFunction(tempClusters, dataSet,
       // weights);
 
-      if (prev != null) {
-        if (eval(prev, weights) < eps) {
-          break;
-        }
+      if ((prev != null) && (evalConvergenceFunction(prev, weights) < eps)) {
+        break;
       }
       else {
         prev = new DenseMatrix(_numberOfClusters, dataSet.size());
@@ -117,7 +115,7 @@ public class FuzzyCMeansClustering<E extends DataElement, D extends DataSet<E>> 
         if (weight > _weightThreshold) {
           System.out.println("\t\t" + weight);
           E elem = dataSet.get(j);
-          FuzzyDataElement<E> newElem = FuzzyDataElement.newInstance(elem, weight);
+          FuzzyDataElement<E> newElem = FuzzyDataElement.create(elem, weight);
           newCluster.addDataElement(newElem);
         }
       }
@@ -190,7 +188,7 @@ public class FuzzyCMeansClustering<E extends DataElement, D extends DataSet<E>> 
     }
   }
 
-  private double eval(Matrix prev, Matrix next) {
+  private double evalConvergenceFunction(Matrix prev, Matrix next) {
     double max = Double.MIN_VALUE;
 
     for (int i = 0; i < prev.numRows(); i++) {
@@ -278,8 +276,8 @@ public class FuzzyCMeansClustering<E extends DataElement, D extends DataSet<E>> 
   }
 
   public static void main(String[] args) throws Exception {
-    // pointCMeans();
-    textCMeans();
+    pointCMeans();
+    // textCMeans();
   }
 
   private static class Point implements DataElement {
@@ -345,9 +343,9 @@ public class FuzzyCMeansClustering<E extends DataElement, D extends DataSet<E>> 
     for (Cluster<FuzzyDataElement<Point>> cluster : result) {
       System.out.printf("%n(%d) %s:%n%n", cluster.getDataElements().size(), cluster.getLabel());
 
-      for (FuzzyDataElement elem : cluster.getDataElements()) {
-        FuzzyDataElement<Point> doc = ((FuzzyDataElement<Point>) elem.getDataElement());
-        System.out.printf("\t (%f) %s%n", elem.getWeight(), doc.getDataElement());
+      for (FuzzyDataElement<Point> elem : cluster.getDataElements()) {
+        Point p = elem.getDataElement();
+        System.out.printf("\t (%f) %s%n", elem.getWeight(), p);
       }
     }
   }

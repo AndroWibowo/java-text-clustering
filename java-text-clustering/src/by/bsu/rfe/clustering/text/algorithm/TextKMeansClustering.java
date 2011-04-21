@@ -1,12 +1,9 @@
 package by.bsu.rfe.clustering.text.algorithm;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.Comparator;
 import java.util.List;
 
-import test.by.bsu.rfe.clustering.app.util.CSVDataSetExporter;
-import by.bsu.rfe.clustering.algorithm.Clustering;
+import by.bsu.rfe.clustering.algorithm.FlatClustering;
 import by.bsu.rfe.clustering.algorithm.KMeansClustering;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
 import by.bsu.rfe.clustering.text.data.DocumentDataElement;
@@ -20,7 +17,7 @@ import com.google.common.collect.MinMaxPriorityQueue;
 
 // TODO use builder pattern
 public class TextKMeansClustering implements
-    Clustering<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> {
+    FlatClustering<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> {
 
   private KMeansClustering<DocumentDataElement, DocumentDataSet> _kMeans;
 
@@ -57,13 +54,6 @@ public class TextKMeansClustering implements
 
       DocumentVSMGenerator docToVsm = new TFIDF();
       DocumentDataSet clusterDataSet = docToVsm.createVSM(localCollection);
-      // TODO remove this
-      try {
-        CSVDataSetExporter.export(clusterDataSet, new File("tmp/" + cluster.getLabel() + ".csv"));
-      }
-      catch (IOException e) {
-
-      }
 
       for (DocumentDataElement elem : clusterDataSet.elements()) {
         Document document = elem.getDocument();

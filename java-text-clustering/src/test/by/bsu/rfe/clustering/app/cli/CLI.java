@@ -7,7 +7,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 import test.by.bsu.rfe.clustering.app.util.CSVDataSetExporter;
-import by.bsu.rfe.clustering.algorithm.Clustering;
+import by.bsu.rfe.clustering.algorithm.FlatClustering;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
 import by.bsu.rfe.clustering.math.DistanseMeasure;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
@@ -58,9 +58,9 @@ public class CLI {
 
     DistanseMeasure distanse = new EuclideanDistanceMeasure();
 
-    final int numberOfClusters = 40;
+    final int numberOfClusters = 10;
 
-    Clustering<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> clustering = new TextKMeansClustering(
+    FlatClustering<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> clustering = new TextKMeansClustering(
         numberOfClusters);
 
     List<Cluster<DocumentDataElement>> clusters = clustering.cluster(dataSet);
