@@ -17,7 +17,7 @@ import by.bsu.rfe.clustering.algorithm.data.DataSet;
  * @param <D>
  *          Type of {@link DataSet}
  */
-public interface Clustering<E extends DataElement, C extends Cluster<E>, D extends DataSet<E>> {
+public interface FlatClustering<E extends DataElement, C extends Cluster<E>, D extends DataSet<E>> {
 
   public List<C> cluster(D dataSet);
 

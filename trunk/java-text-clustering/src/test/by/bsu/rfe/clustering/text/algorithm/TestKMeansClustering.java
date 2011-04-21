@@ -10,7 +10,7 @@ import junit.framework.TestCase;
 import org.junit.Test;
 
 import test.by.bsu.rfe.clustering.app.util.CSVDataSetExporter;
-import by.bsu.rfe.clustering.algorithm.Clustering;
+import by.bsu.rfe.clustering.algorithm.FlatClustering;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
 import by.bsu.rfe.clustering.math.DistanseMeasure;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
@@ -67,7 +67,7 @@ public class TestKMeansClustering extends TestCase {
     }
 
     DistanseMeasure distanse = new EuclideanDistanceMeasure();
-    Clustering<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> clustering = new TextKMeansClustering(
+    FlatClustering<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> clustering = new TextKMeansClustering(
         numberOfClusters);
 
     List<Cluster<DocumentDataElement>> clusters = clustering.cluster(dataSet);

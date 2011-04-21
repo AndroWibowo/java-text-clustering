@@ -1,6 +1,8 @@
 package by.bsu.rfe.clustering.algorithm;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -14,8 +16,11 @@ import by.bsu.rfe.clustering.algorithm.data.DataElement;
 import by.bsu.rfe.clustering.algorithm.data.DataSet;
 import by.bsu.rfe.clustering.math.DistanseMeasure;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
+import by.bsu.rfe.clustering.math.Vectors;
 
+import com.google.common.base.Function;
 import com.google.common.base.Preconditions;
+import com.google.common.collect.Collections2;
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
@@ -23,7 +28,7 @@ import com.google.common.collect.Multimap;
 import com.google.common.collect.Sets;
 
 // TODO fix this class
-public class KMeansClustering<E extends DataElement, D extends DataSet<E>> implements Clustering<E, Cluster<E>, D> {
+public class KMeansClustering<E extends DataElement, D extends DataSet<E>> implements FlatClustering<E, Cluster<E>, D> {
 
   private Integer _numberOfClusters = null;
 
@@ -75,6 +80,8 @@ public class KMeansClustering<E extends DataElement, D extends DataSet<E>> imple
     while (proceed) {
       long movedElements = 0;
 
+      recomputeCentroids(clusters);
+
       for (CentroidCluster<E> cluster : clusters) {
         meanVectors.put(cluster, cluster.getCentroid());
       }
@@ -117,6 +124,20 @@ public class KMeansClustering<E extends DataElement, D extends DataSet<E>> imple
     final List<Cluster<E>> clusterList = new ArrayList<Cluster<E>>(clusters);
 
     return clusterList;
+  }
+
+  private static void recomputeCentroids(List<? extends CentroidCluster<? extends DataElement>> clusters) {
+    for (CentroidCluster<?> c : clusters) {
+
+      Collection<Vector> vectors = Collections2.transform(c.getDataElements(), new Function<DataElement, Vector>() {
+        @Override
+        public Vector apply(DataElement e) {
+          return e.asVector();
+        }
+      });
+
+      c.setCentroid(Vectors.computeMeanVectorAsSparce(vectors));
+    }
   }
 
   private int computeNumberOfClusters(D dataSet) {
