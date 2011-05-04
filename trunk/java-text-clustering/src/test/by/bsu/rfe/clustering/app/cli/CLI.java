@@ -24,55 +24,56 @@ import by.bsu.rfe.clustering.text.vsm.NormalizedTFIDF;
 
 public class CLI {
 
-  private static transient Log _log = LogFactory.getLog(CLI.class);
+    private static transient Log _log = LogFactory.getLog(CLI.class);
 
-  public static void main(String[] args) throws Exception {
-    File stopWords = new File("dictionary\\stopwords.txt");
-    WordList stopWordList = WordList.load(stopWords);
+    public static void main(String[] args) throws Exception {
+        File stopWords = new File("dictionary\\stopwords.txt");
+        WordList stopWordList = WordList.load(stopWords);
 
-    DocumentCollectionReader reader = new FileSystemDocumentCollectionReader(new File("samples"), stopWordList);
-    new RSSDocumentCollectionReader(stopWordList);
-    /*
-     * //.addSource(new URL("http://feeds.bbci.co.uk/news/rss.xml"))
-     * //.addSource(new URL("http://feeds.bbci.co.uk/news/world/rss.xml"))
-     * .addSource(new URL("http://feeds.bbci.co.uk/news/uk/rss.xml"))
-     * .addSource(new URL("http://feeds.bbci.co.uk/news/business/rss.xml"))
-     * .addSource(new URL("http://feeds.bbci.co.uk/news/politics/rss.xml"))
-     * .addSource(new URL("http://feeds.bbci.co.uk/news/health/rss.xml"))
-     * .addSource(new URL("http://feeds.bbci.co.uk/news/technology/rss.xml"));
-     */
+        DocumentCollectionReader reader = new FileSystemDocumentCollectionReader(new File("samples"), stopWordList);
+        new RSSDocumentCollectionReader(stopWordList);
+        /*
+         * //.addSource(new URL("http://feeds.bbci.co.uk/news/rss.xml"))
+         * //.addSource(new URL("http://feeds.bbci.co.uk/news/world/rss.xml"))
+         * .addSource(new URL("http://feeds.bbci.co.uk/news/uk/rss.xml"))
+         * .addSource(new URL("http://feeds.bbci.co.uk/news/business/rss.xml"))
+         * .addSource(new URL("http://feeds.bbci.co.uk/news/politics/rss.xml"))
+         * .addSource(new URL("http://feeds.bbci.co.uk/news/health/rss.xml"))
+         * .addSource(new
+         * URL("http://feeds.bbci.co.uk/news/technology/rss.xml"));
+         */
 
-    DocumentCollection docCollection = reader.readDocuments();
+        DocumentCollection docCollection = reader.readDocuments();
 
-    /*
-     * for (String term : new TreeSet<String>(docCollection.getAllTerms())) {
-     * System.out.println(term); }
-     */
+        /*
+         * for (String term : new TreeSet<String>(docCollection.getAllTerms()))
+         * { System.out.println(term); }
+         */
 
-    System.out.println("\r\n\r\n\r\n");
+        System.out.println("\r\n\r\n\r\n");
 
-    DocumentVSMGenerator vsmGen = new NormalizedTFIDF();
-    DocumentDataSet dataSet = vsmGen.createVSM(docCollection);
+        DocumentVSMGenerator vsmGen = new NormalizedTFIDF();
+        DocumentDataSet dataSet = vsmGen.createVSM(docCollection);
 
-    CSVDataSetExporter.export(dataSet, new File("tmp\\dataset.csv"));
+        // CSVDataSetExporter.export(dataSet, new File("tmp\\dataset.csv"));
 
-    DistanseMeasure distanse = new EuclideanDistanceMeasure();
+        DistanseMeasure distanse = new EuclideanDistanceMeasure();
 
-    final int numberOfClusters = 10;
+        final int numberOfClusters = 40;
 
-    FlatClustering<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> clustering = new TextKMeansClustering(
-        numberOfClusters);
+        FlatClustering<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> clustering = new TextKMeansClustering(
+                numberOfClusters);
 
-    List<Cluster<DocumentDataElement>> clusters = clustering.cluster(dataSet);
+        List<Cluster<DocumentDataElement>> clusters = clustering.cluster(dataSet);
 
-    for (Cluster<DocumentDataElement> cluster : clusters) {
-      System.out.printf("%n(%d) %s:%n%n", cluster.getDataElements().size(), cluster.getLabel());
+        for (Cluster<DocumentDataElement> cluster : clusters) {
+            System.out.printf("%n(%d) %s:%n%n", cluster.getDataElements().size(), cluster.getLabel());
 
-      for (DocumentDataElement elem : cluster.getDataElements()) {
-        System.out.printf("\t%s%n", elem.getDocument().getTitle());
-      }
+            for (DocumentDataElement elem : cluster.getDataElements()) {
+                System.out.printf("\t%s%n", elem.getDocument().getTitle());
+            }
+        }
+
     }
-
-  }
 
 }

@@ -9,6 +9,6 @@ import by.bsu.rfe.clustering.algorithm.data.FuzzyDataElement;
 
 public interface FuzzyClustering<E extends DataElement, D extends DataSet<E>> {
 
-  List<Cluster<FuzzyDataElement<E>>> cluster(D dataSet);
+    List<Cluster<FuzzyDataElement<E>>> cluster(D dataSet);
 
 }
