@@ -8,22 +8,22 @@ package by.bsu.rfe.clustering.text.ir;
  */
 public class InformationRetrievalException extends Exception {
 
-  private static final long serialVersionUID = 7273395875805549020L;
+    private static final long serialVersionUID = 7273395875805549020L;
 
-  public InformationRetrievalException() {
-    super();
-  }
+    public InformationRetrievalException() {
+        super();
+    }
 
-  public InformationRetrievalException(String message) {
-    super(message);
-  }
+    public InformationRetrievalException(String message) {
+        super(message);
+    }
 
-  public InformationRetrievalException(String message, Throwable cause) {
-    super(message, cause);
-  }
+    public InformationRetrievalException(String message, Throwable cause) {
+        super(message, cause);
+    }
 
-  public InformationRetrievalException(Throwable cause) {
-    super(cause);
-  }
+    public InformationRetrievalException(Throwable cause) {
+        super(cause);
+    }
 
 }

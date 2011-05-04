@@ -1,35 +1,34 @@
 package by.bsu.rfe.clustering.text.vsm;
 
-import no.uib.cipr.matrix.Vector;
-import no.uib.cipr.matrix.VectorEntry;
-import no.uib.cipr.matrix.Vector.Norm;
+import by.bsu.rfe.clustering.math.DoubleVector;
 import by.bsu.rfe.clustering.text.data.DocumentDataElement;
 import by.bsu.rfe.clustering.text.data.DocumentDataSet;
 import by.bsu.rfe.clustering.text.ir.DocumentCollection;
 
 public class NormalizedTFIDF implements DocumentVSMGenerator {
 
-  private TFIDF _tfIdf = new TFIDF();
+    private TFIDF _tfIdf = new TFIDF();
 
-  @Override
-  public DocumentDataSet createVSM(DocumentCollection documentCollection) {
-    DocumentDataSet dataSet = _tfIdf.createVSM(documentCollection);
+    @Override
+    public DocumentDataSet createVSM(DocumentCollection documentCollection) {
+        DocumentDataSet dataSet = _tfIdf.createVSM(documentCollection);
 
-    return normalize(dataSet);
-  }
-
-  // normalize vectors in all elements to vector length and return the dataset
-  private static DocumentDataSet normalize(DocumentDataSet dataSet) {
-    for (DocumentDataElement elem : dataSet.elements()) {
-      Vector documentVector = elem.asVector();
-      double vectorLength = documentVector.norm(Norm.Two);
-
-      for (VectorEntry entry : documentVector) {
-        entry.set(entry.get() / vectorLength);
-      }
+        return normalize(dataSet);
     }
 
-    return dataSet;
-  }
+    // normalize vectors in all elements to vector length and return the dataset
+    private static DocumentDataSet normalize(DocumentDataSet dataSet) {
+        for (DocumentDataElement elem : dataSet.elements()) {
+            DoubleVector documentVector = elem.asVector();
+            double vectorLength = documentVector.vectorLength();
+
+            for (Integer index : documentVector.indices()) {
+                double value = documentVector.get(index);
+                documentVector.set(index, value / vectorLength);
+            }
+        }
+
+        return dataSet;
+    }
 
 }

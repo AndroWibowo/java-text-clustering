@@ -13,48 +13,48 @@ import by.bsu.rfe.clustering.text.data.DocumentDataSet;
 
 public class CSVDataSetExporter {
 
-  public static void export(DocumentDataSet ds, File saveTo) throws IOException {
-    PrintWriter out = null;
-    try {
-      out = new PrintWriter(new BufferedOutputStream(new FileOutputStream(saveTo)));
+    public static void export(DocumentDataSet ds, File saveTo) throws IOException {
+        PrintWriter out = null;
+        try {
+            out = new PrintWriter(new BufferedOutputStream(new FileOutputStream(saveTo)));
 
-      Set<String> allTerms = new TreeSet<String>(ds.getAllTerms());
-      int termIndex = 0;
+            Set<String> allTerms = new TreeSet<String>(ds.getAllTerms());
+            int termIndex = 0;
 
-      out.print("\"\"");
+            out.print("\"\"");
 
-      // export terms
-      for (String term : allTerms) {
-        out.print(',');
-        out.printf("\"%s\"", term.replace("\"", "\"\""));
-        termIndex++;
-      }
-      out.print("\r\n");
+            // export terms
+            for (String term : allTerms) {
+                out.print(',');
+                out.printf("\"%s\"", term.replace("\"", "\"\""));
+                termIndex++;
+            }
+            out.print("\r\n");
 
-      // export features
-      for (DocumentDataElement elem : ds.elements()) {
-        String title = elem.getDocument().getTitle();
+            // export features
+            for (DocumentDataElement elem : ds.elements()) {
+                String title = elem.getDocument().getTitle();
 
-        out.printf("\"%s\"", (title == null) ? "" : title.replace("\"", "\"\""));
-        int row = 0;
+                out.printf("\"%s\"", (title == null) ? "" : title.replace("\"", "\"\""));
+                int row = 0;
 
-        for (String term : allTerms) {
-          out.print(',');
+                for (String term : allTerms) {
+                    out.print(',');
 
-          double weight = ds.getTermWeight(elem.getDocument().getId(), term);
-          int count = elem.getDocument().getTermCount(term);
+                    double weight = ds.getTermWeight(elem.getDocument().getId(), term);
+                    int count = elem.getDocument().getTermCount(term);
 
-          out.printf("\"%5.2f:%d\"", weight, count);
-          row++;
+                    out.printf("\"%5.2f:%d\"", weight, count);
+                    row++;
+                }
+                out.print("\r\n");
+            }
         }
-        out.print("\r\n");
-      }
+        finally {
+            if (out != null) {
+                out.close();
+            }
+        }
     }
-    finally {
-      if (out != null) {
-        out.close();
-      }
-    }
-  }
 
 }

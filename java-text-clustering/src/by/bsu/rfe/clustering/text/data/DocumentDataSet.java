@@ -15,58 +15,58 @@ import com.google.common.collect.Maps;
 
 public class DocumentDataSet implements DataSet<DocumentDataElement> {
 
-  private Map<String, Integer> _documentIndexMap = new HashMap<String, Integer>();
+    private Map<String, Integer> _documentIndexMap = new HashMap<String, Integer>();
 
-  private Map<String, Integer> _termIndexMap = Maps.newHashMap();
+    private Map<String, Integer> _termIndexMap = Maps.newHashMap();
 
-  private DataSet<DocumentDataElement> _delegateDataSet = new GenericDataSet<DocumentDataElement>();
+    private DataSet<DocumentDataElement> _delegateDataSet = new GenericDataSet<DocumentDataElement>();
 
-  public DocumentDataSet(DocumentCollection collection) {
-    int termIndex = 0;
-    for (String term : collection.getAllTerms()) {
-      _termIndexMap.put(term, termIndex++);
-    }
-  }
-
-  // TODO set a more descriptive method name
-  public double getTermWeight(String documentId, String term) {
-    Integer documentIndex = _documentIndexMap.get(documentId);
-    DocumentDataElement element = _delegateDataSet.get(documentIndex);
-
-    Integer termIndexInVector = _termIndexMap.get(term);
-    return element.asVector().get(termIndexInVector);
-  }
-
-  public void addElement(DocumentDataElement element) {
-    Preconditions.checkNotNull(element, "Element is null");
-
-    String documentId = element.getDocument().getId();
-    if (_documentIndexMap.containsKey(documentId)) {
-      throw new IllegalArgumentException("Document with duplicate id");
+    public DocumentDataSet(DocumentCollection collection) {
+        int termIndex = 0;
+        for (String term : collection.getAllTerms()) {
+            _termIndexMap.put(term, termIndex++);
+        }
     }
 
-    _delegateDataSet.addElement(element);
-    _documentIndexMap.put(documentId, _delegateDataSet.size() - 1);
-  }
+    // TODO set a more descriptive method name
+    public double getTermWeight(String documentId, String term) {
+        Integer documentIndex = _documentIndexMap.get(documentId);
+        DocumentDataElement element = _delegateDataSet.get(documentIndex);
 
-  public Set<String> getAllTerms() {
-    return Collections.unmodifiableSet(_termIndexMap.keySet());
-  }
+        Integer termIndexInVector = _termIndexMap.get(term);
+        return element.asVector().get(termIndexInVector);
+    }
 
-  public DocumentDataElement get(int index) {
-    return _delegateDataSet.get(index);
-  }
+    public void addElement(DocumentDataElement element) {
+        Preconditions.checkNotNull(element, "Element is null");
 
-  public List<DocumentDataElement> elements() {
-    return _delegateDataSet.elements();
-  }
+        String documentId = element.getDocument().getId();
+        if (_documentIndexMap.containsKey(documentId)) {
+            throw new IllegalArgumentException("Document with duplicate id");
+        }
 
-  public boolean isEmpty() {
-    return _delegateDataSet.isEmpty();
-  }
+        _delegateDataSet.addElement(element);
+        _documentIndexMap.put(documentId, _delegateDataSet.size() - 1);
+    }
 
-  public int size() {
-    return _delegateDataSet.size();
-  }
+    public Set<String> getAllTerms() {
+        return Collections.unmodifiableSet(_termIndexMap.keySet());
+    }
+
+    public DocumentDataElement get(int index) {
+        return _delegateDataSet.get(index);
+    }
+
+    public List<DocumentDataElement> elements() {
+        return _delegateDataSet.elements();
+    }
+
+    public boolean isEmpty() {
+        return _delegateDataSet.isEmpty();
+    }
+
+    public int size() {
+        return _delegateDataSet.size();
+    }
 
 }
