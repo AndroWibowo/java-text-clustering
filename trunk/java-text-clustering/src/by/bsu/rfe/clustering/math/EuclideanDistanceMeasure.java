@@ -2,7 +2,7 @@ package by.bsu.rfe.clustering.math;
 
 import com.google.common.base.Preconditions;
 
-public class EuclideanDistanceMeasure implements DistanseMeasure {
+public class EuclideanDistanceMeasure implements DistanceMeasure {
 
     @Override
     public double compute(DoubleVector vector1, DoubleVector vector2) {

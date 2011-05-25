@@ -6,10 +6,9 @@ import java.util.List;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import test.by.bsu.rfe.clustering.app.util.CSVDataSetExporter;
 import by.bsu.rfe.clustering.algorithm.FlatClustering;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
-import by.bsu.rfe.clustering.math.DistanseMeasure;
+import by.bsu.rfe.clustering.math.DistanceMeasure;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
 import by.bsu.rfe.clustering.nlp.WordList;
 import by.bsu.rfe.clustering.text.algorithm.TextKMeansClustering;
@@ -57,7 +56,7 @@ public class CLI {
 
         // CSVDataSetExporter.export(dataSet, new File("tmp\\dataset.csv"));
 
-        DistanseMeasure distanse = new EuclideanDistanceMeasure();
+        DistanceMeasure distanse = new EuclideanDistanceMeasure();
 
         final int numberOfClusters = 40;
 

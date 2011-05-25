@@ -12,7 +12,7 @@ import by.bsu.rfe.clustering.algorithm.cluster.CentroidCluster;
 import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
 import by.bsu.rfe.clustering.algorithm.data.DataElement;
 import by.bsu.rfe.clustering.algorithm.data.DataSet;
-import by.bsu.rfe.clustering.math.DistanseMeasure;
+import by.bsu.rfe.clustering.math.DistanceMeasure;
 import by.bsu.rfe.clustering.math.DoubleVector;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
 
@@ -29,7 +29,7 @@ public class KMeansHelper<E extends DataElement, D extends DataSet<E>> {
     private int _numberOfClusters;
     private boolean _hasNextStep;
     private List<CentroidCluster<E>> _clusterList;
-    private DistanseMeasure _vectorDistanse = new EuclideanDistanceMeasure();
+    private DistanceMeasure _vectorDistanse = new EuclideanDistanceMeasure();
 
     final Map<E, CentroidCluster<E>> elementClusterMap = Maps.newIdentityHashMap();
     final Map<CentroidCluster<E>, DoubleVector> meanVectors = Maps.newIdentityHashMap();
