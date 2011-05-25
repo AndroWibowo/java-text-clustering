@@ -17,7 +17,7 @@ import by.bsu.rfe.clustering.algorithm.data.DataElement;
 import by.bsu.rfe.clustering.algorithm.data.DataSet;
 import by.bsu.rfe.clustering.algorithm.data.FuzzyDataElement;
 import by.bsu.rfe.clustering.algorithm.data.GenericDataSet;
-import by.bsu.rfe.clustering.math.DistanseMeasure;
+import by.bsu.rfe.clustering.math.DistanceMeasure;
 import by.bsu.rfe.clustering.math.DoubleSparceVector;
 import by.bsu.rfe.clustering.math.DoubleVector;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
@@ -38,7 +38,7 @@ public class FuzzyCMeansClustering<E extends DataElement, D extends DataSet<E>> 
 
     private double _weightThreshold;
     private int _numberOfClusters;
-    private DistanseMeasure _distanseMeasure = new EuclideanDistanceMeasure();
+    private DistanceMeasure _distanseMeasure = new EuclideanDistanceMeasure();
 
     // TODO introduce getter/setter and for this field
     private int _maxIterations = 1000;
@@ -278,8 +278,8 @@ public class FuzzyCMeansClustering<E extends DataElement, D extends DataSet<E>> 
     }
 
     public static void main(String[] args) throws Exception {
-        // pointCMeans();
-        textCMeans();
+         pointCMeans();
+        //textCMeans();
     }
 
     private static class Point implements DataElement {

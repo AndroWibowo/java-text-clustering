@@ -7,7 +7,7 @@ import java.util.Random;
 import by.bsu.rfe.clustering.algorithm.cluster.CentroidCluster;
 import by.bsu.rfe.clustering.algorithm.data.DataElement;
 import by.bsu.rfe.clustering.algorithm.data.DataSet;
-import by.bsu.rfe.clustering.math.DistanseMeasure;
+import by.bsu.rfe.clustering.math.DistanceMeasure;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
 import by.bsu.rfe.clustering.math.WeightedValue;
 
@@ -36,7 +36,7 @@ public class KMeansPlusPlusClustering<E extends DataElement, D extends DataSet<E
         chosenCenters.add(firstCenter);
         probableClusterCenters.remove(firstCenter);
 
-        DistanseMeasure distanceMeasure = new EuclideanDistanceMeasure();
+        DistanceMeasure distanceMeasure = new EuclideanDistanceMeasure();
 
         // we'll reuse this array
         double[] clusterProbabilities = new double[probableClusterCenters.size()];
@@ -79,7 +79,7 @@ public class KMeansPlusPlusClustering<E extends DataElement, D extends DataSet<E
         return clusterList;
     }
 
-    private double distanceToNearest(E probableCenter, List<E> chosenCenters, DistanseMeasure distanceMeasure) {
+    private double distanceToNearest(E probableCenter, List<E> chosenCenters, DistanceMeasure distanceMeasure) {
         double minDistance = Double.MAX_VALUE;
 
         for (E center : chosenCenters) {
