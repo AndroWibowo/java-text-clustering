@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Comparator;
 import java.util.List;
+import java.util.TreeSet;
 
 import test.by.bsu.rfe.clustering.app.util.CSVDataSetExporter;
 import by.bsu.rfe.clustering.algorithm.FlatClustering;
@@ -17,6 +18,7 @@ import by.bsu.rfe.clustering.text.vsm.DocumentVSMGenerator;
 import by.bsu.rfe.clustering.text.vsm.TFIDF;
 
 import com.google.common.collect.MinMaxPriorityQueue;
+import com.google.common.collect.Sets;
 
 // TODO use builder pattern
 public class TextKMeansClustering implements
@@ -78,17 +80,21 @@ public class TextKMeansClustering implements
             String label = "";
             StringBuilder labelBuilder = new StringBuilder();
 
+            TreeSet<String> words = Sets.newTreeSet();
+            
             // TODO this is a debug version of labels
             for (TermEntry termEntry : queue) {
                 labelBuilder.append(termEntry.getTerm()).append(":").append(
                         String.format("%7.5f", termEntry.getScore())).append(";").append(
                         getDocumentCount(termEntry.getTerm(), cluster)).append(",");
+                
+                words.add(termEntry.getTerm());
             }
 
             if (labelBuilder.length() > 0) {
                 label = labelBuilder.substring(0, labelBuilder.length() - 1);
             }
-            cluster.setLabel(label);
+            cluster.setLabel(words.toString());            
         }
     }
 
