@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 import com.google.common.base.Preconditions;
+import com.google.common.base.Strings;
 
 public class Document {
 
@@ -69,6 +70,11 @@ public class Document {
         }
 
         return total;
+    }
+    
+    @Override
+    public String toString() {
+        return Strings.nullToEmpty(getTitle());
     }
 
 }
