@@ -23,9 +23,9 @@ import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
 import by.bsu.rfe.clustering.algorithm.data.DataElement;
 import by.bsu.rfe.clustering.algorithm.data.DataSet;
 import by.bsu.rfe.clustering.algorithm.data.GenericDataSet;
+import by.bsu.rfe.clustering.app.ui.frames.Frames;
 import by.bsu.rfe.clustering.math.DoubleSparceVector;
 import by.bsu.rfe.clustering.math.DoubleVector;
-import by.bsu.rfe.clustering.ui.frames.Frames;
 
 import com.google.common.collect.ImmutableList;
 
