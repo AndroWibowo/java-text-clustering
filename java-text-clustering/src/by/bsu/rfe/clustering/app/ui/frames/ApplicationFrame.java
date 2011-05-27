@@ -272,24 +272,17 @@ public class ApplicationFrame extends JFrame {
     assert (_currentDocCollection != null) : "Document Collection is null";
     
     System.out.println("1");
+    
+    final ProgressBarDialog progressDialog = new ProgressBarDialog(ApplicationFrame.this);
 
-    new Thread(new Runnable() {
+    progressDialog.setLocationRelativeTo(progressDialog.getParent());
+    progressDialog.setSize(200, 100);
+    progressDialog.setResizable(false);
+    
+    new SwingWorker<Void, Void>() {
 
       @Override
-      public void run() {
-        
-        System.out.println("run()");
-
-        ProgressBarDialog progressDialog = new ProgressBarDialog(ApplicationFrame.this);
-
-        progressDialog.setLocationRelativeTo(progressDialog.getParent());
-        progressDialog.setSize(200, 100);
-        progressDialog.setResizable(false);
-        
-        System.out.println("run(1)");
-        
-        progressDialog.setVisible(true);
-        
+      protected Void doInBackground() throws Exception {
         System.out.println("run(2)");
 
         DocumentVSMGenerator vsmGen = new NormalizedTFIDF();
@@ -310,8 +303,14 @@ public class ApplicationFrame extends JFrame {
           progressDialog.dispose();
           JOptionPane.showMessageDialog(ApplicationFrame.this, "Computation error", "Error", JOptionPane.ERROR_MESSAGE);
         }
+      
+
+        return null;
       }
-    }).start();
+    }.run();
+    
+    progressDialog.setVisible(true);
+
     
     System.out.println("started");
   }
