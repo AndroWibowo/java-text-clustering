@@ -3,6 +3,7 @@ package by.bsu.rfe.clustering.algorithm.cluster;
 import java.util.List;
 
 import by.bsu.rfe.clustering.algorithm.data.DataElement;
+import by.bsu.rfe.clustering.math.ComputationException;
 import by.bsu.rfe.clustering.math.DoubleSparceVector;
 import by.bsu.rfe.clustering.math.DoubleVector;
 
@@ -23,7 +24,7 @@ public class CentroidCluster<E extends DataElement> extends Cluster<E> {
         List<E> elements = getDataElements();
 
         if (elements.isEmpty()) {
-            throw new IllegalStateException("Cluster has no elements");
+            throw new ComputationException("Cluster has no elements");
         }
 
         final int size = elements.get(0).asVector().size();
