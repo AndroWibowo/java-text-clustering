@@ -194,9 +194,15 @@ public class ApplicationFrame extends JFrame {
               }
 
               @Override
-              public void inputValid(String input) {
-                _currentNumberOfClusters = Integer.valueOf(input);
-                clusterDocuments();
+              public void inputValid(final String input) {
+                  new SwingWorker<Void, Void>() {
+                   public Void doInBackground() {
+                       _currentNumberOfClusters = Integer.valueOf(input);
+                        clusterDocuments();
+
+                    return null;
+                   }
+                  }.execute();
               }
 
               @Override
@@ -283,19 +289,14 @@ public class ApplicationFrame extends JFrame {
 
       @Override
       protected Void doInBackground() throws Exception {
-        System.out.println("run(2)");
-
         DocumentVSMGenerator vsmGen = new NormalizedTFIDF();
         DocumentDataSet dataSet = vsmGen.createVSM(_currentDocCollection);
 
         FlatClustering<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> clustering = new TextKMeansClustering(
             _currentNumberOfClusters);
 
-        System.out.println("2");
-        
         try {
           List<Cluster<DocumentDataElement>> clusters = clustering.cluster(dataSet);
-          System.out.println("ololo");
           progressDialog.dispose();
           displayClusters(clusters);
         }
@@ -307,7 +308,7 @@ public class ApplicationFrame extends JFrame {
 
         return null;
       }
-    }.run();
+    }.execute();
     
     progressDialog.setVisible(true);
 
