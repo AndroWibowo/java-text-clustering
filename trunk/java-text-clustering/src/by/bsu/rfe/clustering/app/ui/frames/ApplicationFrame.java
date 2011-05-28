@@ -277,12 +277,10 @@ public class ApplicationFrame extends JFrame {
   private void clusterDocuments() {
     assert (_currentDocCollection != null) : "Document Collection is null";
     
-    System.out.println("1");
-    
     final ProgressBarDialog progressDialog = new ProgressBarDialog(ApplicationFrame.this);
 
-    progressDialog.setLocationRelativeTo(progressDialog.getParent());
     progressDialog.setSize(200, 100);
+    progressDialog.setLocationRelativeTo(progressDialog.getParent());
     progressDialog.setResizable(false);
     
     new SwingWorker<Void, Void>() {
@@ -311,9 +309,6 @@ public class ApplicationFrame extends JFrame {
     }.execute();
     
     progressDialog.setVisible(true);
-
-    
-    System.out.println("started");
   }
 
   private void beforeDocumentLoad() {
