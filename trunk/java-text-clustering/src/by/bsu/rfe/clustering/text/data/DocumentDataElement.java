@@ -1,6 +1,6 @@
 package by.bsu.rfe.clustering.text.data;
 
-import by.bsu.rfe.clustering.algorithm.data.GenericDataElement;
+import by.bsu.rfe.clustering.algorithm.datamodel.GenericDataElement;
 import by.bsu.rfe.clustering.math.DoubleVector;
 import by.bsu.rfe.clustering.text.ir.Document;
 

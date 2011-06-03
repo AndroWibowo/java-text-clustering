@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import by.bsu.rfe.clustering.algorithm.data.DataSet;
-import by.bsu.rfe.clustering.algorithm.data.GenericDataSet;
+import by.bsu.rfe.clustering.algorithm.datamodel.DataSet;
+import by.bsu.rfe.clustering.algorithm.datamodel.GenericDataSet;
 import by.bsu.rfe.clustering.text.ir.DocumentCollection;
 
 import com.google.common.base.Preconditions;

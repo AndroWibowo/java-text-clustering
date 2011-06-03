@@ -1,11 +1,9 @@
-package by.bsu.rfe.clustering.algorithm.cluster;
+package by.bsu.rfe.clustering.algorithm.datamodel;
 
 import static com.google.common.collect.Constraints.constrainedList;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import by.bsu.rfe.clustering.algorithm.data.DataElement;
 
 import com.google.common.collect.Constraints;
 

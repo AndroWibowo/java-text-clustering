@@ -6,8 +6,9 @@ import java.util.List;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
+import test.by.bsu.rfe.clustering.app.util.CSVDataSetExporter;
 import by.bsu.rfe.clustering.algorithm.FlatClustering;
-import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
+import by.bsu.rfe.clustering.algorithm.datamodel.Cluster;
 import by.bsu.rfe.clustering.math.DistanceMeasure;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
 import by.bsu.rfe.clustering.nlp.WordList;
@@ -29,7 +30,7 @@ public class CLI {
         File stopWords = new File("dictionary\\stopwords.txt");
         WordList stopWordList = WordList.load(stopWords);
 
-        DocumentCollectionReader reader = new FileSystemDocumentCollectionReader(new File("samples"), stopWordList);
+        DocumentCollectionReader reader = new FileSystemDocumentCollectionReader(new File("samples1"), stopWordList);
         new RSSDocumentCollectionReader(stopWordList);
         /*
          * //.addSource(new URL("http://feeds.bbci.co.uk/news/rss.xml"))
@@ -54,11 +55,11 @@ public class CLI {
         DocumentVSMGenerator vsmGen = new NormalizedTFIDF();
         DocumentDataSet dataSet = vsmGen.createVSM(docCollection);
 
-        // CSVDataSetExporter.export(dataSet, new File("tmp\\dataset.csv"));
+         CSVDataSetExporter.export(dataSet, new File("tmp\\dataset.csv"));
 
         DistanceMeasure distanse = new EuclideanDistanceMeasure();
 
-        final int numberOfClusters = 40;
+        final int numberOfClusters = 2;
 
         FlatClustering<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> clustering = new TextKMeansClustering(
                 numberOfClusters);

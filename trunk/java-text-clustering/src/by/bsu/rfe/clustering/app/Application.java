@@ -1,6 +1,6 @@
 package by.bsu.rfe.clustering.app;
 
-import javax.swing.*;
+import javax.swing.JFrame;
 
 import by.bsu.rfe.clustering.app.ui.frames.ApplicationFrame;
 import by.bsu.rfe.clustering.app.ui.frames.Frames;
