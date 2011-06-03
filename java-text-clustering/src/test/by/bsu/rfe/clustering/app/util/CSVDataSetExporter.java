@@ -44,7 +44,7 @@ public class CSVDataSetExporter {
                     double weight = ds.getTermWeight(elem.getDocument().getId(), term);
                     int count = elem.getDocument().getTermCount(term);
 
-                    out.printf("\"%5.2f:%d\"", weight, count);
+                    out.printf("\"%5.2f\"", weight);
                     row++;
                 }
                 out.print("\r\n");

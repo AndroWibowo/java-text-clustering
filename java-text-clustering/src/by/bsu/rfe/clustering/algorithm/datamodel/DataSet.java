@@ -1,4 +1,4 @@
-package by.bsu.rfe.clustering.algorithm.data;
+package by.bsu.rfe.clustering.algorithm.datamodel;
 
 import java.util.List;
 

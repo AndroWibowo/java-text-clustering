@@ -4,6 +4,8 @@ import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.Window;
 
+import javax.swing.JFrame;
+
 // TODO create builder class for frames
 public class Frames {
 

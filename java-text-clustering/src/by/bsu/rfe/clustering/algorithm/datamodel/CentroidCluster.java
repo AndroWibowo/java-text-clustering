@@ -1,8 +1,7 @@
-package by.bsu.rfe.clustering.algorithm.cluster;
+package by.bsu.rfe.clustering.algorithm.datamodel;
 
 import java.util.List;
 
-import by.bsu.rfe.clustering.algorithm.data.DataElement;
 import by.bsu.rfe.clustering.math.ComputationException;
 import by.bsu.rfe.clustering.math.DoubleSparceVector;
 import by.bsu.rfe.clustering.math.DoubleVector;

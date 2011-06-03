@@ -11,7 +11,7 @@ import org.junit.Test;
 
 import test.by.bsu.rfe.clustering.app.util.CSVDataSetExporter;
 import by.bsu.rfe.clustering.algorithm.FlatClustering;
-import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
+import by.bsu.rfe.clustering.algorithm.datamodel.Cluster;
 import by.bsu.rfe.clustering.math.DistanceMeasure;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
 import by.bsu.rfe.clustering.text.algorithm.TextKMeansClustering;

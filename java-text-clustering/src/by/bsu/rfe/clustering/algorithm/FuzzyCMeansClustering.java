@@ -11,12 +11,12 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 import test.by.bsu.rfe.clustering.app.util.CSVDataSetExporter;
-import by.bsu.rfe.clustering.algorithm.cluster.CentroidCluster;
-import by.bsu.rfe.clustering.algorithm.cluster.Cluster;
-import by.bsu.rfe.clustering.algorithm.data.DataElement;
-import by.bsu.rfe.clustering.algorithm.data.DataSet;
-import by.bsu.rfe.clustering.algorithm.data.FuzzyDataElement;
-import by.bsu.rfe.clustering.algorithm.data.GenericDataSet;
+import by.bsu.rfe.clustering.algorithm.datamodel.CentroidCluster;
+import by.bsu.rfe.clustering.algorithm.datamodel.Cluster;
+import by.bsu.rfe.clustering.algorithm.datamodel.DataElement;
+import by.bsu.rfe.clustering.algorithm.datamodel.DataSet;
+import by.bsu.rfe.clustering.algorithm.datamodel.FuzzyDataElement;
+import by.bsu.rfe.clustering.algorithm.datamodel.GenericDataSet;
 import by.bsu.rfe.clustering.math.DistanceMeasure;
 import by.bsu.rfe.clustering.math.DoubleSparceVector;
 import by.bsu.rfe.clustering.math.DoubleVector;

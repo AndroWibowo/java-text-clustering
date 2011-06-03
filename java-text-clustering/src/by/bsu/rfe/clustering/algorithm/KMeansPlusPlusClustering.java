@@ -4,9 +4,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-import by.bsu.rfe.clustering.algorithm.cluster.CentroidCluster;
-import by.bsu.rfe.clustering.algorithm.data.DataElement;
-import by.bsu.rfe.clustering.algorithm.data.DataSet;
+import by.bsu.rfe.clustering.algorithm.datamodel.CentroidCluster;
+import by.bsu.rfe.clustering.algorithm.datamodel.DataElement;
+import by.bsu.rfe.clustering.algorithm.datamodel.DataSet;
 import by.bsu.rfe.clustering.math.DistanceMeasure;
 import by.bsu.rfe.clustering.math.EuclideanDistanceMeasure;
 import by.bsu.rfe.clustering.math.WeightedValue;
