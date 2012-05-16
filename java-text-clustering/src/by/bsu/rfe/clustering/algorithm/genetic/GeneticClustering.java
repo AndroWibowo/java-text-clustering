@@ -17,8 +17,7 @@ public class GeneticClustering<E extends DataElement, D extends DataSet<E>> impl
 
   private static final int MAX_GENERATIONS = 10;
   private static final double CROSSOVER_PROBABILITY = 0.9;
-  private static final double MUTATION_RATE = 0.005;
-  private static final double GENE_MUTATION_RATE = 0.001;
+  private static final double MUTATION_RATE = 0.01;
 
   private int _numberOfClusters;
 
@@ -29,7 +28,7 @@ public class GeneticClustering<E extends DataElement, D extends DataSet<E>> impl
   public GeneticClustering(final int numberOfClusters) {
     setNumberOfClusters(numberOfClusters);
 
-    mutation = new UniformMutation(0, numberOfClusters, MUTATION_RATE, GENE_MUTATION_RATE);
+    mutation = new UniformMutation(0, numberOfClusters, MUTATION_RATE);
   }
 
   public int getNumberOfClusters() {
@@ -64,6 +63,8 @@ public class GeneticClustering<E extends DataElement, D extends DataSet<E>> impl
       System.out.println("\tPopulation Created");
 
       calculateFitnessValues(currentPopulation, clusterList, dataSet);
+
+      System.out.printf("Best Fitness: %f%n", findBestFitted(currentPopulation).getFitness());
 
       generation++;
     }
