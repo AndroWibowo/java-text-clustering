@@ -32,13 +32,14 @@ import javax.swing.tree.DefaultTreeModel;
 import javax.swing.tree.TreeModel;
 import javax.swing.tree.TreeSelectionModel;
 
+import by.bsu.rfe.clustering.algorithm.ClusteringHelper;
 import by.bsu.rfe.clustering.algorithm.FlatClustering;
 import by.bsu.rfe.clustering.algorithm.datamodel.Cluster;
+import by.bsu.rfe.clustering.algorithm.genetic.GeneticClustering;
 import by.bsu.rfe.clustering.app.InputCallback;
 import by.bsu.rfe.clustering.app.InputValidator;
 import by.bsu.rfe.clustering.math.ComputationException;
 import by.bsu.rfe.clustering.nlp.WordList;
-import by.bsu.rfe.clustering.text.algorithm.TextKMeansClustering;
 import by.bsu.rfe.clustering.text.data.DocumentDataElement;
 import by.bsu.rfe.clustering.text.data.DocumentDataSet;
 import by.bsu.rfe.clustering.text.ir.Document;
@@ -107,7 +108,7 @@ public class ApplicationFrame extends JFrame {
     _treePanel.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
 
     // _buttonCluster.setEnabled(false);
-    //    
+    //
     // _toolbar.setFloatable(false);
     // _toolbar.add(_buttonCluster);
 
@@ -209,14 +210,8 @@ public class ApplicationFrame extends JFrame {
 
               @Override
               public void inputValid(final String input) {
-                  new SwingWorker<Void, Void>() {
-                   public Void doInBackground() {
-                       _currentNumberOfClusters = Integer.valueOf(input);
-                        clusterDocuments();
-
-                    return null;
-                   }
-                  }.execute();
+                _currentNumberOfClusters = Integer.valueOf(input);
+                clusterDocuments();
               }
 
               @Override
@@ -290,13 +285,13 @@ public class ApplicationFrame extends JFrame {
 
   private void clusterDocuments() {
     assert (_currentDocCollection != null) : "Document Collection is null";
-    
+
     final ProgressBarDialog progressDialog = new ProgressBarDialog(ApplicationFrame.this);
 
     progressDialog.setSize(200, 100);
     progressDialog.setLocationRelativeTo(progressDialog.getParent());
     progressDialog.setResizable(false);
-    
+
     new SwingWorker<Void, Void>() {
 
       @Override
@@ -304,11 +299,14 @@ public class ApplicationFrame extends JFrame {
         DocumentVSMGenerator vsmGen = new NormalizedTFIDF();
         DocumentDataSet dataSet = vsmGen.createVSM(_currentDocCollection);
 
-        FlatClustering<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> clustering = new TextKMeansClustering(
+        FlatClustering<DocumentDataElement, Cluster<DocumentDataElement>, DocumentDataSet> clustering = new GeneticClustering<DocumentDataElement, DocumentDataSet>(
             _currentNumberOfClusters);
 
         try {
           List<Cluster<DocumentDataElement>> clusters = clustering.cluster(dataSet);
+
+          ClusteringHelper.assignLabels(clusters, dataSet);
+
           progressDialog.dispose();
           displayClusters(clusters);
         }
@@ -316,12 +314,11 @@ public class ApplicationFrame extends JFrame {
           progressDialog.dispose();
           JOptionPane.showMessageDialog(ApplicationFrame.this, "Computation error", "Error", JOptionPane.ERROR_MESSAGE);
         }
-      
 
         return null;
       }
     }.execute();
-    
+
     progressDialog.setVisible(true);
   }
 

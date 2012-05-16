@@ -7,15 +7,15 @@ import java.util.Random;
 import by.bsu.rfe.clustering.algorithm.ClusteringHelper;
 import by.bsu.rfe.clustering.algorithm.FlatClustering;
 import by.bsu.rfe.clustering.algorithm.datamodel.CentroidCluster;
+import by.bsu.rfe.clustering.algorithm.datamodel.Cluster;
 import by.bsu.rfe.clustering.algorithm.datamodel.DataElement;
 import by.bsu.rfe.clustering.algorithm.datamodel.DataSet;
 
 import com.google.common.base.Preconditions;
 
-public class GeneticClustering<E extends DataElement, D extends DataSet<E>> implements
-    FlatClustering<E, CentroidCluster<E>, D> {
+public class GeneticClustering<E extends DataElement, D extends DataSet<E>> implements FlatClustering<E, Cluster<E>, D> {
 
-  private static final int MAX_GENERATIONS = 1 << 7;
+  private static final int MAX_GENERATIONS = 10;
   private static final double CROSSOVER_PROBABILITY = 0.9;
   private static final double MUTATION_RATE = 0.005;
   private static final double GENE_MUTATION_RATE = 0.001;
@@ -42,25 +42,38 @@ public class GeneticClustering<E extends DataElement, D extends DataSet<E>> impl
   }
 
   @Override
-  public List<CentroidCluster<E>> cluster(D dataSet) {
+  public List<Cluster<E>> cluster(D dataSet) {
 
     List<CentroidCluster<E>> clusterList = initializeClusters();
 
     // TODO change
     final int populationSize = 1 << 5;
 
-    List<Chromosome> currentPopulation = randomPopulation(dataSet.size(), populationSize, _numberOfClusters);
+    List<Chromosome> currentPopulation = randomPopulation(dataSet.size(), populationSize);
+
+    System.out.println("Initial Population Created");
 
     calculateFitnessValues(currentPopulation, clusterList, dataSet);
 
     int generation = 1;
-    while (generation < MAX_GENERATIONS) {
+    while (generation <= MAX_GENERATIONS) {
+      System.out.println("Generation: " + generation);
+
       currentPopulation = nextPopulation(currentPopulation);
+
+      System.out.println("\tPopulation Created");
+
+      calculateFitnessValues(currentPopulation, clusterList, dataSet);
 
       generation++;
     }
 
-    return clusterList;
+    Chromosome best = findBestFitted(currentPopulation);
+    populateClusters(clusterList, dataSet, best);
+
+    List<Cluster<E>> result = new ArrayList<Cluster<E>>();
+    result.addAll(clusterList);
+    return result;
   }
 
   private List<Chromosome> nextPopulation(List<Chromosome> previousPopulation) {
@@ -72,6 +85,7 @@ public class GeneticClustering<E extends DataElement, D extends DataSet<E>> impl
       Chromosome father = selection.select(previousPopulation);
 
       crossover.crossover(mother, father, CROSSOVER_PROBABILITY);
+
       nextPopulation.add(crossover.fistChild());
       nextPopulation.add(crossover.secondChild());
     }
@@ -81,20 +95,20 @@ public class GeneticClustering<E extends DataElement, D extends DataSet<E>> impl
     return nextPopulation;
   }
 
-  private int findBestFitness(List<Chromosome> population) {
-    int withBestFitness = 0;
+  private Chromosome findBestFitted(List<Chromosome> population) {
+    Chromosome best = null;
     double bestFitness = 0;
 
     int index = 0;
     for (Chromosome c : population) {
       if (c.getFitness() > bestFitness) {
-        withBestFitness = index;
+        best = c;
       }
 
       index++;
     }
 
-    return withBestFitness;
+    return best;
   }
 
   private void calculateFitnessValues(final List<Chromosome> population, List<CentroidCluster<E>> clusterList,
@@ -102,7 +116,7 @@ public class GeneticClustering<E extends DataElement, D extends DataSet<E>> impl
 
     for (int i = 0; i < population.size(); i++) {
       Chromosome chromosome = population.get(i);
-      populateClusters(clusterList, dataSet, chromosome.getGenes());
+      populateClusters(clusterList, dataSet, chromosome);
 
       double fitness = 0;
 
@@ -113,25 +127,27 @@ public class GeneticClustering<E extends DataElement, D extends DataSet<E>> impl
       fitness = 1 / fitness;
       chromosome.setFitness(fitness);
 
-      System.out.printf("Chromosome[%d] fitness: %f%n", i, fitness);
+      // System.out.printf("Chromosome[%d] fitness: %f%n", i, fitness);
     }
   }
 
   // each gene of chromosome is a cluster index
-  private void populateClusters(List<CentroidCluster<E>> clusterList, DataSet<E> dataSet, int[] chromosome) {
+  private void populateClusters(List<CentroidCluster<E>> clusterList, DataSet<E> dataSet, Chromosome c) {
     for (CentroidCluster<E> cluster : clusterList) {
       cluster.clear();
     }
 
-    for (int elemIndex = 0; elemIndex < chromosome.length; elemIndex++) {
-      final int clusterIndex = chromosome[elemIndex];
+    final int[] genes = c.getGenes();
+
+    for (int elemIndex = 0; elemIndex < genes.length; elemIndex++) {
+      final int clusterIndex = genes[elemIndex];
       final CentroidCluster<E> cluster = clusterList.get(clusterIndex);
       final E elem = dataSet.get(elemIndex);
       cluster.addDataElement(elem);
     }
   }
 
-  private List<Chromosome> randomPopulation(final int dataSetSize, final int populationSize, final int numOfClusters) {
+  private List<Chromosome> randomPopulation(final int dataSetSize, final int populationSize) {
     List<Chromosome> population = new ArrayList<Chromosome>(populationSize);
 
     Random random = new Random();
@@ -141,16 +157,11 @@ public class GeneticClustering<E extends DataElement, D extends DataSet<E>> impl
 
       for (int gene = 0; gene < genes.length; gene++) {
 
-        genes[gene] = random.nextInt(numOfClusters);
+        genes[gene] = random.nextInt(_numberOfClusters);
 
-        System.out.print(genes[gene]);
-        System.out.print(" | ");
       }
 
       population.add(new Chromosome(genes));
-
-      System.out.println();
-
     }
 
     return population;
@@ -159,11 +170,10 @@ public class GeneticClustering<E extends DataElement, D extends DataSet<E>> impl
   private List<CentroidCluster<E>> initializeClusters() {
     List<CentroidCluster<E>> clusterList = new ArrayList<CentroidCluster<E>>(_numberOfClusters);
 
-    for (int i = 0; i < clusterList.size(); i++) {
+    for (int i = 0; i < _numberOfClusters; i++) {
       clusterList.add(new CentroidCluster<E>());
     }
 
     return clusterList;
   }
-
 }
