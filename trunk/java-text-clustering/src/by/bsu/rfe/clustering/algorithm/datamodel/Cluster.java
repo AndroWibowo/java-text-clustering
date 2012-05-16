@@ -14,38 +14,42 @@ import com.google.common.collect.Constraints;
  * @author Siarhei_Yarashevich
  * 
  * @param <E>
- *            type of {@link DataElement}
+ *          type of {@link DataElement}
  */
 public class Cluster<E extends DataElement> {
 
-    private String _label;
+  private String _label;
 
-    private List<E> _elements = constrainedList(new ArrayList<E>(), Constraints.notNull());
+  private List<E> _elements = constrainedList(new ArrayList<E>(), Constraints.notNull());
 
-    public static <E extends DataElement> Cluster<E> create() {
-        return new Cluster<E>();
+  public static <E extends DataElement> Cluster<E> create() {
+    return new Cluster<E>();
+  }
+
+  public String getLabel() {
+    return _label;
+  }
+
+  public void setLabel(String label) {
+    _label = label;
+  }
+
+  public List<E> getDataElements() {
+    return _elements;
+  }
+
+  public void addDataElement(E dataElement) {
+    _elements.add(dataElement);
+  }
+
+  public void addAll(Iterable<E> dataElements) {
+    for (E elem : dataElements) {
+      addDataElement(elem);
     }
+  }
 
-    public String getLabel() {
-        return _label;
-    }
-
-    public void setLabel(String label) {
-        _label = label;
-    }
-
-    public List<E> getDataElements() {
-        return _elements;
-    }
-
-    public void addDataElement(E dataElement) {
-        _elements.add(dataElement);
-    }
-
-    public void addAll(Iterable<E> dataElements) {
-        for (E elem : dataElements) {
-            addDataElement(elem);
-        }
-    }
+  public void clear() {
+    _elements.clear();
+  }
 
 }
